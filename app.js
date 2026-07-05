@@ -138,7 +138,10 @@ function renderSidebar() {
           ${extraSongs.map((song) => `
             <div class="extra-song">
               <span>${escapeHtml(song.title)}</span>
-              ${song.audioPublicPath ? `<a href="${escapeHtml(song.audioPublicPath)}" title="Descargar ${escapeHtml(song.title)}">${ICONS.download}</a>` : `<span title="Audio pendiente">${ICONS.clock}</span>`}
+              <span class="extra-actions">
+                ${song.audioPublicPath ? `<a href="${escapeHtml(song.audioPublicPath)}" title="Descargar audio de ${escapeHtml(song.title)}">${ICONS.download}</a>` : `<span title="Audio pendiente">${ICONS.clock}</span>`}
+                ${song.chordsPdfPublicPath ? `<a href="${escapeHtml(song.chordsPdfPublicPath)}" title="Descargar acordes de ${escapeHtml(song.title)}">${ICONS.book}</a>` : ""}
+              </span>
             </div>
           `).join("")}
         </div>
@@ -256,6 +259,12 @@ function renderSongPanel(entry) {
             <span><strong>Audio pendiente</strong>Aún no hay audio disponible para esta canción.</span>
           </div>
         `}
+        ${entry.song.chordsPdfPublicPath ? `
+          <a class="download-link" href="${escapeHtml(entry.song.chordsPdfPublicPath)}" download>
+            ${ICONS.book}
+            Letra y acordes PDF
+          </a>
+        ` : ""}
       </div>
       <div class="rule"></div>
       <div class="lyrics-header">

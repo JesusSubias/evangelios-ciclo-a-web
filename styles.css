@@ -346,6 +346,29 @@ a {
   font-size: 0.84rem;
 }
 
+.extra-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--burgundy);
+}
+
+.extra-actions a,
+.extra-actions span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: var(--radius);
+}
+
+.extra-actions a:hover,
+.extra-actions a:focus-visible {
+  background: var(--burgundy-soft);
+  outline: none;
+}
+
 .hero-image {
   position: relative;
   overflow: hidden;

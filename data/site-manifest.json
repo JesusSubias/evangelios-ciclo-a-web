@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T11:34:51.155550+00:00",
+  "generatedAt": "2026-07-05T14:29:55.349924+00:00",
   "cutoff": "2026-07-05",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "sourceNotice": "Texto biblico de trabajo: Reina-Valera 1909. La version liturgica oficial CEE 2010 no se reproduce completa sin fuente o licencia autorizada.",
@@ -12,7 +12,8 @@
     "songRecords": 37,
     "cycleAudioFound": 32,
     "cycleAudioMissing": 0,
-    "imagesFound": 32
+    "imagesFound": 32,
+    "chordPdfsFound": 37
   },
   "missing": {
     "cycleAudio": []
@@ -163,7 +164,8 @@
             ]
           }
         ],
-        "audioPublicPath": "assets/audio/2025-11-30-despierta-mi-vida.mp3"
+        "audioPublicPath": "assets/audio/2025-11-30-despierta-mi-vida.mp3",
+        "chordsPdfPublicPath": "assets/chords/01_2025-11-30_despierta-mi-vida_acordes-guitarra.pdf"
       }
     },
     {
@@ -339,7 +341,8 @@
             ]
           }
         ],
-        "audioPublicPath": "assets/audio/2025-12-07-va-sin-precio.mp3"
+        "audioPublicPath": "assets/audio/2025-12-07-va-sin-precio.mp3",
+        "chordsPdfPublicPath": "assets/chords/02_2025-12-07_va-sin-precio_acordes-guitarra.pdf"
       }
     },
     {
@@ -503,7 +506,8 @@
             ]
           }
         ],
-        "audioPublicPath": "assets/audio/2025-12-14-en-medio-de-vosotros.mp3"
+        "audioPublicPath": "assets/audio/2025-12-14-en-medio-de-vosotros.mp3",
+        "chordsPdfPublicPath": "assets/chords/04_2025-12-14_en-medio-de-vosotros_acordes-guitarra.pdf"
       }
     },
     {
@@ -644,7 +648,8 @@
             ]
           }
         ],
-        "audioPublicPath": "assets/audio/2025-12-21-el-cielo-llamo-a-tu-puerta.mp3"
+        "audioPublicPath": "assets/audio/2025-12-21-el-cielo-llamo-a-tu-puerta.mp3",
+        "chordsPdfPublicPath": "assets/chords/05_2025-12-21_el-cielo-llamo-a-tu-puerta_acordes-guitarra.pdf"
       }
     },
     {
@@ -810,7 +815,8 @@
             ]
           }
         ],
-        "audioPublicPath": "assets/audio/2025-12-28-cuida-la-vida.mp3"
+        "audioPublicPath": "assets/audio/2025-12-28-cuida-la-vida.mp3",
+        "chordsPdfPublicPath": "assets/chords/07_2025-12-28_cuida-la-vida_acordes-guitarra.pdf"
       }
     },
     {
@@ -1006,7 +1012,8 @@
             ]
           }
         ],
-        "audioPublicPath": "assets/audio/2026-01-04-viniste-a-vivir-mi-vida.mp3"
+        "audioPublicPath": "assets/audio/2026-01-04-viniste-a-vivir-mi-vida.mp3",
+        "chordsPdfPublicPath": "assets/chords/08_2026-01-04_viniste-a-vivir-mi-vida_acordes-guitarra.pdf"
       }
     },
     {
@@ -1153,7 +1160,8 @@
             ]
           }
         ],
-        "audioPublicPath": "assets/audio/2026-01-11-soy-tu-hijo.mp3"
+        "audioPublicPath": "assets/audio/2026-01-11-soy-tu-hijo.mp3",
+        "chordsPdfPublicPath": "assets/chords/10_2026-01-11_soy-tu-hijo_acordes-guitarra.pdf"
       }
     },
     {
@@ -1336,7 +1344,8 @@
             ]
           }
         ],
-        "audioPublicPath": "assets/audio/2026-01-18-contempla-al-cordero.mp3"
+        "audioPublicPath": "assets/audio/2026-01-18-contempla-al-cordero.mp3",
+        "chordsPdfPublicPath": "assets/chords/12_2026-01-18_contempla-al-cordero_acordes-guitarra.pdf"
       }
     },
     {
@@ -1550,7 +1559,8 @@
             ]
           }
         ],
-        "audioPublicPath": "assets/audio/2026-01-25-sigueme.mp3"
+        "audioPublicPath": "assets/audio/2026-01-25-sigueme.mp3",
+        "chordsPdfPublicPath": "assets/chords/13_2026-01-25_sigueme_acordes-guitarra.pdf"
       }
     },
     {
@@ -1758,7 +1768,8 @@
             ]
           }
         ],
-        "audioPublicPath": "assets/audio/2026-02-01-el-reino-empieza-abajo.mp3"
+        "audioPublicPath": "assets/audio/2026-02-01-el-reino-empieza-abajo.mp3",
+        "chordsPdfPublicPath": "assets/chords/14_2026-02-01_el-reino-empieza-abajo_acordes-guitarra.pdf"
       }
     },
     {
@@ -1884,7 +1895,8 @@
             ]
           }
         ],
-        "audioPublicPath": "assets/audio/2026-02-08-sal-y-luz.mp3"
+        "audioPublicPath": "assets/audio/2026-02-08-sal-y-luz.mp3",
+        "chordsPdfPublicPath": "assets/chords/15_2026-02-08_sal-y-luz_acordes-guitarra.pdf"
       }
     },
     {
@@ -2143,7 +2155,8 @@
             ]
           }
         ],
-        "audioPublicPath": "assets/audio/2026-02-15-que-tu-si-sea-si.mp3"
+        "audioPublicPath": "assets/audio/2026-02-15-que-tu-si-sea-si.mp3",
+        "chordsPdfPublicPath": "assets/chords/16_2026-02-15_que-tu-si-sea-si_acordes-guitarra.pdf"
       }
     },
     {
@@ -2339,7 +2352,8 @@
             ]
           }
         ],
-        "audioPublicPath": "assets/audio/2026-02-22-si-eres-hijo.mp3"
+        "audioPublicPath": "assets/audio/2026-02-22-si-eres-hijo.mp3",
+        "chordsPdfPublicPath": "assets/chords/17_2026-02-22_si-eres-hijo_acordes-guitarra.pdf"
       }
     },
     {
@@ -2541,7 +2555,8 @@
             ]
           }
         ],
-        "audioPublicPath": "assets/audio/2026-03-01-tres-tiendas.mp3"
+        "audioPublicPath": "assets/audio/2026-03-01-tres-tiendas.mp3",
+        "chordsPdfPublicPath": "assets/chords/18_2026-03-01_tres-tiendas_acordes-guitarra.pdf"
       }
     },
     {
@@ -2889,7 +2904,8 @@
             ]
           }
         ],
-        "audioPublicPath": "assets/audio/2026-03-08-dame-ese-agua.mp3"
+        "audioPublicPath": "assets/audio/2026-03-08-dame-ese-agua.mp3",
+        "chordsPdfPublicPath": "assets/chords/19_2026-03-08_dame-ese-agua_acordes-guitarra.pdf"
       }
     },
     {
@@ -3240,7 +3256,8 @@
             ]
           }
         ],
-        "audioPublicPath": "assets/audio/2026-03-15-ensename-a-mirar.mp3"
+        "audioPublicPath": "assets/audio/2026-03-15-ensename-a-mirar.mp3",
+        "chordsPdfPublicPath": "assets/chords/20_2026-03-15_ensename-a-mirar_acordes-guitarra.pdf"
       }
     },
     {
@@ -3633,7 +3650,8 @@
             ]
           }
         ],
-        "audioPublicPath": "assets/audio/2026-03-22-yo-soy-la-resurreccion.mp3"
+        "audioPublicPath": "assets/audio/2026-03-22-yo-soy-la-resurreccion.mp3",
+        "chordsPdfPublicPath": "assets/chords/21_2026-03-22_yo-soy-la-resurreccion_acordes-guitarra.pdf"
       }
     },
     {
@@ -4507,7 +4525,8 @@
             ]
           }
         ],
-        "audioPublicPath": "assets/audio/2026-03-29-hosanna.mp3"
+        "audioPublicPath": "assets/audio/2026-03-29-hosanna.mp3",
+        "chordsPdfPublicPath": "assets/chords/22_2026-03-29_hosanna_acordes-guitarra.pdf"
       }
     },
     {
@@ -4813,7 +4832,8 @@
             ]
           }
         ],
-        "audioPublicPath": "assets/audio/2026-04-05-se-encontraron-la-vida.mp3"
+        "audioPublicPath": "assets/audio/2026-04-05-se-encontraron-la-vida.mp3",
+        "chordsPdfPublicPath": "assets/chords/23_2026-04-05_se-encontraron-la-vida_acordes-guitarra.pdf"
       }
     },
     {
@@ -5032,7 +5052,8 @@
             ]
           }
         ],
-        "audioPublicPath": "assets/audio/2026-04-12-en-medio.mp3"
+        "audioPublicPath": "assets/audio/2026-04-12-en-medio.mp3",
+        "chordsPdfPublicPath": "assets/chords/24_2026-04-12_en-medio_acordes-guitarra.pdf"
       }
     },
     {
@@ -5297,7 +5318,8 @@
             ]
           }
         ],
-        "audioPublicPath": "assets/audio/2026-04-19-al-partir-el-pan.mp3"
+        "audioPublicPath": "assets/audio/2026-04-19-al-partir-el-pan.mp3",
+        "chordsPdfPublicPath": "assets/chords/25_2026-04-19_al-partir-el-pan_acordes-guitarra.pdf"
       }
     },
     {
@@ -5501,7 +5523,8 @@
             ]
           }
         ],
-        "audioPublicPath": "assets/audio/2026-04-26-tu-eres-la-puerta.mp3"
+        "audioPublicPath": "assets/audio/2026-04-26-tu-eres-la-puerta.mp3",
+        "chordsPdfPublicPath": "assets/chords/26_2026-04-26_tu-eres-la-puerta_acordes-guitarra.pdf"
       }
     },
     {
@@ -5729,7 +5752,8 @@
             ]
           }
         ],
-        "audioPublicPath": "assets/audio/2026-05-03-camino-verdad-y-vida.mp3"
+        "audioPublicPath": "assets/audio/2026-05-03-camino-verdad-y-vida.mp3",
+        "chordsPdfPublicPath": "assets/chords/27_2026-05-03_camino-verdad-y-vida_acordes-guitarra.pdf"
       }
     },
     {
@@ -5886,7 +5910,8 @@
             ]
           }
         ],
-        "audioPublicPath": "assets/audio/2026-05-10-me-haces-recordar.mp3"
+        "audioPublicPath": "assets/audio/2026-05-10-me-haces-recordar.mp3",
+        "chordsPdfPublicPath": "assets/chords/29_2026-05-10_me-haces-recordar_acordes-guitarra.pdf"
       }
     },
     {
@@ -6073,7 +6098,8 @@
             ]
           }
         ],
-        "audioPublicPath": "assets/audio/2026-05-17-id.mp3"
+        "audioPublicPath": "assets/audio/2026-05-17-id.mp3",
+        "chordsPdfPublicPath": "assets/chords/30_2026-05-17_id_acordes-guitarra.pdf"
       }
     },
     {
@@ -6252,7 +6278,8 @@
             ]
           }
         ],
-        "audioPublicPath": "assets/audio/2026-05-24-sopla-en-mi.mp3"
+        "audioPublicPath": "assets/audio/2026-05-24-sopla-en-mi.mp3",
+        "chordsPdfPublicPath": "assets/chords/31_2026-05-24_sopla-en-mi_acordes-guitarra.pdf"
       }
     },
     {
@@ -6433,7 +6460,8 @@
             ]
           }
         ],
-        "audioPublicPath": "assets/audio/2026-05-31-tanto-amaste-al-mundo.mp3"
+        "audioPublicPath": "assets/audio/2026-05-31-tanto-amaste-al-mundo.mp3",
+        "chordsPdfPublicPath": "assets/chords/32_2026-05-31_tanto-amaste-al-mundo_acordes-guitarra.pdf"
       }
     },
     {
@@ -6641,7 +6669,8 @@
             ]
           }
         ],
-        "audioPublicPath": "assets/audio/2026-06-07-te-haces-pan.mp3"
+        "audioPublicPath": "assets/audio/2026-06-07-te-haces-pan.mp3",
+        "chordsPdfPublicPath": "assets/chords/33_2026-06-07_te-haces-pan_acordes-guitarra.pdf"
       }
     },
     {
@@ -6824,7 +6853,8 @@
             ]
           }
         ],
-        "audioPublicPath": "assets/audio/2026-06-14-dame-tus-ojos.mp3"
+        "audioPublicPath": "assets/audio/2026-06-14-dame-tus-ojos.mp3",
+        "chordsPdfPublicPath": "assets/chords/34_2026-06-14_dame-tus-ojos_acordes-guitarra.pdf"
       }
     },
     {
@@ -7026,7 +7056,8 @@
             ]
           }
         ],
-        "audioPublicPath": "assets/audio/2026-06-21-tu-me-sabes-contar.mp3"
+        "audioPublicPath": "assets/audio/2026-06-21-tu-me-sabes-contar.mp3",
+        "chordsPdfPublicPath": "assets/chords/35_2026-06-21_tu-me-sabes-contar_acordes-guitarra.pdf"
       }
     },
     {
@@ -7226,7 +7257,8 @@
             ]
           }
         ],
-        "audioPublicPath": "assets/audio/2026-06-28-un-vaso-de-agua.mp3"
+        "audioPublicPath": "assets/audio/2026-06-28-un-vaso-de-agua.mp3",
+        "chordsPdfPublicPath": "assets/chords/36_2026-06-28_un-vaso-de-agua_acordes-guitarra.pdf"
       }
     },
     {
@@ -7408,7 +7440,8 @@
             ]
           }
         ],
-        "audioPublicPath": "assets/audio/2026-07-05-aprended-de-mi.mp3"
+        "audioPublicPath": "assets/audio/2026-07-05-aprended-de-mi.mp3",
+        "chordsPdfPublicPath": "assets/chords/37_2026-07-05_aprended-de-mi_acordes-guitarra.pdf"
       }
     }
   ],
@@ -7418,259 +7451,296 @@
       "title": "Despierta mi vida",
       "targetDate": "2025-11-30",
       "includedInCycle": true,
-      "audioPublicPath": "assets/audio/2025-11-30-despierta-mi-vida.mp3"
+      "audioPublicPath": "assets/audio/2025-11-30-despierta-mi-vida.mp3",
+      "chordsPdfPublicPath": "assets/chords/01_2025-11-30_despierta-mi-vida_acordes-guitarra.pdf"
     },
     {
       "index": 2,
       "title": "Va sin precio",
       "targetDate": "2025-12-07",
       "includedInCycle": true,
-      "audioPublicPath": "assets/audio/2025-12-07-va-sin-precio.mp3"
+      "audioPublicPath": "assets/audio/2025-12-07-va-sin-precio.mp3",
+      "chordsPdfPublicPath": "assets/chords/02_2025-12-07_va-sin-precio_acordes-guitarra.pdf"
     },
     {
       "index": 3,
       "title": "Hágase en mí",
       "targetDate": "2025-12-08",
       "includedInCycle": false,
-      "audioPublicPath": "assets/audio/2025-12-08-hagase-en-mi.mp3"
+      "audioPublicPath": "assets/audio/2025-12-08-hagase-en-mi.mp3",
+      "chordsPdfPublicPath": "assets/chords/03_2025-12-08_hagase-en-mi_acordes-guitarra.pdf"
     },
     {
       "index": 4,
       "title": "En medio de vosotros",
       "targetDate": "2025-12-14",
       "includedInCycle": true,
-      "audioPublicPath": "assets/audio/2025-12-14-en-medio-de-vosotros.mp3"
+      "audioPublicPath": "assets/audio/2025-12-14-en-medio-de-vosotros.mp3",
+      "chordsPdfPublicPath": "assets/chords/04_2025-12-14_en-medio-de-vosotros_acordes-guitarra.pdf"
     },
     {
       "index": 5,
       "title": "El cielo llamó a tu puerta",
       "targetDate": "2025-12-21",
       "includedInCycle": true,
-      "audioPublicPath": "assets/audio/2025-12-21-el-cielo-llamo-a-tu-puerta.mp3"
+      "audioPublicPath": "assets/audio/2025-12-21-el-cielo-llamo-a-tu-puerta.mp3",
+      "chordsPdfPublicPath": "assets/chords/05_2025-12-21_el-cielo-llamo-a-tu-puerta_acordes-guitarra.pdf"
     },
     {
       "index": 6,
       "title": "Hoy la noche se despierta",
       "targetDate": "2025-12-24",
       "includedInCycle": false,
-      "audioPublicPath": "assets/audio/2025-12-24-hoy-la-noche-se-despierta.mp3"
+      "audioPublicPath": "assets/audio/2025-12-24-hoy-la-noche-se-despierta.mp3",
+      "chordsPdfPublicPath": "assets/chords/06_2025-12-24_hoy-la-noche-se-despierta_acordes-guitarra.pdf"
     },
     {
       "index": 7,
       "title": "Cuida la vida",
       "targetDate": "2025-12-28",
       "includedInCycle": true,
-      "audioPublicPath": "assets/audio/2025-12-28-cuida-la-vida.mp3"
+      "audioPublicPath": "assets/audio/2025-12-28-cuida-la-vida.mp3",
+      "chordsPdfPublicPath": "assets/chords/07_2025-12-28_cuida-la-vida_acordes-guitarra.pdf"
     },
     {
       "index": 8,
       "title": "Viniste a vivir mi vida",
       "targetDate": "2026-01-04",
       "includedInCycle": true,
-      "audioPublicPath": "assets/audio/2026-01-04-viniste-a-vivir-mi-vida.mp3"
+      "audioPublicPath": "assets/audio/2026-01-04-viniste-a-vivir-mi-vida.mp3",
+      "chordsPdfPublicPath": "assets/chords/08_2026-01-04_viniste-a-vivir-mi-vida_acordes-guitarra.pdf"
     },
     {
       "index": 9,
       "title": "Seguimos la Luz",
       "targetDate": "2026-01-06",
       "includedInCycle": false,
-      "audioPublicPath": "assets/audio/2026-01-06-seguimos-la-luz.mp3"
+      "audioPublicPath": "assets/audio/2026-01-06-seguimos-la-luz.mp3",
+      "chordsPdfPublicPath": "assets/chords/09_2026-01-06_seguimos-la-luz_acordes-guitarra.pdf"
     },
     {
       "index": 10,
       "title": "Soy tu hijo",
       "targetDate": "2026-01-11",
       "includedInCycle": true,
-      "audioPublicPath": "assets/audio/2026-01-11-soy-tu-hijo.mp3"
+      "audioPublicPath": "assets/audio/2026-01-11-soy-tu-hijo.mp3",
+      "chordsPdfPublicPath": "assets/chords/10_2026-01-11_soy-tu-hijo_acordes-guitarra.pdf"
     },
     {
       "index": 11,
       "title": "El vino bueno",
       "targetDate": "",
       "includedInCycle": false,
-      "audioPublicPath": "assets/audio/extra-11-el-vino-bueno.mp3"
+      "audioPublicPath": "assets/audio/extra-11-el-vino-bueno.mp3",
+      "chordsPdfPublicPath": "assets/chords/11_extra-11_el-vino-bueno_acordes-guitarra.pdf"
     },
     {
       "index": 12,
       "title": "Contempla al Cordero",
       "targetDate": "2026-01-18",
       "includedInCycle": true,
-      "audioPublicPath": "assets/audio/2026-01-18-contempla-al-cordero.mp3"
+      "audioPublicPath": "assets/audio/2026-01-18-contempla-al-cordero.mp3",
+      "chordsPdfPublicPath": "assets/chords/12_2026-01-18_contempla-al-cordero_acordes-guitarra.pdf"
     },
     {
       "index": 13,
       "title": "Sígueme",
       "targetDate": "2026-01-25",
       "includedInCycle": true,
-      "audioPublicPath": "assets/audio/2026-01-25-sigueme.mp3"
+      "audioPublicPath": "assets/audio/2026-01-25-sigueme.mp3",
+      "chordsPdfPublicPath": "assets/chords/13_2026-01-25_sigueme_acordes-guitarra.pdf"
     },
     {
       "index": 14,
       "title": "El Reino empieza abajo",
       "targetDate": "2026-02-01",
       "includedInCycle": true,
-      "audioPublicPath": "assets/audio/2026-02-01-el-reino-empieza-abajo.mp3"
+      "audioPublicPath": "assets/audio/2026-02-01-el-reino-empieza-abajo.mp3",
+      "chordsPdfPublicPath": "assets/chords/14_2026-02-01_el-reino-empieza-abajo_acordes-guitarra.pdf"
     },
     {
       "index": 15,
       "title": "Sal y Luz",
       "targetDate": "2026-02-08",
       "includedInCycle": true,
-      "audioPublicPath": "assets/audio/2026-02-08-sal-y-luz.mp3"
+      "audioPublicPath": "assets/audio/2026-02-08-sal-y-luz.mp3",
+      "chordsPdfPublicPath": "assets/chords/15_2026-02-08_sal-y-luz_acordes-guitarra.pdf"
     },
     {
       "index": 16,
       "title": "Que tu sí sea sí",
       "targetDate": "2026-02-15",
       "includedInCycle": true,
-      "audioPublicPath": "assets/audio/2026-02-15-que-tu-si-sea-si.mp3"
+      "audioPublicPath": "assets/audio/2026-02-15-que-tu-si-sea-si.mp3",
+      "chordsPdfPublicPath": "assets/chords/16_2026-02-15_que-tu-si-sea-si_acordes-guitarra.pdf"
     },
     {
       "index": 17,
       "title": "Si eres Hijo",
       "targetDate": "2026-02-22",
       "includedInCycle": true,
-      "audioPublicPath": "assets/audio/2026-02-22-si-eres-hijo.mp3"
+      "audioPublicPath": "assets/audio/2026-02-22-si-eres-hijo.mp3",
+      "chordsPdfPublicPath": "assets/chords/17_2026-02-22_si-eres-hijo_acordes-guitarra.pdf"
     },
     {
       "index": 18,
       "title": "Tres tiendas",
       "targetDate": "2026-03-01",
       "includedInCycle": true,
-      "audioPublicPath": "assets/audio/2026-03-01-tres-tiendas.mp3"
+      "audioPublicPath": "assets/audio/2026-03-01-tres-tiendas.mp3",
+      "chordsPdfPublicPath": "assets/chords/18_2026-03-01_tres-tiendas_acordes-guitarra.pdf"
     },
     {
       "index": 19,
       "title": "Dame ese agua",
       "targetDate": "2026-03-08",
       "includedInCycle": true,
-      "audioPublicPath": "assets/audio/2026-03-08-dame-ese-agua.mp3"
+      "audioPublicPath": "assets/audio/2026-03-08-dame-ese-agua.mp3",
+      "chordsPdfPublicPath": "assets/chords/19_2026-03-08_dame-ese-agua_acordes-guitarra.pdf"
     },
     {
       "index": 20,
       "title": "Enséñame a mirar",
       "targetDate": "2026-03-15",
       "includedInCycle": true,
-      "audioPublicPath": "assets/audio/2026-03-15-ensename-a-mirar.mp3"
+      "audioPublicPath": "assets/audio/2026-03-15-ensename-a-mirar.mp3",
+      "chordsPdfPublicPath": "assets/chords/20_2026-03-15_ensename-a-mirar_acordes-guitarra.pdf"
     },
     {
       "index": 21,
       "title": "Yo soy la Resurrección",
       "targetDate": "2026-03-22",
       "includedInCycle": true,
-      "audioPublicPath": "assets/audio/2026-03-22-yo-soy-la-resurreccion.mp3"
+      "audioPublicPath": "assets/audio/2026-03-22-yo-soy-la-resurreccion.mp3",
+      "chordsPdfPublicPath": "assets/chords/21_2026-03-22_yo-soy-la-resurreccion_acordes-guitarra.pdf"
     },
     {
       "index": 22,
       "title": "Hosanna",
       "targetDate": "2026-03-29",
       "includedInCycle": true,
-      "audioPublicPath": "assets/audio/2026-03-29-hosanna.mp3"
+      "audioPublicPath": "assets/audio/2026-03-29-hosanna.mp3",
+      "chordsPdfPublicPath": "assets/chords/22_2026-03-29_hosanna_acordes-guitarra.pdf"
     },
     {
       "index": 23,
       "title": "Se encontraron la Vida",
       "targetDate": "2026-04-05",
       "includedInCycle": true,
-      "audioPublicPath": "assets/audio/2026-04-05-se-encontraron-la-vida.mp3"
+      "audioPublicPath": "assets/audio/2026-04-05-se-encontraron-la-vida.mp3",
+      "chordsPdfPublicPath": "assets/chords/23_2026-04-05_se-encontraron-la-vida_acordes-guitarra.pdf"
     },
     {
       "index": 24,
       "title": "En medio",
       "targetDate": "2026-04-12",
       "includedInCycle": true,
-      "audioPublicPath": "assets/audio/2026-04-12-en-medio.mp3"
+      "audioPublicPath": "assets/audio/2026-04-12-en-medio.mp3",
+      "chordsPdfPublicPath": "assets/chords/24_2026-04-12_en-medio_acordes-guitarra.pdf"
     },
     {
       "index": 25,
       "title": "Al partir el pan",
       "targetDate": "2026-04-19",
       "includedInCycle": true,
-      "audioPublicPath": "assets/audio/2026-04-19-al-partir-el-pan.mp3"
+      "audioPublicPath": "assets/audio/2026-04-19-al-partir-el-pan.mp3",
+      "chordsPdfPublicPath": "assets/chords/25_2026-04-19_al-partir-el-pan_acordes-guitarra.pdf"
     },
     {
       "index": 26,
       "title": "Tú eres la puerta",
       "targetDate": "2026-04-26",
       "includedInCycle": true,
-      "audioPublicPath": "assets/audio/2026-04-26-tu-eres-la-puerta.mp3"
+      "audioPublicPath": "assets/audio/2026-04-26-tu-eres-la-puerta.mp3",
+      "chordsPdfPublicPath": "assets/chords/26_2026-04-26_tu-eres-la-puerta_acordes-guitarra.pdf"
     },
     {
       "index": 27,
       "title": "Camino, Verdad y Vida",
       "targetDate": "2026-05-03",
       "includedInCycle": true,
-      "audioPublicPath": "assets/audio/2026-05-03-camino-verdad-y-vida.mp3"
+      "audioPublicPath": "assets/audio/2026-05-03-camino-verdad-y-vida.mp3",
+      "chordsPdfPublicPath": "assets/chords/27_2026-05-03_camino-verdad-y-vida_acordes-guitarra.pdf"
     },
     {
       "index": 28,
       "title": "En tu mesa",
       "targetDate": "",
       "includedInCycle": false,
-      "audioPublicPath": "assets/audio/extra-28-en-tu-mesa.mp3"
+      "audioPublicPath": "assets/audio/extra-28-en-tu-mesa.mp3",
+      "chordsPdfPublicPath": "assets/chords/28_extra-28_en-tu-mesa_acordes-guitarra.pdf"
     },
     {
       "index": 29,
       "title": "Me haces recordar",
       "targetDate": "2026-05-10",
       "includedInCycle": true,
-      "audioPublicPath": "assets/audio/2026-05-10-me-haces-recordar.mp3"
+      "audioPublicPath": "assets/audio/2026-05-10-me-haces-recordar.mp3",
+      "chordsPdfPublicPath": "assets/chords/29_2026-05-10_me-haces-recordar_acordes-guitarra.pdf"
     },
     {
       "index": 30,
       "title": "Id",
       "targetDate": "2026-05-17",
       "includedInCycle": true,
-      "audioPublicPath": "assets/audio/2026-05-17-id.mp3"
+      "audioPublicPath": "assets/audio/2026-05-17-id.mp3",
+      "chordsPdfPublicPath": "assets/chords/30_2026-05-17_id_acordes-guitarra.pdf"
     },
     {
       "index": 31,
       "title": "Sopla en mí",
       "targetDate": "2026-05-24",
       "includedInCycle": true,
-      "audioPublicPath": "assets/audio/2026-05-24-sopla-en-mi.mp3"
+      "audioPublicPath": "assets/audio/2026-05-24-sopla-en-mi.mp3",
+      "chordsPdfPublicPath": "assets/chords/31_2026-05-24_sopla-en-mi_acordes-guitarra.pdf"
     },
     {
       "index": 32,
       "title": "Tanto amaste al mundo",
       "targetDate": "2026-05-31",
       "includedInCycle": true,
-      "audioPublicPath": "assets/audio/2026-05-31-tanto-amaste-al-mundo.mp3"
+      "audioPublicPath": "assets/audio/2026-05-31-tanto-amaste-al-mundo.mp3",
+      "chordsPdfPublicPath": "assets/chords/32_2026-05-31_tanto-amaste-al-mundo_acordes-guitarra.pdf"
     },
     {
       "index": 33,
       "title": "Te haces Pan",
       "targetDate": "2026-06-07",
       "includedInCycle": true,
-      "audioPublicPath": "assets/audio/2026-06-07-te-haces-pan.mp3"
+      "audioPublicPath": "assets/audio/2026-06-07-te-haces-pan.mp3",
+      "chordsPdfPublicPath": "assets/chords/33_2026-06-07_te-haces-pan_acordes-guitarra.pdf"
     },
     {
       "index": 34,
       "title": "Dame tus ojos",
       "targetDate": "2026-06-14",
       "includedInCycle": true,
-      "audioPublicPath": "assets/audio/2026-06-14-dame-tus-ojos.mp3"
+      "audioPublicPath": "assets/audio/2026-06-14-dame-tus-ojos.mp3",
+      "chordsPdfPublicPath": "assets/chords/34_2026-06-14_dame-tus-ojos_acordes-guitarra.pdf"
     },
     {
       "index": 35,
       "title": "Tú me sabes contar",
       "targetDate": "2026-06-21",
       "includedInCycle": true,
-      "audioPublicPath": "assets/audio/2026-06-21-tu-me-sabes-contar.mp3"
+      "audioPublicPath": "assets/audio/2026-06-21-tu-me-sabes-contar.mp3",
+      "chordsPdfPublicPath": "assets/chords/35_2026-06-21_tu-me-sabes-contar_acordes-guitarra.pdf"
     },
     {
       "index": 36,
       "title": "Un vaso de agua",
       "targetDate": "2026-06-28",
       "includedInCycle": true,
-      "audioPublicPath": "assets/audio/2026-06-28-un-vaso-de-agua.mp3"
+      "audioPublicPath": "assets/audio/2026-06-28-un-vaso-de-agua.mp3",
+      "chordsPdfPublicPath": "assets/chords/36_2026-06-28_un-vaso-de-agua_acordes-guitarra.pdf"
     },
     {
       "index": 37,
       "title": "Aprended de mí",
       "targetDate": "2026-07-05",
       "includedInCycle": true,
-      "audioPublicPath": "assets/audio/2026-07-05-aprended-de-mi.mp3"
+      "audioPublicPath": "assets/audio/2026-07-05-aprended-de-mi.mp3",
+      "chordsPdfPublicPath": "assets/chords/37_2026-07-05_aprended-de-mi_acordes-guitarra.pdf"
     }
   ]
 }
