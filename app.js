@@ -33,10 +33,11 @@ const seasonColors = {
 };
 
 const app = document.querySelector("#app");
+const DATA_VERSION = "20260706-pastoral-wording";
 
 async function init() {
   try {
-    const response = await fetch("data/site-manifest.json");
+    const response = await fetch(`data/site-manifest.json?v=${DATA_VERSION}`, { cache: "no-store" });
     if (!response.ok) throw new Error(`No se pudo cargar el manifest (${response.status})`);
     state.manifest = await response.json();
     state.selectedId = chooseInitialEntry(state.manifest.entries).id;
