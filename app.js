@@ -20,6 +20,8 @@ const state = {
   tab: "evangelio",
   lyricsExpanded: false,
   imageOpen: false,
+  calendarOpen: false,
+  calendarMonth: null,
 };
 
 const seasons = ["Todos", "Adviento", "Navidad", "Cuaresma", "Pascua", "Solemnidades", "Tiempo Ordinario"];
@@ -33,7 +35,9 @@ const seasonColors = {
 };
 
 const app = document.querySelector("#app");
-const DATA_VERSION = "20260706-pastoral-wording";
+const DATA_VERSION = "20260706-calendar-nav";
+const calendarWeekdays = ["L", "M", "X", "J", "V", "S", "D"];
+const monthFormatter = new Intl.DateTimeFormat("es-ES", { month: "long", year: "numeric" });
 
 async function init() {
   try {
@@ -81,7 +85,28 @@ function selectedEntry() {
   return state.manifest.entries.find((entry) => entry.id === state.selectedId) || state.manifest.entries[0];
 }
 
-function render() {
+function captureSidebarScroll() {
+  return {
+    sidebar: document.querySelector(".sidebar")?.scrollTop ?? 0,
+    entryList: document.querySelector(".entry-list")?.scrollTop ?? 0,
+    windowX: window.scrollX,
+    windowY: window.scrollY,
+  };
+}
+
+function restoreSidebarScroll(scrollState) {
+  if (!scrollState) return;
+  requestAnimationFrame(() => {
+    const sidebar = document.querySelector(".sidebar");
+    const entryList = document.querySelector(".entry-list");
+    if (sidebar) sidebar.scrollTop = scrollState.sidebar;
+    if (entryList) entryList.scrollTop = scrollState.entryList;
+    window.scrollTo(scrollState.windowX, scrollState.windowY);
+  });
+}
+
+function render(options = {}) {
+  const scrollState = options.preserveSidebarScroll ? captureSidebarScroll() : null;
   const entry = selectedEntry();
   app.innerHTML = `
     <header class="topbar">
@@ -105,6 +130,7 @@ function render() {
     </main>
   `;
   bindEvents();
+  restoreSidebarScroll(scrollState);
 }
 
 function renderSidebar() {
@@ -126,8 +152,11 @@ function renderSidebar() {
       </div>
       <h2 class="control-title">
         Domingos y fiestas
-        ${ICONS.calendar}
+        <button class="calendar-toggle" type="button" data-calendar-toggle aria-expanded="${state.calendarOpen}" title="${state.calendarOpen ? "Cerrar calendario" : "Abrir calendario"}">
+          ${ICONS.calendar}
+        </button>
       </h2>
+      ${state.calendarOpen ? renderCalendar(entries) : ""}
       ${entries.length ? `
         <div class="entry-list">
           ${entries.map(renderEntryButton).join("")}
@@ -147,6 +176,91 @@ function renderSidebar() {
         </div>
       </section>
     </aside>
+  `;
+}
+
+function monthKeyFromIso(isoDate) {
+  return isoDate.slice(0, 7);
+}
+
+function monthKeys() {
+  return [...new Set(state.manifest.entries.map((entry) => monthKeyFromIso(entry.isoDate)))].sort();
+}
+
+function currentCalendarMonth() {
+  return state.calendarMonth || monthKeyFromIso(selectedEntry().isoDate);
+}
+
+function shiftCalendarMonth(delta) {
+  const months = monthKeys();
+  const current = currentCalendarMonth();
+  const currentIndex = Math.max(0, months.indexOf(current));
+  const nextIndex = Math.min(months.length - 1, Math.max(0, currentIndex + delta));
+  state.calendarMonth = months[nextIndex];
+}
+
+function renderCalendar(filtered) {
+  const monthKey = currentCalendarMonth();
+  const months = monthKeys();
+  const [year, month] = monthKey.split("-").map(Number);
+  const monthIndex = month - 1;
+  const firstDay = new Date(year, monthIndex, 1).getDay();
+  const leadingBlanks = (firstDay + 6) % 7;
+  const daysInMonth = new Date(year, month, 0).getDate();
+  const entriesByDate = new Map(state.manifest.entries.map((entry) => [entry.isoDate, entry]));
+  const visibleIds = new Set(filtered.map((entry) => entry.id));
+  const cells = [];
+
+  for (let index = 0; index < leadingBlanks; index += 1) cells.push({ type: "blank" });
+  for (let day = 1; day <= daysInMonth; day += 1) {
+    const dateKey = `${year}-${String(month).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
+    const entry = entriesByDate.get(dateKey);
+    cells.push({ type: "day", day, entry, hiddenByFilters: entry ? !visibleIds.has(entry.id) : false });
+  }
+  while (cells.length % 7 !== 0) cells.push({ type: "blank" });
+
+  const monthDate = new Date(year, monthIndex, 1);
+  const monthLabel = monthFormatter.format(monthDate).replace(/^\p{Ll}/u, (letter) => letter.toUpperCase());
+  const monthIndexInCycle = months.indexOf(monthKey);
+
+  return `
+    <section class="calendar-panel" aria-label="Calendario de domingos y fiestas">
+      <div class="calendar-header">
+        <button class="calendar-nav calendar-nav-prev" type="button" data-calendar-shift="-1" title="Mes anterior" ${monthIndexInCycle <= 0 ? "disabled" : ""}>
+          ${ICONS.chevron}
+        </button>
+        <h3>${escapeHtml(monthLabel)}</h3>
+        <button class="calendar-nav" type="button" data-calendar-shift="1" title="Mes siguiente" ${monthIndexInCycle >= months.length - 1 ? "disabled" : ""}>
+          ${ICONS.chevron}
+        </button>
+      </div>
+      <div class="calendar-grid" role="grid" aria-label="${escapeHtml(monthLabel)}">
+        ${calendarWeekdays.map((day) => `<span class="calendar-weekday">${day}</span>`).join("")}
+        ${cells.map((cell) => renderCalendarCell(cell)).join("")}
+      </div>
+    </section>
+  `;
+}
+
+function renderCalendarCell(cell) {
+  if (cell.type === "blank") return `<span class="calendar-cell calendar-cell-empty"></span>`;
+  if (!cell.entry) return `<span class="calendar-cell">${cell.day}</span>`;
+
+  const entry = cell.entry;
+  const isActive = entry.id === state.selectedId;
+  return `
+    <button
+      class="calendar-cell calendar-entry"
+      type="button"
+      data-calendar-entry="${escapeHtml(entry.id)}"
+      data-active="${isActive}"
+      data-muted="${cell.hiddenByFilters}"
+      title="${escapeHtml(`${entry.dateLabel} - ${entry.denomination}`)}"
+      aria-label="${escapeHtml(`${entry.dateLabel}: ${entry.denomination}`)}"
+    >
+      <span>${cell.day}</span>
+      <span class="calendar-dot" style="background:${seasonColors[entry.season] || "#b8872f"}"></span>
+    </button>
   `;
 }
 
@@ -292,6 +406,7 @@ function bindEvents() {
   document.querySelectorAll("[data-season]").forEach((button) => {
     button.addEventListener("click", () => {
       state.season = button.dataset.season;
+      state.calendarMonth = monthKeyFromIso(selectedEntry().isoDate);
       render();
     });
   });
@@ -299,35 +414,59 @@ function bindEvents() {
   document.querySelectorAll("[data-entry]").forEach((button) => {
     button.addEventListener("click", () => {
       state.selectedId = button.dataset.entry;
+      state.calendarMonth = monthKeyFromIso(selectedEntry().isoDate);
       state.lyricsExpanded = false;
       state.imageOpen = false;
-      render();
+      render({ preserveSidebarScroll: true });
+    });
+  });
+
+  document.querySelector("[data-calendar-toggle]")?.addEventListener("click", () => {
+    state.calendarOpen = !state.calendarOpen;
+    state.calendarMonth = monthKeyFromIso(selectedEntry().isoDate);
+    render({ preserveSidebarScroll: true });
+  });
+
+  document.querySelectorAll("[data-calendar-shift]").forEach((button) => {
+    button.addEventListener("click", () => {
+      shiftCalendarMonth(Number(button.dataset.calendarShift));
+      render({ preserveSidebarScroll: true });
+    });
+  });
+
+  document.querySelectorAll("[data-calendar-entry]").forEach((button) => {
+    button.addEventListener("click", () => {
+      state.selectedId = button.dataset.calendarEntry;
+      state.calendarMonth = monthKeyFromIso(selectedEntry().isoDate);
+      state.lyricsExpanded = false;
+      state.imageOpen = false;
+      render({ preserveSidebarScroll: true });
     });
   });
 
   document.querySelectorAll("[data-tab]").forEach((button) => {
     button.addEventListener("click", () => {
       state.tab = button.dataset.tab;
-      render();
+      render({ preserveSidebarScroll: true });
     });
   });
 
   document.querySelector("#toggleLyrics")?.addEventListener("click", () => {
     state.lyricsExpanded = !state.lyricsExpanded;
-    render();
+    render({ preserveSidebarScroll: true });
   });
 
   document.querySelectorAll("[data-open-image]").forEach((button) => {
     button.addEventListener("click", () => {
       state.imageOpen = true;
-      render();
+      render({ preserveSidebarScroll: true });
     });
   });
 
   document.querySelectorAll("[data-close-image]").forEach((button) => {
     button.addEventListener("click", () => {
       state.imageOpen = false;
-      render();
+      render({ preserveSidebarScroll: true });
     });
   });
 
