@@ -22,8 +22,23 @@ const state = {
   imageOpen: false,
   calendarOpen: false,
   calendarMonth: null,
+  settingsOpen: false,
+  toast: "",
+  bookmarkedIds: new Set(),
+  preferences: {
+    expandLyrics: false,
+    largeText: false,
+  },
 };
 
+const STORAGE_KEYS = {
+  bookmarks: "evgl.bookmarks",
+  preferences: "evgl.preferences",
+};
+const DEFAULT_PREFERENCES = {
+  expandLyrics: false,
+  largeText: false,
+};
 const seasons = ["Todos", "Adviento", "Navidad", "Cuaresma", "Pascua", "Solemnidades", "Tiempo Ordinario"];
 const seasonColors = {
   Adviento: "#6e3b96",
@@ -35,20 +50,57 @@ const seasonColors = {
 };
 
 const app = document.querySelector("#app");
-const DATA_VERSION = "20260706-sin-hacer-ruido";
+const DATA_VERSION = "20260706-top-actions";
 const calendarWeekdays = ["L", "M", "X", "J", "V", "S", "D"];
 const monthFormatter = new Intl.DateTimeFormat("es-ES", { month: "long", year: "numeric" });
+let toastTimer = null;
 
 async function init() {
   try {
     const response = await fetch(`data/site-manifest.json?v=${DATA_VERSION}`, { cache: "no-store" });
     if (!response.ok) throw new Error(`No se pudo cargar el manifest (${response.status})`);
     state.manifest = await response.json();
+    loadStoredState();
     state.selectedId = chooseInitialEntry(state.manifest.entries).id;
+    state.lyricsExpanded = state.preferences.expandLyrics;
     render();
   } catch (error) {
     app.innerHTML = `<div class="boot-screen"><p>${escapeHtml(error.message)}</p></div>`;
   }
+}
+
+function readStoredJson(key, fallback) {
+  try {
+    const raw = localStorage.getItem(key);
+    return raw ? JSON.parse(raw) : fallback;
+  } catch {
+    return fallback;
+  }
+}
+
+function writeStoredJson(key, value) {
+  try {
+    localStorage.setItem(key, JSON.stringify(value));
+  } catch {
+    // Preferences are optional; the app remains fully usable without storage.
+  }
+}
+
+function loadStoredState() {
+  const bookmarkIds = readStoredJson(STORAGE_KEYS.bookmarks, []);
+  state.bookmarkedIds = new Set(Array.isArray(bookmarkIds) ? bookmarkIds : []);
+  state.preferences = {
+    ...DEFAULT_PREFERENCES,
+    ...readStoredJson(STORAGE_KEYS.preferences, {}),
+  };
+}
+
+function persistBookmarks() {
+  writeStoredJson(STORAGE_KEYS.bookmarks, [...state.bookmarkedIds]);
+}
+
+function persistPreferences() {
+  writeStoredJson(STORAGE_KEYS.preferences, state.preferences);
 }
 
 function chooseInitialEntry(entries) {
@@ -108,6 +160,7 @@ function restoreSidebarScroll(scrollState) {
 function render(options = {}) {
   const scrollState = options.preserveSidebarScroll ? captureSidebarScroll() : null;
   const entry = selectedEntry();
+  app.dataset.largeText = state.preferences.largeText ? "true" : "false";
   app.innerHTML = `
     <header class="topbar">
       <div class="brand">
@@ -117,12 +170,9 @@ function render(options = {}) {
           <span class="cycle">Ciclo A 2025-2026</span>
         </div>
       </div>
-      <nav class="top-actions" aria-label="Acciones">
-        <button class="icon-button" type="button" title="Favoritos">${ICONS.bookmark}</button>
-        <button class="icon-button" type="button" title="Descargas">${ICONS.download}</button>
-        <button class="icon-button" type="button" title="Ajustes">${ICONS.settings}</button>
-      </nav>
+      ${renderTopActions(entry)}
     </header>
+    ${state.toast ? `<div class="toast" role="status">${escapeHtml(state.toast)}</div>` : ""}
     <main class="app-layout">
       ${renderSidebar()}
       ${renderReader(entry)}
@@ -131,6 +181,53 @@ function render(options = {}) {
   `;
   bindEvents();
   restoreSidebarScroll(scrollState);
+}
+
+function renderTopActions(entry) {
+  const isBookmarked = state.bookmarkedIds.has(entry.id);
+  const bookmarkLabel = isBookmarked ? "Quitar marcador" : "Marcar ficha";
+  const audioPath = entry.song.audioPublicPath;
+  return `
+    <nav class="top-actions" aria-label="Acciones">
+      <button class="icon-button" type="button" data-bookmark-toggle data-active="${isBookmarked}" aria-pressed="${isBookmarked}" title="${bookmarkLabel}" aria-label="${bookmarkLabel}">
+        ${ICONS.bookmark}
+      </button>
+      ${audioPath ? `
+        <a class="icon-button" data-download-current href="${escapeHtml(audioPath)}" download title="Descargar audio de ${escapeHtml(entry.song.title)}" aria-label="Descargar audio de ${escapeHtml(entry.song.title)}">
+          ${ICONS.download}
+        </a>
+      ` : `
+        <button class="icon-button" type="button" disabled title="Audio pendiente" aria-label="Audio pendiente">
+          ${ICONS.download}
+        </button>
+      `}
+      <div class="settings-menu-wrap">
+        <button class="icon-button" type="button" data-settings-toggle data-active="${state.settingsOpen}" aria-expanded="${state.settingsOpen}" title="Ajustes" aria-label="Ajustes">
+          ${ICONS.settings}
+        </button>
+        ${state.settingsOpen ? renderSettingsPanel() : ""}
+      </div>
+    </nav>
+  `;
+}
+
+function renderSettingsPanel() {
+  return `
+    <div class="settings-popover" role="dialog" aria-label="Ajustes de lectura">
+      <h2>Ajustes</h2>
+      ${renderSettingToggle("expandLyrics", "Letra completa", state.preferences.expandLyrics)}
+      ${renderSettingToggle("largeText", "Texto grande", state.preferences.largeText)}
+    </div>
+  `;
+}
+
+function renderSettingToggle(key, label, checked) {
+  return `
+    <button class="settings-row" type="button" data-setting="${key}" aria-pressed="${checked}">
+      <span>${label}</span>
+      <span class="switch" data-on="${checked}"><span></span></span>
+    </button>
+  `;
 }
 
 function renderSidebar() {
@@ -265,6 +362,7 @@ function renderCalendarCell(cell) {
 }
 
 function renderEntryButton(entry) {
+  const isBookmarked = state.bookmarkedIds.has(entry.id);
   return `
     <button class="entry-button" type="button" data-entry="${escapeHtml(entry.id)}" data-active="${entry.id === state.selectedId}">
       <span class="season-dot" style="background:${seasonColors[entry.season] || "#b8872f"}"></span>
@@ -273,7 +371,10 @@ function renderEntryButton(entry) {
         <span class="entry-title">${escapeHtml(entry.denomination)}</span>
         <span class="entry-song">${escapeHtml(entry.song.title)}</span>
       </span>
-      <span class="entry-chevron">${ICONS.chevron}</span>
+      <span class="entry-flags">
+        ${isBookmarked ? `<span class="entry-bookmark" title="Ficha marcada">${ICONS.bookmark}</span>` : ""}
+        <span class="entry-chevron">${ICONS.chevron}</span>
+      </span>
     </button>
   `;
 }
@@ -415,8 +516,9 @@ function bindEvents() {
     button.addEventListener("click", () => {
       state.selectedId = button.dataset.entry;
       state.calendarMonth = monthKeyFromIso(selectedEntry().isoDate);
-      state.lyricsExpanded = false;
+      state.lyricsExpanded = state.preferences.expandLyrics;
       state.imageOpen = false;
+      state.settingsOpen = false;
       render({ preserveSidebarScroll: true });
     });
   });
@@ -425,6 +527,21 @@ function bindEvents() {
     state.calendarOpen = !state.calendarOpen;
     state.calendarMonth = monthKeyFromIso(selectedEntry().isoDate);
     render({ preserveSidebarScroll: true });
+  });
+
+  document.querySelector("[data-bookmark-toggle]")?.addEventListener("click", () => {
+    toggleBookmark(selectedEntry());
+  });
+
+  document.querySelector("[data-settings-toggle]")?.addEventListener("click", () => {
+    state.settingsOpen = !state.settingsOpen;
+    render({ preserveSidebarScroll: true });
+  });
+
+  document.querySelectorAll("[data-setting]").forEach((button) => {
+    button.addEventListener("click", () => {
+      togglePreference(button.dataset.setting);
+    });
   });
 
   document.querySelectorAll("[data-calendar-shift]").forEach((button) => {
@@ -438,8 +555,9 @@ function bindEvents() {
     button.addEventListener("click", () => {
       state.selectedId = button.dataset.calendarEntry;
       state.calendarMonth = monthKeyFromIso(selectedEntry().isoDate);
-      state.lyricsExpanded = false;
+      state.lyricsExpanded = state.preferences.expandLyrics;
       state.imageOpen = false;
+      state.settingsOpen = false;
       render({ preserveSidebarScroll: true });
     });
   });
@@ -447,18 +565,21 @@ function bindEvents() {
   document.querySelectorAll("[data-tab]").forEach((button) => {
     button.addEventListener("click", () => {
       state.tab = button.dataset.tab;
+      state.settingsOpen = false;
       render({ preserveSidebarScroll: true });
     });
   });
 
   document.querySelector("#toggleLyrics")?.addEventListener("click", () => {
     state.lyricsExpanded = !state.lyricsExpanded;
+    state.settingsOpen = false;
     render({ preserveSidebarScroll: true });
   });
 
   document.querySelectorAll("[data-open-image]").forEach((button) => {
     button.addEventListener("click", () => {
       state.imageOpen = true;
+      state.settingsOpen = false;
       render({ preserveSidebarScroll: true });
     });
   });
@@ -470,12 +591,46 @@ function bindEvents() {
     });
   });
 
-  document.addEventListener("keydown", handleEscapeClose, { once: true });
+  document.removeEventListener("keydown", handleEscapeClose);
+  document.addEventListener("keydown", handleEscapeClose);
+}
+
+function toggleBookmark(entry) {
+  if (state.bookmarkedIds.has(entry.id)) {
+    state.bookmarkedIds.delete(entry.id);
+    persistBookmarks();
+    showToast("Marcador quitado");
+  } else {
+    state.bookmarkedIds.add(entry.id);
+    persistBookmarks();
+    showToast("Ficha marcada");
+  }
+}
+
+function togglePreference(key) {
+  if (!Object.prototype.hasOwnProperty.call(state.preferences, key)) return;
+  state.preferences[key] = !state.preferences[key];
+  if (key === "expandLyrics") {
+    state.lyricsExpanded = state.preferences.expandLyrics;
+  }
+  persistPreferences();
+  render({ preserveSidebarScroll: true });
+}
+
+function showToast(message) {
+  if (toastTimer) clearTimeout(toastTimer);
+  state.toast = message;
+  render({ preserveSidebarScroll: true });
+  toastTimer = setTimeout(() => {
+    state.toast = "";
+    render({ preserveSidebarScroll: true });
+  }, 1800);
 }
 
 function handleEscapeClose(event) {
-  if (event.key === "Escape" && state.imageOpen) {
+  if (event.key === "Escape" && (state.imageOpen || state.settingsOpen)) {
     state.imageOpen = false;
+    state.settingsOpen = false;
     render();
   }
 }

@@ -123,6 +123,7 @@ a {
 }
 
 .top-actions {
+  position: relative;
   display: flex;
   align-items: center;
   gap: 8px;
@@ -145,6 +146,127 @@ a {
   border-color: var(--line);
   background: rgba(255, 255, 255, 0.68);
   outline: none;
+}
+
+.icon-button[data-active="true"] {
+  border-color: var(--teal);
+  background: var(--teal-soft);
+  color: var(--teal);
+}
+
+.icon-button[data-bookmark-toggle][data-active="true"] svg path {
+  fill: currentColor;
+}
+
+.icon-button:disabled {
+  cursor: default;
+  color: rgba(108, 98, 88, 0.45);
+}
+
+.top-actions a.icon-button {
+  text-decoration: none;
+}
+
+.settings-menu-wrap {
+  position: relative;
+}
+
+.settings-popover {
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+  z-index: 40;
+  width: 250px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: #fffaf2;
+  padding: 12px;
+  box-shadow: var(--shadow);
+}
+
+.settings-popover h2 {
+  margin: 0 0 10px;
+  color: var(--burgundy);
+  font-family: var(--serif);
+  font-size: 1.04rem;
+  line-height: 1.2;
+}
+
+.settings-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  min-height: 42px;
+  border: 0;
+  border-radius: var(--radius);
+  background: transparent;
+  color: var(--ink);
+  padding: 0 8px;
+  text-align: left;
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.settings-row:hover,
+.settings-row:focus-visible {
+  background: var(--teal-soft);
+  outline: none;
+}
+
+.switch {
+  display: inline-flex;
+  align-items: center;
+  width: 39px;
+  height: 22px;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.72);
+  padding: 2px;
+}
+
+.switch span {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--muted);
+  transition: transform 160ms ease, background 160ms ease;
+}
+
+.switch[data-on="true"] {
+  border-color: var(--teal);
+  background: var(--teal-soft);
+}
+
+.switch[data-on="true"] span {
+  background: var(--teal);
+  transform: translateX(17px);
+}
+
+.toast {
+  position: fixed;
+  top: 82px;
+  right: 24px;
+  z-index: 80;
+  max-width: min(280px, calc(100vw - 32px));
+  border: 1px solid rgba(31, 111, 106, 0.32);
+  border-radius: var(--radius);
+  background: #fffaf2;
+  color: var(--teal);
+  padding: 10px 13px;
+  font-size: 0.9rem;
+  font-weight: 800;
+  box-shadow: var(--shadow);
+}
+
+.app-shell[data-large-text="true"] .content-panel {
+  font-size: 1.18rem;
+}
+
+.app-shell[data-large-text="true"] .pastoral-text,
+.app-shell[data-large-text="true"] .lyrics-box {
+  font-size: 1.08rem;
 }
 
 .app-layout {
@@ -452,6 +574,30 @@ a {
 .entry-chevron {
   align-self: center;
   color: var(--muted);
+}
+
+.entry-flags {
+  display: inline-flex;
+  align-items: center;
+  align-self: center;
+  gap: 8px;
+  min-width: 46px;
+  justify-content: flex-end;
+  color: var(--muted);
+}
+
+.entry-bookmark {
+  display: inline-flex;
+  color: var(--teal);
+}
+
+.entry-bookmark svg {
+  width: 16px;
+  height: 16px;
+}
+
+.entry-bookmark svg path {
+  fill: currentColor;
 }
 
 .no-results {
@@ -931,6 +1077,11 @@ svg {
 
   .top-actions {
     display: none;
+  }
+
+  .toast {
+    top: 16px;
+    right: 16px;
   }
 
   .app-layout {
