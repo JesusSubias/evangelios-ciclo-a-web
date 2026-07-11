@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-06T19:11:33.333460+00:00",
-  "cutoff": "2026-07-12",
+  "generatedAt": "2026-07-11T21:34:31.992436+00:00",
+  "cutoff": "2026-07-19",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "sourceNotice": "Texto biblico de trabajo: Reina-Valera 1909. La version liturgica oficial CEE 2010 no se reproduce completa sin fuente o licencia autorizada.",
   "assets": {
@@ -8,11 +8,11 @@
     "audioPolicy": "mp3/m4a/mp4/opus publicados; WAV reservado como master opcional"
   },
   "summary": {
-    "cycleEntries": 33,
-    "songRecords": 38,
-    "cycleAudioFound": 33,
+    "cycleEntries": 34,
+    "songRecords": 39,
+    "cycleAudioFound": 34,
     "cycleAudioMissing": 0,
-    "imagesFound": 33,
+    "imagesFound": 34,
     "chordPdfsFound": 0
   },
   "missing": {
@@ -7703,6 +7703,279 @@
         "audioPublicPath": "assets/audio/2026-07-12-sin-hacer-ruido.mp3",
         "chordsPdfPublicPath": null
       }
+    },
+    {
+      "id": "2026-07-19",
+      "index": 34,
+      "isoDate": "2026-07-19",
+      "dateLabel": "19 de julio de 2026",
+      "denomination": "XVI Domingo del Tiempo Ordinario",
+      "fullTitle": "Domingo 19 de julio de 2026 - XVI Domingo del Tiempo Ordinario - Ciclo A",
+      "season": "Tiempo Ordinario",
+      "refs": "Mt 13, 24-43",
+      "readings": [
+        {
+          "context": "",
+          "ref": "Mt 13, 24-43"
+        }
+      ],
+      "image": {
+        "publicPath": "assets/images/2026-07-19-xvi-domingo-del-tiempo-ordinario.png"
+      },
+      "pastoral": "Jesús invita a no confundir el cuidado con la condena ni la impaciencia con la justicia. El trigo y la cizaña crecen juntos, mientras el Reino actúa como una semilla pequeña y una levadura escondida. Este Evangelio llama a proteger a quien sufre y frenar el daño sin arrancar la esperanza de nadie: Dios trabaja en silencio, da tiempo a la conversión y nos hace cuidadores pacientes de su campo.",
+      "gospel": {
+        "blocks": [
+          {
+            "type": "heading",
+            "text": "Evangelio: Mt 13, 24-43"
+          },
+          {
+            "type": "verse",
+            "label": "Mateo 13,24.",
+            "text": "Otra parábola les propuso, diciendo: El reino de los cielos es semejante al hombre que siembra buena simiente en su campo:"
+          },
+          {
+            "type": "verse",
+            "label": "Mateo 13,25.",
+            "text": "Mas durmiendo los hombres, vino su enemigo, y sembró cizaña entre el trigo, y se fué."
+          },
+          {
+            "type": "verse",
+            "label": "Mateo 13,26.",
+            "text": "Y como la hierba salió é hizo fruto, entonces apareció también la cizaña."
+          },
+          {
+            "type": "verse",
+            "label": "Mateo 13,27.",
+            "text": "Y llegándose los siervos del padre de la familia, le dijeron: Señor, ¿no sembraste buena simiente en tu campo? ¿de dónde, pues, tiene cizaña?"
+          },
+          {
+            "type": "verse",
+            "label": "Mateo 13,28.",
+            "text": "Y Él les dijo: Un hombre enemigo ha hecho esto. Y los siervos le dijeron: ¿Quieres, pues, que vayamos y la cojamos?"
+          },
+          {
+            "type": "verse",
+            "label": "Mateo 13,29.",
+            "text": "Y Él dijo: No; porque cogiendo la cizaña, no arranquéis también con ella el trigo."
+          },
+          {
+            "type": "verse",
+            "label": "Mateo 13,30.",
+            "text": "Dejad crecer juntamente lo uno y lo otro hasta la siega; y al tiempo de la siega yo diré á los segadores: Coged primero la cizaña, y atadla en manojos para quemarla; mas recoged el trigo en mi alfolí."
+          },
+          {
+            "type": "verse",
+            "label": "Mateo 13,31.",
+            "text": "Otra parábola les propuso, diciendo: El reino de los cielos es semejante al grano de mostaza, que tomándolo alguno lo sembró en su campo:"
+          },
+          {
+            "type": "verse",
+            "label": "Mateo 13,32.",
+            "text": "El cual á la verdad es la más pequeña de todas las simientes; mas cuando ha crecido, es la mayor de las hortalizas, y se hace árbol, que vienen las aves del cielo y hacen nidos en sus ramas."
+          },
+          {
+            "type": "verse",
+            "label": "Mateo 13,33.",
+            "text": "Otra parábola les dijo: El reino de los cielos es semejante á la levadura que tomó una mujer, y escondió en tres medidas de harina, hasta que todo quedó leudo."
+          },
+          {
+            "type": "verse",
+            "label": "Mateo 13,34.",
+            "text": "Todo esto habló Jesús por parábolas á las gentes, y sin parábolas no les hablaba:"
+          },
+          {
+            "type": "verse",
+            "label": "Mateo 13,35.",
+            "text": "Para que se cumpliese lo que fué dicho por el profeta, que dijo: Abriré en parábolas mi boca; Rebosaré cosas escondidas desde la fundación del mundo."
+          },
+          {
+            "type": "verse",
+            "label": "Mateo 13,36.",
+            "text": "Entonces, despedidas las gentes, Jesús se vino á casa; y llegándose á Él sus discípulos, le dijeron: Decláranos la parábola de la cizaña del campo."
+          },
+          {
+            "type": "verse",
+            "label": "Mateo 13,37.",
+            "text": "Y respondiendo Él, les dijo: El que siembra la buena simiente es el Hijo del hombre;"
+          },
+          {
+            "type": "verse",
+            "label": "Mateo 13,38.",
+            "text": "Y el campo es el mundo; y la buena simiente son los hijos del reino, y la cizaña son los hijos del malo;"
+          },
+          {
+            "type": "verse",
+            "label": "Mateo 13,39.",
+            "text": "Y el enemigo que la sembró, es el diablo; y la siega es el fin del mundo, y los segadores son los ángeles."
+          },
+          {
+            "type": "verse",
+            "label": "Mateo 13,40.",
+            "text": "De manera que como es cogida la cizaña, y quemada al fuego, así será en el fin de este siglo."
+          },
+          {
+            "type": "verse",
+            "label": "Mateo 13,41.",
+            "text": "Enviará el Hijo del hombre sus ángeles, y cogerán de su reino todos los escándalos, y los que hacen iniquidad,"
+          },
+          {
+            "type": "verse",
+            "label": "Mateo 13,42.",
+            "text": "Y los echarán en el horno de fuego: allí será el lloro y el crujir de dientes."
+          },
+          {
+            "type": "verse",
+            "label": "Mateo 13,43.",
+            "text": "Entonces los justos resplandecerán como el sol en el reino de su Padre: el que tiene oídos para oir, oiga."
+          }
+        ]
+      },
+      "song": {
+        "title": "La noche no es dueña",
+        "lyrics": [
+          {
+            "lines": [
+              "Sembraste buena semilla,",
+              "llenaste de vida el campo;",
+              "pero al abrigo del sueño",
+              "la noche dejó su engaño."
+            ]
+          },
+          {
+            "lines": [
+              "Y al ver la espiga y la herida",
+              "creciendo juntas al sol,",
+              "queremos limpiar la tierra",
+              "sin escuchar tu corazón."
+            ]
+          },
+          {
+            "lines": [
+              "Y Tú nos dices:",
+              "«No arranquéis la esperanza,",
+              "no hagáis más honda la herida.",
+              "Dejad que crezcan unidos,",
+              "cuidad la semilla»."
+            ]
+          },
+          {
+            "lines": [
+              "La noche no es dueña del campo,",
+              "la tierra sigue en tus manos.",
+              "Señor de la siega, enséñanos",
+              "a cuidar sin condenarnos."
+            ]
+          },
+          {
+            "lines": [
+              "Tu Reino crece en silencio,",
+              "pequeño, escondido y cercano.",
+              "Danos paciencia y ternura:",
+              "la noche no es dueña del campo."
+            ]
+          },
+          {
+            "lines": [
+              "Eres mostaza pequeña",
+              "que llega a ofrecer un hogar;",
+              "eres levadura escondida",
+              "que todo lo hace cambiar."
+            ]
+          },
+          {
+            "lines": [
+              "Trabajas dentro del alma,",
+              "sin ruido, sin dominar;",
+              "y en cada gesto de amor",
+              "tu Reino vuelve a brotar."
+            ]
+          },
+          {
+            "lines": [
+              "Y Tú nos dices:",
+              "«No despreciéis lo pequeño,",
+              "ni el lento crecer de la vida.",
+              "Mi gracia trabaja en secreto,",
+              "cuidad la semilla»."
+            ]
+          },
+          {
+            "lines": [
+              "La noche no es dueña del campo,",
+              "la tierra sigue en tus manos.",
+              "Señor de la siega, enséñanos",
+              "a cuidar sin condenarnos."
+            ]
+          },
+          {
+            "lines": [
+              "Tu Reino crece en silencio,",
+              "pequeño, escondido y cercano.",
+              "Danos paciencia y ternura:",
+              "la noche no es dueña del campo."
+            ]
+          },
+          {
+            "lines": [
+              "Arranca de mí la soberbia,",
+              "no al hermano que puede cambiar.",
+              "Enséñame a amar la verdad",
+              "sin dejar de amar."
+            ]
+          },
+          {
+            "lines": [
+              "Haznos un solo corazón,",
+              "una sola alma al caminar;",
+              "que nadie se pierda por miedo,",
+              "que nadie se quede sin hogar."
+            ]
+          },
+          {
+            "lines": [
+              "No dejaremos crecer el daño,",
+              "protegeremos al débil, Señor;",
+              "pero el juicio último del hombre",
+              "lo confiamos a tu amor."
+            ]
+          },
+          {
+            "lines": [
+              "La noche no es dueña del campo,",
+              "la historia sigue en tus manos.",
+              "Señor de la siega, sosténnos,",
+              "haznos pacientes y hermanos."
+            ]
+          },
+          {
+            "lines": [
+              "Tu Reino crece en silencio,",
+              "fermenta la vida por dentro.",
+              "Y cuando amanezca tu Reino,",
+              "los justos brillarán como el sol."
+            ]
+          },
+          {
+            "lines": [
+              "La noche no es dueña del campo,",
+              "la tierra sigue en tus manos.",
+              "Hasta que llegue la siega,",
+              "haznos cuidadores del campo."
+            ]
+          },
+          {
+            "lines": [
+              "Sembradores de esperanza,",
+              "servidores de tu amor;",
+              "la noche no es dueña del campo,",
+              "el campo pertenece a Dios."
+            ]
+          }
+        ],
+        "audioPublicPath": "assets/audio/2026-07-19-la-noche-no-es-duena.mp3",
+        "chordsPdfPublicPath": null
+      }
     }
   ],
   "songs": [
@@ -8008,6 +8281,14 @@
       "targetDate": "2026-07-12",
       "includedInCycle": true,
       "audioPublicPath": "assets/audio/2026-07-12-sin-hacer-ruido.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 39,
+      "title": "La noche no es dueña",
+      "targetDate": "2026-07-19",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-07-19-la-noche-no-es-duena.mp3",
       "chordsPdfPublicPath": null
     }
   ]
