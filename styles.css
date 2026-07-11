@@ -805,6 +805,7 @@ a {
 
 .tabbar {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
   border-bottom: 1px solid var(--line);
   margin: 8px 0 20px;
@@ -859,6 +860,223 @@ a {
   font-family: var(--sans);
   font-size: 1rem;
   line-height: 1.65;
+}
+
+.meeting-tab {
+  color: var(--burgundy);
+}
+
+.meeting-intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  border: 1px solid var(--line);
+  border-radius: calc(var(--radius) + 2px);
+  background: linear-gradient(125deg, var(--teal-soft), #fffaf2 70%);
+  padding: 22px;
+  font-family: var(--sans);
+}
+
+.meeting-intro h3 {
+  margin: 4px 0 6px;
+  color: var(--burgundy);
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+}
+
+.meeting-intro p,
+.meeting-section p {
+  margin: 0;
+}
+
+.meeting-kicker,
+.section-eyebrow {
+  color: var(--teal);
+  font-family: var(--sans);
+  font-size: 0.76rem;
+  font-weight: 900;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.meeting-download {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  gap: 10px;
+  min-height: 52px;
+  border-radius: var(--radius);
+  background: var(--burgundy);
+  color: #fff;
+  padding: 9px 15px;
+  text-decoration: none;
+  font-family: var(--sans);
+  font-size: 0.9rem;
+  font-weight: 850;
+}
+
+.meeting-download:hover,
+.meeting-download:focus-visible {
+  background: #611624;
+  outline: 3px solid rgba(123, 30, 47, 0.2);
+}
+
+.meeting-download small {
+  display: block;
+  margin-top: 2px;
+  font-size: 0.72rem;
+  font-weight: 500;
+  opacity: 0.82;
+}
+
+.meeting-section {
+  display: grid;
+  gap: 16px;
+  border-top: 1px solid var(--line);
+  padding-top: 22px;
+  font-family: var(--sans);
+}
+
+.meeting-section h4 {
+  margin: -8px 0 0;
+  color: var(--blue);
+  font-family: var(--serif);
+  font-size: clamp(1.35rem, 2.6vw, 1.8rem);
+}
+
+.meeting-lead {
+  max-width: 760px;
+  font-family: var(--serif);
+  font-size: 1.12rem;
+}
+
+.meeting-steps {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.meeting-steps article,
+.resonance-grid article {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(255, 250, 242, 0.7);
+  padding: 14px;
+}
+
+.meeting-steps article > span {
+  display: grid;
+  width: 26px;
+  height: 26px;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--teal);
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 900;
+}
+
+.meeting-section h5 {
+  margin: 10px 0 7px;
+  color: var(--burgundy);
+  font-size: 0.92rem;
+  text-transform: uppercase;
+}
+
+.meeting-steps p,
+.resonance-grid p {
+  color: var(--muted);
+  font-size: 0.84rem;
+  line-height: 1.5;
+}
+
+.meeting-section blockquote {
+  margin: 0;
+  border-left: 4px solid var(--gold);
+  padding: 8px 14px;
+  color: var(--burgundy);
+  font-family: var(--serif);
+  font-size: 1.15rem;
+  font-style: italic;
+}
+
+.resonance-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.scripture-ref {
+  color: var(--teal);
+  font-size: 0.78rem;
+  font-weight: 900;
+}
+
+.resonance-grid q {
+  display: block;
+  margin: 0 0 10px;
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 0.94rem;
+  font-style: italic;
+  line-height: 1.45;
+}
+
+.meeting-synthesis,
+.meeting-criterion {
+  display: grid;
+  gap: 3px;
+  border-radius: var(--radius);
+  background: var(--paper-strong);
+  padding: 13px 15px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.meeting-synthesis strong,
+.meeting-criterion strong {
+  color: var(--burgundy);
+  text-transform: uppercase;
+}
+
+.meeting-question,
+.agenda-question {
+  color: var(--blue);
+  font-family: var(--serif);
+  font-weight: 700;
+}
+
+.meeting-agenda {
+  display: grid;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.meeting-agenda li {
+  display: grid;
+  grid-template-columns: 72px 1fr;
+  gap: 16px;
+  border-bottom: 1px solid var(--line);
+  padding: 15px 0;
+}
+
+.agenda-time {
+  color: var(--teal);
+  font-weight: 900;
+}
+
+.meeting-agenda h5 {
+  margin: 0 0 4px;
+}
+
+.meeting-agenda p {
+  font-size: 0.9rem;
+}
+
+.meeting-agenda .agenda-question {
+  margin-top: 6px;
 }
 
 .gospel-blocks {
@@ -1153,6 +1371,25 @@ svg {
   .verse {
     grid-template-columns: 1fr;
     gap: 3px;
+  }
+
+  .meeting-intro {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .meeting-download {
+    justify-content: center;
+  }
+
+  .meeting-steps,
+  .resonance-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .meeting-agenda li {
+    grid-template-columns: 58px 1fr;
+    gap: 10px;
   }
 }
 

@@ -10,6 +10,7 @@ const ICONS = {
   clock: `<svg aria-hidden="true" viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/><path d="M12 8v5l3 2"/></svg>`,
   info: `<svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></svg>`,
   light: `<svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M8.3 14.5a6 6 0 1 1 7.4 0c-.9.7-1.2 1.4-1.2 2H9.5c0-.6-.3-1.3-1.2-2Z"/></svg>`,
+  people: `<svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3.5 20a5.5 5.5 0 0 1 11 0M14 15.5a4.5 4.5 0 0 1 6.5 4"/></svg>`,
 };
 
 const state = {
@@ -50,7 +51,7 @@ const seasonColors = {
 };
 
 const app = document.querySelector("#app");
-const DATA_VERSION = "20260719-la-noche-no-es-duena";
+const DATA_VERSION = "20260712-reunion-sin-hacer-ruido";
 const calendarWeekdays = ["L", "M", "X", "J", "V", "S", "D"];
 const monthFormatter = new Intl.DateTimeFormat("es-ES", { month: "long", year: "numeric" });
 let toastTimer = null;
@@ -381,6 +382,7 @@ function renderEntryButton(entry) {
 
 function renderReader(entry) {
   const imagePath = entry.image.publicPath || state.manifest.assets.cover;
+  const activeTab = state.tab === "meeting" && !entry.meeting ? "evangelio" : state.tab;
   return `
     <section class="reader" aria-label="Ficha dominical">
       <figure class="hero-image">
@@ -399,11 +401,12 @@ function renderReader(entry) {
         </div>
       </div>
       <div class="tabbar" role="tablist" aria-label="Contenido de la ficha">
-        <button class="tab-button" type="button" data-tab="evangelio" data-active="${state.tab === "evangelio"}">${ICONS.book} Texto del Evangelio</button>
-        <button class="tab-button" type="button" data-tab="pastoral" data-active="${state.tab === "pastoral"}">${ICONS.light} Idea pastoral</button>
+        <button class="tab-button" type="button" data-tab="evangelio" data-active="${activeTab === "evangelio"}">${ICONS.book} Texto del Evangelio</button>
+        <button class="tab-button" type="button" data-tab="pastoral" data-active="${activeTab === "pastoral"}">${ICONS.light} Idea pastoral</button>
+        ${entry.meeting ? `<button class="tab-button meeting-tab" type="button" data-tab="meeting" data-active="${activeTab === "meeting"}">${ICONS.people} Propuesta de reunión</button>` : ""}
       </div>
       <article class="content-panel">
-        ${state.tab === "evangelio" ? renderGospel(entry) : renderPastoral(entry)}
+        ${activeTab === "evangelio" ? renderGospel(entry) : activeTab === "pastoral" ? renderPastoral(entry) : renderMeeting(entry.meeting)}
       </article>
       <p class="source-note">${escapeHtml(state.manifest.sourceNotice)}</p>
     </section>
@@ -448,6 +451,55 @@ function renderPastoral(entry) {
   return `
     <h3>Idea pastoral</h3>
     <div class="pastoral-text">${escapeHtml(entry.pastoral)}</div>
+  `;
+}
+
+function renderMeeting(meeting) {
+  return `
+    <div class="meeting-intro">
+      <div>
+        <span class="meeting-kicker">Guion preparado · ${escapeHtml(meeting.duration)}</span>
+        <h3>${escapeHtml(meeting.title)}</h3>
+        <p>${escapeHtml(meeting.subtitle)}</p>
+      </div>
+      ${meeting.deckPublicPath ? `
+        <a class="meeting-download" href="${escapeHtml(meeting.deckPublicPath)}" download>
+          ${ICONS.download}<span>Descargar presentación<small>PowerPoint · .pptx</small></span>
+        </a>
+      ` : ""}
+    </div>
+    <section class="meeting-section meeting-key">
+      <span class="section-eyebrow">Clave espiritual</span>
+      <h4>${escapeHtml(meeting.key.title)}</h4>
+      <p class="meeting-lead">${escapeHtml(meeting.key.text)}</p>
+      <div class="meeting-steps">
+        ${meeting.key.steps.map((step, index) => `
+          <article><span>${index + 1}</span><h5>${escapeHtml(step.title)}</h5><p>${escapeHtml(step.text)}</p></article>
+        `).join("")}
+      </div>
+      <blockquote>${escapeHtml(meeting.key.quote)}</blockquote>
+    </section>
+    <section class="meeting-section">
+      <span class="section-eyebrow">Cuatro resonancias bíblicas</span>
+      <h4>Una misma intuición desde cuatro ángulos</h4>
+      <div class="resonance-grid">
+        ${meeting.resonances.map((item) => `
+          <article><span class="scripture-ref">${escapeHtml(item.ref)}</span><h5>${escapeHtml(item.title)}</h5><q>${escapeHtml(item.quote)}</q><p>${escapeHtml(item.text)}</p></article>
+        `).join("")}
+      </div>
+      <p class="meeting-synthesis"><strong>Síntesis</strong>${escapeHtml(meeting.synthesis)}</p>
+      <p class="meeting-question">${escapeHtml(meeting.question)}</p>
+    </section>
+    <section class="meeting-section agenda-section">
+      <span class="section-eyebrow">Propuesta de reunión · ${escapeHtml(meeting.duration)}</span>
+      <h4>Del ruido interior a una semilla concreta</h4>
+      <ol class="meeting-agenda">
+        ${meeting.agenda.map((item) => `
+          <li><span class="agenda-time">${escapeHtml(item.time)}</span><div><h5>${escapeHtml(item.title)}</h5><p>${escapeHtml(item.instruction)}</p><p class="agenda-question">${escapeHtml(item.question)}</p></div></li>
+        `).join("")}
+      </ol>
+      <p class="meeting-criterion"><strong>Criterio</strong>${escapeHtml(meeting.criterion)}</p>
+    </section>
   `;
 }
 
