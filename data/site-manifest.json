@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T06:12:29.088712+00:00",
+  "generatedAt": "2026-07-12T11:34:29.284462+00:00",
   "cutoff": "2026-07-19",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "sourceNotice": "Texto biblico de trabajo: Reina-Valera 1909. La version liturgica oficial CEE 2010 no se reproduce completa sin fuente o licencia autorizada.",
@@ -2592,7 +2592,103 @@
         "publicPath": "assets/images/2026-03-08-iii-domingo-de-cuaresma.jpg"
       },
       "pastoral": "Jesús se sienta junto al pozo de una mujer cargada de historia y sed. No la cancela, no la usa, no la reduce a sus heridas: dialoga y despierta en ella agua viva. Este Evangelio habla de deseos profundos, vergüenzas y búsquedas. Cristo no huye de nuestras preguntas: las convierte en camino de verdad, libertad y misión.",
-      "meeting": null,
+      "meeting": {
+        "title": "Dame ese agua",
+        "subtitle": "Del cántaro que pesa a una fuente que el grupo pueda compartir",
+        "duration": "70 minutos",
+        "key": {
+          "title": "Jesús acoge nuestra sed y la convierte en fuente",
+          "text": "En el pozo, la verdad no condena: abre una vida nueva y devuelve a la comunidad.",
+          "quote": "Señor, dame ese agua, dame vida de verdad.",
+          "steps": [
+            {
+              "title": "Sed",
+              "text": "Llega al pozo al mediodía, con su historia a cuestas. Repetimos caminos sin nombrar lo que de verdad buscamos."
+            },
+            {
+              "title": "Encuentro",
+              "text": "Jesús pide agua y cruza fronteras. Antes de enseñar, se sienta, pregunta y espera."
+            },
+            {
+              "title": "Verdad",
+              "text": "Jesús nombra su historia sin convertirla en condena. La verdad acogida abre un futuro posible."
+            },
+            {
+              "title": "Fuente",
+              "text": "El don se hace agua viva dentro de quien lo recibe. Adorar en espíritu y verdad unifica la vida."
+            },
+            {
+              "title": "Testimonio",
+              "text": "Deja el cántaro y vuelve a la ciudad. Quien se sabe mirada con amor puede decir: «Venid y ved»."
+            }
+          ]
+        },
+        "resonancesEyebrow": "Cuatro promesas para la sed humana",
+        "resonancesTitle": "La gracia recibe la sed y la convierte en corriente",
+        "resonances": [
+          {
+            "ref": "Is 55,1–3",
+            "title": "La sed acogida",
+            "quote": "Todos los sedientos, venid por agua; venid, sin pagar.",
+            "text": "Dios no negocia el agua viva: la ofrece gratuitamente y devuelve la vida."
+          },
+          {
+            "ref": "Sal 42,2–3",
+            "title": "El deseo profundo",
+            "quote": "Mi alma tiene sed de Dios, del Dios vivo.",
+            "text": "Bajo muchas búsquedas late una sed más honda. Orar comienza al dejar de esconderla."
+          },
+          {
+            "ref": "Ez 36,25–27",
+            "title": "Un corazón nuevo",
+            "quote": "Derramaré un agua pura… y os daré un corazón nuevo.",
+            "text": "El agua de Dios limpia, recrea por dentro y vuelve posible una vida nueva."
+          },
+          {
+            "ref": "Jn 7,37–39",
+            "title": "Una fuente que sale",
+            "quote": "El que tenga sed, que venga a mí; de sus entrañas manarán ríos.",
+            "text": "El Espíritu convierte el don recibido en corriente para otros: la gracia se hace misión."
+          }
+        ],
+        "synthesis": "Sed reconocida · gracia gratuita · verdad que recrea · Espíritu que envía",
+        "question": "¿Qué sed intento calmar una y otra vez sin llegar a la fuente?",
+        "agendaTitle": "Del cántaro que pesa a una fuente que el grupo pueda compartir",
+        "agenda": [
+          {
+            "time": "00–08",
+            "title": "Escuchar",
+            "instruction": "Oír «Dame ese agua» completa, sin explicarla todavía.",
+            "question": "¿Qué palabra, imagen o sed ha resonado en mí?"
+          },
+          {
+            "time": "08–20",
+            "title": "Nombrar",
+            "instruction": "Ante un cuenco con agua, escribir: «lo que digo que necesito» / «la sed que hay debajo».",
+            "question": "¿Qué busco realmente cuando digo que necesito «más»?"
+          },
+          {
+            "time": "20–38",
+            "title": "Iluminar",
+            "instruction": "Leer Jn 4,5–30 en tres voces y localizar los cinco movimientos del mapa.",
+            "question": "¿Qué hace Jesús para que la verdad no se convierta en condena?"
+          },
+          {
+            "time": "38–58",
+            "title": "Compartir",
+            "instruction": "En tríos, hablar en primera persona. Escuchar sin arreglar ni interpretar la vida ajena.",
+            "question": "¿Qué parte de mi historia necesita una mirada que abra futuro?"
+          },
+          {
+            "time": "58–70",
+            "title": "Soltar",
+            "instruction": "Escribir qué quiero dejar y qué fuente deseo cuidar. Compartir un gesto y terminar con oración.",
+            "question": "¿Qué cántaro puedo soltar para volver con una palabra de vida?"
+          }
+        ],
+        "criterion": "No forzar confesiones ni respuestas íntimas; ofrecer verdad sin juicio y un paso libre, pequeño y verificable.",
+        "deckPublicPath": "assets/presentations/2026-03-08-dame-ese-agua.pptx"
+      },
       "gospel": {
         "blocks": [
           {
