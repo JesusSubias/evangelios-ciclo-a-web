@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T21:57:27.578209+00:00",
+  "generatedAt": "2026-07-12T06:12:29.088712+00:00",
   "cutoff": "2026-07-19",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "sourceNotice": "Texto biblico de trabajo: Reina-Valera 1909. La version liturgica oficial CEE 2010 no se reproduce completa sin fuente o licencia autorizada.",
@@ -5095,7 +5095,103 @@
         "publicPath": "assets/images/2026-04-19-iii-domingo-de-pascua.jpg"
       },
       "pastoral": "Emaús habla de personas que caminan decepcionadas, con expectativas rotas y ganas de alejarse. Jesús no las interrumpe con prisas: camina, escucha, explica la Palabra y se deja reconocer al partir el pan. La pastoral necesita ese estilo: acompañar procesos, encender el corazón poco a poco y ayudar a descubrir que Cristo ya iba con nosotros por el camino.",
-      "meeting": null,
+      "meeting": {
+        "title": "Al partir el pan",
+        "subtitle": "De la decepción compartida a un regreso con esperanza",
+        "duration": "70 minutos",
+        "key": {
+          "title": "Jesús se hace camino junto a nuestra tristeza",
+          "text": "El Resucitado atraviesa la herida: la escucha, la relee y nos devuelve a la comunidad.",
+          "quote": "¿No ardía nuestro corazón mientras nos hablaba por el camino?",
+          "steps": [
+            {
+              "title": "Decepción",
+              "text": "«Nosotros esperábamos…». El dolor encoge la mirada y los aleja de Jerusalén."
+            },
+            {
+              "title": "Presencia",
+              "text": "Jesús se acerca y camina al paso de su tristeza. Antes de explicar, pregunta y escucha."
+            },
+            {
+              "title": "Palabra que arde",
+              "text": "La Escritura relee la cruz desde el amor de Dios y abre un sentido nuevo."
+            },
+            {
+              "title": "Reconocimiento",
+              "text": "«Quédate con nosotros». Los ojos se abren en la hospitalidad y el pan compartido."
+            },
+            {
+              "title": "Regreso",
+              "text": "Vuelven esa misma hora a Jerusalén. El encuentro devuelve comunidad y misión."
+            }
+          ]
+        },
+        "resonancesEyebrow": "Cuatro movimientos de Emaús",
+        "resonancesTitle": "Así acompaña Jesús una decepción",
+        "resonances": [
+          {
+            "ref": "Lc 24,15–17",
+            "title": "Presencia que escucha",
+            "quote": "Jesús se acercó y caminó con ellos.",
+            "text": "El Resucitado no irrumpe con respuestas. Se pone a su paso, pregunta y deja que nombren la herida."
+          },
+          {
+            "ref": "Lc 24,25–27",
+            "title": "Palabra que relee",
+            "quote": "Les explicó lo que se refería a él en las Escrituras.",
+            "text": "La Escritura no borra la cruz: la relee desde el amor de Dios y hace arder de nuevo el corazón."
+          },
+          {
+            "ref": "Lc 24,29–31",
+            "title": "Mesa que abre los ojos",
+            "quote": "Lo reconocieron al partir el pan.",
+            "text": "La hospitalidad prepara el reconocimiento. En el pan bendecido y compartido descubren quién caminaba con ellos."
+          },
+          {
+            "ref": "Lc 24,33–35",
+            "title": "Comunidad que envía",
+            "quote": "Levantándose al momento, volvieron a Jerusalén.",
+            "text": "El encuentro no los encierra en una emoción. Los devuelve a la comunidad para compartir la noticia y recomenzar."
+          }
+        ],
+        "synthesis": "Acompañar · escuchar · releer · hospedar · compartir · volver",
+        "question": "¿Qué necesitamos dejar que Jesús relea para recuperar el camino?",
+        "agendaTitle": "De la decepción compartida a un regreso con esperanza",
+        "agenda": [
+          {
+            "time": "00–08",
+            "title": "Escuchar",
+            "instruction": "Oír «Al partir el pan» completa, sin entregar todavía explicaciones.",
+            "question": "¿Qué frase describe mejor cómo llego hoy?"
+          },
+          {
+            "time": "08–20",
+            "title": "Caminar",
+            "instruction": "En parejas, contar brevemente un «nosotros esperábamos…».",
+            "question": "¿Qué esperanza rota o cansancio estoy llevando?"
+          },
+          {
+            "time": "20–38",
+            "title": "Iluminar",
+            "instruction": "Leer Lc 24,13–35 en tres voces y subrayar los giros del relato.",
+            "question": "¿Qué hace Jesús para transformar la mirada?"
+          },
+          {
+            "time": "38–58",
+            "title": "Reconocer",
+            "instruction": "Compartir dónde se hace presente: escucha, Palabra, mesa o comunidad.",
+            "question": "¿Dónde camina Jesús y aún no lo reconozco?"
+          },
+          {
+            "time": "58–70",
+            "title": "Volver",
+            "instruction": "Elegir un gesto de acompañamiento. Terminar con pan compartido y oración.",
+            "question": "¿A quién o a qué comunidad necesito volver esta semana?"
+          }
+        ],
+        "criterion": "No forzar respuestas felices; acoger la decepción y descubrir el paso concreto que devuelve al camino.",
+        "deckPublicPath": "assets/presentations/2026-04-19-al-partir-el-pan.pptx"
+      },
       "gospel": {
         "blocks": [
           {
