@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T11:34:29.284462+00:00",
+  "generatedAt": "2026-07-12T15:19:25.370140+00:00",
   "cutoff": "2026-07-19",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "sourceNotice": "Texto biblico de trabajo: Reina-Valera 1909. La version liturgica oficial CEE 2010 no se reproduce completa sin fuente o licencia autorizada.",
@@ -1591,7 +1591,103 @@
         "publicPath": "assets/images/2026-02-01-iv-domingo-del-tiempo-ordinario.jpg"
       },
       "pastoral": "Las bienaventuranzas rompen los criterios habituales de éxito: felices no son solo los fuertes, los visibles o los que ganan, sino los pobres, mansos, limpios de corazón y perseguidos por la justicia. Jesús abre una forma distinta de felicidad, menos dependiente de la aprobación y más arraigada en la verdad. El Reino empieza abajo, donde nadie presume.",
-      "meeting": null,
+      "meeting": {
+        "title": "El Reino empieza abajo",
+        "subtitle": "De la felicidad que se exhibe a una Bienaventuranza que se practica",
+        "duration": "70 minutos",
+        "key": {
+          "title": "Dios llama dichosos a quienes nadie mira",
+          "text": "Las Bienaventuranzas no glorifican el dolor: anuncian que Dios no abandona a quienes lo atraviesan.",
+          "quote": "El Reino empieza abajo, donde nadie mira.",
+          "steps": [
+            {
+              "title": "Mirada",
+              "text": "Jesús mira a la gente y se sienta entre ellos. El Reino comienza escuchando la vida que otros no ven."
+            },
+            {
+              "title": "Inversión",
+              "text": "Llama dichosos a pobres, mansos, heridos y perseguidos. Dios no confunde el éxito con la plenitud."
+            },
+            {
+              "title": "Deseo",
+              "text": "Hambre de justicia, corazón limpio y verdad. La dicha nace cuando el deseo se orienta hacia el bien."
+            },
+            {
+              "title": "Vínculo",
+              "text": "Misericordia y paz se vuelven una forma concreta de vivir. El consuelo recibido se hace cuidado."
+            },
+            {
+              "title": "Firmeza",
+              "text": "Seguir a Jesús puede llevar a vivir contracorriente. Amar sin rendirse no es perder: es sembrar Reino."
+            }
+          ]
+        },
+        "resonancesEyebrow": "Cuatro intuiciones para otra manera de ser feliz",
+        "resonancesTitle": "Dios mira, habita, orienta y elige desde abajo",
+        "resonances": [
+          {
+            "ref": "1 Sam 16,7",
+            "title": "La mirada del corazón",
+            "quote": "El hombre mira las apariencias; el Señor mira el corazón.",
+            "text": "La dignidad no depende de la imagen, el rendimiento ni la aprobación."
+          },
+          {
+            "ref": "Is 57,15",
+            "title": "Dios habita abajo",
+            "quote": "Habito con el contrito y humilde para reanimar su corazón.",
+            "text": "Dios no contempla la fragilidad desde lejos: desciende, habita y reanima."
+          },
+          {
+            "ref": "Miq 6,8",
+            "title": "La justicia caminada",
+            "quote": "Practicar la justicia, amar la misericordia y caminar humildemente.",
+            "text": "La dicha del Reino toma cuerpo en una forma humilde y compasiva de vivir."
+          },
+          {
+            "ref": "1 Co 1,27–29",
+            "title": "La debilidad elegida",
+            "quote": "Dios eligió lo débil del mundo para confundir a lo fuerte.",
+            "text": "La fragilidad ofrecida puede ser fecunda cuando deja de competir por el centro."
+          }
+        ],
+        "synthesis": "Dignidad recibida · humildad habitada · justicia compasiva · debilidad fecunda",
+        "question": "¿Qué llamo fracaso que Jesús podría estar llamando comienzo?",
+        "agendaTitle": "De la felicidad que se exhibe a una Bienaventuranza que se practica",
+        "agenda": [
+          {
+            "time": "00–08",
+            "title": "Escuchar",
+            "instruction": "Oír «El Reino empieza abajo» completa, sin explicarla todavía.",
+            "question": "¿Qué frase me atrae o me provoca resistencia?"
+          },
+          {
+            "time": "08–20",
+            "title": "Desmontar",
+            "instruction": "Completar dos carteles: «éxito según el mundo» / «dicha según Jesús».",
+            "question": "¿Qué idea de felicidad me gobierna sin darme cuenta?"
+          },
+          {
+            "time": "20–38",
+            "title": "Iluminar",
+            "instruction": "Leer Mt 5,1–12 por grupos: herida, promesa y camino de cada Bienaventuranza.",
+            "question": "¿Qué dolor no idealiza Jesús y qué futuro anuncia?"
+          },
+          {
+            "time": "38–58",
+            "title": "Elegir",
+            "instruction": "Elegir una Bienaventuranza como consuelo e incomodidad. Compartir sin compararse.",
+            "question": "¿Cuál me consuela y cuál me pide cambiar?"
+          },
+          {
+            "time": "58–70",
+            "title": "Bajar",
+            "instruction": "Concretar un gesto semanal de misericordia, paz o justicia. Terminar con oración.",
+            "question": "¿Qué gesto pequeño hará visible esta forma de felicidad?"
+          }
+        ],
+        "criterion": "No elogiar el sufrimiento ni convertir las Bienaventuranzas en una lista moral; escuchar una promesa y concretar un camino.",
+        "deckPublicPath": "assets/presentations/2026-02-01-el-reino-empieza-abajo.pptx"
+      },
       "gospel": {
         "blocks": [
           {
