@@ -51,7 +51,7 @@ const seasonColors = {
 };
 
 const app = document.querySelector("#app");
-const DATA_VERSION = "20260712-reunion-sin-hacer-ruido";
+const DATA_VERSION = "20260712-reunion-emaus";
 const calendarWeekdays = ["L", "M", "X", "J", "V", "S", "D"];
 const monthFormatter = new Intl.DateTimeFormat("es-ES", { month: "long", year: "numeric" });
 let toastTimer = null;
@@ -480,8 +480,8 @@ function renderMeeting(meeting) {
       <blockquote>${escapeHtml(meeting.key.quote)}</blockquote>
     </section>
     <section class="meeting-section">
-      <span class="section-eyebrow">Cuatro resonancias bíblicas</span>
-      <h4>Una misma intuición desde cuatro ángulos</h4>
+      <span class="section-eyebrow">${escapeHtml(meeting.resonancesEyebrow || "Cuatro resonancias bíblicas")}</span>
+      <h4>${escapeHtml(meeting.resonancesTitle || "Una misma intuición desde cuatro ángulos")}</h4>
       <div class="resonance-grid">
         ${meeting.resonances.map((item) => `
           <article><span class="scripture-ref">${escapeHtml(item.ref)}</span><h5>${escapeHtml(item.title)}</h5><q>${escapeHtml(item.quote)}</q><p>${escapeHtml(item.text)}</p></article>
@@ -492,7 +492,7 @@ function renderMeeting(meeting) {
     </section>
     <section class="meeting-section agenda-section">
       <span class="section-eyebrow">Propuesta de reunión · ${escapeHtml(meeting.duration)}</span>
-      <h4>Del ruido interior a una semilla concreta</h4>
+      <h4>${escapeHtml(meeting.agendaTitle || "Del ruido interior a una semilla concreta")}</h4>
       <ol class="meeting-agenda">
         ${meeting.agenda.map((item) => `
           <li><span class="agenda-time">${escapeHtml(item.time)}</span><div><h5>${escapeHtml(item.title)}</h5><p>${escapeHtml(item.instruction)}</p><p class="agenda-question">${escapeHtml(item.question)}</p></div></li>
