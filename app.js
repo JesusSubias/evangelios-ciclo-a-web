@@ -51,7 +51,7 @@ const seasonColors = {
 };
 
 const app = document.querySelector("#app");
-const DATA_VERSION = "20260712-reunion-samaritana";
+const DATA_VERSION = "20260712-reunion-bienaventuranzas";
 const calendarWeekdays = ["L", "M", "X", "J", "V", "S", "D"];
 const monthFormatter = new Intl.DateTimeFormat("es-ES", { month: "long", year: "numeric" });
 let toastTimer = null;
