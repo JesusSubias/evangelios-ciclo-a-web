@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T17:38:52.478784+00:00",
+  "generatedAt": "2026-07-13T18:27:48.823877+00:00",
   "cutoff": "2026-07-19",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "sourceNotice": "Texto biblico de trabajo: Reina-Valera 1909. La version liturgica oficial CEE 2010 no se reproduce completa sin fuente o licencia autorizada.",
@@ -3326,7 +3326,103 @@
         "publicPath": "assets/images/2026-03-15-iv-domingo-de-cuaresma-laetare.jpg"
       },
       "pastoral": "El ciego de nacimiento aprende a ver mientras otros, seguros de sí, se van quedando ciegos. Este Evangelio invita a revisar prejuicios, etiquetas y miradas que condenan antes de conocer. Jesús no pregunta de quién es la culpa, sino que abre futuro. Creer es dejarse lavar los ojos para mirar a las personas como Dios las mira.",
-      "meeting": null,
+      "meeting": {
+        "title": "Enséñame a mirar",
+        "subtitle": "Aprender a mirar de nuevo",
+        "duration": "70 minutos",
+        "key": {
+          "title": "Jesús ve a la persona y abre futuro",
+          "text": "El hombre pasa de ser explicado por otros a narrar con su propia voz lo que ha vivido; Jesús lo encuentra también cuando la comunidad lo expulsa.",
+          "quote": "Enséñame a mirar como miras Tú.",
+          "steps": [
+            {
+              "title": "Ver",
+              "text": "Jesús ve a un hombre; los discípulos ven una culpa que explicar. La pregunta cambia cuando aparece una persona concreta."
+            },
+            {
+              "title": "Abrir",
+              "text": "Jesús hace barro y lo envía a Siloé. El futuro comienza con un gesto recibido y una respuesta libre."
+            },
+            {
+              "title": "Nombrarse",
+              "text": "Los vecinos dudan incluso de su identidad; él responde «Yo soy» y cuenta lo que ha vivido con su propia voz."
+            },
+            {
+              "title": "Sostener",
+              "text": "Ante la presión, mantiene una verdad sencilla: «Antes no veía; ahora veo». No entrega su experiencia a la conclusión del grupo."
+            },
+            {
+              "title": "Encontrar",
+              "text": "Lo expulsan y Jesús sale a buscarlo. La mirada nueva culmina en un encuentro que reconoce, escucha y abre la fe."
+            }
+          ]
+        },
+        "resonancesEyebrow": "Cuatro claves para una mirada que reconoce",
+        "resonancesTitle": "Dios mira el corazón, llama por el nombre y permite conocer de nuevo",
+        "resonances": [
+          {
+            "ref": "1 Sam 16,7",
+            "title": "Mirar el corazón",
+            "quote": "El hombre mira las apariencias; el Señor mira el corazón.",
+            "text": "Dios no reduce a una persona a lo visible, esperado o recordado de ella."
+          },
+          {
+            "ref": "Is 43,1",
+            "title": "Llamar por el nombre",
+            "quote": "Te he llamado por tu nombre: tú eres mío.",
+            "text": "Antes de cualquier juicio, Dios reconoce una historia y devuelve pertenencia."
+          },
+          {
+            "ref": "1 Jn 4,20",
+            "title": "Ver al hermano",
+            "quote": "Quien no ama a su hermano, a quien ve, no puede amar a Dios.",
+            "text": "La fe se vuelve visible cuando escuchar a la persona importa más que ganar la discusión."
+          },
+          {
+            "ref": "2 Co 5,16–17",
+            "title": "Conocer de nuevo",
+            "quote": "Ya no conocemos a nadie según la carne… nueva criatura es.",
+            "text": "Cristo abre una mirada que no encierra a nadie en su pasado ni en una etiqueta."
+          }
+        ],
+        "synthesis": "Persona acogida · etiqueta cuestionada · voz recuperada · futuro abierto",
+        "question": "¿A quién estoy mirando más desde una etiqueta que desde su historia?",
+        "agendaTitle": "De la etiqueta rápida a una mirada que escucha",
+        "agenda": [
+          {
+            "time": "00–08",
+            "title": "Escuchar",
+            "instruction": "Oír «Enséñame a mirar» completa, sin explicarla todavía.",
+            "question": "¿Qué frase me invita a cambiar mi manera de mirar?"
+          },
+          {
+            "time": "08–20",
+            "title": "Observar",
+            "instruction": "Completar una tarjeta: «lo que veo» / «lo que supongo» / «lo que no sé».",
+            "question": "¿Dónde termina el dato y empieza mi interpretación?"
+          },
+          {
+            "time": "20–38",
+            "title": "Iluminar",
+            "instruction": "Leer Jn 9,1–41 en cinco escenas y seguir quién mira, quién habla y quién decide.",
+            "question": "¿Cómo recupera el hombre su voz a lo largo del relato?"
+          },
+          {
+            "time": "38–58",
+            "title": "Desmontar",
+            "instruction": "En tríos, transformar tres frases-etiqueta ficticias en preguntas que abran futuro.",
+            "question": "¿Qué pregunta permitiría conocer antes de juzgar?"
+          },
+          {
+            "time": "58–70",
+            "title": "Acercarse",
+            "instruction": "Cambiar un juicio por una pregunta y un gesto concreto de escucha. Compartir libremente y orar.",
+            "question": "¿A quién necesito dejar de explicar y empezar a escuchar?"
+          }
+        ],
+        "criterion": "No usar «ciego» o «ceguera» como insultos, no reducir la discapacidad a metáfora espiritual ni presentar la curación como medida del valor de una persona. Leer las consignas en voz alta, ofrecer texto amplio, trabajar con casos ficticios y permitir pasar.",
+        "deckPublicPath": "assets/presentations/2026-03-15-ensename-a-mirar.pptx"
+      },
       "gospel": {
         "blocks": [
           {
