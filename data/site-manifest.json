@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T05:13:06.932055+00:00",
+  "generatedAt": "2026-07-13T16:18:24.589445+00:00",
   "cutoff": "2026-07-19",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "sourceNotice": "Texto biblico de trabajo: Reina-Valera 1909. La version liturgica oficial CEE 2010 no se reproduce completa sin fuente o licencia autorizada.",
@@ -1041,7 +1041,103 @@
         "publicPath": "assets/images/2026-01-11-bautismo-del-senor.jpg"
       },
       "pastoral": "En el Bautismo, Jesús escucha antes de cualquier misión: 'Este es mi Hijo amado'. Es una noticia decisiva: el valor de una persona no depende de rendimiento, apariencia, reconocimiento o comparación. Antes de demostrar nada, Dios llama hijo. Vivir desde esa identidad libera del miedo y permite servir sin tener que ganarse constantemente el amor.",
-      "meeting": null,
+      "meeting": {
+        "title": "Soy tu hijo",
+        "subtitle": "Antes de hacer, antes de andar",
+        "duration": "70 minutos",
+        "key": {
+          "title": "Antes de hacer nada, eres hijo amado",
+          "text": "Jesús no comienza demostrando su valor: baja al agua con el pueblo y recibe la voz del Padre antes de la misión.",
+          "quote": "Soy tu hijo; en tu voz puedo descansar.",
+          "steps": [
+            {
+              "title": "Mezclarse",
+              "text": "Jesús llega al Jordán y se mezcla con el pueblo. El Hijo amado comienza abajo, a nuestro lado."
+            },
+            {
+              "title": "Bajar",
+              "text": "Juan se resiste, pero Jesús no utiliza su rango. La justicia de Dios toma forma de solidaridad."
+            },
+            {
+              "title": "Abrir",
+              "text": "Al salir del agua, el cielo se abre. Donde Jesús baja, Dios elimina la distancia."
+            },
+            {
+              "title": "Recibir",
+              "text": "Antes del desierto y la misión, Jesús escucha al Padre. Su identidad no depende del éxito ni de la aprobación."
+            },
+            {
+              "title": "Servir",
+              "text": "La voz recibida no crea privilegio ni superioridad. Quien se sabe amado puede servir sin competir."
+            }
+          ]
+        },
+        "resonancesEyebrow": "Cuatro dones para vivir desde la identidad de hijo",
+        "resonancesTitle": "Dios llama, sostiene, da su Espíritu y crea familia",
+        "resonances": [
+          {
+            "ref": "Is 43,1",
+            "title": "Dignidad recibida",
+            "quote": "Te he llamado por tu nombre: tú eres mío.",
+            "text": "La pertenencia precede a logros y errores: Dios nos llama por el nombre."
+          },
+          {
+            "ref": "Sal 2,7",
+            "title": "Una voz que nombra",
+            "quote": "Tú eres mi Hijo; yo te he engendrado hoy.",
+            "text": "La misión de Jesús nace de su relación con el Padre, no de demostrar su valor."
+          },
+          {
+            "ref": "Rom 8,15–16",
+            "title": "Espíritu de hijos",
+            "quote": "Habéis recibido un Espíritu de hijos que nos hace gritar: ¡Abba!",
+            "text": "Unidos a Cristo, no vivimos desde el miedo, sino desde la confianza."
+          },
+          {
+            "ref": "1 Jn 3,1",
+            "title": "Familia recibida",
+            "quote": "Mirad qué amor: nos llamamos hijos de Dios, y lo somos.",
+            "text": "La identidad filial no aísla: nos hace hermanos y responsables unos de otros."
+          }
+        ],
+        "synthesis": "Nombre recibido · voz que sostiene · Espíritu filial · fraternidad que sirve",
+        "question": "¿Qué cambia si dejo de ganarme el amor y empiezo a vivir desde él?",
+        "agendaTitle": "Del nombre que nos imponemos a la voz que nos sostiene",
+        "agenda": [
+          {
+            "time": "00–08",
+            "title": "Escuchar",
+            "instruction": "Oír «Soy tu hijo» completa, sin explicarla todavía.",
+            "question": "¿Qué frase me da descanso o me provoca resistencia?"
+          },
+          {
+            "time": "08–20",
+            "title": "Nombrar",
+            "instruction": "Tarjeta a dos caras: «lo que hago para valer» / «lo que necesito oír».",
+            "question": "¿Qué intento demostrar para sentir que merezco amor?"
+          },
+          {
+            "time": "20–38",
+            "title": "Iluminar",
+            "instruction": "Leer Mt 3,13–17 en tres voces y localizar cinco movimientos del relato.",
+            "question": "¿Qué sucede antes de que Jesús empiece su misión?"
+          },
+          {
+            "time": "38–58",
+            "title": "Discernir",
+            "instruction": "En tríos, contrastar tres voces: exigencia, comparación y Padre. Pasar es válido.",
+            "question": "¿Qué voz pesa más en mis decisiones?"
+          },
+          {
+            "time": "58–70",
+            "title": "Servir",
+            "instruction": "Elegir un servicio sin buscar reconocimiento. Orar junto a un cuenco de agua.",
+            "question": "¿Qué haré esta semana sin necesitar quedar por encima?"
+          }
+        ],
+        "criterion": "Compartir es libre; cuidar la historia familiar y convertir el amor recibido en fraternidad. Si la palabra «Padre» resulta dolorosa, ofrecer también «voz que bendice» o «amor que sostiene».",
+        "deckPublicPath": "assets/presentations/2026-01-11-soy-tu-hijo.pptx"
+      },
       "gospel": {
         "blocks": [
           {
