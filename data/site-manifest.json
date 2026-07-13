@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T19:16:56.376684+00:00",
+  "generatedAt": "2026-07-13T20:12:01.295643+00:00",
   "cutoff": "2026-07-19",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "sourceNotice": "Texto biblico de trabajo: Reina-Valera 1909. La version liturgica oficial CEE 2010 no se reproduce completa sin fuente o licencia autorizada.",
@@ -7584,7 +7584,103 @@
         "publicPath": "assets/images/2026-06-14-xi-domingo-del-tiempo-ordinario.png"
       },
       "pastoral": "Jesús mira a la gente cansada y se conmueve antes de enviar. La misión empieza con ojos capaces de detenerse: ver hijos donde otros ven masa, ver mies donde otros ven problema. El envío nace de la oración y se vive gratis, porque todo lo recibido de Dios se convierte en cuidado, palabra, curación y entrega.",
-      "meeting": null,
+      "meeting": {
+        "title": "Dame tus ojos",
+        "subtitle": "Mirar con compasión antes de actuar",
+        "duration": "70 minutos",
+        "key": {
+          "title": "Jesús ve el cansancio y nos llama a cuidar",
+          "text": "La misión comienza al escuchar: Jesús reconoce personas cansadas, se deja afectar, convoca una comunidad y convierte el don recibido en cuidado gratuito.",
+          "quote": "Dame tus ojos, Señor, dame tu forma de mirar.",
+          "steps": [
+            {
+              "title": "Ver",
+              "text": "Jesús ve personas cansadas y dispersas, no un problema que gestionar. La misión comienza cuando cada rostro importa."
+            },
+            {
+              "title": "Conmoverse",
+              "text": "La realidad le afecta: «tuvo compasión». No es lástima distante, sino cercanía responsable que reconoce dignidad y voz."
+            },
+            {
+              "title": "Rogar",
+              "text": "Antes de responder deprisa, invita a rogar al Señor de la mies. El grupo escucha, discierne y reconoce sus límites."
+            },
+            {
+              "title": "Llamar",
+              "text": "Jesús llama a los Doce antes de enviarlos. Nadie cuida solo: la misión distribuye dones, tareas y responsabilidad."
+            },
+            {
+              "title": "Dar",
+              "text": "«Gratis recibisteis; dad gratis». El don se vuelve servicio sin apropiarse de la historia, la decisión ni el protagonismo de otros."
+            }
+          ]
+        },
+        "resonancesEyebrow": "Cuatro formas bíblicas de cuidar",
+        "resonancesTitle": "Dios ve y oye, busca y reúne, se acerca y comparte dones",
+        "resonances": [
+          {
+            "ref": "Ex 3,7",
+            "title": "Ver y oír",
+            "quote": "He visto la aflicción de mi pueblo y he oído su clamor.",
+            "text": "Dios ve y escucha antes de actuar. La necesidad nunca borra la historia de quien la vive."
+          },
+          {
+            "ref": "Ez 34,11",
+            "title": "Buscar y reunir",
+            "quote": "Yo mismo buscaré mis ovejas y velaré por ellas.",
+            "text": "El cuidado busca a quienes están dispersos sin convertirlos en cifras ni hablar por ellos."
+          },
+          {
+            "ref": "Lc 10,33",
+            "title": "Cuidado que se acerca",
+            "quote": "Al verlo, se compadeció.",
+            "text": "La compasión se vuelve proximidad concreta, pregunta honesta y ayuda responsable."
+          },
+          {
+            "ref": "1 Pe 4,10",
+            "title": "Servir con el don",
+            "quote": "Ponga al servicio de los demás el don recibido.",
+            "text": "Nadie tiene que hacerlo todo: los dones compartidos hacen sostenible el cuidado."
+          }
+        ],
+        "synthesis": "Mirada atenta · compasión encarnada · comunidad llamada · don gratuito",
+        "question": "¿Qué necesidad intento resolver antes de haberla escuchado?",
+        "agendaTitle": "De la compasión recibida a un cuidado compartido",
+        "agenda": [
+          {
+            "time": "00–08",
+            "title": "Escuchar",
+            "instruction": "Oír «Dame tus ojos» completa, sin explicarla todavía.",
+            "question": "¿Qué frase cambia mi manera de acercarme a alguien?"
+          },
+          {
+            "time": "08–20",
+            "title": "Reconocer",
+            "instruction": "Mapa del entorno: «cansancio» / «ayuda existente» / «qué falta escuchar».",
+            "question": "¿Qué conozco de verdad y qué estoy suponiendo?"
+          },
+          {
+            "time": "20–38",
+            "title": "Iluminar",
+            "instruction": "Leer Mt 9,36–10,8 siguiendo: ver, compadecerse, rogar, llamar, enviar y dar.",
+            "question": "¿Qué hace Jesús antes de enviar y qué evita hacer solo?"
+          },
+          {
+            "time": "38–58",
+            "title": "Discernir",
+            "instruction": "En tríos, resolver un caso ficticio eligiendo entre ayudar, acompañar o derivar.",
+            "question": "¿Qué respuesta cuida sin sustituir la voz ni prometer más de lo posible?"
+          },
+          {
+            "time": "58–70",
+            "title": "Servir",
+            "instruction": "Elegir un gesto gratuito, compartido y con límites claros. Compartir libremente y orar.",
+            "question": "¿Qué cuidado concreto puedo sostener con otra persona esta semana?"
+          }
+        ],
+        "criterion": "Escuchar antes de ayudar; proteger consentimiento, confidencialidad y dignidad; no exponer historias ni imágenes; no prometer más de lo que el grupo puede sostener; derivar las necesidades urgentes o especializadas. Compartir y pasar son opciones válidas.",
+        "deckPublicPath": "assets/presentations/2026-06-14-dame-tus-ojos.pptx"
+      },
       "gospel": {
         "blocks": [
           {
