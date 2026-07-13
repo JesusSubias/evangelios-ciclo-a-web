@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T18:27:48.823877+00:00",
+  "generatedAt": "2026-07-13T19:16:56.376684+00:00",
   "cutoff": "2026-07-19",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "sourceNotice": "Texto biblico de trabajo: Reina-Valera 1909. La version liturgica oficial CEE 2010 no se reproduce completa sin fuente o licencia autorizada.",
@@ -6914,7 +6914,103 @@
         "publicPath": "assets/images/2026-05-24-domingo-de-pentecostes.jpg"
       },
       "pastoral": "Pentecostés nace en una sala cerrada por miedo. Jesús sopla Espíritu y transforma encierro en envío, culpa en perdón y tristeza en paz. El Espíritu no es una idea: es aliento para abrir puertas, reconciliar, crear comunidad y salir de sí. Allí donde parece que no hay fuerzas, Dios respira vida nueva.",
-      "meeting": null,
+      "meeting": {
+        "title": "Sopla en mí",
+        "subtitle": "Del encierro al envío",
+        "duration": "70 minutos",
+        "key": {
+          "title": "El Espíritu da paz y abre las puertas",
+          "text": "Jesús se pone en medio de una comunidad encerrada, devuelve la paz, comparte su aliento y le confía una misión de reconciliación.",
+          "quote": "Sopla en mí; hazme salir.",
+          "steps": [
+            {
+              "title": "Cerrar",
+              "text": "Las puertas cerradas protegen del miedo, pero el refugio pierde su sentido cuando roba horizonte y capacidad de encuentro."
+            },
+            {
+              "title": "Recibir",
+              "text": "Jesús se pone en medio y dice «Paz». Antes de pedir nada, devuelve relación a quienes permanecen juntos y asustados."
+            },
+            {
+              "title": "Respirar",
+              "text": "Sopla sobre ellos: «Recibid el Espíritu». Su aliento recrea lo que el miedo había paralizado y permite comenzar de nuevo."
+            },
+            {
+              "title": "Perdonar",
+              "text": "Confía a la comunidad el cuidado del perdón. Reconciliar exige verdad, justicia, límites seguros y procesos responsables."
+            },
+            {
+              "title": "Salir",
+              "text": "«Como el Padre me envió, así os envío yo». La paz recibida se hace presencia que escucha, sirve y abre futuro en el mundo."
+            }
+          ]
+        },
+        "resonancesEyebrow": "Cuatro dones del aliento de Dios",
+        "resonancesTitle": "El Espíritu crea, levanta, hace comprender y reconcilia",
+        "resonances": [
+          {
+            "ref": "Gen 2,7",
+            "title": "Aliento que crea",
+            "quote": "Alentó en su nariz soplo de vida.",
+            "text": "El Espíritu no añade simplemente una tarea: devuelve vida y capacidad de comenzar."
+          },
+          {
+            "ref": "Ez 37,9–10",
+            "title": "Aliento que levanta",
+            "quote": "Ven de los cuatro vientos, espíritu, y sopla…",
+            "text": "Dios convoca su aliento allí donde una comunidad se siente agotada y sin futuro."
+          },
+          {
+            "ref": "Hch 2,6",
+            "title": "Palabra que se entiende",
+            "quote": "Cada uno les oía hablar en su propia lengua.",
+            "text": "El Espíritu no uniforma las voces: hace posible que el Evangelio sea comprendido."
+          },
+          {
+            "ref": "2 Co 5,18",
+            "title": "Servicio que reconcilia",
+            "quote": "Nos dio el ministerio de la reconciliación.",
+            "text": "Ser enviados no es imponer: es servir una reconciliación con verdad, justicia y cuidado."
+          }
+        ],
+        "synthesis": "Aliento recibido · paz compartida · reconciliación cuidada · puertas abiertas",
+        "question": "¿Qué puerta necesito abrir para que la paz se vuelva presencia?",
+        "agendaTitle": "Del miedo compartido a una misión que escucha y reconcilia",
+        "agenda": [
+          {
+            "time": "00–08",
+            "title": "Escuchar",
+            "instruction": "Oír «Sopla en mí» completa, sin explicarla todavía.",
+            "question": "¿Qué frase nombra mi encierro y cuál me pone en camino?"
+          },
+          {
+            "time": "08–20",
+            "title": "Nombrar",
+            "instruction": "Completar una tarjeta: «qué protege» / «qué encierra» / «qué pide abrirse».",
+            "question": "¿Qué puerta fue cuidado y cuándo empezó a impedir la vida?"
+          },
+          {
+            "time": "20–38",
+            "title": "Iluminar",
+            "instruction": "Leer Jn 20,19–23 y seguir los verbos que llevan del miedo al envío.",
+            "question": "¿Qué hace Jesús antes de pedir a la comunidad que salga?"
+          },
+          {
+            "time": "38–58",
+            "title": "Ensayar",
+            "instruction": "En tríos, transformar una respuesta defensiva ficticia en escucha, límite seguro y gesto de paz.",
+            "question": "¿Cómo se abre una puerta sin negar la verdad ni el cuidado?"
+          },
+          {
+            "time": "58–70",
+            "title": "Salir",
+            "instruction": "Elegir una conversación o servicio fuera del círculo habitual. Compartir libremente y orar.",
+            "question": "¿Dónde puede hacerse visible esta semana la paz recibida?"
+          }
+        ],
+        "criterion": "No forzar relatos personales ni ejercicios de respiración. Perdonar no significa olvidar, tolerar abusos o volver a una relación insegura; verdad, justicia, límites y protección también cuidan la paz. Pasar es válido.",
+        "deckPublicPath": "assets/presentations/2026-05-24-sopla-en-mi.pptx"
+      },
       "gospel": {
         "blocks": [
           {
