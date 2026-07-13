@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T03:40:04.731017+00:00",
+  "generatedAt": "2026-07-13T05:13:06.932055+00:00",
   "cutoff": "2026-07-19",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "sourceNotice": "Texto biblico de trabajo: Reina-Valera 1909. La version liturgica oficial CEE 2010 no se reproduce completa sin fuente o licencia autorizada.",
@@ -5162,7 +5162,103 @@
         "publicPath": "assets/images/2026-04-12-ii-domingo-de-pascua-o-de-la-divina-misericordia.jpg"
       },
       "pastoral": "Jesús entra en una casa cerrada por miedo y ofrece paz, no reproche. Tomás enseña que las dudas pueden convertirse en lugar de encuentro cuando se llevan ante Cristo. Este Evangelio dice que la fe no exige fingir seguridad: permite tocar heridas, recibir Espíritu y descubrir que la comunidad es el espacio donde el Resucitado vuelve a ponerse en medio.",
-      "meeting": null,
+      "meeting": {
+        "title": "En medio",
+        "subtitle": "Puertas cerradas, heridas y paz",
+        "duration": "70 minutos",
+        "key": {
+          "title": "Jesús entra en medio y nos devuelve la paz",
+          "text": "El Resucitado no humilla el miedo ni exige una fe fingida: entra, muestra sus heridas, acoge la duda y transforma el refugio en misión.",
+          "quote": "En medio del miedo viniste a habitar.",
+          "steps": [
+            {
+              "title": "Encierro",
+              "text": "Las puertas están cerradas y el miedo reúne al grupo. La protección termina convirtiéndose en una vida sin horizonte."
+            },
+            {
+              "title": "Presencia",
+              "text": "Jesús se pone en medio sin esperar que abran. Su primera palabra no acusa ni reprocha: «Paz a vosotros»."
+            },
+            {
+              "title": "Heridas",
+              "text": "Muestra las manos y el costado. La Pascua no borra la herida: la transforma en lugar de encuentro y memoria de amor."
+            },
+            {
+              "title": "Duda",
+              "text": "Tomás necesita ver y tocar; Jesús vuelve por él. La duda honesta no expulsa: puede convertirse en camino hacia la fe."
+            },
+            {
+              "title": "Envío",
+              "text": "El Resucitado sopla el Espíritu y confía el perdón. La paz recibida abre puertas y devuelve la comunidad al mundo."
+            }
+          ]
+        },
+        "resonancesEyebrow": "Cuatro gestos del Resucitado",
+        "resonancesTitle": "Jesús entra, muestra, vuelve y envía",
+        "resonances": [
+          {
+            "ref": "Jn 20,19",
+            "title": "Paz en el encierro",
+            "quote": "Con las puertas cerradas, se puso en medio y dijo: Paz.",
+            "text": "Jesús entra donde el miedo ha encerrado a la comunidad; no espera que primero sea valiente."
+          },
+          {
+            "ref": "Jn 20,20",
+            "title": "Heridas que hablan",
+            "quote": "Les mostró las manos y el costado.",
+            "text": "Las llagas no desaparecen: se vuelven memoria de un amor que permanece y puede ser reconocido."
+          },
+          {
+            "ref": "Jn 20,24–27",
+            "title": "Una duda acogida",
+            "quote": "Trae tu mano… y no seas incrédulo, sino creyente.",
+            "text": "Jesús vuelve por Tomás, se adapta a su paso y no lo aparta del grupo por necesitar un camino propio."
+          },
+          {
+            "ref": "Jn 20,21–23",
+            "title": "Paz que envía",
+            "quote": "Como el Padre me ha enviado, así también os envío yo.",
+            "text": "El Espíritu transforma el refugio en una comunidad de perdón, reconciliación y misión."
+          }
+        ],
+        "synthesis": "Miedo atravesado · paz recibida · duda acogida · heridas que envían",
+        "question": "¿Qué puerta mantengo cerrada por miedo y qué paz necesito recibir?",
+        "agendaTitle": "De las puertas cerradas a una comunidad que vuelve a respirar",
+        "agenda": [
+          {
+            "time": "00–08",
+            "title": "Escuchar",
+            "instruction": "Oír «En medio» completa, sin explicarla todavía.",
+            "question": "¿Qué frase nombra el miedo o la esperanza con que llego hoy?"
+          },
+          {
+            "time": "08–20",
+            "title": "Nombrar",
+            "instruction": "En una puerta de papel, escribir: «lo que me protege» / «lo que me encierra».",
+            "question": "¿Qué miedo ha empezado a decidir por mí?"
+          },
+          {
+            "time": "20–38",
+            "title": "Iluminar",
+            "instruction": "Leer Jn 20,19–31 en dos escenas: la comunidad sin Tomás / con Tomás.",
+            "question": "¿Qué hace Jesús con el miedo, las heridas y la duda?"
+          },
+          {
+            "time": "38–58",
+            "title": "Acoger",
+            "instruction": "En tríos, compartir una duda posible. Escuchar sin corregir ni responder deprisa.",
+            "question": "¿Qué necesita una comunidad para que yo pueda dudar sin marcharme?"
+          },
+          {
+            "time": "58–70",
+            "title": "Enviar",
+            "instruction": "Entreabrir la puerta y escribir un gesto concreto de paz o reconciliación. Terminar con oración.",
+            "question": "¿A qué vínculo o lugar me envía hoy la paz de Jesús?"
+          }
+        ],
+        "criterion": "No ridiculizar la duda ni exponer heridas; acoger el miedo, respetar límites necesarios y concretar una paz posible.",
+        "deckPublicPath": "assets/presentations/2026-04-12-en-medio.pptx"
+      },
       "gospel": {
         "blocks": [
           {
