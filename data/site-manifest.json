@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T15:19:25.370140+00:00",
+  "generatedAt": "2026-07-13T03:40:04.731017+00:00",
   "cutoff": "2026-07-19",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "sourceNotice": "Texto biblico de trabajo: Reina-Valera 1909. La version liturgica oficial CEE 2010 no se reproduce completa sin fuente o licencia autorizada.",
@@ -3487,7 +3487,103 @@
         "publicPath": "assets/images/2026-03-22-v-domingo-de-cuaresma.jpg"
       },
       "pastoral": "Ante Lázaro, Jesús no ofrece una esperanza fría: llora, se acerca y llama por el nombre. Este Evangelio anuncia que la última palabra no la tienen la pérdida, el cansancio ni las zonas interiores bloqueadas. Jesús pide quitar piedras, salir fuera y dejarse desatar; la resurrección empieza cuando su voz entra donde creíamos que ya no había vida.",
-      "meeting": null,
+      "meeting": {
+        "title": "Yo soy la Resurrección",
+        "subtitle": "Del sepulcro cerrado a una vida que vuelve a ponerse en camino",
+        "duration": "70 minutos",
+        "key": {
+          "title": "Jesús llora y llama a salir hacia la vida",
+          "text": "La resurrección no borra el duelo: entra en él, pronuncia un nombre y abre un camino que necesita comunidad.",
+          "quote": "Sal fuera: no estás hecho para morir.",
+          "steps": [
+            {
+              "title": "Espera",
+              "text": "Jesús tarda y el dolor abre preguntas honestas. La fe no oculta el reproche: «¿por qué no viniste?»."
+            },
+            {
+              "title": "Encuentro",
+              "text": "Marta sale con una fe que duele y todavía espera. Jesús no exige silencio: pregunta «¿crees esto?»."
+            },
+            {
+              "title": "Lágrimas",
+              "text": "Jesús llora ante la tumba y se conmueve con todos. La esperanza cristiana no mira el dolor desde lejos."
+            },
+            {
+              "title": "Llamada",
+              "text": "La piedra se retira y Jesús llama por su nombre. «Sal fuera» llega adonde ya no esperábamos vida."
+            },
+            {
+              "title": "Desatar",
+              "text": "Lázaro sale aún vendado y la comunidad debe ayudar. La vida nueva necesita vínculos que den libertad."
+            }
+          ]
+        },
+        "resonancesEyebrow": "Cuatro promesas para atravesar el duelo",
+        "resonancesTitle": "Dios escucha, nombra, abre y desata",
+        "resonances": [
+          {
+            "ref": "Sal 130,1–5",
+            "title": "El grito que espera",
+            "quote": "De los profundos clamo a ti… mi alma espera en su palabra.",
+            "text": "La fe puede hablar desde el fondo sin fingir que ya ve la salida."
+          },
+          {
+            "ref": "Is 43,1",
+            "title": "El nombre que rescata",
+            "quote": "No temas: te puse nombre, mío eres tú.",
+            "text": "Dios no llama a una idea ni a un caso: pronuncia un nombre y restituye pertenencia."
+          },
+          {
+            "ref": "Ez 37,12–14",
+            "title": "Sepulcros abiertos",
+            "quote": "Yo abro vuestros sepulcros… pondré mi espíritu en vosotros, y viviréis.",
+            "text": "La promesa no niega la muerte: anuncia que el Espíritu puede abrir lo cerrado."
+          },
+          {
+            "ref": "Jn 11,44",
+            "title": "La vida se desata",
+            "quote": "Desatadle, y dejadle ir.",
+            "text": "Jesús devuelve la vida y encarga a la comunidad quitar las vendas que aún limitan."
+          }
+        ],
+        "synthesis": "Grito escuchado · duelo compartido · nombre pronunciado · vida desatada",
+        "question": "¿Qué parte de mi vida doy por cerrada y necesita volver a oír su nombre?",
+        "agendaTitle": "Del sepulcro cerrado a una vida que vuelve a ponerse en camino",
+        "agenda": [
+          {
+            "time": "00–08",
+            "title": "Escuchar",
+            "instruction": "Oír «Yo soy la Resurrección» completa, sin explicarla todavía.",
+            "question": "¿Qué frase nombra mejor el lugar desde el que llego hoy?"
+          },
+          {
+            "time": "08–20",
+            "title": "Nombrar",
+            "instruction": "Tomar una piedra y escribir, sin detalles: «lo que pesa» / «lo que impide salir».",
+            "question": "¿Qué he dejado de mirar porque lo doy por perdido?"
+          },
+          {
+            "time": "20–38",
+            "title": "Iluminar",
+            "instruction": "Leer Jn 11,1–44 por escenas: espera, queja, lágrimas, piedra, llamada y vendas.",
+            "question": "¿Qué hace Jesús antes de decir «sal fuera»?"
+          },
+          {
+            "time": "38–58",
+            "title": "Desatar",
+            "instruction": "En tríos, nombrar una ayuda concreta. Escuchar sin aconsejar ni interpretar.",
+            "question": "¿Qué venda no puedo quitarme a solas?"
+          },
+          {
+            "time": "58–70",
+            "title": "Salir",
+            "instruction": "Mover la piedra y escribir un primer paso posible. Compartirlo libremente y orar.",
+            "question": "¿Qué gesto pequeño puede abrir hoy un camino de vida?"
+          }
+        ],
+        "criterion": "No prometer soluciones rápidas ni forzar relatos íntimos; honrar las lágrimas, escuchar la llamada y pedir una ayuda concreta.",
+        "deckPublicPath": "assets/presentations/2026-03-22-yo-soy-la-resurreccion.pptx"
+      },
       "gospel": {
         "blocks": [
           {
