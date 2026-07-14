@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T15:52:20.493791+00:00",
+  "generatedAt": "2026-07-14T17:12:22.927754+00:00",
   "cutoff": "2026-07-19",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "sourceNotice": "Texto biblico de trabajo: Reina-Valera 1909. La version liturgica oficial CEE 2010 no se reproduce completa sin fuente o licencia autorizada.",
@@ -4462,7 +4462,103 @@
         "publicPath": "assets/images/2026-03-29-domingo-de-ramos-en-la-pasion-del-senor.jpg"
       },
       "pastoral": "Ramos muestra lo fácil que es pasar del entusiasmo de la multitud al abandono de la cruz. La Pasión pregunta qué tipo de seguimiento elegimos cuando la fe deja de ser celebrada o cómoda. Jesús no salva desde el espectáculo, sino desde un amor fiel hasta el extremo. Seguirle es aprender una coherencia que no depende del aplauso.",
-      "meeting": null,
+      "meeting": {
+        "title": "Hosanna",
+        "subtitle": "Del aplauso a la fidelidad que permanece",
+        "duration": "70 minutos",
+        "key": {
+          "title": "El aplauso pasa; su amor permanece",
+          "text": "Jesús entra como rey humilde y, cuando la multitud se dispersa, no cambia el servicio por el dominio ni el amor por la violencia. Seguirle es elegir una fidelidad concreta que cuida la verdad, los límites y la vida.",
+          "quote": "Que este canto no muera cuando llegue el dolor.",
+          "steps": [
+            {
+              "title": "Aclamar",
+              "text": "La ciudad recibe a Jesús con mantos y palmas. El entusiasmo puede abrir el corazón, aunque todavía no comprenda todo el camino."
+            },
+            {
+              "title": "Descolocar",
+              "text": "Llega en un borrico, sin imponer su poder. Su realeza sirve, se acerca y renuncia a dominar."
+            },
+            {
+              "title": "Velar",
+              "text": "En Getsemaní pide compañía y oración. La fidelidad comienza al permanecer despiertos junto a la fragilidad."
+            },
+            {
+              "title": "Elegir",
+              "text": "Cuando llega el miedo, los discípulos huyen y Pedro niega. Seguir deja de ser ambiente y se convierte en una elección."
+            },
+            {
+              "title": "Permanecer",
+              "text": "Jesús no responde al odio con violencia. Su amor permanece hasta el extremo sin convertir el daño en un valor."
+            }
+          ]
+        },
+        "resonancesEyebrow": "Cuatro resonancias para una fidelidad que no depende del ambiente",
+        "resonancesTitle": "La realeza de Jesús no domina ni depende del aplauso",
+        "resonances": [
+          {
+            "ref": "Zac 9,9",
+            "title": "Rey sin dominar",
+            "quote": "Mira a tu rey, humilde y montado en un borrico.",
+            "text": "Jesús cumple la promesa sin exhibir fuerza: entra desarmado y pone su poder al servicio."
+          },
+          {
+            "ref": "Sal 118,25–26",
+            "title": "Hosanna que ora",
+            "quote": "Señor, danos la salvación. Bendito el que viene.",
+            "text": "La aclamación pide salvación y pregunta si seguirá siendo oración cuando cambie el ambiente."
+          },
+          {
+            "ref": "Flp 2,6–8",
+            "title": "Amor que se abaja",
+            "quote": "Se despojó de sí mismo y se hizo obediente hasta la muerte.",
+            "text": "Jesús no se aferra al rango: convierte su libertad en entrega, sin justificar abuso ni violencia."
+          },
+          {
+            "ref": "2 Tim 2,13",
+            "title": "Fidelidad que permanece",
+            "quote": "Si somos infieles, él permanece fiel.",
+            "text": "Nuestra inconstancia no cancela el amor de Dios: su fidelidad sostiene conversión y regreso."
+          }
+        ],
+        "synthesis": "Realeza humilde · oración sincera · amor entregado · fidelidad que sostiene",
+        "question": "¿Qué queda de mi seguimiento cuando desaparecen la emoción y el reconocimiento?",
+        "agendaTitle": "Del entusiasmo a una fidelidad concreta",
+        "agenda": [
+          {
+            "time": "00–08",
+            "title": "Escuchar",
+            "instruction": "Oír «Hosanna» completa, sin explicarla todavía.",
+            "question": "¿Qué frase une la aclamación con la fidelidad?"
+          },
+          {
+            "time": "08–20",
+            "title": "Contrastar",
+            "instruction": "Tarjeta opcional: «cuando seguir es fácil» / «cuando permanecer cuesta».",
+            "question": "¿Qué cambia en mí cuando ya no hay aprobación ni entusiasmo?"
+          },
+          {
+            "time": "20–38",
+            "title": "Iluminar",
+            "instruction": "Leer Mt 21,1–11 y tres escenas: Mt 26,36–46; 26,69–75; 27,45–54.",
+            "question": "¿Qué revela cada escena sobre Jesús y quienes le siguen?"
+          },
+          {
+            "time": "38–58",
+            "title": "Discernir",
+            "instruction": "En tríos, elegir ante casos ficticios: aplauso, huida, fidelidad con límites o pedir ayuda.",
+            "question": "¿Qué es fidelidad y qué sería miedo, sumisión o daño?"
+          },
+          {
+            "time": "58–70",
+            "title": "Permanecer",
+            "instruction": "Elegir un gesto silencioso de verdad, servicio, oración o apoyo. Compartir libremente y orar.",
+            "question": "¿Qué fidelidad concreta puedo sostener esta semana?"
+          }
+        ],
+        "criterion": "No dramatizar la violencia ni glorificar sufrimiento, sumisión o aguante. Ser fiel puede exigir verdad, límites, distancia, protección y ayuda. No forzar lecturas ni relatos personales; ante abuso, trauma o riesgo, priorizar seguridad y ayuda especializada. Compartir y pasar son opciones válidas.",
+        "deckPublicPath": "assets/presentations/2026-03-29-hosanna.pptx"
+      },
       "gospel": {
         "blocks": [
           {
