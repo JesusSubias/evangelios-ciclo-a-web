@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T22:02:33.954850+00:00",
+  "generatedAt": "2026-07-14T22:53:37.805500+00:00",
   "cutoff": "2026-07-19",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "sourceNotice": "Texto biblico de trabajo: Reina-Valera 1909. La version liturgica oficial CEE 2010 no se reproduce completa sin fuente o licencia autorizada.",
@@ -366,7 +366,103 @@
         "publicPath": "assets/images/2025-12-14-iii-domingo-de-adviento-gaudete.jpg"
       },
       "pastoral": "La pregunta de Juan desde la cárcel enseña que dudar no es lo contrario de creer: puede ser una forma honrada de buscar a Jesús. La respuesta no es una teoría, sino signos de vida: los heridos son levantados y los pobres reciben noticia buena. La fe madura cuando aprende a reconocer a Cristo en gestos que curan, liberan y devuelven dignidad.",
-      "meeting": null,
+      "meeting": {
+        "title": "En medio de vosotros",
+        "subtitle": "Creer atravesando la duda",
+        "duration": "70 minutos",
+        "key": {
+          "title": "La duda pregunta; Jesús muestra signos",
+          "text": "Juan pregunta desde la prisión si Jesús es realmente el que debía venir. Jesús no lo avergüenza ni le entrega una certeza abstracta: remite a lo que sus discípulos oyen y ven, signos concretos de vida restaurada y Buena Noticia para los pobres.",
+          "quote": "Entre dudas y preguntas, entre prisas y ansiedad.",
+          "steps": [
+            {
+              "title": "Dudar",
+              "text": "Juan pregunta desde la oscuridad de la prisión. Su duda no borra su deseo de verdad ni la misión que ha recibido."
+            },
+            {
+              "title": "Preguntar",
+              "text": "Envía a dos discípulos: «¿Eres tú el que ha de venir?». Lo que inquieta deja de esconderse y se vuelve diálogo."
+            },
+            {
+              "title": "Mirar",
+              "text": "Jesús señala lo que ellos oyen y ven. La fe no cierra los ojos: aprende a reconocer signos concretos de vida."
+            },
+            {
+              "title": "Discernir",
+              "text": "Los heridos recobran vida y dignidad, y los pobres reciben Buena Noticia. Ese fruto revela el estilo del Mesías."
+            },
+            {
+              "title": "Permanecer",
+              "text": "«Dichoso quien no se escandalice de mí». Después, Jesús elogia a Juan: la pregunta no borra su identidad de profeta."
+            }
+          ]
+        },
+        "resonancesEyebrow": "Cuatro caminos bíblicos para una fe que no esconde sus preguntas",
+        "resonancesTitle": "La duda entra en la oración, recuerda la promesa, pide ayuda y discierne",
+        "resonances": [
+          {
+            "ref": "Sal 77,8–12",
+            "title": "Pregunta que ora",
+            "quote": "¿Se ha agotado para siempre su misericordia?",
+            "text": "La duda puede hablar ante Dios y recordar sus obras sin fingir certezas."
+          },
+          {
+            "ref": "Is 35,5–6",
+            "title": "Promesa visible",
+            "quote": "Se abrirán los ojos de los ciegos y los oídos de los sordos.",
+            "text": "Los signos que Jesús enumera realizan la promesa: la esperanza toma cuerpo en vidas restauradas."
+          },
+          {
+            "ref": "Mc 9,24",
+            "title": "Fe que pide ayuda",
+            "quote": "Creo; ayuda mi falta de fe.",
+            "text": "La fe sincera no oculta su fragilidad: la convierte en petición y relación."
+          },
+          {
+            "ref": "1 Tes 5,21",
+            "title": "Confianza que discierne",
+            "quote": "Examinadlo todo; quedaos con lo bueno.",
+            "text": "Creer no es credulidad: contrasta frutos, conserva el bien y no desprecia la verdad."
+          }
+        ],
+        "synthesis": "Duda nombrada · pregunta compartida · signos reconocidos · confianza acompañada",
+        "question": "¿Qué duda necesita hoy una pregunta honesta y qué signos puedo aprender a mirar?",
+        "agendaTitle": "De la duda escondida a una confianza acompañada",
+        "agenda": [
+          {
+            "time": "00–08",
+            "title": "Escuchar",
+            "instruction": "Oír «En medio de vosotros» completa, sin explicarla todavía.",
+            "question": "¿Qué frase nombra mejor la cercanía o la ausencia que percibo?"
+          },
+          {
+            "time": "08–20",
+            "title": "Nombrar",
+            "instruction": "Tarjeta opcional: «lo que esperaba» / «lo que realmente veo» / «la pregunta que queda».",
+            "question": "¿Qué distancia hay entre mi expectativa y los signos que tengo delante?"
+          },
+          {
+            "time": "20–38",
+            "title": "Iluminar",
+            "instruction": "Leer Mt 11,2–11 y seguir: oír, enviar, preguntar, contar, ver y no escandalizarse.",
+            "question": "¿Qué hace Jesús con la duda de Juan y qué evita hacer?"
+          },
+          {
+            "time": "38–58",
+            "title": "Discernir",
+            "instruction": "En tríos, contrastar tres respuestas ficticias: consuelo vacío, respuesta prematura o signo de vida realista.",
+            "question": "¿Qué respuesta acompaña sin negar la duda ni ofrecer certezas fáciles?"
+          },
+          {
+            "time": "58–70",
+            "title": "Confiar",
+            "instruction": "Elegir una práctica: preguntar, escuchar, buscar un signo o hablar con alguien. Compartir libremente y orar.",
+            "question": "¿Qué paso me deja caminar sin fingir que la duda ha desaparecido?"
+          }
+        ],
+        "criterion": "No ridiculizar la duda ni forzar respuestas. Un signo de vida no borra una pérdida ni demuestra que todo se resolverá. No interpretar depresión, trauma o crisis como falta de fe; respetar el silencio, la opción de pasar y pedir ayuda profesional cuando haga falta.",
+        "deckPublicPath": "assets/presentations/2025-12-14-en-medio-de-vosotros.pptx"
+      },
       "gospel": {
         "blocks": [
           {
