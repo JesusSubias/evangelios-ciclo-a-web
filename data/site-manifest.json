@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T17:12:22.927754+00:00",
+  "generatedAt": "2026-07-14T22:02:33.954850+00:00",
   "cutoff": "2026-07-19",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "sourceNotice": "Texto biblico de trabajo: Reina-Valera 1909. La version liturgica oficial CEE 2010 no se reproduce completa sin fuente o licencia autorizada.",
@@ -6816,7 +6816,103 @@
         "publicPath": "assets/images/2026-05-03-v-domingo-de-pascua.jpg"
       },
       "pastoral": "Cuando los discípulos están inquietos, Jesús no ofrece un mapa completo, sino una relación: 'Yo soy el camino, la verdad y la vida'. Este Evangelio enseña a caminar paso a paso con Cristo en medio de incertidumbres, búsquedas y decisiones. La verdad cristiana no aplasta preguntas: se hace camino habitable y vida compartida.",
-      "meeting": null,
+      "meeting": {
+        "title": "Camino, Verdad y Vida",
+        "subtitle": "Caminar sin tener todo el mapa",
+        "duration": "70 minutos",
+        "key": {
+          "title": "Jesús no entrega un mapa: se ofrece como camino",
+          "text": "En una despedida que turba el corazón, Jesús acoge las preguntas, revela el rostro del Padre y abre un camino que se reconoce en sus obras y se recorre con libertad.",
+          "quote": "No me das un mapa; me regalas tu vida.",
+          "steps": [
+            {
+              "title": "Turbarse",
+              "text": "El futuro incierto puede turbar el corazón. Jesús no ridiculiza el miedo ni convierte la duda en fracaso espiritual."
+            },
+            {
+              "title": "Preguntar",
+              "text": "Tomás admite que no sabe adónde va Jesús. La pregunta honesta abre una relación más verdadera que fingir certeza."
+            },
+            {
+              "title": "Reconocer",
+              "text": "Jesús revela al Padre con palabras y obras. La verdad cristiana no es una consigna: tiene rostro y puede habitarse."
+            },
+            {
+              "title": "Confiar",
+              "text": "«Creed también en mí». Su presencia va delante, pero confiar no elimina prudencia, libertad, consejo ni responsabilidad."
+            },
+            {
+              "title": "Obrar",
+              "text": "Quien cree continúa las obras de Jesús. El siguiente paso se vuelve camino cuando produce verdad, dignidad y vida."
+            }
+          ]
+        },
+        "resonancesEyebrow": "Cuatro modos bíblicos de caminar sin controlar el final",
+        "resonancesTitle": "Dios llama, camina delante, enseña y sostiene la mirada",
+        "resonances": [
+          {
+            "ref": "Gen 12,1",
+            "title": "Salir sin ver",
+            "quote": "Sal de tu tierra hacia la tierra que yo te mostraré.",
+            "text": "Abrán recibe llamada y promesa, no un itinerario completo. La fe comienza con un paso confiado."
+          },
+          {
+            "ref": "Ex 13,21",
+            "title": "Presencia que guía",
+            "quote": "El Señor caminaba delante de ellos para guiarlos.",
+            "text": "Dios no se limita a señalar una dirección: su presencia acompaña de día y de noche."
+          },
+          {
+            "ref": "Sal 25,4–5",
+            "title": "Caminos que se aprenden",
+            "quote": "Señor, enséñame tus caminos; instrúyeme en tus sendas.",
+            "text": "La oración no exige control: pide aprender la verdad de Dios mientras se avanza."
+          },
+          {
+            "ref": "Heb 12,2",
+            "title": "Mirada puesta en Jesús",
+            "quote": "Corramos con constancia, fijos los ojos en Jesús.",
+            "text": "El camino cristiano no depende de un plan perfecto: persevera mirando a Jesús y caminando en comunidad."
+          }
+        ],
+        "synthesis": "Llamada acogida · presencia delante · verdad aprendida · paso perseverante",
+        "question": "¿Qué decisión necesita hoy menos control y un siguiente paso más verdadero?",
+        "agendaTitle": "Del corazón turbado al siguiente paso posible",
+        "agenda": [
+          {
+            "time": "00–08",
+            "title": "Escuchar",
+            "instruction": "Oír «Camino, Verdad y Vida» completa, sin explicarla todavía.",
+            "question": "¿Qué frase nombra mejor mi necesidad de certeza o de compañía?"
+          },
+          {
+            "time": "08–20",
+            "title": "Orientarse",
+            "instruction": "Tarjeta opcional: «lo que necesito controlar» / «lo que sí puedo cuidar hoy».",
+            "question": "¿Qué incertidumbre me turba y qué parte no necesito resolver todavía?"
+          },
+          {
+            "time": "20–38",
+            "title": "Iluminar",
+            "instruction": "Leer Jn 14,1–12 y marcar: turbarse, creer, preparar, preguntar, conocer, ver y hacer.",
+            "question": "¿Cómo responde Jesús a la petición de ruta y de certeza?"
+          },
+          {
+            "time": "38–58",
+            "title": "Discernir",
+            "instruction": "En tríos, aplicar Camino, Verdad y Vida a tres encrucijadas ficticias.",
+            "question": "¿Qué opción puede caminarse con honestidad, dignidad y fruto de vida?"
+          },
+          {
+            "time": "58–70",
+            "title": "Caminar",
+            "instruction": "Elegir un siguiente paso y quién puede acompañarlo. Compartir libremente y orar.",
+            "question": "¿Cuál es el siguiente paso posible sin fingir que veo el final?"
+          }
+        ],
+        "criterion": "No forzar decisiones ni confidencias. Confiar no anula prudencia, libertad o consentimiento. Ante salud, seguridad, economía o relaciones de control, pedir ayuda competente. Compartir y pasar son opciones válidas.",
+        "deckPublicPath": "assets/presentations/2026-05-03-camino-verdad-y-vida.pptx"
+      },
       "gospel": {
         "blocks": [
           {
