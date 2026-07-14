@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T04:21:10.517407+00:00",
+  "generatedAt": "2026-07-14T09:44:57.782736+00:00",
   "cutoff": "2026-07-19",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "sourceNotice": "Texto biblico de trabajo: Reina-Valera 1909. La version liturgica oficial CEE 2010 no se reproduce completa sin fuente o licencia autorizada.",
@@ -7470,7 +7470,103 @@
         "publicPath": "assets/images/2026-06-07-santisimo-cuerpo-y-sangre-de-cristo.jpg"
       },
       "pastoral": "En el Corpus, Jesús no se queda como idea admirable: se hace pan, comida, vida entregada. La Eucaristía enseña que el amor verdadero se parte y se comparte. Comulgar no es solo recibir consuelo individual, sino dejarse transformar en cuerpo ofrecido para otros: mesa abierta, presencia concreta y servicio donde hay hambre de sentido y de cuidado.",
-      "meeting": null,
+      "meeting": {
+        "title": "Te haces Pan",
+        "subtitle": "Recibir la vida de Jesús para compartirla",
+        "duration": "70 minutos",
+        "key": {
+          "title": "Recibir el Pan nos hace cuerpo",
+          "text": "Jesús se entrega como Pan vivo: recibirlo, permanecer en él y participar de un mismo pan nos incorpora a un cuerpo cuya comunión se convierte en cuidado concreto.",
+          "quote": "Me haces pan para mis hermanos.",
+          "steps": [
+            {
+              "title": "Hambre",
+              "text": "Nombrar el hambre propia abre espacio para recibir. No hace falta esconderla ni resolverla en soledad."
+            },
+            {
+              "title": "Recibir",
+              "text": "Jesús se entrega como don y alimento. Comulgar no es premio al rendimiento ni autosuficiencia."
+            },
+            {
+              "title": "Permanecer",
+              "text": "«Permanece en mí»: la mesa inaugura una relación cuya presencia sostiene la vida de cada semana."
+            },
+            {
+              "title": "Hacer cuerpo",
+              "text": "Un mismo pan reúne a quienes son distintos. La comunión rompe la lógica de cada cual por su cuenta."
+            },
+            {
+              "title": "Compartir",
+              "text": "La vida recibida se vuelve presencia y servicio, con consentimiento, autonomía y límites."
+            }
+          ]
+        },
+        "resonancesEyebrow": "Cuatro movimientos de una mesa que se vuelve cuidado",
+        "resonancesTitle": "El don se recibe, se reconoce, crea cuerpo y alcanza la necesidad concreta",
+        "resonances": [
+          {
+            "ref": "Ex 16,18",
+            "title": "Pan para todos",
+            "quote": "Al que mucho recogió no le sobró, y al que poco no le faltó.",
+            "text": "El maná se recibe cada día y educa en suficiencia: el don pierde sentido cuando se acumula."
+          },
+          {
+            "ref": "Lc 24,30–31",
+            "title": "Pan que revela",
+            "quote": "Tomó el pan, lo bendijo, lo partió y se lo dio.",
+            "text": "Jesús se deja reconocer en una mesa que acoge, agradece, parte y entrega."
+          },
+          {
+            "ref": "1 Cor 10,16–17",
+            "title": "Un solo cuerpo",
+            "quote": "Siendo muchos, somos un solo cuerpo: todos participamos de un solo pan.",
+            "text": "La comunión no borra diferencias: crea pertenencia y responsabilidad mutua."
+          },
+          {
+            "ref": "Is 58,7",
+            "title": "Culto que alimenta",
+            "quote": "Partir tu pan con el hambriento.",
+            "text": "El culto alcanza su verdad cuando toca el cuerpo y responde a una necesidad concreta."
+          }
+        ],
+        "synthesis": "Don recibido · presencia que permanece · un solo cuerpo · cuidado concreto",
+        "question": "¿Qué recibo de Jesús y cómo puede volverse cuidado concreto?",
+        "agendaTitle": "De recibir el Pan a compartir la vida",
+        "agenda": [
+          {
+            "time": "00–08",
+            "title": "Escuchar",
+            "instruction": "Oír «Te haces Pan» completa, sin explicarla todavía.",
+            "question": "¿Qué verbo revela cómo se acerca Jesús?"
+          },
+          {
+            "time": "08–20",
+            "title": "Reconocer",
+            "instruction": "Tarjeta: «hambre que puedo nombrar» / «pan que ya recibo».",
+            "question": "¿Qué necesito recibir antes de pensar en dar?"
+          },
+          {
+            "time": "20–38",
+            "title": "Permanecer",
+            "instruction": "Leer Jn 6,51–58 y marcar: dar, comer, beber, permanecer y vivir.",
+            "question": "¿Qué relación une recibir a Jesús y vivir de él?"
+          },
+          {
+            "time": "38–58",
+            "title": "Discernir",
+            "instruction": "En tríos, decidir ante un caso ficticio: hacer por, hacer con o derivar.",
+            "question": "¿Qué ayuda alimenta de verdad y cuál invade o crea dependencia?"
+          },
+          {
+            "time": "58–70",
+            "title": "Compartir",
+            "instruction": "Elegir un gesto de pan: presencia, recurso, invitación o derivación. Depositarlo por escrito en una cesta y orar.",
+            "question": "¿Qué cuidado concreto puedo ofrecer esta semana con límites?"
+          }
+        ],
+        "criterion": "No usar pan consagrado ni simular una celebración eucarística. Nadie tiene que contar hambre material, enfermedad o necesidad privada; compartir y pasar son opciones válidas. Toda ayuda se acuerda y respeta autonomía, confidencialidad, seguridad, alergias y límites de competencia. Ante hambre material, abuso o riesgo, activar recursos responsables. No fotografiar ni publicar compromisos.",
+        "deckPublicPath": "assets/presentations/2026-06-07-te-haces-pan.pptx"
+      },
       "gospel": {
         "blocks": [
           {
