@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T13:26:57.844360+00:00",
+  "generatedAt": "2026-07-14T15:02:36.032622+00:00",
   "cutoff": "2026-07-19",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "sourceNotice": "Texto biblico de trabajo: Reina-Valera 1909. La version liturgica oficial CEE 2010 no se reproduce completa sin fuente o licencia autorizada.",
@@ -5338,7 +5338,103 @@
         "publicPath": "assets/images/2026-04-05-domingo-de-pascua-de-la-resurreccion-del-senor.jpg"
       },
       "pastoral": "La Pascua empieza con carreras, desconcierto y una tumba vacía: la fe nace muchas veces antes de entenderlo todo. El Resucitado abre una esperanza más fuerte que el fracaso, la culpa o la muerte interior. No se trata de optimismo superficial, sino de descubrir que Dios puede empezar vida nueva precisamente donde todo parecía cerrado.",
-      "meeting": null,
+      "meeting": {
+        "title": "Se encontraron la Vida",
+        "subtitle": "Pascua: aprender a leer signos de vida",
+        "duration": "70 minutos",
+        "key": {
+          "title": "Donde veíamos final, Dios abre futuro",
+          "text": "La tumba vacía no lo explica todo: pone en camino la fe. María, Pedro y el discípulo amado atraviesan la noche, comparten la búsqueda y aprenden a leer signos antes de comprender la Escritura.",
+          "quote": "Y Dios estaba abriendo un paso hacia la Vida.",
+          "steps": [
+            {
+              "title": "Noche",
+              "text": "María llega cuando todavía está oscuro. El duelo no desaparece porque sea Pascua."
+            },
+            {
+              "title": "Correr",
+              "text": "La piedra movida rompe el final esperado. María lo cuenta y la búsqueda se comparte."
+            },
+            {
+              "title": "Entrar",
+              "text": "Pedro entra en el hueco que parecía definitivo. La fe no evita mirar la ausencia."
+            },
+            {
+              "title": "Leer",
+              "text": "Los lienzos son signos, no una explicación. Mirar juntos abre otra lectura posible."
+            },
+            {
+              "title": "Creer",
+              "text": "El discípulo ve y cree antes de entender la Escritura. La esperanza puede empezar sin tener todo resuelto."
+            }
+          ]
+        },
+        "resonancesEyebrow": "Cuatro caminos bíblicos para reconocer la vida que comienza",
+        "resonancesTitle": "Dios abre camino, transforma la piedra, se deja reconocer y nos pone en vida nueva",
+        "resonances": [
+          {
+            "ref": "Is 43,19",
+            "title": "Camino nuevo",
+            "quote": "Mirad que realizo algo nuevo; ya está brotando.",
+            "text": "Dios no niega el desierto: abre una senda donde todavía no sabemos verla."
+          },
+          {
+            "ref": "Sal 118,22–24",
+            "title": "Piedra que sostiene",
+            "quote": "La piedra que desecharon es ahora la piedra angular.",
+            "text": "Lo rechazado no tiene la última palabra: Dios hace de ello comienzo y fundamento."
+          },
+          {
+            "ref": "Lc 24,30–32",
+            "title": "Vida reconocida",
+            "quote": "¿No ardía nuestro corazón mientras nos hablaba?",
+            "text": "Emaús ofrece otro camino pascual: compañía, Palabra y mesa permiten reconocer a Jesús."
+          },
+          {
+            "ref": "Rom 6,4",
+            "title": "Caminar en novedad",
+            "quote": "Para que también nosotros caminemos en una vida nueva.",
+            "text": "La Resurrección no solo se contempla: inaugura una manera nueva de vivir y relacionarnos."
+          }
+        ],
+        "synthesis": "Ausencia atravesada · signos leídos · esperanza compartida · vida comenzada",
+        "question": "¿Qué sigo llamando final porque todavía no sé leer sus signos de vida?",
+        "agendaTitle": "De buscar un final a cuidar un comienzo",
+        "agenda": [
+          {
+            "time": "00–08",
+            "title": "Escuchar",
+            "instruction": "Oír «Se encontraron la Vida» completa, sin explicarla todavía.",
+            "question": "¿Qué frase une mejor la noche y el comienzo?"
+          },
+          {
+            "time": "08–20",
+            "title": "Reconocer",
+            "instruction": "Tarjeta opcional: «lo que terminó» / «lo que queda» / «un signo que asoma».",
+            "question": "¿Qué puedo mirar sin negar el dolor ni cerrar el futuro?"
+          },
+          {
+            "time": "20–38",
+            "title": "Iluminar",
+            "instruction": "Leer Jn 20,1–9 y seguir: llegar, ver, correr, entrar, creer y comprender.",
+            "question": "¿Qué cambia antes de que los discípulos tengan una explicación?"
+          },
+          {
+            "time": "38–58",
+            "title": "Discernir",
+            "instruction": "En tríos, distinguir en casos ficticios: negación, prisa o signo pascual realista.",
+            "question": "¿Qué diferencia un signo de vida de una frase que tapa el dolor?"
+          },
+          {
+            "time": "58–70",
+            "title": "Cuidar",
+            "instruction": "Nombrar un pequeño comienzo que cuidaré con alguien. Compartir libremente y orar.",
+            "question": "¿Qué signo de vida merece compañía esta semana?"
+          }
+        ],
+        "criterion": "No imponer alegría ni prometer que toda pérdida se revierte. No forzar relatos de duelo, culpa o fracaso. Respetar silencio, ritmos y la opción de pasar; ante depresión, trauma o riesgo, ofrecer ayuda especializada.",
+        "deckPublicPath": "assets/presentations/2026-04-05-se-encontraron-la-vida.pptx"
+      },
       "gospel": {
         "blocks": [
           {
