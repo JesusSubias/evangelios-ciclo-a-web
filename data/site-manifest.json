@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T15:02:36.032622+00:00",
+  "generatedAt": "2026-07-14T15:52:20.493791+00:00",
   "cutoff": "2026-07-19",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "sourceNotice": "Texto biblico de trabajo: Reina-Valera 1909. La version liturgica oficial CEE 2010 no se reproduce completa sin fuente o licencia autorizada.",
@@ -6418,7 +6418,103 @@
         "publicPath": "assets/images/2026-04-26-iv-domingo-de-pascua.jpg"
       },
       "pastoral": "Jesús se presenta como puerta y pastor: no encierra, llama por el nombre y conduce a vida abundante. Rodeados de voces que compiten por nuestra atención, este Evangelio invita a aprender qué voz cuida y qué voz roba vida. Entrar por Cristo es encontrar una libertad que no dispersa, sino que da pertenencia, dirección y pastos verdaderos.",
-      "meeting": null,
+      "meeting": {
+        "title": "Tú eres la puerta",
+        "subtitle": "Reconocer la voz que cuida y abre vida",
+        "duration": "70 minutos",
+        "key": {
+          "title": "Su voz te llama hacia más vida",
+          "text": "Jesús no encierra ni empuja: entra de frente, llama por el nombre, conduce desde delante y abre un camino de libertad, alimento y relación.",
+          "quote": "Dices mi nombre y me haces salir.",
+          "steps": [
+            {
+              "title": "Puerta",
+              "text": "Jesús no salta el muro: entra de frente. Su modo de llegar permite confiar."
+            },
+            {
+              "title": "Nombre",
+              "text": "El pastor llama a cada oveja por su nombre. No somos masa, caso ni recurso."
+            },
+            {
+              "title": "Voz",
+              "text": "Las ovejas reconocen la voz que las cuida. Discernir mira los frutos, no solo el volumen."
+            },
+            {
+              "title": "Delante",
+              "text": "Las saca y camina delante de ellas. No empuja desde atrás ni obliga a seguir."
+            },
+            {
+              "title": "Vida",
+              "text": "Entrar, salir y encontrar pastos. La abundancia de Jesús es libertad, alimento y relación."
+            }
+          ]
+        },
+        "resonancesEyebrow": "Cuatro criterios bíblicos para reconocer una voz que cuida",
+        "resonancesTitle": "Dios pronuncia el nombre, alimenta, busca y abre libertad",
+        "resonances": [
+          {
+            "ref": "Is 43,1",
+            "title": "Nombre que da dignidad",
+            "quote": "Te he llamado por tu nombre: tú eres mío.",
+            "text": "Dios no etiqueta ni reduce: pronuncia un nombre, reconoce una historia y devuelve pertenencia."
+          },
+          {
+            "ref": "Sal 23,1–3",
+            "title": "Pastos y descanso",
+            "quote": "Me conduce hacia fuentes tranquilas y repara mis fuerzas.",
+            "text": "La guía de Dios no agota: alimenta, orienta y crea un lugar donde la vida puede respirar."
+          },
+          {
+            "ref": "Ez 34,11–16",
+            "title": "Cuidado que busca",
+            "quote": "Yo mismo buscaré mis ovejas y las cuidaré.",
+            "text": "Frente a pastores que se sirven del rebaño, Dios busca, reúne, cura y fortalece."
+          },
+          {
+            "ref": "Gal 5,1",
+            "title": "Puerta a la libertad",
+            "quote": "Para la libertad nos ha liberado Cristo.",
+            "text": "La voz de Jesús no crea dependencia: forma personas libres, responsables y capaces de amar."
+          }
+        ],
+        "synthesis": "Nombre reconocido · cuidado comprobado · libertad abierta · vida compartida",
+        "question": "¿Qué voz ocupa más espacio en mí y hacia qué clase de vida me conduce?",
+        "agendaTitle": "De las voces que compiten a una voz que puedo seguir",
+        "agenda": [
+          {
+            "time": "00–08",
+            "title": "Escuchar",
+            "instruction": "Oír «Tú eres la puerta» completa, sin explicarla todavía.",
+            "question": "¿Qué frase suena a una voz que cuida sin imponerse?"
+          },
+          {
+            "time": "08–20",
+            "title": "Reconocer",
+            "instruction": "Tarjeta opcional: «voz que me encoge» / «voz que me acelera» / «voz que me da vida».",
+            "question": "¿Qué efecto deja cada voz en mi cuerpo, libertad y vínculos?"
+          },
+          {
+            "time": "20–38",
+            "title": "Iluminar",
+            "instruction": "Leer Jn 10,1–10 y marcar: entrar, abrir, oír, llamar, sacar, seguir y dar vida.",
+            "question": "¿Qué rasgos permiten reconocer la voz y el modo de Jesús?"
+          },
+          {
+            "time": "38–58",
+            "title": "Discernir",
+            "instruction": "En tríos, aplicar cuatro filtros a mensajes ficticios: dignidad, verdad, libertad y fruto.",
+            "question": "¿Esta voz me nombra y cuida, o me usa, asusta y encierra?"
+          },
+          {
+            "time": "58–70",
+            "title": "Responder",
+            "instruction": "Elegir una voz que bajaré de volumen y una palabra de Jesús que convertiré en acción.",
+            "question": "¿Qué decisión pequeña abrirá esta semana más espacio a la vida?"
+          }
+        ],
+        "criterion": "No confundir insistencia o autoridad religiosa con la voz de Dios. Una llamada puede incomodar, pero no humilla, coacciona ni aísla. No presionar decisiones; ante abuso, control o riesgo, priorizar seguridad y ayuda especializada.",
+        "deckPublicPath": "assets/presentations/2026-04-26-tu-eres-la-puerta.pptx"
+      },
       "gospel": {
         "blocks": [
           {
