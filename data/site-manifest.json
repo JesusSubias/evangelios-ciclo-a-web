@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T09:44:57.782736+00:00",
+  "generatedAt": "2026-07-14T13:26:57.844360+00:00",
   "cutoff": "2026-07-19",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "sourceNotice": "Texto biblico de trabajo: Reina-Valera 1909. La version liturgica oficial CEE 2010 no se reproduce completa sin fuente o licencia autorizada.",
@@ -2217,7 +2217,103 @@
         "publicPath": "assets/images/2026-02-15-vi-domingo-del-tiempo-ordinario.jpg"
       },
       "pastoral": "Jesús lleva la ley al corazón: no basta evitar lo exterior si por dentro crecen desprecio, mentira o doblez. Este Evangelio toca relaciones, afectividad, lenguaje y coherencia: reconciliarse, cuidar el deseo, decir sí cuando es sí y no cuando es no. La libertad cristiana no es hacer cualquier cosa, sino vivir con un corazón unificado y verdadero.",
-      "meeting": null,
+      "meeting": {
+        "title": "Que tu sí sea sí",
+        "subtitle": "La verdad que nace de un corazón entero",
+        "duration": "70 minutos",
+        "key": {
+          "title": "Un corazón entero dice la verdad",
+          "text": "Jesús lleva la ley a su raíz: relación, deseo, compromiso y palabra. La coherencia no es perfección exterior, sino una vida que aprende a reparar, cuidar, poner límites y hablar sin doblez.",
+          "quote": "Que tu sí sea sí, dicho despacio.",
+          "steps": [
+            {
+              "title": "Raíz",
+              "text": "Jesús cumple la ley y la lleva al corazón. La coherencia empieza antes del gesto visible."
+            },
+            {
+              "title": "Reconciliar",
+              "text": "El desprecio hiere antes que la violencia. Reparar exige verdad, justicia y seguridad."
+            },
+            {
+              "title": "Mirar",
+              "text": "El deseo puede cuidar o convertir en objeto. Dignidad, libertad y consentimiento orientan la mirada."
+            },
+            {
+              "title": "Cuidar",
+              "text": "Los compromisos piden verdad y responsabilidad. Un límite puede proteger la vida y la relación."
+            },
+            {
+              "title": "Hablar",
+              "text": "El sí y el no nacen de una palabra habitable: sin teatro, presión ni doblez."
+            }
+          ]
+        },
+        "resonancesEyebrow": "Cuatro resonancias para una vida verdadera por dentro y por fuera",
+        "resonancesTitle": "La ley interior se vuelve verdad que cuida, corazón guardado y palabra fiable",
+        "resonances": [
+          {
+            "ref": "Jer 31,33",
+            "title": "Ley en el corazón",
+            "quote": "Pondré mi ley en su interior y la escribiré en sus corazones.",
+            "text": "La alianza deja de ser solo mandato externo: la voluntad de Dios se aprende desde dentro."
+          },
+          {
+            "ref": "Ef 4,15",
+            "title": "Verdad en el amor",
+            "quote": "Viviendo la verdad en el amor, crezcamos en todo.",
+            "text": "La verdad cristiana no se impone ni humilla: busca el bien del otro y hace posible crecer."
+          },
+          {
+            "ref": "Prov 4,23",
+            "title": "Guardar el corazón",
+            "quote": "Por encima de todo, guarda tu corazón, porque de él brota la vida.",
+            "text": "Cuidar la raíz impide que desprecio, uso o doblez gobiernen la vida."
+          },
+          {
+            "ref": "Sant 5,12",
+            "title": "Palabra fiable",
+            "quote": "Que vuestro sí sea sí y vuestro no, no.",
+            "text": "La palabra deja de necesitar juramentos cuando nace de una vida veraz, libre y responsable."
+          }
+        ],
+        "synthesis": "Ley interior · verdad que cuida · deseo ordenado · palabra fiable",
+        "question": "¿Dónde se separan hoy lo que pienso, digo y hago?",
+        "agendaTitle": "De la apariencia a una palabra que se puede habitar",
+        "agenda": [
+          {
+            "time": "00–08",
+            "title": "Escuchar",
+            "instruction": "Oír «Que tu sí sea sí» completa, sin explicarla todavía.",
+            "question": "¿Qué frase describe una vida sin teatro ni doblez?"
+          },
+          {
+            "time": "08–20",
+            "title": "Reconocer",
+            "instruction": "Tarjeta opcional: «un sí que puedo sostener» / «un no que necesito decir».",
+            "question": "¿Dónde noto distancia entre lo que siento, digo y hago?"
+          },
+          {
+            "time": "20–38",
+            "title": "Iluminar",
+            "instruction": "Leer Mt 5,17–24.27–28.33–37 y marcar: raíz, daño, cuidado y verdad.",
+            "question": "¿Qué raíz quiere cuidar Jesús antes de que el daño crezca?"
+          },
+          {
+            "time": "38–58",
+            "title": "Discernir",
+            "instruction": "En tríos, elegir ante casos ficticios: reparar, poner límite o pedir ayuda.",
+            "question": "¿Qué respuesta une verdad, cuidado, justicia y seguridad?"
+          },
+          {
+            "time": "58–70",
+            "title": "Responder",
+            "instruction": "Escribir un sí sostenible y un no protector. Compartir libremente y orar.",
+            "question": "¿Qué palabra concreta puede hacer más coherente mi semana?"
+          }
+        ],
+        "criterion": "No pedir confesiones sobre ira, sexualidad, pareja o divorcio; usar casos ficticios y respetar la opción de pasar. Reconciliar no exige volver a una relación insegura ni renunciar a justicia y protección; un «no» claro también puede ser fiel. Ante abuso o coacción, priorizar seguridad y ayuda especializada.",
+        "deckPublicPath": "assets/presentations/2026-02-15-que-tu-si-sea-si.pptx"
+      },
       "gospel": {
         "blocks": [
           {

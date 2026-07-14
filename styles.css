@@ -882,6 +882,7 @@ a {
   margin: 4px 0 6px;
   color: var(--burgundy);
   font-size: clamp(1.6rem, 3vw, 2.2rem);
+  text-wrap: balance;
 }
 
 .meeting-intro p,

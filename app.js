@@ -51,7 +51,7 @@ const seasonColors = {
 };
 
 const app = document.querySelector("#app");
-const DATA_VERSION = "20260714-reunion-te-haces-pan";
+const DATA_VERSION = "20260714-reunion-que-tu-si-sea-si-v2";
 const calendarWeekdays = ["L", "M", "X", "J", "V", "S", "D"];
 const monthFormatter = new Intl.DateTimeFormat("es-ES", { month: "long", year: "numeric" });
 let toastTimer = null;
@@ -459,7 +459,7 @@ function renderMeeting(meeting) {
     <div class="meeting-intro">
       <div>
         <span class="meeting-kicker">Guion preparado · ${escapeHtml(meeting.duration)}</span>
-        <h3>${escapeHtml(meeting.title)}</h3>
+        <h3>${escapeHtml(meeting.title).replace(/\s+(\S+)$/, "&nbsp;$1")}</h3>
         <p>${escapeHtml(meeting.subtitle)}</p>
       </div>
       ${meeting.deckPublicPath ? `
