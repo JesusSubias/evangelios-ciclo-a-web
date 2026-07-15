@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T11:06:47.668808+00:00",
+  "generatedAt": "2026-07-15T13:53:38.814990+00:00",
   "cutoff": "2026-07-19",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "sourceNotice": "Texto biblico de trabajo: Reina-Valera 1909. La version liturgica oficial CEE 2010 no se reproduce completa sin fuente o licencia autorizada.",
@@ -724,7 +724,103 @@
         "publicPath": "assets/images/2025-12-21-iv-domingo-de-adviento.jpg"
       },
       "pastoral": "José vive una situación que no controla y aun así escucha, discierne y protege. El Evangelio ilumina las decisiones tomadas en medio de dudas, presión o miedo a equivocarse: Dios no siempre explica todo, pero sí dice 'no temas' y abre caminos de fidelidad. Creer es dejar que la confianza venza al cálculo y que el amor cuide la vida que nace.",
-      "meeting": null,
+      "meeting": {
+        "title": "El cielo llamó a tu puerta",
+        "subtitle": "Decidir sin controlarlo todo",
+        "duration": "70 minutos",
+        "key": {
+          "title": "No temas: decide desde el cuidado",
+          "text": "José recibe una realidad que no ha elegido y que no puede explicar por completo. Antes de tener una respuesta evita exponer a María; después escucha, discierne y actúa. La fe no le entrega el control del resultado, pero impide que el miedo gobierne y orienta el siguiente paso hacia la dignidad, la acogida y la responsabilidad.",
+          "quote": "José despertó e hizo.",
+          "steps": [
+            {
+              "title": "Proteger",
+              "text": "Antes de comprender lo ocurrido, José evita exponer a María. La dignidad de la otra persona ya orienta su primera decisión."
+            },
+            {
+              "title": "Escuchar",
+              "text": "«Mientras pensaba». José no resuelve con prisa. El silencio permite distinguir miedo, deseo, realidad y la palabra que invita a no temer."
+            },
+            {
+              "title": "Discernir",
+              "text": "La promesa de Emmanuel no borra la incertidumbre, pero ofrece una presencia y una dirección para decidir sin quedar paralizado."
+            },
+            {
+              "title": "Recibir",
+              "text": "José recibe a María y al niño que viene. Acoger crea espacio, vínculo y cuidado, y convierte una convicción interior en responsabilidad concreta."
+            },
+            {
+              "title": "Actuar",
+              "text": "José despierta y hace lo que ha discernido. El paso fiel puede comenzar antes de disponer de un mapa completo."
+            }
+          ]
+        },
+        "resonancesEyebrow": "Cuatro caminos bíblicos para decidir sin que el miedo gobierne",
+        "resonancesTitle": "La presencia sostiene, la escucha discierne y el cuidado se vuelve acción",
+        "resonances": [
+          {
+            "ref": "Is 7,14",
+            "title": "Emmanuel",
+            "quote": "Dios con nosotros.",
+            "text": "La promesa no da control: asegura una presencia dentro de lo que José todavía no comprende."
+          },
+          {
+            "ref": "1 Re 3,9",
+            "title": "Corazón que escucha",
+            "quote": "Da a tu siervo un corazón que escuche.",
+            "text": "Discernir empieza escuchando antes de defender una posición o forzar una solución."
+          },
+          {
+            "ref": "Lc 1,38",
+            "title": "Disponibilidad de María",
+            "quote": "Hágase en mí según tu palabra.",
+            "text": "La canción mira a María: su sí no borra preguntas, pero abre hogar al don de Dios."
+          },
+          {
+            "ref": "Mt 2,13–14",
+            "title": "Cuidado que se mueve",
+            "quote": "Levántate, toma al niño y a su madre.",
+            "text": "José volverá a discernir y actuar. El cuidado fiel es concreto, revisable y protege la vida."
+          }
+        ],
+        "synthesis": "Presencia confiada · escucha honesta · acogida libre · cuidado responsable",
+        "question": "¿Qué decisión necesita menos control y una brújula más clara de cuidado?",
+        "agendaTitle": "De la incertidumbre a un siguiente paso cuidado",
+        "agenda": [
+          {
+            "time": "00–08",
+            "title": "Escuchar",
+            "instruction": "Oír «El cielo llamó a tu puerta» completa, sin explicarla todavía.",
+            "question": "¿Qué palabra muestra pregunta, miedo o disponibilidad?"
+          },
+          {
+            "time": "08–20",
+            "title": "Nombrar",
+            "instruction": "Tarjeta doble: «qué quisiera controlar» / «qué sí puedo cuidar».",
+            "question": "¿Qué miedo necesita ser escuchado antes de decidir?"
+          },
+          {
+            "time": "20–38",
+            "title": "Iluminar",
+            "instruction": "Leer Mt 1,18–24 y marcar: justo, no exponer, pensaba, no temas, Emmanuel e hizo.",
+            "question": "¿Qué protege José antes incluso de tener una respuesta?"
+          },
+          {
+            "time": "38–58",
+            "title": "Discernir",
+            "instruction": "En tríos, aplicar a un caso ficticio: dignidad, verdad, responsabilidad y apoyo.",
+            "question": "¿Qué opción cuida más sin negar la realidad ni cargar con todo?"
+          },
+          {
+            "time": "58–70",
+            "title": "Responder",
+            "instruction": "Escribir un paso posible y una persona de apoyo. Compartir libremente y orar.",
+            "question": "¿Qué paso puedo dar sin esperar a controlarlo todo?"
+          }
+        ],
+        "criterion": "«Acoger» no significa permanecer en daño ni asumir en solitario responsabilidades ajenas. Ante abuso, violencia, riesgo o decisiones graves, priorizar la seguridad y la ayuda competente. No forzar relatos personales. Compartir y pasar son opciones válidas.",
+        "deckPublicPath": "assets/presentations/2025-12-21-el-cielo-llamo-a-tu-puerta.pptx"
+      },
       "gospel": {
         "blocks": [
           {
