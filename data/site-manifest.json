@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T09:21:33.273538+00:00",
+  "generatedAt": "2026-07-15T11:06:47.668808+00:00",
   "cutoff": "2026-07-19",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "sourceNotice": "Texto biblico de trabajo: Reina-Valera 1909. La version liturgica oficial CEE 2010 no se reproduce completa sin fuente o licencia autorizada.",
@@ -38,7 +38,103 @@
         "publicPath": "assets/images/2025-11-30-i-domingo-de-adviento.jpg"
       },
       "pastoral": "Jesús invita a vivir despiertos, no con miedo, sino con el corazón atento. Este Adviento es una llamada a salir del piloto automático, de la prisa y de las distracciones que anestesian, para reconocer a Dios en lo cotidiano. Velar es cuidar la vida interior, elegir bien qué nos despierta y dejar espacio a una esperanza que llega sin ruido.",
-      "meeting": null,
+      "meeting": {
+        "title": "Despierta mi vida",
+        "subtitle": "Vivir atentos a la llegada",
+        "duration": "70 minutos",
+        "key": {
+          "title": "Vigilar es habitar el presente",
+          "text": "Jesús no condena la vida cotidiana: comer, beber, trabajar y formar una familia. Advierte del riesgo de atravesarla sin enterarse de lo decisivo. Velar no consiste en adivinar la hora ni vivir en alarma, sino en cuidar la casa, recuperar la atención y dejar el corazón disponible para una llegada que no controlamos.",
+          "quote": "No te pierdas tu propia vida.",
+          "steps": [
+            {
+              "title": "Detener",
+              "text": "La rutina puede seguir mientras el corazón se ausenta. Parar permite reconocer qué está ocupando la atención y qué queda oculto bajo la prisa."
+            },
+            {
+              "title": "Mirar",
+              "text": "«No se enteraron». El problema no es lo ordinario, sino vivir sin percibir lo que sucede cerca, lo que pide cuidado y lo que ya está llegando."
+            },
+            {
+              "title": "Velar",
+              "text": "No conocer la hora no obliga a vivir con miedo. La vigilancia evangélica nace de la esperanza y mantiene despierta la capacidad de responder."
+            },
+            {
+              "title": "Cuidar",
+              "text": "La imagen de la casa invita a proteger lo valioso. Límites, descanso, silencio y vínculos presentes también custodian la atención."
+            },
+            {
+              "title": "Esperar",
+              "text": "Prepararse no es aplazar la vida: es vivir hoy con el corazón disponible. La espera se vuelve presencia, responsabilidad y gesto concreto."
+            }
+          ]
+        },
+        "resonancesEyebrow": "Cuatro caminos bíblicos para despertar sin vivir en alarma",
+        "resonancesTitle": "La esperanza despierta, la atención reconoce y la comunidad aprende a velar",
+        "resonances": [
+          {
+            "ref": "Is 2,4–5",
+            "title": "Caminar en la luz",
+            "quote": "Caminemos a la luz del Señor.",
+            "text": "La esperanza despierta pasos de paz. La luz recibida se convierte en una manera distinta de caminar y relacionarnos."
+          },
+          {
+            "ref": "Rom 13,11–12",
+            "title": "Hora de despertar",
+            "quote": "Ya es hora de despertaros del sueño.",
+            "text": "Despertar no es acelerarse: es reconocer el tiempo que vivimos y elegir lo que ayuda a caminar en la luz."
+          },
+          {
+            "ref": "1 Re 19,11–12",
+            "title": "Dios llega sin ruido",
+            "quote": "Después del fuego, una voz de silencio tenue.",
+            "text": "Dios no siempre irrumpe con estruendo. Una atención silenciosa puede reconocer su paso en lo pequeño y cotidiano."
+          },
+          {
+            "ref": "1 Tes 5,4–6",
+            "title": "Velar juntos",
+            "quote": "No durmamos; velemos y seamos sobrios.",
+            "text": "La vigilancia cristiana no es sospecha: es lucidez compartida, cuidado mutuo y esperanza activa."
+          }
+        ],
+        "synthesis": "Luz acogida · atención recuperada · casa cuidada · esperanza activa",
+        "question": "¿Qué necesito apagar, ordenar o cuidar para vivir más despierto?",
+        "agendaTitle": "Del piloto automático a una presencia que espera",
+        "agenda": [
+          {
+            "time": "00–08",
+            "title": "Escuchar",
+            "instruction": "Oír «Despierta mi vida» completa, sin explicarla todavía.",
+            "question": "¿Qué frase muestra dónde estoy despierto o dormido por dentro?"
+          },
+          {
+            "time": "08–20",
+            "title": "Despertar",
+            "instruction": "Tarjeta: «me despierta» / «me adormece» / «reclama mi atención».",
+            "question": "¿En qué momentos vivo con más frecuencia en piloto automático?"
+          },
+          {
+            "time": "20–38",
+            "title": "Iluminar",
+            "instruction": "Leer Mt 24,37–44 y marcar: rutina, no enterarse, velar, casa, prepararse y venir.",
+            "question": "¿Qué critica Jesús: la vida cotidiana o vivir sin atención?"
+          },
+          {
+            "time": "38–58",
+            "title": "Discernir",
+            "instruction": "En tríos, aplicar tres filtros a una semana ficticia: ruido, presencia y cuidado.",
+            "question": "¿Qué práctica despierta sin convertir la vigilancia en ansiedad?"
+          },
+          {
+            "time": "58–70",
+            "title": "Responder",
+            "instruction": "Vela de papel: una práctica pequeña, un momento y un lugar. Compartir libremente y orar.",
+            "question": "¿Qué señal recordará esta semana que Dios puede llegar sin ruido?"
+          }
+        ],
+        "criterion": "No convertir la vigilancia en miedo, control ni culpa. El cansancio, la dispersión o la dificultad para concentrarse no son fallos morales. Elegir prácticas pequeñas y sostenibles; ante agotamiento o ansiedad, priorizar descanso, apoyo y ayuda competente. Compartir y pasar son opciones válidas.",
+        "deckPublicPath": "assets/presentations/2025-11-30-despierta-mi-vida.pptx"
+      },
       "gospel": {
         "blocks": [
           {
