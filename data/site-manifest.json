@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T19:05:58.739080+00:00",
+  "generatedAt": "2026-07-15T20:15:18.838166+00:00",
   "cutoff": "2026-07-19",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "sourceNotice": "Texto biblico de trabajo: Reina-Valera 1909. La version liturgica oficial CEE 2010 no se reproduce completa sin fuente o licencia autorizada.",
@@ -9605,7 +9605,103 @@
         "publicPath": "assets/images/2026-06-28-xiii-domingo-del-tiempo-ordinario.jpg"
       },
       "pastoral": "Jesús no propone una fe tibia: pide ordenar los amores, tomar la cruz y descubrir que la vida se encuentra cuando se entrega. Esto no significa despreciar a la familia ni buscar sufrimiento, sino elegir a Cristo como centro que purifica todos los vínculos. Incluso un vaso de agua dado con amor cuenta en el Reino.",
-      "meeting": null,
+      "meeting": {
+        "title": "Un vaso de agua",
+        "subtitle": "Ordenar los amores y entregar la vida",
+        "duration": "70 minutos",
+        "key": {
+          "title": "Cristo no pide amar menos, sino amar con un centro que libera",
+          "text": "Jesús no compite con la familia ni invita a buscar sufrimiento. Desenmascara los vínculos gobernados por miedo, posesión o aprobación. Ponerlo en el centro ordena los afectos: ayuda a poner límites, dar sin controlar, recibir sin etiquetar y convertir el amor en un gesto pequeño, libre y concreto.",
+          "quote": "No me pides querer menos; me enseñas a amar de nuevo.",
+          "steps": [
+            {
+              "title": "Elegir",
+              "text": "Cristo no ocupa un hueco más: se vuelve centro y criterio. No desplaza a los nuestros; libera el amor de la posesión."
+            },
+            {
+              "title": "Soltar",
+              "text": "Guardar la vida solo para uno mismo termina encogiéndola. Entregar no es borrarse, sino dejar de vivir a la defensiva."
+            },
+            {
+              "title": "Cargar",
+              "text": "La cruz es el coste real de amar con verdad. No busca dolor ni tolera daño: asume fidelidad, responsabilidad y límites."
+            },
+            {
+              "title": "Recibir",
+              "text": "Acoger a un enviado también recibe a Cristo. La hospitalidad hace sitio sin controlar, invadir ni etiquetar."
+            },
+            {
+              "title": "Ofrecer",
+              "text": "Un vaso de agua cuenta cuando responde a una necesidad real. Un gesto pequeño, libre y sostenible puede hacer cercano el Reino."
+            }
+          ]
+        },
+        "resonancesEyebrow": "Cuatro claves bíblicas para ordenar el amor y volverlo gesto",
+        "resonancesTitle": "Dios unifica el corazón, protege la dignidad y hace concreta la hospitalidad",
+        "resonances": [
+          {
+            "ref": "Dt 6,4–5",
+            "title": "Centro que unifica",
+            "quote": "Amarás al Señor tu Dios con todo tu corazón.",
+            "text": "Dios no compite con nuestros afectos. Un centro elegido impide que el miedo, la posesión o la aprobación terminen gobernándolos."
+          },
+          {
+            "ref": "Lev 19,18",
+            "title": "Amor sin borrarse",
+            "quote": "Amarás a tu prójimo como a ti mismo.",
+            "text": "El mismo mandamiento protege al otro y a uno mismo: amar no exige invadir, controlar ni desaparecer."
+          },
+          {
+            "ref": "2 Re 4,8–10",
+            "title": "Hospitalidad concreta",
+            "quote": "Preparemos una habitación, una cama, una mesa, una silla y una lámpara.",
+            "text": "La sunamita reconoce una necesidad y prepara un lugar posible. Acoger se vuelve espacio, descanso y cuidado sostenido."
+          },
+          {
+            "ref": "1 Jn 3,17–18",
+            "title": "Amor con obras",
+            "quote": "No amemos de palabra, sino con obras y de verdad.",
+            "text": "El amor deja de ser intención cuando responde a una necesidad concreta sin apropiarse de la vida de nadie."
+          }
+        ],
+        "synthesis": "Centro elegido · vida liberada · acogida concreta · amor con obras",
+        "question": "¿Qué amor necesita menos posesión y un gesto más verdadero?",
+        "agendaTitle": "Del amor que retiene al gesto que hace sitio",
+        "agenda": [
+          {
+            "time": "00–08",
+            "title": "Escuchar",
+            "instruction": "Oír «Un vaso de agua» completa, sin explicarla todavía.",
+            "question": "¿Qué frase cambia mi manera de entender la entrega?"
+          },
+          {
+            "time": "08–20",
+            "title": "Ordenar",
+            "instruction": "Tarjeta opcional: «lo que amo» / «lo que temo perder» / «lo que termina gobernando».",
+            "question": "¿Qué afecto o miedo ocupa el centro sin darme cuenta?"
+          },
+          {
+            "time": "20–38",
+            "title": "Iluminar",
+            "instruction": "Leer Mt 10,37–42 y marcar: amar, cruz, perder, encontrar, recibir y vaso.",
+            "question": "¿Cómo avanza Jesús desde ordenar el amor hasta un vaso de agua?"
+          },
+          {
+            "time": "38–58",
+            "title": "Discernir",
+            "instruction": "Casos ficticios: aplicar verdad, libertad, cuidado y sostenibilidad a vínculos y gestos de ayuda.",
+            "question": "¿Qué entrega ama de verdad sin poseer ni borrar a nadie?"
+          },
+          {
+            "time": "58–70",
+            "title": "Ofrecer",
+            "instruction": "Escribir un «vaso de agua» para siete días: persona, necesidad, límite y revisión. Compartir libremente y orar.",
+            "question": "¿Qué gesto pequeño puede hacer sitio al Reino esta semana?"
+          }
+        ],
+        "criterion": "No usar este Evangelio para justificar abandono familiar, control, autoridad abusiva, borrarse o buscar sufrimiento. La cruz no es permanecer en violencia ni en contacto inseguro. Proteger consentimiento, límites, responsabilidad compartida y seguridad; ante abuso o riesgo, pedir ayuda competente. Compartir y pasar son opciones válidas.",
+        "deckPublicPath": "assets/presentations/2026-06-28-un-vaso-de-agua.pptx"
+      },
       "gospel": {
         "blocks": [
           {
