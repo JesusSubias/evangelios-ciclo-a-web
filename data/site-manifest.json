@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T15:37:45.606153+00:00",
+  "generatedAt": "2026-07-15T16:49:18.043825+00:00",
   "cutoff": "2026-07-19",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "sourceNotice": "Texto biblico de trabajo: Reina-Valera 1909. La version liturgica oficial CEE 2010 no se reproduce completa sin fuente o licencia autorizada.",
@@ -7622,7 +7622,103 @@
         "publicPath": "assets/images/2026-05-10-vi-domingo-de-pascua.jpg"
       },
       "pastoral": "Jesús une amor, mandamientos y Espíritu: no habla de control, sino de una presencia interior que enseña a amar cuando Él no se ve. Seguir a Cristo no es cumplir desde fuera para quedar bien, sino dejar que el Espíritu habite decisiones concretas. El amor se demuestra en elecciones pequeñas, fieles y libres, incluso cuando nadie mira.",
-      "meeting": null,
+      "meeting": {
+        "title": "Me haces recordar",
+        "subtitle": "El amor cuando nadie mira",
+        "duration": "70 minutos",
+        "key": {
+          "title": "El Espíritu hace memoria del modo de amar de Jesús",
+          "text": "Jesús no ofrece vigilancia exterior ni una voz privada infalible. Promete el Espíritu de la verdad: una presencia que permanece dentro, forma la libertad y convierte el amor recibido en decisiones pequeñas, fieles y concretas.",
+          "quote": "No os dejaré huérfanos.",
+          "steps": [
+            {
+              "title": "Amar",
+              "text": "El amor precede al mandamiento. Guardar la palabra de Jesús no compra su cariño: responde libremente a una relación ya recibida."
+            },
+            {
+              "title": "Escuchar",
+              "text": "El Espíritu de la verdad permanece dentro. No grita ni controla: hace presente el modo de amar de Jesús en cada situación."
+            },
+            {
+              "title": "Discernir",
+              "text": "No todo impulso interior viene del Espíritu. La verdad, la libertad, el cuidado y los frutos permiten poner a prueba una voz."
+            },
+            {
+              "title": "Elegir",
+              "text": "La fidelidad se juega en decisiones pequeñas. El bien se elige por lo que construye, también cuando desaparecen el aplauso y la vigilancia."
+            },
+            {
+              "title": "Permanecer",
+              "text": "Jesús no deja huérfanos ni abandona el proceso. Caer no cancela la relación: puede abrir retorno, reparación y una elección renovada."
+            }
+          ]
+        },
+        "resonancesEyebrow": "Cuatro caminos bíblicos para una presencia interior que se vuelve amor visible",
+        "resonancesTitle": "El Espíritu escribe el amor dentro, lo prueba por sus frutos y lo vuelve acción",
+        "resonances": [
+          {
+            "ref": "Dt 30,14",
+            "title": "Palabra cercana",
+            "quote": "La palabra está muy cerca de ti, en tu boca y en tu corazón.",
+            "text": "Dios no guía desde lejos. Su Palabra se vuelve cercana para encarnarse en decisiones concretas."
+          },
+          {
+            "ref": "Jer 31,33",
+            "title": "Ley en el corazón",
+            "quote": "Pondré mi ley en su interior y la escribiré en sus corazones.",
+            "text": "La alianza no depende solo de presión exterior: forma deseo, memoria y libertad desde dentro."
+          },
+          {
+            "ref": "Gal 5,22",
+            "title": "Fruto del Espíritu",
+            "quote": "El fruto del Espíritu es amor, alegría, paz, paciencia…",
+            "text": "El discernimiento no se valida por intensidad. Se reconoce por frutos que cuidan, liberan y construyen."
+          },
+          {
+            "ref": "1 Jn 3,18",
+            "title": "Amor con obras",
+            "quote": "No amemos de palabra, sino de verdad y con obras.",
+            "text": "La presencia interior se verifica fuera: el amor se hace gesto fiel, reparación y servicio concreto."
+          }
+        ],
+        "synthesis": "Palabra cercana · corazón formado · fruto que cuida · amor con obras",
+        "question": "¿Qué me ayuda a elegir el bien cuando nadie me ve?",
+        "agendaTitle": "De la voz interior a una elección que construye",
+        "agenda": [
+          {
+            "time": "00–08",
+            "title": "Escuchar",
+            "instruction": "Oír «Me haces recordar» completa, sin explicarla todavía.",
+            "question": "¿Qué frase nombra una elección que nace desde dentro?"
+          },
+          {
+            "time": "08–20",
+            "title": "Reconocer",
+            "instruction": "Tarjeta opcional: «para ser visto» / «lo elegiría igual».",
+            "question": "¿Qué cambia cuando desaparecen el aplauso y la vigilancia?"
+          },
+          {
+            "time": "20–38",
+            "title": "Iluminar",
+            "instruction": "Leer Jn 14,15–21 y marcar amor, guardar, Espíritu, dentro, vida y presencia.",
+            "question": "¿Cómo une Jesús amor, libertad y fidelidad sin convertirlos en control?"
+          },
+          {
+            "time": "38–58",
+            "title": "Discernir",
+            "instruction": "En tríos, aplicar a casos ficticios cuatro filtros: verdad, libertad, cuidado y fruto.",
+            "question": "¿Qué voz construye y cuál justifica rencor, miedo o daño?"
+          },
+          {
+            "time": "58–70",
+            "title": "Elegir",
+            "instruction": "Escribir un gesto invisible de amor y una forma de revisarlo. Compartir libremente y orar.",
+            "question": "¿Qué decisión pequeña puede hacer visible el amor esta semana?"
+          }
+        ],
+        "criterion": "Una voz interior no es infalible. El Espíritu no humilla, coacciona ni justifica daño, secreto impuesto o aislamiento. Contrastar con el Evangelio, los frutos, la comunidad y la seguridad; ante riesgo, pedir ayuda competente. No forzar confidencias. Compartir y pasar son opciones válidas.",
+        "deckPublicPath": "assets/presentations/2026-05-10-me-haces-recordar.pptx"
+      },
       "gospel": {
         "blocks": [
           {
