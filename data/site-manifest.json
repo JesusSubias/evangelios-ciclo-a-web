@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T22:53:37.805500+00:00",
+  "generatedAt": "2026-07-15T04:17:03.847757+00:00",
   "cutoff": "2026-07-19",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "sourceNotice": "Texto biblico de trabajo: Reina-Valera 1909. La version liturgica oficial CEE 2010 no se reproduce completa sin fuente o licencia autorizada.",
@@ -771,7 +771,103 @@
         "publicPath": "assets/images/2025-12-28-sagrada-familia-jesus-maria-y-jose.jpg"
       },
       "pastoral": "La Sagrada Familia no aparece como una postal perfecta, sino como una familia vulnerable que huye para proteger la vida. Este Evangelio invita a mirar la casa y los vínculos con realismo: amar es cuidar, moverse, renunciar a comodidades y hacer refugio para quien está amenazado. Dios entra también en las historias desplazadas, frágiles y necesitadas de protección.",
-      "meeting": null,
+      "meeting": {
+        "title": "Cuida la vida",
+        "subtitle": "Familia vulnerable y refugio",
+        "duration": "70 minutos",
+        "key": {
+          "title": "Cuando hay peligro, el amor protege",
+          "text": "José no controla la historia ni elimina el peligro: escucha, se levanta de noche, toma al niño y a su madre y acepta el exilio como forma concreta de proteger la vida. Cuando llega el momento de volver, reconoce un nuevo riesgo, cambia la ruta y construye hogar en Nazaret.",
+          "quote": "Haznos hogar, haznos lugar, donde tu miedo pueda descansar.",
+          "steps": [
+            {
+              "title": "Escuchar",
+              "text": "Un aviso rompe la noche de José. Cuidar comienza prestando atención a una vida amenazada y a lo que la realidad pide."
+            },
+            {
+              "title": "Levantarse",
+              "text": "«Toma al niño y a su madre». El amor deja de ser intención y se convierte en una decisión concreta, urgente y compartida."
+            },
+            {
+              "title": "Refugiarse",
+              "text": "Egipto ofrece un lugar seguro. Huir del peligro no es fracasar: puede ser la forma responsable de permanecer fiel a la vida."
+            },
+            {
+              "title": "Discernir",
+              "text": "José vuelve, pero no de cualquier modo. Reconoce el riesgo de Arquelao, cambia la ruta y evita confundir obediencia con imprudencia."
+            },
+            {
+              "title": "Habitar",
+              "text": "Nazaret se convierte en hogar posible. La familia se construye con cuidado cotidiano, redes, límites y un lugar donde descansar."
+            }
+          ]
+        },
+        "resonancesEyebrow": "Cuatro caminos bíblicos para proteger la vida y ofrecer refugio",
+        "resonancesTitle": "Dios protege la vida, acompaña el camino y pide ofrecer refugio",
+        "resonances": [
+          {
+            "ref": "Ex 2,3",
+            "title": "Vida protegida",
+            "quote": "Puso al niño en una cesta y la dejó entre los juncos.",
+            "text": "La madre de Moisés no controla el peligro: prepara una salida concreta para proteger su vida."
+          },
+          {
+            "ref": "Sal 121,7–8",
+            "title": "Camino guardado",
+            "quote": "El Señor te guarda de todo mal; él guarda tu vida.",
+            "text": "Dios no evita todo peligro, pero acompaña las salidas y sostiene a quienes protegen la vida."
+          },
+          {
+            "ref": "Rut 2,12",
+            "title": "Refugio ofrecido",
+            "quote": "Has venido a refugiarte bajo sus alas.",
+            "text": "Rut encuentra protección en una comunidad que convierte la tierra ajena en lugar habitable."
+          },
+          {
+            "ref": "Lev 19,34",
+            "title": "Extranjero acogido",
+            "quote": "Lo amarás como a ti mismo, porque emigrantes fuisteis.",
+            "text": "La memoria de la propia vulnerabilidad se vuelve hospitalidad, derechos y cuidado concreto."
+          }
+        ],
+        "synthesis": "Vida protegida · camino acompañado · refugio ofrecido · hogar construido",
+        "question": "¿A quién necesita proteger hoy mi manera de ser familia?",
+        "agendaTitle": "De la familia idealizada al hogar que protege",
+        "agenda": [
+          {
+            "time": "00–08",
+            "title": "Escuchar",
+            "instruction": "Oír «Cuida la vida» completa, sin explicarla todavía.",
+            "question": "¿Qué frase convierte el cuidado en una decisión concreta?"
+          },
+          {
+            "time": "08–20",
+            "title": "Aterrizar",
+            "instruction": "Tarjeta opcional: «una familia real necesita…» / «puede ofrecer…» / «debe pedir…».",
+            "question": "¿Qué cambia cuando dejamos de medir una familia por su apariencia?"
+          },
+          {
+            "time": "20–38",
+            "title": "Iluminar",
+            "instruction": "Leer Mt 2,13–15.19–23 y marcar: levantarse, tomar, huir, volver, retirarse y habitar.",
+            "question": "¿Qué decisiones de José protegen la vida y qué riesgos reconoce?"
+          },
+          {
+            "time": "38–58",
+            "title": "Discernir",
+            "instruction": "En tríos, aplicar seguridad, dignidad, consentimiento, reparto del cuidado y apoyo competente a tres casos ficticios.",
+            "question": "¿Qué cuidado protege de verdad sin controlar ni aislar?"
+          },
+          {
+            "time": "58–70",
+            "title": "Cuidar",
+            "instruction": "Elegir un gesto: hacer el hogar más seguro, pedir ayuda, acoger o acompañar. Compartir libremente y orar.",
+            "question": "¿Qué gesto hará esta semana más habitable la vida de alguien?"
+          }
+        ],
+        "criterion": "No idealizar ni comparar familias, ni pedir relatos íntimos de violencia, migración o pérdida. Proteger no significa controlar ni mantener vínculos inseguros. Ante maltrato, riesgo o desprotección, priorizar la seguridad y la ayuda profesional o institucional. Compartir y pasar son opciones válidas.",
+        "deckPublicPath": "assets/presentations/2025-12-28-cuida-la-vida.pptx"
+      },
       "gospel": {
         "blocks": [
           {
