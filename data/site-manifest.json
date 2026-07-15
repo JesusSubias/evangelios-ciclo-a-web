@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T17:54:09.049083+00:00",
+  "generatedAt": "2026-07-15T19:05:58.739080+00:00",
   "cutoff": "2026-07-19",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "sourceNotice": "Texto biblico de trabajo: Reina-Valera 1909. La version liturgica oficial CEE 2010 no se reproduce completa sin fuente o licencia autorizada.",
@@ -284,7 +284,103 @@
         "publicPath": "assets/images/2025-12-07-ii-domingo-de-adviento.jpg"
       },
       "pastoral": "Juan Bautista recuerda que la fe no se sostiene solo con etiquetas, tradición o buena imagen: necesita conversión concreta. Preparar el camino del Señor significa revisar hábitos, lenguaje, relaciones y prioridades, y preguntarse qué frutos reales produce la vida. El Evangelio no humilla, pero sí despierta: Dios viene cerca y pide un corazón menos cómodo y más verdadero.",
-      "meeting": null,
+      "meeting": {
+        "title": "Va sin precio",
+        "subtitle": "Conversión que produce fruto",
+        "duration": "70 minutos",
+        "key": {
+          "title": "La gracia se recibe gratis y la conversión se reconoce por sus frutos",
+          "text": "Juan no propone comprar el amor de Dios ni exhibir una perfección inmediata. Anuncia primero que el Reino se ha acercado. La conversión nace de esa cercanía: revisa hábitos, palabras, relaciones y prioridades, y se vuelve un fruto pequeño, libre, concreto y sostenible.",
+          "quote": "El Reino de los cielos se ha acercado.",
+          "steps": [
+            {
+              "title": "Acoger",
+              "text": "El Reino se ha acercado: la gracia toma la iniciativa. Convertirse no compra a Dios; responde a su cercanía."
+            },
+            {
+              "title": "Nombrar",
+              "text": "Un hábito, una palabra, una relación o una prioridad necesita verdad. Mirarlo sin culpa ni exhibición abre una elección."
+            },
+            {
+              "title": "Enderezar",
+              "text": "Preparar el camino no exige rehacer toda la vida de una vez. Elige un giro concreto: qué, cuándo y con quién."
+            },
+            {
+              "title": "Dar fruto",
+              "text": "La conversión se reconoce en una acción repetida. Reparar, compartir y cuidar hacen visible que el Reino está cerca."
+            },
+            {
+              "title": "Permanecer",
+              "text": "El fruto necesita tiempo, apoyo y revisión. Pedir ayuda, ajustar y recomenzar también forman parte de la fidelidad."
+            }
+          ]
+        },
+        "resonancesEyebrow": "Cuatro caminos bíblicos para una conversión que se vuelve vida",
+        "resonancesTitle": "La cercanía de Dios renueva el corazón, endereza el camino y produce fruto",
+        "resonances": [
+          {
+            "ref": "Ez 36,26",
+            "title": "Corazón nuevo",
+            "quote": "Os daré un corazón nuevo y pondré en vosotros un espíritu nuevo.",
+            "text": "La conversión no nace del desprecio de uno mismo. Dios vuelve sensible el corazón para responder con verdad."
+          },
+          {
+            "ref": "Is 58,6–7",
+            "title": "Conversión que libera",
+            "quote": "Romper las cadenas… compartir tu pan con el hambriento.",
+            "text": "El ayuno que agrada a Dios toca relaciones y necesidades reales: libera, comparte y protege la dignidad."
+          },
+          {
+            "ref": "Lc 3,10–11",
+            "title": "Fruto compartido",
+            "quote": "El que tenga dos túnicas, que comparta con el que no tiene.",
+            "text": "Juan traduce la conversión en acciones verificables. Lo recibido gratis se vuelve cuidado concreto."
+          },
+          {
+            "ref": "Gal 5,22–23",
+            "title": "Fruto del Espíritu",
+            "quote": "Amor, alegría, paz, paciencia, amabilidad, bondad, fidelidad…",
+            "text": "El fruto madura en el tiempo. No es espectáculo ni perfección instantánea, sino una vida que aprende otro modo."
+          }
+        ],
+        "synthesis": "Corazón renovado · camino enderezado · bien compartido · fruto del Espíritu",
+        "question": "¿Qué cambio pequeño haría visible que Dios está cerca?",
+        "agendaTitle": "De la cercanía de Dios a un fruto concreto",
+        "agenda": [
+          {
+            "time": "00–08",
+            "title": "Escuchar",
+            "instruction": "Oír «Va sin precio» completa, sin explicarla todavía.",
+            "question": "¿Qué frase mueve el corazón hacia una misión concreta?"
+          },
+          {
+            "time": "08–20",
+            "title": "Nombrar",
+            "instruction": "Tarjeta: «me acerca» / «me anestesia» / «necesita revisión».",
+            "question": "¿Qué hábito, palabra, relación o prioridad pide verdad?"
+          },
+          {
+            "time": "20–38",
+            "title": "Iluminar",
+            "instruction": "Leer Mt 3,1–12 y marcar: acercarse, preparar, fruto, piedras y fuego.",
+            "question": "¿Qué aparece primero: la cercanía de Dios o nuestro cambio?"
+          },
+          {
+            "time": "38–58",
+            "title": "Discernir",
+            "instruction": "Casos ficticios: aplicar concreción, gratuidad, cuidado y sostenibilidad.",
+            "question": "¿Qué diferencia un fruto real de una promesa nacida de la culpa?"
+          },
+          {
+            "time": "58–70",
+            "title": "Elegir",
+            "instruction": "Elegir un fruto para siete días: cuándo, dónde, con quién y revisión.",
+            "question": "¿Qué cambio pequeño hará visible esta semana que Dios está cerca?"
+          }
+        ],
+        "criterion": "Conversión no es humillación, control ni exposición pública. No forzar confidencias ni promesas drásticas o inseguras. Ante adicción, violencia, autolesión o riesgo, priorizar seguridad y ayuda competente. Un paso responsable vale más que un gran propósito. Pasar es válido.",
+        "deckPublicPath": "assets/presentations/2025-12-07-va-sin-precio.pptx"
+      },
       "gospel": {
         "blocks": [
           {
