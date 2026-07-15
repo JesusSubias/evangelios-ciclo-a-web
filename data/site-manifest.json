@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T05:05:31.997462+00:00",
+  "generatedAt": "2026-07-15T07:36:29.094011+00:00",
   "cutoff": "2026-07-19",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "sourceNotice": "Texto biblico de trabajo: Reina-Valera 1909. La version liturgica oficial CEE 2010 no se reproduce completa sin fuente o licencia autorizada.",
@@ -1663,7 +1663,103 @@
         "publicPath": "assets/images/2026-01-25-iii-domingo-del-tiempo-ordinario.jpg"
       },
       "pastoral": "Jesús llama a los discípulos en medio de su trabajo ordinario, no en un escenario perfecto. También hoy la vocación nace junto a las redes de cada día: responsabilidades, amistades, familia, proyectos y preguntas. 'Sígueme' no es perder la vida, sino descubrir para qué se entregan los talentos y qué redes hay que soltar para caminar con más libertad.",
-      "meeting": null,
+      "meeting": {
+        "title": "Sígueme",
+        "subtitle": "La llamada en la vida ordinaria",
+        "duration": "70 minutos",
+        "key": {
+          "title": "Jesús llama dentro de la vida que ya vivimos",
+          "text": "Jesús vuelve a Galilea cuando Juan ha sido encarcelado y encuentra a cuatro hombres trabajando: unos echan redes y otros las remiendan. No desprecia su oficio ni espera un momento perfecto. Los mira, los llama a caminar detrás de él y convierte su experiencia en una forma nueva de servir.",
+          "quote": "No me sacas fuera de lo que vivo, me enseñas cómo vivir.",
+          "steps": [
+            {
+              "title": "Volver",
+              "text": "Jesús regresa a Galilea en una historia marcada por el encarcelamiento de Juan. La llamada no espera a que desaparezcan la incertidumbre o el dolor."
+            },
+            {
+              "title": "Mirar",
+              "text": "Ve a Simón y Andrés echando las redes, y después a Santiago y Juan remendándolas. La vocación comienza con una mirada concreta sobre personas reales."
+            },
+            {
+              "title": "Llamar",
+              "text": "«Venid detrás de mí». Jesús ofrece primero una relación y un camino; la misión nace de aprender a caminar con él."
+            },
+            {
+              "title": "Soltar",
+              "text": "Dejan redes, barca y seguridades. No todo vínculo o tarea es un obstáculo: seguir exige discernir qué sostiene la vida y qué ya no permite avanzar."
+            },
+            {
+              "title": "Caminar",
+              "text": "El relato termina recorriendo Galilea, enseñando, anunciando y curando. La llamada se reconoce cuando transforma la vida en servicio y cuidado."
+            }
+          ]
+        },
+        "resonancesEyebrow": "Cuatro claves bíblicas para escuchar una llamada dentro de la vida cotidiana",
+        "resonancesTitle": "Dios llama en la tarea, enseña a reconocer su voz y convierte la respuesta en servicio",
+        "resonances": [
+          {
+            "ref": "Ex 3,1–4",
+            "title": "Nombre en el trabajo",
+            "quote": "Moisés, Moisés. Heme aquí.",
+            "text": "Dios llama a Moisés mientras cuida el rebaño: el trabajo ordinario se convierte en lugar de encuentro."
+          },
+          {
+            "ref": "1 Sam 3,8–10",
+            "title": "Aprender la voz",
+            "quote": "Habla, Señor, que tu siervo escucha.",
+            "text": "Samuel necesita la ayuda de Elí para reconocer la voz. Discernir también implica escuchar a otros y dar tiempo."
+          },
+          {
+            "ref": "Is 6,8",
+            "title": "Respuesta disponible",
+            "quote": "Aquí estoy, envíame.",
+            "text": "La respuesta nace después de escuchar y dejarse tocar. Disponibilidad no significa prisa, heroísmo ni presión."
+          },
+          {
+            "ref": "Col 3,17",
+            "title": "Lo cotidiano ofrecido",
+            "quote": "Todo cuanto hagáis, hacedlo en nombre del Señor.",
+            "text": "La vocación no aparta de la vida: transforma palabras, tareas y relaciones en una forma de servir."
+          }
+        ],
+        "synthesis": "Vida concreta · voz discernida · libertad para soltar · servicio cotidiano",
+        "question": "¿Qué está pidiendo Jesús transformar dentro de lo que ya vivo?",
+        "agendaTitle": "De las redes de cada día a una respuesta discernida",
+        "agenda": [
+          {
+            "time": "00–08",
+            "title": "Escuchar",
+            "instruction": "Oír «Sígueme» completa, sin explicarla todavía.",
+            "question": "¿Qué frase convierte mi vida diaria en lugar de llamada?"
+          },
+          {
+            "time": "08–20",
+            "title": "Nombrar",
+            "instruction": "Tarjeta opcional: «redes que sostienen» / «redes que atan» / «con quién puedo caminar».",
+            "question": "¿Dónde podría estar llamándome Jesús en lo que ya vivo?"
+          },
+          {
+            "time": "20–38",
+            "title": "Iluminar",
+            "instruction": "Leer Mt 4,12–23 y marcar lugar, tareas, mirada, llamada, renuncias y camino.",
+            "question": "¿Qué transforma Jesús y qué no desprecia de la vida anterior de los discípulos?"
+          },
+          {
+            "time": "38–58",
+            "title": "Discernir",
+            "instruction": "En tríos, revisar un caso ficticio y distinguir qué conviene conservar, qué soltar y cuál sería un paso pequeño.",
+            "question": "¿Cómo distinguir una llamada de la prisa, la culpa o la presión?"
+          },
+          {
+            "time": "58–70",
+            "title": "Responder",
+            "instruction": "Elegir un paso posible, una persona con quien contrastarlo y una fecha. Compartir libremente y orar.",
+            "question": "¿Qué paso puedo dar esta semana sin abandonar mis responsabilidades?"
+          }
+        ],
+        "criterion": "No romantizar decisiones bruscas ni presentar trabajo, familia o estudio como obstáculos. Una llamada no anula responsabilidades, consentimiento, prudencia económica, procesos vocacionales ni ayuda profesional. Discernir con tiempo, comunidad y libertad. Compartir y pasar son opciones válidas.",
+        "deckPublicPath": "assets/presentations/2026-01-25-sigueme.pptx"
+      },
       "gospel": {
         "blocks": [
           {
