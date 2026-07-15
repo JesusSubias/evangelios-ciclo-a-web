@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T13:53:38.814990+00:00",
+  "generatedAt": "2026-07-15T15:37:45.606153+00:00",
   "cutoff": "2026-07-19",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "sourceNotice": "Texto biblico de trabajo: Reina-Valera 1909. La version liturgica oficial CEE 2010 no se reproduce completa sin fuente o licencia autorizada.",
@@ -10249,7 +10249,103 @@
         "publicPath": "assets/images/2026-07-19-xvi-domingo-del-tiempo-ordinario.png"
       },
       "pastoral": "Jesús invita a no confundir el cuidado con la condena ni la impaciencia con la justicia. El trigo y la cizaña crecen juntos, mientras el Reino actúa como una semilla pequeña y una levadura escondida. Este Evangelio llama a proteger a quien sufre y frenar el daño sin arrancar la esperanza de nadie: Dios trabaja en silencio, da tiempo a la conversión y nos hace cuidadores pacientes de su campo.",
-      "meeting": null,
+      "meeting": {
+        "title": "La noche no es dueña",
+        "subtitle": "Cuidar sin arrancar la esperanza",
+        "duration": "70 minutos",
+        "key": {
+          "title": "Paciencia activa: protege sin condenar",
+          "text": "El dueño del campo no niega la cizaña ni llama bueno al daño. Detiene una respuesta precipitada porque arrancar puede destruir también el trigo. La paciencia cristiana nombra lo que hiere, protege a quien puede sufrir, pone límites y deja en manos de Dios el juicio último, manteniendo abierta la posibilidad de conversión.",
+          "quote": "No arranquéis también el trigo.",
+          "steps": [
+            {
+              "title": "Nombrar",
+              "text": "Hay trigo y cizaña: bien real y daño real conviven en el mismo campo. La paciencia comienza mirando de frente."
+            },
+            {
+              "title": "Distinguir",
+              "text": "Una acción no agota a toda la persona. Nombrar conductas e impactos evita convertir una herida en una identidad definitiva."
+            },
+            {
+              "title": "Proteger",
+              "text": "El límite detiene lo que hiere al trigo. Cuidar exige verdad, seguridad, responsabilidad y apoyo para quien sufre."
+            },
+            {
+              "title": "Dar tiempo",
+              "text": "Esperar no es dejar que el daño continúe. Acompañar, revisar y pedir cambios concretos mantiene abierta la conversión."
+            },
+            {
+              "title": "Confiar",
+              "text": "El juicio último pertenece a Dios. La noche no decide el futuro del campo ni cancela la esperanza de nadie."
+            }
+          ]
+        },
+        "resonancesEyebrow": "Cuatro caminos bíblicos para corregir sin condenar",
+        "resonancesTitle": "La misericordia no oculta el daño: corrige y mantiene abierta la conversión",
+        "resonances": [
+          {
+            "ref": "Sab 12,19",
+            "title": "Esperanza de conversión",
+            "quote": "Después del pecado das lugar al arrepentimiento.",
+            "text": "La paciencia de Dios no niega el mal: mantiene abierta la posibilidad real de arrepentimiento."
+          },
+          {
+            "ref": "Gal 6,1",
+            "title": "Corrección humilde",
+            "quote": "Corregidlo con espíritu de mansedumbre.",
+            "text": "Corregir no es humillar. Quien acompaña reconoce también su fragilidad y cuida el vínculo."
+          },
+          {
+            "ref": "Jn 8,11",
+            "title": "Verdad sin condena",
+            "quote": "Tampoco yo te condeno. Anda y no peques más.",
+            "text": "Jesús une acogida y llamada al cambio. La misericordia no encubre el daño ni reduce a nadie a él."
+          },
+          {
+            "ref": "Rom 12,21",
+            "title": "Vencer con el bien",
+            "quote": "No te dejes vencer por el mal; vence al mal con el bien.",
+            "text": "El mal no se derrota imitándolo. El bien pone límites, protege la vida y abre otro modo de responder."
+          }
+        ],
+        "synthesis": "Verdad sin etiquetas · límites seguros · corrección humilde · esperanza abierta",
+        "question": "¿Cómo frenamos el daño sin convertir a nadie en su peor acción?",
+        "agendaTitle": "Del juicio rápido al cuidado responsable",
+        "agenda": [
+          {
+            "time": "00–08",
+            "title": "Escuchar",
+            "instruction": "Oír «La noche no es dueña» completa, sin explicarla todavía.",
+            "question": "¿Qué frase mantiene juntas verdad sobre el daño y esperanza?"
+          },
+          {
+            "time": "08–20",
+            "title": "Distinguir",
+            "instruction": "Tarjeta triple: acción observada / impacto causado / persona.",
+            "question": "¿Qué cambia al nombrar una acción sin etiquetar a quien la hizo?"
+          },
+          {
+            "time": "20–38",
+            "title": "Iluminar",
+            "instruction": "Leer Mt 13,24–30 y 36–43; marcar problema, impulso, riesgo, tiempo y futuro.",
+            "question": "¿Qué detiene el dueño del campo y qué quiere proteger?"
+          },
+          {
+            "time": "38–58",
+            "title": "Cuidar",
+            "instruction": "Caso ficticio: detener, proteger, poner límite, apoyar el cambio y revisar.",
+            "question": "¿Qué respuesta protege sin negar la verdad ni condenar a la persona?"
+          },
+          {
+            "time": "58–70",
+            "title": "Responder",
+            "instruction": "Acordar un límite, un apoyo y una revisión. Compartir libremente y orar.",
+            "question": "¿Qué podemos proteger esta semana dejando abierta la esperanza?"
+          }
+        ],
+        "criterion": "Paciencia no es tolerar abuso, violencia ni riesgo. Ante daño, detener, proteger y pedir ayuda competente. La conversión no obliga a mantener contacto ni a reconciliar sin seguridad y reparación. Compartir y pasar son opciones válidas.",
+        "deckPublicPath": "assets/presentations/2026-07-19-la-noche-no-es-duena.pptx"
+      },
       "gospel": {
         "blocks": [
           {
