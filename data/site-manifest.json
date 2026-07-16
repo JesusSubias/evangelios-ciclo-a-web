@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T21:55:21.892718+00:00",
+  "generatedAt": "2026-07-16T05:05:02.299794+00:00",
   "cutoff": "2026-07-19",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "sourceNotice": "Texto biblico de trabajo: Reina-Valera 1909. La version liturgica oficial CEE 2010 no se reproduce completa sin fuente o licencia autorizada.",
@@ -1766,7 +1766,103 @@
         "publicPath": "assets/images/2026-01-18-ii-domingo-del-tiempo-ordinario.jpg"
       },
       "pastoral": "Juan señala a Jesús y se aparta del centro. En una cultura que empuja a exhibirse, este Evangelio propone una libertad preciosa: ser testigos, no protagonistas absolutos. Contemplar al Cordero significa aprender a reconocer a quien quita peso al mundo, a nombrar el bien cuando aparece y a conducir a otros hacia Cristo sin apropiarse de la luz.",
-      "meeting": null,
+      "meeting": {
+        "title": "Contempla al Cordero",
+        "subtitle": "Testigos sin ocupar el centro",
+        "duration": "70 minutos",
+        "key": {
+          "title": "El testigo reconoce a Jesús, dice lo que ha visto y abre paso",
+          "text": "Juan ve a Jesús venir, recuerda la señal recibida y da testimonio sin convertir la escena en un escaparate propio. La libertad del testigo no consiste en desaparecer ni en apropiarse de la luz, sino en nombrar con verdad, señalar a Cristo y dejar que los demás hagan su camino.",
+          "quote": "Yo lo he visto y he dado testimonio.",
+          "steps": [
+            {
+              "title": "Mirar",
+              "text": "Juan ve a Jesús venir. El testimonio comienza prestando atención a la realidad antes de emitir una opinión o buscar visibilidad."
+            },
+            {
+              "title": "Reconocer",
+              "text": "«Este es el Cordero de Dios». Juan nombra la acción de Dios sin apropiársela ni convertir el don recibido en mérito personal."
+            },
+            {
+              "title": "Recordar",
+              "text": "El agua, el Espíritu y la palabra recibida le permiten interpretar lo que ve. Testimoniar exige memoria, contraste y humildad ante lo que no sabemos."
+            },
+            {
+              "title": "Señalar",
+              "text": "La voz y el gesto de Juan desplazan la mirada hacia Jesús. La humildad no borra su presencia: le da una dirección verdadera y servicial."
+            },
+            {
+              "title": "Abrir paso",
+              "text": "Juan no retiene la escena ni controla el recorrido ajeno. Un liderazgo sano crea espacio para que otros reconozcan, pregunten y respondan con libertad."
+            }
+          ]
+        },
+        "resonancesEyebrow": "Cuatro ecos bíblicos para acompañar, compartir y servir sin protagonismo",
+        "resonancesTitle": "Dios enseña a reconocer la voz, compartir el don, dejar crecer y custodiar el tesoro",
+        "resonances": [
+          {
+            "ref": "1 Sam 3,8–10",
+            "title": "Acompañar sin sustituir",
+            "quote": "Si te llama, dirás: Habla, Señor, que tu siervo escucha.",
+            "text": "Elí reconoce una llamada que no le pertenece y ayuda a Samuel a responder con su propia voz."
+          },
+          {
+            "ref": "Núm 11,26–29",
+            "title": "Don no acaparado",
+            "quote": "¡Ojalá todo el pueblo del Señor fuera profeta!",
+            "text": "Moisés no protege su posición: se alegra de que el Espíritu actúe también fuera de su control."
+          },
+          {
+            "ref": "1 Cor 3,5–7",
+            "title": "Dios da el crecimiento",
+            "quote": "Ni el que planta ni el que riega, sino Dios, que da el crecimiento.",
+            "text": "Pablo reconoce tareas reales sin convertir a los servidores en dueños del fruto ni del grupo."
+          },
+          {
+            "ref": "2 Cor 4,5–7",
+            "title": "Tesoro, no escaparate",
+            "quote": "No nos predicamos a nosotros mismos, sino a Jesucristo como Señor.",
+            "text": "La fragilidad de la vasija evita confundir el brillo del mensajero con la fuerza del Evangelio."
+          }
+        ],
+        "synthesis": "Mirada atenta · palabra verdadera · don compartido · camino abierto",
+        "question": "¿Dónde necesito nombrar un bien sin apropiármelo ni esconderme?",
+        "agendaTitle": "De la necesidad de ser vistos a la libertad de señalar y abrir paso",
+        "agenda": [
+          {
+            "time": "00–08",
+            "title": "Escuchar",
+            "instruction": "Oír «Contempla al Cordero» completa, sin explicarla todavía.",
+            "question": "¿Qué frase coloca el foco en Juan y cuál lo desplaza hacia Jesús?"
+          },
+          {
+            "time": "08–20",
+            "title": "Descentrar",
+            "instruction": "Tarjeta opcional: «cuando ocupo el centro» / «cuando desaparezco» / «cuando señalo». Sin nombres propios.",
+            "question": "¿Qué diferencia hay entre borrarme y dejar espacio para el bien?"
+          },
+          {
+            "time": "20–38",
+            "title": "Iluminar",
+            "instruction": "Leer Jn 1,29–34 y marcar los verbos: ver, decir, recordar, reconocer y testimoniar.",
+            "question": "¿En qué se apoya Juan para hablar y hacia dónde dirige la atención?"
+          },
+          {
+            "time": "38–58",
+            "title": "Discernir",
+            "instruction": "En tríos, aplicar verdad, servicio, libertad y camino abierto a casos ficticios de liderazgo, redes y acompañamiento.",
+            "question": "¿Este gesto ayuda a reconocer el bien o convierte al testigo en protagonista?"
+          },
+          {
+            "time": "58–70",
+            "title": "Testimoniar",
+            "instruction": "Escribir tres líneas: «lo que vi» / «qué bien reconozco» / «qué espacio debo dejar». Compartir libremente y orar.",
+            "question": "¿Qué bien puedo nombrar esta semana y después dejar crecer sin controlarlo?"
+          }
+        ],
+        "criterion": "No usar la humildad para borrar la voz propia, negar logros o tolerar abuso. Testimoniar no autoriza a exponer ni interpretar vidas ajenas, ni a dar autoridad divina a impresiones personales. Cuidar verdad, consentimiento, límites y opción de pasar.",
+        "deckPublicPath": "assets/presentations/2026-01-18-contempla-al-cordero.pptx"
+      },
       "gospel": {
         "blocks": [
           {
