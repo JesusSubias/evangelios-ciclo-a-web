@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T20:15:18.838166+00:00",
+  "generatedAt": "2026-07-15T21:55:21.892718+00:00",
   "cutoff": "2026-07-19",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "sourceNotice": "Texto biblico de trabajo: Reina-Valera 1909. La version liturgica oficial CEE 2010 no se reproduce completa sin fuente o licencia autorizada.",
@@ -3444,7 +3444,103 @@
         "publicPath": "assets/images/2026-03-01-ii-domingo-de-cuaresma.jpg"
       },
       "pastoral": "La Transfiguración regala una luz que no evita la cruz, pero ayuda a atravesarla. Hay momentos de oración, amistad, belleza o retiro que permiten ver más hondo y escuchar: 'Este es mi Hijo'. La tentación es quedarse en la emoción; Jesús, en cambio, invita a bajar del monte y llevar esa luz a la vida real.",
-      "meeting": null,
+      "meeting": {
+        "title": "Tres tiendas",
+        "subtitle": "Bajar del monte con una luz",
+        "duration": "70 minutos",
+        "key": {
+          "title": "La luz no se retiene: se escucha y se baja con ella",
+          "text": "La Transfiguración no aparta a los discípulos de la vida real ni elimina de golpe el miedo. Les deja ver quién es Jesús, centra la atención en su voz y termina con un gesto muy humano: los toca, los levanta y baja con ellos. Una experiencia fuerte de fe se vuelve fecunda cuando ilumina un paso concreto en el valle.",
+          "quote": "La luz no me aparta del camino: me devuelve a él.",
+          "steps": [
+            {
+              "title": "Subir",
+              "text": "Jesús lleva aparte a Pedro, Santiago y Juan. Tomar distancia no es huir: crea silencio para mirar la vida desde otro lugar."
+            },
+            {
+              "title": "Mirar",
+              "text": "Su rostro y sus vestidos resplandecen. La luz no niega la cruz que viene; revela que el amor de Dios puede atravesarla."
+            },
+            {
+              "title": "Escuchar",
+              "text": "La nube desplaza el impulso de construir tres tiendas: «Este es mi Hijo amado; escuchadlo». El centro no es conservar la experiencia, sino atender su voz."
+            },
+            {
+              "title": "Levantarse",
+              "text": "El miedo los derriba y Jesús los toca: «Levantaos, no temáis». La fe no exige fingir valentía; recibe cercanía para ponerse en pie."
+            },
+            {
+              "title": "Bajar",
+              "text": "La escena termina descendiendo. La cima se vuelve verdadera cuando su luz acompaña una decisión, una conversación o un servicio en el valle."
+            }
+          ]
+        },
+        "resonancesEyebrow": "Cuatro ecos bíblicos para recibir la luz sin convertirla en refugio",
+        "resonancesTitle": "Dios abre un espacio, hace escuchar, levanta del miedo y enciende una lámpara para el camino",
+        "resonances": [
+          {
+            "ref": "Ex 24,12–18",
+            "title": "Nube que abre",
+            "quote": "Moisés subió al monte, y la nube cubrió el monte.",
+            "text": "La nube no ofrece control ni visión total. Hace lugar a una presencia que se recibe con tiempo, atención y respeto."
+          },
+          {
+            "ref": "1 Re 19,11–13",
+            "title": "Voz que centra",
+            "quote": "Después del fuego, el susurro de una brisa suave.",
+            "text": "Elías aprende que Dios no siempre coincide con lo espectacular. Escuchar afina el corazón para reconocer una voz que no invade."
+          },
+          {
+            "ref": "Sal 27,1",
+            "title": "Luz en el miedo",
+            "quote": "El Señor es mi luz y mi salvación: ¿a quién temeré?",
+            "text": "La luz bíblica no ridiculiza el miedo. Da una orientación y una compañía desde las que es posible volver a levantarse."
+          },
+          {
+            "ref": "2 Pe 1,16–19",
+            "title": "Lámpara para bajar",
+            "quote": "Como a una lámpara que brilla en un lugar oscuro.",
+            "text": "Pedro recuerda la voz del monte no para vivir del recuerdo, sino para sostener la atención mientras amanece el camino."
+          }
+        ],
+        "synthesis": "Retiro que abre · escucha que centra · toque que levanta · luz para el valle",
+        "question": "¿Qué luz recibida necesita convertirse ahora en un paso al bajar?",
+        "agendaTitle": "De la cima que quisiéramos retener a la luz que aprende a caminar",
+        "agenda": [
+          {
+            "time": "00–08",
+            "title": "Escuchar",
+            "instruction": "Oír «Tres tiendas» completa, sin explicarla todavía.",
+            "question": "¿Qué frase me invita a quedarme y cuál me devuelve al camino?"
+          },
+          {
+            "time": "08–20",
+            "title": "Recordar",
+            "instruction": "Tarjeta opcional: «una luz recibida» / «la tienda que quise montar» / «el valle que seguía esperando».",
+            "question": "¿Qué experiencia buena intenté retener en vez de dejar que me transformara?"
+          },
+          {
+            "time": "20–38",
+            "title": "Iluminar",
+            "instruction": "Leer Mt 17,1–9 y marcar los movimientos: subir, mirar, escuchar, caer, tocar, levantarse y bajar.",
+            "question": "¿Cómo conduce Jesús de la luz recibida al regreso cotidiano?"
+          },
+          {
+            "time": "38–58",
+            "title": "Discernir",
+            "instruction": "En tríos, trabajar casos ficticios de retiro, entusiasmo, miedo y vuelta a la rutina con cuatro criterios: escucha, realidad, cuidado y siguiente paso.",
+            "question": "¿Qué diferencia una luz que evade de una luz que ayuda a vivir?"
+          },
+          {
+            "time": "58–70",
+            "title": "Bajar",
+            "instruction": "Escribir una «luz portátil»: palabra escuchada, valle concreto, paso pequeño y persona con quien revisarlo. Compartir libremente y orar.",
+            "question": "¿Qué paso llevaré al valle durante los próximos siete días?"
+          }
+        ],
+        "criterion": "No fabricar emociones intensas ni comparar experiencias de fe. No usar «Dios me ha dicho» para imponer decisiones, ni espiritualizar duelo, enfermedad, conflicto o sufrimiento psíquico. La luz no sustituye atención profesional, protección ni procesos reales. Respetar silencio, límites y opción de pasar; ante miedo intenso o riesgo, priorizar apoyo competente y seguridad.",
+        "deckPublicPath": "assets/presentations/2026-03-01-tres-tiendas.pptx"
+      },
       "gospel": {
         "blocks": [
           {
