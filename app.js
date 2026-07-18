@@ -51,7 +51,7 @@ const seasonColors = {
 };
 
 const app = document.querySelector("#app");
-const DATA_VERSION = "20260716-reunion-viniste-a-vivir-mi-vida";
+const DATA_VERSION = "20260718-todo-hablaba-de-ti";
 const calendarWeekdays = ["L", "M", "X", "J", "V", "S", "D"];
 const monthFormatter = new Intl.DateTimeFormat("es-ES", { month: "long", year: "numeric" });
 let toastTimer = null;
@@ -105,8 +105,7 @@ function persistPreferences() {
 }
 
 function chooseInitialEntry(entries) {
-  const missingAudio = entries.find((entry) => !entry.song.audioPublicPath);
-  return missingAudio || entries[0];
+  return entries[entries.length - 1];
 }
 
 function normalize(value) {
