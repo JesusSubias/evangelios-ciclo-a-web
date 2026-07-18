@@ -51,7 +51,7 @@ const seasonColors = {
 };
 
 const app = document.querySelector("#app");
-const DATA_VERSION = "20260718-todo-hablaba-de-ti-sin-gafas-suelo";
+const DATA_VERSION = "20260718-todo-hablaba-de-ti-ppt-legible";
 const calendarWeekdays = ["L", "M", "X", "J", "V", "S", "D"];
 const monthFormatter = new Intl.DateTimeFormat("es-ES", { month: "long", year: "numeric" });
 let toastTimer = null;
@@ -468,7 +468,7 @@ function renderMeeting(meeting) {
         <p>${escapeHtml(meeting.subtitle)}</p>
       </div>
       ${meeting.deckPublicPath ? `
-        <a class="meeting-download" href="${escapeHtml(meeting.deckPublicPath)}" download>
+        <a class="meeting-download" href="${escapeHtml(versionedAssetPath(meeting.deckPublicPath))}" download>
           ${ICONS.download}<span>Descargar presentación<small>PowerPoint · .pptx</small></span>
         </a>
       ` : ""}
