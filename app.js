@@ -51,7 +51,7 @@ const seasonColors = {
 };
 
 const app = document.querySelector("#app");
-const DATA_VERSION = "20260718-todo-hablaba-de-ti";
+const DATA_VERSION = "20260718-todo-hablaba-de-ti-sin-gafas-suelo";
 const calendarWeekdays = ["L", "M", "X", "J", "V", "S", "D"];
 const monthFormatter = new Intl.DateTimeFormat("es-ES", { month: "long", year: "numeric" });
 let toastTimer = null;
@@ -106,6 +106,12 @@ function persistPreferences() {
 
 function chooseInitialEntry(entries) {
   return entries[entries.length - 1];
+}
+
+function versionedAssetPath(path) {
+  const value = String(path || "");
+  if (!value || value.startsWith("data:")) return value;
+  return `${value}${value.includes("?") ? "&" : "?"}v=${encodeURIComponent(DATA_VERSION)}`;
 }
 
 function normalize(value) {
@@ -380,7 +386,7 @@ function renderEntryButton(entry) {
 }
 
 function renderReader(entry) {
-  const imagePath = entry.image.publicPath || state.manifest.assets.cover;
+  const imagePath = versionedAssetPath(entry.image.publicPath || state.manifest.assets.cover);
   const activeTab = state.tab === "meeting" && !entry.meeting ? "evangelio" : state.tab;
   return `
     <section class="reader" aria-label="Ficha dominical">
