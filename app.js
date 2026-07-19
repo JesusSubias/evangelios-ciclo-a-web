@@ -51,7 +51,7 @@ const seasonColors = {
 };
 
 const app = document.querySelector("#app");
-const DATA_VERSION = "20260719-ppt-homogeneizados";
+const DATA_VERSION = "20260719-domingo-semana-actual";
 const calendarWeekdays = ["L", "M", "X", "J", "V", "S", "D"];
 const monthFormatter = new Intl.DateTimeFormat("es-ES", { month: "long", year: "numeric" });
 let toastTimer = null;
@@ -62,7 +62,9 @@ async function init() {
     if (!response.ok) throw new Error(`No se pudo cargar el manifest (${response.status})`);
     state.manifest = await response.json();
     loadStoredState();
-    state.selectedId = chooseInitialEntry(state.manifest.entries).id;
+    const initialEntry = chooseInitialEntry(state.manifest.entries);
+    if (!initialEntry) throw new Error("No hay fichas dominicales disponibles");
+    state.selectedId = initialEntry.id;
     state.lyricsExpanded = state.preferences.expandLyrics;
     render();
   } catch (error) {
@@ -104,8 +106,25 @@ function persistPreferences() {
   writeStoredJson(STORAGE_KEYS.preferences, state.preferences);
 }
 
-function chooseInitialEntry(entries) {
-  return entries[entries.length - 1];
+function localIsoDate(date) {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
+}
+
+function sundayOfCurrentWeek(today = new Date()) {
+  const sunday = new Date(today.getFullYear(), today.getMonth(), today.getDate(), 12);
+  sunday.setDate(sunday.getDate() + ((7 - sunday.getDay()) % 7));
+  return localIsoDate(sunday);
+}
+
+function chooseInitialEntry(entries, today = new Date()) {
+  if (!entries.length) return null;
+
+  const targetSunday = sundayOfCurrentWeek(today);
+  const orderedEntries = [...entries].sort((a, b) => a.isoDate.localeCompare(b.isoDate));
+  return orderedEntries.find((entry) => entry.isoDate >= targetSunday) || orderedEntries.at(-1);
 }
 
 function versionedAssetPath(path) {
