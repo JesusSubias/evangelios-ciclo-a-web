@@ -524,6 +524,7 @@ a {
 
 .entry-button {
   display: grid;
+  position: relative;
   grid-template-columns: 13px 1fr auto;
   gap: 10px;
   width: 100%;
@@ -539,8 +540,28 @@ a {
   background: #fff;
 }
 
+.entry-button:focus-visible {
+  z-index: 1;
+  outline: 2px solid var(--teal);
+  outline-offset: -2px;
+}
+
 .entry-button[data-active="true"] {
-  background: linear-gradient(90deg, rgba(31, 111, 106, 0.14), rgba(255, 255, 255, 0.9));
+  background: linear-gradient(90deg, rgba(31, 111, 106, 0.2), rgba(255, 255, 255, 0.96));
+  box-shadow: inset 4px 0 0 var(--teal);
+}
+
+.entry-button[data-active="true"] .entry-date {
+  color: var(--teal);
+  font-weight: 800;
+}
+
+.entry-button[data-active="true"] .entry-title {
+  color: var(--burgundy);
+}
+
+.entry-button[data-active="true"] .entry-chevron {
+  color: var(--teal);
 }
 
 .season-dot {

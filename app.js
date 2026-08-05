@@ -51,7 +51,7 @@ const seasonColors = {
 };
 
 const app = document.querySelector("#app");
-const DATA_VERSION = "20260805-editorial-art-v5";
+const DATA_VERSION = "20260805-editorial-art-v6";
 const calendarWeekdays = ["L", "M", "X", "J", "V", "S", "D"];
 const monthFormatter = new Intl.DateTimeFormat("es-ES", { month: "long", year: "numeric" });
 let toastTimer = null;
@@ -66,7 +66,7 @@ async function init() {
     if (!initialEntry) throw new Error("No hay fichas dominicales disponibles");
     state.selectedId = initialEntry.id;
     state.lyricsExpanded = state.preferences.expandLyrics;
-    render();
+    render({ revealActiveEntry: true });
   } catch (error) {
     app.innerHTML = `<div class="boot-screen"><p>${escapeHtml(error.message)}</p></div>`;
   }
@@ -178,15 +178,38 @@ function captureSidebarScroll() {
   };
 }
 
-function restoreSidebarScroll(scrollState) {
-  if (!scrollState) return;
-  requestAnimationFrame(() => {
-    const sidebar = document.querySelector(".sidebar");
-    const entryList = document.querySelector(".entry-list");
+function centerActiveEntryInIndex() {
+  const sidebar = document.querySelector(".sidebar");
+  const entryList = document.querySelector(".entry-list");
+  const activeEntry = document.querySelector('.entry-button[data-active="true"]');
+  if (!sidebar || !entryList || !activeEntry) return;
+
+  const listStyle = getComputedStyle(entryList);
+  const listScrolls = ["auto", "scroll"].includes(listStyle.overflowY)
+    && entryList.scrollHeight > entryList.clientHeight;
+  const container = listScrolls ? entryList : sidebar;
+  const containerRect = container.getBoundingClientRect();
+  const activeRect = activeEntry.getBoundingClientRect();
+  const centeredTop = container.scrollTop
+    + activeRect.top
+    - containerRect.top
+    - (container.clientHeight - activeRect.height) / 2;
+
+  container.scrollTop = Math.max(0, centeredTop);
+}
+
+function restoreSidebarScroll(scrollState, revealActiveEntry = false) {
+  const sidebar = document.querySelector(".sidebar");
+  const entryList = document.querySelector(".entry-list");
+  if (scrollState) {
     if (sidebar) sidebar.scrollTop = scrollState.sidebar;
     if (entryList) entryList.scrollTop = scrollState.entryList;
     window.scrollTo(scrollState.windowX, scrollState.windowY);
-  });
+  }
+  if (revealActiveEntry) {
+    centerActiveEntryInIndex();
+    requestAnimationFrame(centerActiveEntryInIndex);
+  }
 }
 
 function render(options = {}) {
@@ -212,7 +235,7 @@ function render(options = {}) {
     </main>
   `;
   bindEvents();
-  restoreSidebarScroll(scrollState);
+  restoreSidebarScroll(scrollState, options.revealActiveEntry);
 }
 
 function renderTopActions(entry) {
@@ -384,6 +407,7 @@ function renderCalendarCell(cell) {
       data-calendar-entry="${escapeHtml(entry.id)}"
       data-active="${isActive}"
       data-muted="${cell.hiddenByFilters}"
+      ${isActive ? 'aria-current="date"' : ""}
       title="${escapeHtml(`${entry.dateLabel} - ${entry.denomination}`)}"
       aria-label="${escapeHtml(`${entry.dateLabel}: ${entry.denomination}`)}"
     >
@@ -395,8 +419,9 @@ function renderCalendarCell(cell) {
 
 function renderEntryButton(entry) {
   const isBookmarked = state.bookmarkedIds.has(entry.id);
+  const isActive = entry.id === state.selectedId;
   return `
-    <button class="entry-button" type="button" data-entry="${escapeHtml(entry.id)}" data-active="${entry.id === state.selectedId}">
+    <button class="entry-button" type="button" data-entry="${escapeHtml(entry.id)}" data-active="${isActive}" ${isActive ? 'aria-current="date"' : ""}>
       <span class="season-dot" style="background:${seasonColors[entry.season] || "#b8872f"}"></span>
       <span>
         <span class="entry-date">${escapeHtml(entry.dateLabel)}</span>
@@ -583,7 +608,7 @@ function renderSongPanel(entry) {
 function bindEvents() {
   document.querySelector("#search")?.addEventListener("input", (event) => {
     state.query = event.target.value;
-    render();
+    render({ preserveSidebarScroll: true });
     document.querySelector("#search")?.focus();
   });
 
@@ -591,7 +616,7 @@ function bindEvents() {
     button.addEventListener("click", () => {
       state.season = button.dataset.season;
       state.calendarMonth = monthKeyFromIso(selectedEntry().isoDate);
-      render();
+      render({ preserveSidebarScroll: true });
     });
   });
 
@@ -602,7 +627,7 @@ function bindEvents() {
       state.lyricsExpanded = state.preferences.expandLyrics;
       state.imageOpen = false;
       state.settingsOpen = false;
-      render({ preserveSidebarScroll: true });
+      render({ preserveSidebarScroll: true, revealActiveEntry: true });
     });
   });
 
@@ -641,7 +666,7 @@ function bindEvents() {
       state.lyricsExpanded = state.preferences.expandLyrics;
       state.imageOpen = false;
       state.settingsOpen = false;
-      render({ preserveSidebarScroll: true });
+      render({ preserveSidebarScroll: true, revealActiveEntry: true });
     });
   });
 
