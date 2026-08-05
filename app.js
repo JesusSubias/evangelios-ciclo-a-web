@@ -51,7 +51,7 @@ const seasonColors = {
 };
 
 const app = document.querySelector("#app");
-const DATA_VERSION = "20260805-editorial-art-v6";
+const DATA_VERSION = "20260805-editorial-art-v7";
 const calendarWeekdays = ["L", "M", "X", "J", "V", "S", "D"];
 const monthFormatter = new Intl.DateTimeFormat("es-ES", { month: "long", year: "numeric" });
 let toastTimer = null;
@@ -461,7 +461,7 @@ function renderReader(entry) {
         <button class="tab-button" type="button" data-tab="pastoral" data-active="${activeTab === "pastoral"}">${ICONS.light} Idea pastoral</button>
         ${entry.meeting ? `<button class="tab-button meeting-tab" type="button" data-tab="meeting" data-active="${activeTab === "meeting"}">${ICONS.people} Propuesta de reunión</button>` : ""}
       </div>
-      <article class="content-panel">
+      <article class="content-panel${activeTab === "meeting" ? "" : " reading-measure"}" data-content-mode="${activeTab}">
         ${activeTab === "evangelio" ? renderGospel(entry) : activeTab === "pastoral" ? renderPastoral(entry) : renderMeeting(entry.meeting)}
       </article>
       <p class="source-note">${escapeHtml(state.manifest.sourceNotice)}</p>

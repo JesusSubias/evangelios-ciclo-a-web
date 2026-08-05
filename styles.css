@@ -15,6 +15,7 @@
   --gold: #b8872f;
   --shadow: 0 18px 48px rgba(36, 28, 20, 0.11);
   --radius: 8px;
+  --reading-measure: 72ch;
   --sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
 }
@@ -860,11 +861,16 @@ a {
 .content-panel {
   display: grid;
   gap: 18px;
-  max-width: 980px;
+  width: 100%;
   color: var(--ink);
   font-family: var(--serif);
   font-size: 1.05rem;
-  line-height: 1.62;
+  line-height: 1.68;
+}
+
+.reading-measure {
+  max-width: var(--reading-measure);
+  margin-inline: auto;
 }
 
 .content-panel p {
@@ -1109,7 +1115,7 @@ a {
 
 .gospel-blocks {
   display: grid;
-  gap: 12px;
+  gap: 14px;
 }
 
 .gospel-heading {
@@ -1123,10 +1129,11 @@ a {
 .verse {
   display: grid;
   grid-template-columns: auto 1fr;
-  gap: 8px;
+  gap: 10px;
 }
 
 .verse-label {
+  padding-top: 0.18em;
   color: var(--blue);
   font-family: var(--sans);
   font-size: 0.78rem;
@@ -1353,6 +1360,11 @@ svg {
     padding: 18px 16px;
   }
 
+  .reading-measure {
+    max-width: none;
+    margin-inline: 0;
+  }
+
   .song-panel {
     padding: 20px 16px 30px;
   }
@@ -1398,6 +1410,10 @@ svg {
   .verse {
     grid-template-columns: 1fr;
     gap: 3px;
+  }
+
+  .verse-label {
+    padding-top: 0;
   }
 
   .meeting-intro {
