@@ -51,7 +51,7 @@ const seasonColors = {
 };
 
 const app = document.querySelector("#app");
-const DATA_VERSION = "20260803-ven";
+const DATA_VERSION = "20260805-editorial-art-v3";
 const calendarWeekdays = ["L", "M", "X", "J", "V", "S", "D"];
 const monthFormatter = new Intl.DateTimeFormat("es-ES", { month: "long", year: "numeric" });
 let toastTimer = null;
@@ -162,6 +162,13 @@ function selectedEntry() {
   return state.manifest.entries.find((entry) => entry.id === state.selectedId) || state.manifest.entries[0];
 }
 
+function imageAlt(entry, complete = false) {
+  const transcript = entry.image.textTranscript
+    ? `. Texto visible en la ilustración: ${entry.image.textTranscript}`
+    : "";
+  return `${entry.denomination}${complete ? ", imagen completa" : ""}${transcript}`;
+}
+
 function captureSidebarScroll() {
   return {
     sidebar: document.querySelector(".sidebar")?.scrollTop ?? 0,
@@ -199,9 +206,9 @@ function render(options = {}) {
     </header>
     ${state.toast ? `<div class="toast" role="status">${escapeHtml(state.toast)}</div>` : ""}
     <main class="app-layout">
-      ${renderSidebar()}
       ${renderReader(entry)}
       ${renderSongPanel(entry)}
+      ${renderSidebar()}
     </main>
   `;
   bindEvents();
@@ -411,7 +418,7 @@ function renderReader(entry) {
     <section class="reader" aria-label="Ficha dominical">
       <figure class="hero-image">
         <button class="image-open-hitarea" type="button" data-open-image aria-label="Ver imagen completa">
-          <img src="${escapeHtml(imagePath)}" alt="${escapeHtml(entry.denomination)}" />
+          <img src="${escapeHtml(imagePath)}" alt="${escapeHtml(imageAlt(entry))}" />
         </button>
         <button class="image-open-button" type="button" data-open-image>Ver imagen completa</button>
       </figure>
@@ -449,7 +456,7 @@ function renderImageViewer(entry, imagePath) {
           </div>
           <button class="icon-button" type="button" data-close-image title="Cerrar imagen">×</button>
         </div>
-        <img src="${escapeHtml(imagePath)}" alt="${escapeHtml(entry.denomination)} completa" />
+        <img src="${escapeHtml(imagePath)}" alt="${escapeHtml(imageAlt(entry, true))}" />
       </div>
     </div>
   `;

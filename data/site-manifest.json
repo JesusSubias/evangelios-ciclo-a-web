@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T15:11:49.468133+00:00",
+  "generatedAt": "2026-08-05T07:08:00.136398+00:00",
   "cutoff": "2026-08-09",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "sourceNotice": "Texto biblico de trabajo: Reina-Valera 1909. La version liturgica oficial CEE 2010 no se reproduce completa sin fuente o licencia autorizada.",
@@ -13,6 +13,7 @@
     "cycleAudioFound": 37,
     "cycleAudioMissing": 0,
     "imagesFound": 37,
+    "editorialImagesFound": 37,
     "chordPdfsFound": 0
   },
   "missing": {
@@ -35,7 +36,9 @@
         }
       ],
       "image": {
-        "publicPath": "assets/images/2025-11-30-i-domingo-de-adviento.jpg"
+        "publicPath": "assets/images/editorial/2025-11-30-i-domingo-de-adviento.webp",
+        "variant": "editorial",
+        "textTranscript": null
       },
       "pastoral": "Jesús invita a vivir despiertos, no con miedo, sino con el corazón atento. Este Adviento es una llamada a salir del piloto automático, de la prisa y de las distracciones que anestesian, para reconocer a Dios en lo cotidiano. Velar es cuidar la vida interior, elegir bien qué nos despierta y dejar espacio a una esperanza que llega sin ruido.",
       "meeting": {
@@ -281,7 +284,9 @@
         }
       ],
       "image": {
-        "publicPath": "assets/images/2025-12-07-ii-domingo-de-adviento.jpg"
+        "publicPath": "assets/images/editorial/2025-12-07-ii-domingo-de-adviento.webp",
+        "variant": "editorial",
+        "textTranscript": "PACK DE EXPERIENCIA · PER TOTAM VITAM"
       },
       "pastoral": "Juan Bautista recuerda que la fe no se sostiene solo con etiquetas, tradición o buena imagen: necesita conversión concreta. Preparar el camino del Señor significa revisar hábitos, lenguaje, relaciones y prioridades, y preguntarse qué frutos reales produce la vida. El Evangelio no humilla, pero sí despierta: Dios viene cerca y pide un corazón menos cómodo y más verdadero.",
       "meeting": {
@@ -555,7 +560,9 @@
         }
       ],
       "image": {
-        "publicPath": "assets/images/2025-12-14-iii-domingo-de-adviento-gaudete.jpg"
+        "publicPath": "assets/images/editorial/2025-12-14-iii-domingo-de-adviento-gaudete.webp",
+        "variant": "editorial",
+        "textTranscript": null
       },
       "pastoral": "La pregunta de Juan desde la cárcel enseña que dudar no es lo contrario de creer: puede ser una forma honrada de buscar a Jesús. La respuesta no es una teoría, sino signos de vida: los heridos son levantados y los pobres reciben noticia buena. La fe madura cuando aprende a reconocer a Cristo en gestos que curan, liberan y devuelven dignidad.",
       "meeting": {
@@ -817,7 +824,9 @@
         }
       ],
       "image": {
-        "publicPath": "assets/images/2025-12-21-iv-domingo-de-adviento.jpg"
+        "publicPath": "assets/images/editorial/2025-12-21-iv-domingo-de-adviento.webp",
+        "variant": "editorial",
+        "textTranscript": "Pasa sin llamar"
       },
       "pastoral": "José vive una situación que no controla y aun así escucha, discierne y protege. El Evangelio ilumina las decisiones tomadas en medio de dudas, presión o miedo a equivocarse: Dios no siempre explica todo, pero sí dice 'no temas' y abre caminos de fidelidad. Creer es dejar que la confianza venza al cálculo y que el amor cuide la vida que nace.",
       "meeting": {
@@ -1056,7 +1065,9 @@
         }
       ],
       "image": {
-        "publicPath": "assets/images/2025-12-28-sagrada-familia-jesus-maria-y-jose.jpg"
+        "publicPath": "assets/images/editorial/2025-12-28-sagrada-familia-jesus-maria-y-jose.webp",
+        "variant": "editorial",
+        "textTranscript": null
       },
       "pastoral": "La Sagrada Familia no aparece como una postal perfecta, sino como una familia vulnerable que huye para proteger la vida. Este Evangelio invita a mirar la casa y los vínculos con realismo: amar es cuidar, moverse, renunciar a comodidades y hacer refugio para quien está amenazado. Dios entra también en las historias desplazadas, frágiles y necesitadas de protección.",
       "meeting": {
@@ -1320,7 +1331,9 @@
         }
       ],
       "image": {
-        "publicPath": "assets/images/2026-01-04-domingo-segundo-despues-de-navidad.jpg"
+        "publicPath": "assets/images/editorial/2026-01-04-domingo-segundo-despues-de-navidad.webp",
+        "variant": "editorial",
+        "textTranscript": null
       },
       "pastoral": "El Verbo se hace carne: Dios no se queda lejos ni habla desde fuera, entra en la vida concreta. Este Evangelio dice que la respuesta no es una idea abstracta, sino una presencia que habita entre nosotros. La fe comienza cuando dejamos que la Palabra ilumine nuestras sombras y dé nombre a nuestra vida.",
       "meeting": {
@@ -1614,7 +1627,9 @@
         }
       ],
       "image": {
-        "publicPath": "assets/images/2026-01-11-bautismo-del-senor.jpg"
+        "publicPath": "assets/images/editorial/2026-01-11-bautismo-del-senor.webp",
+        "variant": "editorial",
+        "textTranscript": null
       },
       "pastoral": "En el Bautismo, Jesús escucha antes de cualquier misión: 'Este es mi Hijo amado'. Es una noticia decisiva: el valor de una persona no depende de rendimiento, apariencia, reconocimiento o comparación. Antes de demostrar nada, Dios llama hijo. Vivir desde esa identidad libera del miedo y permite servir sin tener que ganarse constantemente el amor.",
       "meeting": {
@@ -1859,7 +1874,9 @@
         }
       ],
       "image": {
-        "publicPath": "assets/images/2026-01-18-ii-domingo-del-tiempo-ordinario.jpg"
+        "publicPath": "assets/images/editorial/2026-01-18-ii-domingo-del-tiempo-ordinario.webp",
+        "variant": "editorial",
+        "textTranscript": null
       },
       "pastoral": "Juan señala a Jesús y se aparta del centro. En una cultura que empuja a exhibirse, este Evangelio propone una libertad preciosa: ser testigos, no protagonistas absolutos. Contemplar al Cordero significa aprender a reconocer a quien quita peso al mundo, a nombrar el bien cuando aparece y a conducir a otros hacia Cristo sin apropiarse de la luz.",
       "meeting": {
@@ -2140,7 +2157,9 @@
         }
       ],
       "image": {
-        "publicPath": "assets/images/2026-01-25-iii-domingo-del-tiempo-ordinario.jpg"
+        "publicPath": "assets/images/editorial/2026-01-25-iii-domingo-del-tiempo-ordinario.webp",
+        "variant": "editorial",
+        "textTranscript": null
       },
       "pastoral": "Jesús llama a los discípulos en medio de su trabajo ordinario, no en un escenario perfecto. También hoy la vocación nace junto a las redes de cada día: responsabilidades, amistades, familia, proyectos y preguntas. 'Sígueme' no es perder la vida, sino descubrir para qué se entregan los talentos y qué redes hay que soltar para caminar con más libertad.",
       "meeting": {
@@ -2452,7 +2471,9 @@
         }
       ],
       "image": {
-        "publicPath": "assets/images/2026-02-01-iv-domingo-del-tiempo-ordinario.jpg"
+        "publicPath": "assets/images/editorial/2026-02-01-iv-domingo-del-tiempo-ordinario.webp",
+        "variant": "editorial",
+        "textTranscript": null
       },
       "pastoral": "Las bienaventuranzas rompen los criterios habituales de éxito: felices no son solo los fuertes, los visibles o los que ganan, sino los pobres, mansos, limpios de corazón y perseguidos por la justicia. Jesús abre una forma distinta de felicidad, menos dependiente de la aprobación y más arraigada en la verdad. El Reino empieza abajo, donde nadie presume.",
       "meeting": {
@@ -2758,7 +2779,9 @@
         }
       ],
       "image": {
-        "publicPath": "assets/images/2026-02-08-v-domingo-del-tiempo-ordinario.jpg"
+        "publicPath": "assets/images/editorial/2026-02-08-v-domingo-del-tiempo-ordinario.webp",
+        "variant": "editorial",
+        "textTranscript": null
       },
       "pastoral": "Ser sal y luz no exige hacer cosas espectaculares, sino vivir de modo que otros puedan respirar esperanza. Este Evangelio invita a no esconder los dones ni convertir la fe en algo privado e invisible. Una palabra limpia, una amistad fiel, una decisión justa o un servicio pequeño pueden iluminar más que muchos discursos cuando nacen de Dios.",
       "meeting": {
@@ -2982,7 +3005,9 @@
         }
       ],
       "image": {
-        "publicPath": "assets/images/2026-02-15-vi-domingo-del-tiempo-ordinario.jpg"
+        "publicPath": "assets/images/editorial/2026-02-15-vi-domingo-del-tiempo-ordinario.webp",
+        "variant": "editorial",
+        "textTranscript": "Prohibido equivocarse · Página 1 de 9.872 · Ama y haz lo que quieras"
       },
       "pastoral": "Jesús lleva la ley al corazón: no basta evitar lo exterior si por dentro crecen desprecio, mentira o doblez. Este Evangelio toca relaciones, afectividad, lenguaje y coherencia: reconciliarse, cuidar el deseo, decir sí cuando es sí y no cuando es no. La libertad cristiana no es hacer cualquier cosa, sino vivir con un corazón unificado y verdadero.",
       "meeting": {
@@ -3339,7 +3364,9 @@
         }
       ],
       "image": {
-        "publicPath": "assets/images/2026-02-22-i-domingo-de-cuaresma.jpg"
+        "publicPath": "assets/images/editorial/2026-02-22-i-domingo-de-cuaresma.webp",
+        "variant": "editorial",
+        "textTranscript": null
       },
       "pastoral": "Las tentaciones atacan la identidad de Jesús: 'si eres Hijo'. También hoy aparecen atajos que prometen valor a cambio de éxito rápido, poder, consumo o aplauso. Jesús responde desde la Palabra y muestra que ser hijo no necesita espectáculo. La Cuaresma empieza aprendiendo a desenmascarar voces que usan nuestras hambres para alejarnos de la confianza en el Padre.",
       "meeting": {
@@ -3633,7 +3660,9 @@
         }
       ],
       "image": {
-        "publicPath": "assets/images/2026-03-01-ii-domingo-de-cuaresma.jpg"
+        "publicPath": "assets/images/editorial/2026-03-01-ii-domingo-de-cuaresma.webp",
+        "variant": "editorial",
+        "textTranscript": null
       },
       "pastoral": "La Transfiguración regala una luz que no evita la cruz, pero ayuda a atravesarla. Hay momentos de oración, amistad, belleza o retiro que permiten ver más hondo y escuchar: 'Este es mi Hijo'. La tentación es quedarse en la emoción; Jesús, en cambio, invita a bajar del monte y llevar esa luz a la vida real.",
       "meeting": {
@@ -3933,7 +3962,9 @@
         }
       ],
       "image": {
-        "publicPath": "assets/images/2026-03-08-iii-domingo-de-cuaresma.jpg"
+        "publicPath": "assets/images/editorial/2026-03-08-iii-domingo-de-cuaresma.webp",
+        "variant": "editorial",
+        "textTranscript": null
       },
       "pastoral": "Jesús se sienta junto al pozo de una mujer cargada de historia y sed. No la cancela, no la usa, no la reduce a sus heridas: dialoga y despierta en ella agua viva. Este Evangelio habla de deseos profundos, vergüenzas y búsquedas. Cristo no huye de nuestras preguntas: las convierte en camino de verdad, libertad y misión.",
       "meeting": {
@@ -4379,7 +4410,9 @@
         }
       ],
       "image": {
-        "publicPath": "assets/images/2026-03-15-iv-domingo-de-cuaresma-laetare.jpg"
+        "publicPath": "assets/images/editorial/2026-03-15-iv-domingo-de-cuaresma-laetare.webp",
+        "variant": "editorial",
+        "textTranscript": null
       },
       "pastoral": "El ciego de nacimiento aprende a ver mientras otros, seguros de sí, se van quedando ciegos. Este Evangelio invita a revisar prejuicios, etiquetas y miradas que condenan antes de conocer. Jesús no pregunta de quién es la culpa, sino que abre futuro. Creer es dejarse lavar los ojos para mirar a las personas como Dios las mira.",
       "meeting": {
@@ -4828,7 +4861,9 @@
         }
       ],
       "image": {
-        "publicPath": "assets/images/2026-03-22-v-domingo-de-cuaresma.jpg"
+        "publicPath": "assets/images/editorial/2026-03-22-v-domingo-de-cuaresma.webp",
+        "variant": "editorial",
+        "textTranscript": null
       },
       "pastoral": "Ante Lázaro, Jesús no ofrece una esperanza fría: llora, se acerca y llama por el nombre. Este Evangelio anuncia que la última palabra no la tienen la pérdida, el cansancio ni las zonas interiores bloqueadas. Jesús pide quitar piedras, salir fuera y dejarse desatar; la resurrección empieza cuando su voz entra donde creíamos que ya no había vida.",
       "meeting": {
@@ -5323,7 +5358,9 @@
         }
       ],
       "image": {
-        "publicPath": "assets/images/2026-03-29-domingo-de-ramos-en-la-pasion-del-senor.jpg"
+        "publicPath": "assets/images/editorial/2026-03-29-domingo-de-ramos-en-la-pasion-del-senor.webp",
+        "variant": "editorial",
+        "textTranscript": "Hoy, Hosanna…"
       },
       "pastoral": "Ramos muestra lo fácil que es pasar del entusiasmo de la multitud al abandono de la cruz. La Pasión pregunta qué tipo de seguimiento elegimos cuando la fe deja de ser celebrada o cómoda. Jesús no salva desde el espectáculo, sino desde un amor fiel hasta el extremo. Seguirle es aprender una coherencia que no depende del aplauso.",
       "meeting": {
@@ -6295,7 +6332,9 @@
         }
       ],
       "image": {
-        "publicPath": "assets/images/2026-04-05-domingo-de-pascua-de-la-resurreccion-del-senor.jpg"
+        "publicPath": "assets/images/editorial/2026-04-05-domingo-de-pascua-de-la-resurreccion-del-senor.webp",
+        "variant": "editorial",
+        "textTranscript": "¡Ha resucitado!"
       },
       "pastoral": "La Pascua empieza con carreras, desconcierto y una tumba vacía: la fe nace muchas veces antes de entenderlo todo. El Resucitado abre una esperanza más fuerte que el fracaso, la culpa o la muerte interior. No se trata de optimismo superficial, sino de descubrir que Dios puede empezar vida nueva precisamente donde todo parecía cerrado.",
       "meeting": {
@@ -6695,7 +6734,9 @@
         }
       ],
       "image": {
-        "publicPath": "assets/images/2026-04-12-ii-domingo-de-pascua-o-de-la-divina-misericordia.jpg"
+        "publicPath": "assets/images/editorial/2026-04-12-ii-domingo-de-pascua-o-de-la-divina-misericordia.webp",
+        "variant": "editorial",
+        "textTranscript": null
       },
       "pastoral": "Jesús entra en una casa cerrada por miedo y ofrece paz, no reproche. Tomás enseña que las dudas pueden convertirse en lugar de encuentro cuando se llevan ante Cristo. Este Evangelio dice que la fe no exige fingir seguridad: permite tocar heridas, recibir Espíritu y descubrir que la comunidad es el espacio donde el Resucitado vuelve a ponerse en medio.",
       "meeting": {
@@ -7012,7 +7053,9 @@
         }
       ],
       "image": {
-        "publicPath": "assets/images/2026-04-19-iii-domingo-de-pascua.jpg"
+        "publicPath": "assets/images/editorial/2026-04-19-iii-domingo-de-pascua.webp",
+        "variant": "editorial",
+        "textTranscript": null
       },
       "pastoral": "Emaús habla de personas que caminan decepcionadas, con expectativas rotas y ganas de alejarse. Jesús no las interrumpe con prisas: camina, escucha, explica la Palabra y se deja reconocer al partir el pan. La pastoral necesita ese estilo: acompañar procesos, encender el corazón poco a poco y ayudar a descubrir que Cristo ya iba con nosotros por el camino.",
       "meeting": {
@@ -7375,7 +7418,9 @@
         }
       ],
       "image": {
-        "publicPath": "assets/images/2026-04-26-iv-domingo-de-pascua.jpg"
+        "publicPath": "assets/images/editorial/2026-04-26-iv-domingo-de-pascua.webp",
+        "variant": "editorial",
+        "textTranscript": "TÚ ERES LA LLAVE"
       },
       "pastoral": "Jesús se presenta como puerta y pastor: no encierra, llama por el nombre y conduce a vida abundante. Rodeados de voces que compiten por nuestra atención, este Evangelio invita a aprender qué voz cuida y qué voz roba vida. Entrar por Cristo es encontrar una libertad que no dispersa, sino que da pertenencia, dirección y pastos verdaderos.",
       "meeting": {
@@ -7677,7 +7722,9 @@
         }
       ],
       "image": {
-        "publicPath": "assets/images/2026-05-03-v-domingo-de-pascua.jpg"
+        "publicPath": "assets/images/editorial/2026-05-03-v-domingo-de-pascua.webp",
+        "variant": "editorial",
+        "textTranscript": null
       },
       "pastoral": "Cuando los discípulos están inquietos, Jesús no ofrece un mapa completo, sino una relación: 'Yo soy el camino, la verdad y la vida'. Este Evangelio enseña a caminar paso a paso con Cristo en medio de incertidumbres, búsquedas y decisiones. La verdad cristiana no aplasta preguntas: se hace camino habitable y vida compartida.",
       "meeting": {
@@ -8003,7 +8050,9 @@
         }
       ],
       "image": {
-        "publicPath": "assets/images/2026-05-10-vi-domingo-de-pascua.jpg"
+        "publicPath": "assets/images/editorial/2026-05-10-vi-domingo-de-pascua.webp",
+        "variant": "editorial",
+        "textTranscript": "MIS SUEÑOS · MIS PLANES · MI CAMINO · AMOR · VERDAD · LO ESENCIAL"
       },
       "pastoral": "Jesús une amor, mandamientos y Espíritu: no habla de control, sino de una presencia interior que enseña a amar cuando Él no se ve. Seguir a Cristo no es cumplir desde fuera para quedar bien, sino dejar que el Espíritu habite decisiones concretas. El amor se demuestra en elecciones pequeñas, fieles y libres, incluso cuando nadie mira.",
       "meeting": {
@@ -8258,7 +8307,9 @@
         }
       ],
       "image": {
-        "publicPath": "assets/images/2026-05-17-ascension-del-senor.jpg"
+        "publicPath": "assets/images/editorial/2026-05-17-ascension-del-senor.webp",
+        "variant": "editorial",
+        "textTranscript": "Tareas del Reino · MAYO 2026 · contigo · a tu lado · junto a ti · a tu vera · a tu sombra · al ladito · me ajunto · de tu mano · pegadito a ti · contigo siempre · otra vez"
       },
       "pastoral": "En la Ascensión, Jesús envía a discípulos que todavía dudan. La misión no espera a que todo esté resuelto: Cristo confía en una comunidad frágil y promete presencia todos los días. No se trata de mirar al cielo escapando del mundo, sino de ir, hacer discípulos y vivir como testigos en la historia concreta.",
       "meeting": {
@@ -8543,7 +8594,9 @@
         }
       ],
       "image": {
-        "publicPath": "assets/images/2026-05-24-domingo-de-pentecostes.jpg"
+        "publicPath": "assets/images/editorial/2026-05-24-domingo-de-pentecostes.webp",
+        "variant": "editorial",
+        "textTranscript": "¡Tú puedes!"
       },
       "pastoral": "Pentecostés nace en una sala cerrada por miedo. Jesús sopla Espíritu y transforma encierro en envío, culpa en perdón y tristeza en paz. El Espíritu no es una idea: es aliento para abrir puertas, reconciliar, crear comunidad y salir de sí. Allí donde parece que no hay fuerzas, Dios respira vida nueva.",
       "meeting": {
@@ -8820,7 +8873,9 @@
         }
       ],
       "image": {
-        "publicPath": "assets/images/2026-05-31-santisima-trinidad.jpg"
+        "publicPath": "assets/images/editorial/2026-05-31-santisima-trinidad.webp",
+        "variant": "editorial",
+        "textTranscript": "Los de siempre · Los jóvenes · Los nuevos · Los que preguntan demasiado · Los que vienen poco · Los de Cáritas · Los del coro · Los de catequesis"
       },
       "pastoral": "La Trinidad se revela en una frase sencilla: Dios amó tanto al mundo que entregó a su Hijo. Esta solemnidad no es un enigma lejano, sino la noticia de que el origen de todo es comunión y amor que salva, no condena. Creer en Dios Trinidad es aprender a mirar el mundo desde la misericordia y la entrega.",
       "meeting": {
@@ -9099,7 +9154,9 @@
         }
       ],
       "image": {
-        "publicPath": "assets/images/2026-06-07-santisimo-cuerpo-y-sangre-de-cristo.jpg"
+        "publicPath": "assets/images/editorial/2026-06-07-santisimo-cuerpo-y-sangre-de-cristo.webp",
+        "variant": "editorial",
+        "textTranscript": null
       },
       "pastoral": "En el Corpus, Jesús no se queda como idea admirable: se hace pan, comida, vida entregada. La Eucaristía enseña que el amor verdadero se parte y se comparte. Comulgar no es solo recibir consuelo individual, sino dejarse transformar en cuerpo ofrecido para otros: mesa abierta, presencia concreta y servicio donde hay hambre de sentido y de cuidado.",
       "meeting": {
@@ -9405,7 +9462,9 @@
         }
       ],
       "image": {
-        "publicPath": "assets/images/2026-06-14-xi-domingo-del-tiempo-ordinario.png"
+        "publicPath": "assets/images/editorial/2026-06-14-xi-domingo-del-tiempo-ordinario.webp",
+        "variant": "editorial",
+        "textTranscript": "No enfocan raro. Enfocan bien. · Señor, estas gafas enfocan raro."
       },
       "pastoral": "Jesús mira a la gente cansada y se conmueve antes de enviar. La misión empieza con ojos capaces de detenerse: ver hijos donde otros ven masa, ver mies donde otros ven problema. El envío nace de la oración y se vive gratis, porque todo lo recibido de Dios se convierte en cuidado, palabra, curación y entrega.",
       "meeting": {
@@ -9686,7 +9745,9 @@
         }
       ],
       "image": {
-        "publicPath": "assets/images/2026-06-21-xii-domingo-del-tiempo-ordinario.jpg"
+        "publicPath": "assets/images/editorial/2026-06-21-xii-domingo-del-tiempo-ordinario.webp",
+        "variant": "editorial",
+        "textTranscript": null
       },
       "pastoral": "Jesús repite 'no tengáis miedo' y recuerda que hasta los cabellos están contados. Este Evangelio toca el temor a mostrarse creyentes, a hablar con verdad o a no encajar. La confianza no elimina las dificultades, pero sí cambia desde dónde se viven: somos valiosos para el Padre y podemos dar testimonio sin quedar presos de la aprobación.",
       "meeting": {
@@ -9986,7 +10047,9 @@
         }
       ],
       "image": {
-        "publicPath": "assets/images/2026-06-28-xiii-domingo-del-tiempo-ordinario.jpg"
+        "publicPath": "assets/images/editorial/2026-06-28-xiii-domingo-del-tiempo-ordinario.webp",
+        "variant": "editorial",
+        "textTranscript": null
       },
       "pastoral": "Jesús no propone una fe tibia: pide ordenar los amores, tomar la cruz y descubrir que la vida se encuentra cuando se entrega. Esto no significa despreciar a la familia ni buscar sufrimiento, sino elegir a Cristo como centro que purifica todos los vínculos. Incluso un vaso de agua dado con amor cuenta en el Reino.",
       "meeting": {
@@ -10284,7 +10347,9 @@
         }
       ],
       "image": {
-        "publicPath": "assets/images/2026-07-05-xiv-domingo-del-tiempo-ordinario.jpg"
+        "publicPath": "assets/images/editorial/2026-07-05-xiv-domingo-del-tiempo-ordinario.webp",
+        "variant": "editorial",
+        "textTranscript": "TENGO QUE PODER CON TODO · QUEDAR BIEN · TENER RAZÓN · NO FALLAR · CONTROLARLO TODO · MI IMAGEN · Yo pensaba que seguirte era añadir otra carga… · Yo venía a quitarte unas cuantas."
       },
       "pastoral": "Jesús alaba al Padre porque los pequeños comprenden lo que a veces se escapa a los autosuficientes, y ofrece descanso a los cansados. Este Evangelio es un alivio frente a la presión, la imagen, la exigencia y el miedo a fallar: seguir a Cristo no añade peso inútil, enseña a vivir desde la mansedumbre, la humildad y una carga que sostiene.",
       "meeting": {
@@ -10564,7 +10629,9 @@
         }
       ],
       "image": {
-        "publicPath": "assets/images/2026-07-12-xv-domingo-del-tiempo-ordinario.png"
+        "publicPath": "assets/images/editorial/2026-07-12-xv-domingo-del-tiempo-ordinario.webp",
+        "variant": "editorial",
+        "textTranscript": "¡No oigo nada! · Entonces está creciendo."
       },
       "pastoral": "La parábola del sembrador recuerda que Dios no trabaja desde el ruido ni desde la prisa: siembra la Palabra incluso en tierras heridas, pedregosas o cansadas. Este Evangelio invita a cuidar el terreno interior, retirar piedras, callar voces que ahogan y confiar en una vida que empieza escondida. Lo pequeño que Dios deposita puede crecer más de lo que ahora somos capaces de ver.",
       "meeting": {
@@ -10918,7 +10985,9 @@
         }
       ],
       "image": {
-        "publicPath": "assets/images/2026-07-19-xvi-domingo-del-tiempo-ordinario.png"
+        "publicPath": "assets/images/editorial/2026-07-19-xvi-domingo-del-tiempo-ordinario.webp",
+        "variant": "editorial",
+        "textTranscript": null
       },
       "pastoral": "Jesús invita a no confundir el cuidado con la condena ni la impaciencia con la justicia. El trigo y la cizaña crecen juntos, mientras el Reino actúa como una semilla pequeña y una levadura escondida. Este Evangelio llama a proteger a quien sufre y frenar el daño sin arrancar la esperanza de nadie: Dios trabaja en silencio, da tiempo a la conversión y nos hace cuidadores pacientes de su campo.",
       "meeting": {
@@ -11288,7 +11357,9 @@
         }
       ],
       "image": {
-        "publicPath": "assets/images/2026-07-26-xvii-domingo-del-tiempo-ordinario.png"
+        "publicPath": "assets/images/editorial/2026-07-26-xvii-domingo-del-tiempo-ordinario.webp",
+        "variant": "editorial",
+        "textTranscript": "¿Dónde estarán?"
       },
       "pastoral": "Jesús presenta el Reino como un tesoro y una perla capaces de reordenar la vida desde la alegría. A veces no cambia el camino: cambian los ojos y descubrimos que Dios ya estaba hablando en lo cotidiano, en la historia recibida y en lo pequeño. La red y el escriba recuerdan que reconocer el Reino también exige discernir, conservar lo que da vida y aprender a leer juntos lo nuevo y lo antiguo.",
       "meeting": {
@@ -11709,7 +11780,9 @@
         }
       ],
       "image": {
-        "publicPath": "assets/images/2026-08-02-xviii-domingo-del-tiempo-ordinario.png"
+        "publicPath": "assets/images/editorial/2026-08-02-xviii-domingo-del-tiempo-ordinario.webp",
+        "variant": "editorial",
+        "textTranscript": "5 + 2 = 5 + 2 + TÚ"
       },
       "pastoral": "Jesús se retira con su dolor, pero la multitud despierta su compasión. Cuando los discípulos solo ven desierto y escasez, Él no despide a nadie: recibe cinco panes y dos peces, bendice lo poco y lo devuelve a sus manos para que lo repartan. La abundancia del Reino no consiste en acumular, sino en organizar una mesa donde todos comen, nadie queda fuera y hasta lo que sobra se recoge con cuidado.",
       "meeting": {
@@ -12002,7 +12075,9 @@
         }
       ],
       "image": {
-        "publicPath": "assets/images/2026-08-09-xix-domingo-del-tiempo-ordinario.jpg"
+        "publicPath": "assets/images/editorial/2026-08-09-xix-domingo-del-tiempo-ordinario.webp",
+        "variant": "editorial",
+        "textTranscript": "NO MIRES ABAJO"
       },
       "pastoral": "Los discípulos luchan de noche contra un viento contrario y Jesús se acerca en medio de aquello que no controlan. Pedro no camina porque domine el agua, sino porque responde a una llamada; cuando el miedo le hace perder el centro, todavía puede gritar y dejarse tomar de la mano. La fe no niega el viento ni exige imprudencias: aprende a reconocer la voz de Cristo, dar pasos discernidos y pedir ayuda cuando el miedo nos hunde.",
       "meeting": {
