@@ -1,0 +1,282 @@
+{
+  "id": "2026-02-22",
+  "readings": [
+    {
+      "context": "",
+      "ref": "Mt 4, 1-11"
+    }
+  ],
+  "pastoral": "Las tentaciones atacan la identidad de Jesús: 'si eres Hijo'. También hoy aparecen atajos que prometen valor a cambio de éxito rápido, poder, consumo o aplauso. Jesús responde desde la Palabra y muestra que ser hijo no necesita espectáculo. La Cuaresma empieza aprendiendo a desenmascarar voces que usan nuestras hambres para alejarnos de la confianza en el Padre.",
+  "meeting": {
+    "title": "Si eres Hijo",
+    "subtitle": "Las voces que usan nuestras hambres",
+    "duration": "70 minutos",
+    "key": {
+      "title": "No tienes que probar quién eres",
+      "text": "Jesús no niega el hambre: discierne la voz que quiere gobernarla y rechaza los atajos que separan la necesidad de la confianza, la libertad y el servicio.",
+      "quote": "Soy Hijo… y me basta el Padre.",
+      "steps": [
+        {
+          "title": "Hambre",
+          "text": "Jesús ayuna y siente una necesidad real. La tentación no inventa el hambre: intenta usarla para decidir por él."
+        },
+        {
+          "title": "Atajo",
+          "text": "«Haz que estas piedras se conviertan en pan». La capacidad se vuelve trampa cuando elimina la confianza y encierra la vida en la autosuficiencia."
+        },
+        {
+          "title": "Espectáculo",
+          "text": "«Tírate»: exige a Dios una prueba pública. La fe deja de confiar cuando necesita demostrar, impresionar o controlar la respuesta de Dios."
+        },
+        {
+          "title": "Dominio",
+          "text": "«Todo esto te daré»: poder sin cruz. El reino sin entrega promete control a cambio de libertad, adoración y amor."
+        },
+        {
+          "title": "Elección",
+          "text": "Jesús responde desde la Palabra recibida. Cuida el hambre, confía en el Padre, adora a Dios y elige servir."
+        }
+      ]
+    },
+    "resonancesEyebrow": "Cuatro respuestas que desarman el atajo",
+    "resonancesTitle": "La Palabra lee el hambre, sostiene la confianza y libera para servir",
+    "resonances": [
+      {
+        "ref": "Dt 8,2–3",
+        "title": "Hambre leída",
+        "quote": "No solo de pan vive el hombre, sino de toda palabra de Dios.",
+        "text": "Jesús no desprecia el pan: se niega a convertir la necesidad en autosuficiencia."
+      },
+      {
+        "ref": "Dt 6,16",
+        "title": "Confianza sin prueba",
+        "quote": "No tentaréis al Señor, vuestro Dios.",
+        "text": "La confianza no obliga a Dios a demostrar su amor ni convierte la fe en espectáculo."
+      },
+      {
+        "ref": "Dt 6,13",
+        "title": "Adoración libre",
+        "quote": "Al Señor tu Dios adorarás y solo a él servirás.",
+        "text": "Adorar a Dios libera de arrodillarse ante el poder, el éxito o la aprobación."
+      },
+      {
+        "ref": "Heb 4,15–16",
+        "title": "Misericordia en la prueba",
+        "quote": "Probado en todo como nosotros, menos en el pecado.",
+        "text": "Quien conoce la prueba abre un camino de confianza, gracia y ayuda oportuna."
+      }
+    ],
+    "synthesis": "Hambre reconocida · atajo desenmascarado · confianza elegida · servicio libre",
+    "question": "¿Qué voz usa hoy una necesidad real para prometerme un atajo?",
+    "agendaTitle": "Del hambre que presiona a la libertad que discierne",
+    "agenda": [
+      {
+        "time": "00–08",
+        "title": "Escuchar",
+        "instruction": "Oír «Si eres Hijo» completa, sin explicarla todavía.",
+        "question": "¿Qué frase suena a presión y cuál abre un espacio de libertad?"
+      },
+      {
+        "time": "08–20",
+        "title": "Distinguir",
+        "instruction": "Completar una tarjeta: «hambre real» / «promesa del atajo» / «precio oculto».",
+        "question": "¿Qué necesidad verdadera está usando la voz del atajo?"
+      },
+      {
+        "time": "20–38",
+        "title": "Iluminar",
+        "instruction": "Leer Mt 4,1–11 en tres escenas y señalar oferta, precio y respuesta de Jesús.",
+        "question": "¿Qué rechaza Jesús en cada tentación y qué protege?"
+      },
+      {
+        "time": "38–58",
+        "title": "Discernir",
+        "instruction": "En tríos, aplicar el criterio de Jesús a tres casos: consumo, aplauso y control.",
+        "question": "¿Qué palabra o gesto desenmascara cada voz?"
+      },
+      {
+        "time": "58–70",
+        "title": "Elegir",
+        "instruction": "Escribir un «no» al atajo y un «sí» que cuide el hambre. Compartir libremente y orar.",
+        "question": "¿Qué necesidad cuidaré esta semana sin obedecer al atajo?"
+      }
+    ],
+    "criterion": "No culpabilizar las necesidades, la precariedad ni las situaciones de dependencia; no forzar confidencias. Distinguir siempre hambre real, promesa del atajo, precio oculto y respuesta fiel. Pasar es válido.",
+    "deckPublicPath": "assets/presentations/2026-02-22-si-eres-hijo.pptx"
+  },
+  "gospel": {
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Evangelio: Mt 4, 1-11"
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 4,1.",
+        "text": "Entonces Jesús fué llevado del Espíritu al desierto, para ser tentado del diablo."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 4,2.",
+        "text": "Y habiendo ayunado cuarenta días y cuarenta noches, después tuvo hambre."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 4,3.",
+        "text": "Y llegándose á Él el tentador, dijo: Si eres Hijo de Dios, di que estas piedras se hagan pan."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 4,4.",
+        "text": "Mas Él respondiendo, dijo: Escrito está: No con solo el pan vivirá el hombre, mas con toda palabra que sale de la boca de Dios."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 4,5.",
+        "text": "Entonces el diablo le pasa á la santa ciudad, y le pone sobre las almenas del templo,"
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 4,6.",
+        "text": "Y le dice: Si eres Hijo de Dios, échate abajo; que escrito está: A sus ángeles mandará por ti, Y te alzarán en las manos, Para que nunca tropieces con tu pie en piedra."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 4,7.",
+        "text": "Jesús le dijo: Escrito está además: No tentarás al Señor tu Dios."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 4,8.",
+        "text": "Otra vez le pasa el diablo á un monte muy alto, y le muestra todos los reinos del mundo, y su gloria,"
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 4,9.",
+        "text": "Y dícele: Todo esto te daré, si postrado me adorares."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 4,10.",
+        "text": "Entonces Jesús le dice: Vete, Satanás, que escrito está: Al Señor tu Dios adorarás y á Él solo servirás."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 4,11.",
+        "text": "El diablo entonces le dejó: y he aquí los ángeles llegaron y le servían."
+      }
+    ]
+  },
+  "song": {
+    "lyrics": [
+      {
+        "lines": [
+          "Si tienes hambre, hazlo pan,",
+          "nadie lo va a notar.",
+          "Si tienes fuerza entre tus manos,",
+          "úsala sin pensar."
+        ]
+      },
+      {
+        "lines": [
+          "No dependas de nadie más,",
+          "no esperes nada ya.",
+          "Si puedes darte vida tú,",
+          "¿para qué confiar?"
+        ]
+      },
+      {
+        "lines": [
+          "Si eres Hijo, demuéstralo.",
+          "Si eres Hijo, demuéstralo.",
+          "Si eres Hijo…",
+          "demuéstralo."
+        ]
+      },
+      {
+        "lines": [
+          "Súbete alto y salta ya,",
+          "el cielo te sostendrá.",
+          "Que todos vean tu gloria hoy,",
+          "que aprendan a admirar."
+        ]
+      },
+      {
+        "lines": [
+          "Si el Padre está contigo,",
+          "que se note de verdad.",
+          "Haz algo inolvidable,",
+          "que no puedan dudar."
+        ]
+      },
+      {
+        "lines": [
+          "Si eres Hijo, demuéstralo.",
+          "Si eres Hijo, demuéstralo.",
+          "Si eres Hijo…",
+          "demuéstralo."
+        ]
+      },
+      {
+        "lines": [
+          "Todo lo que ves es tuyo,",
+          "solo tienes que aceptar.",
+          "Un gesto casi imperceptible",
+          "y el mundo te seguirá."
+        ]
+      },
+      {
+        "lines": [
+          "Sin cruz y sin espera,",
+          "sin tener que renunciar.",
+          "Un reino sin heridas,",
+          "sin tener que amar."
+        ]
+      },
+      {
+        "lines": [
+          "Si eres Hijo, demuéstralo.",
+          "Si eres Hijo, demuéstralo.",
+          "Si eres Hijo…",
+          "demuéstralo."
+        ]
+      },
+      {
+        "lines": [
+          "No solo de pan",
+          "vive el corazón.",
+          "No quiero probar al Padre",
+          "para creer su amor."
+        ]
+      },
+      {
+        "lines": [
+          "Al Señor mi Dios",
+          "adoraré.",
+          "Y solo a Él",
+          "serviré."
+        ]
+      },
+      {
+        "lines": [
+          "No vine a tener.",
+          "No vine a brillar.",
+          "No vine a imponer."
+        ]
+      },
+      {
+        "lines": [
+          "Soy Hijo…",
+          "y me basta el Padre.",
+          "Soy Hijo…",
+          "y me basta el Padre.",
+          "Soy Hijo…",
+          "y me basta el Padre.",
+          "Soy Hijo…",
+          "y me basta el Padre."
+        ]
+      }
+    ],
+    "chordsPdfPublicPath": null
+  }
+}

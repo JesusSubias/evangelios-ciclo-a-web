@@ -1,0 +1,286 @@
+{
+  "id": "2026-06-28",
+  "readings": [
+    {
+      "context": "",
+      "ref": "Mt 10, 37-42"
+    }
+  ],
+  "pastoral": "Jesús no propone una fe tibia: pide ordenar los amores, tomar la cruz y descubrir que la vida se encuentra cuando se entrega. Esto no significa despreciar a la familia ni buscar sufrimiento, sino elegir a Cristo como centro que purifica todos los vínculos. Incluso un vaso de agua dado con amor cuenta en el Reino.",
+  "meeting": {
+    "title": "Un vaso de agua",
+    "subtitle": "Ordenar los amores y entregar la vida",
+    "duration": "70 minutos",
+    "key": {
+      "title": "Cristo no pide amar menos, sino amar con un centro que libera",
+      "text": "Jesús no compite con la familia ni invita a buscar sufrimiento. Desenmascara los vínculos gobernados por miedo, posesión o aprobación. Ponerlo en el centro ordena los afectos: ayuda a poner límites, dar sin controlar, recibir sin etiquetar y convertir el amor en un gesto pequeño, libre y concreto.",
+      "quote": "No me pides querer menos; me enseñas a amar de nuevo.",
+      "steps": [
+        {
+          "title": "Elegir",
+          "text": "Cristo no ocupa un hueco más: se vuelve centro y criterio. No desplaza a los nuestros; libera el amor de la posesión."
+        },
+        {
+          "title": "Soltar",
+          "text": "Guardar la vida solo para uno mismo termina encogiéndola. Entregar no es borrarse, sino dejar de vivir a la defensiva."
+        },
+        {
+          "title": "Cargar",
+          "text": "La cruz es el coste real de amar con verdad. No busca dolor ni tolera daño: asume fidelidad, responsabilidad y límites."
+        },
+        {
+          "title": "Recibir",
+          "text": "Acoger a un enviado también recibe a Cristo. La hospitalidad hace sitio sin controlar, invadir ni etiquetar."
+        },
+        {
+          "title": "Ofrecer",
+          "text": "Un vaso de agua cuenta cuando responde a una necesidad real. Un gesto pequeño, libre y sostenible puede hacer cercano el Reino."
+        }
+      ]
+    },
+    "resonancesEyebrow": "Cuatro claves bíblicas para ordenar el amor y volverlo gesto",
+    "resonancesTitle": "Dios unifica el corazón, protege la dignidad y hace concreta la hospitalidad",
+    "resonances": [
+      {
+        "ref": "Dt 6,4–5",
+        "title": "Centro que unifica",
+        "quote": "Amarás al Señor tu Dios con todo tu corazón.",
+        "text": "Dios no compite con nuestros afectos. Un centro elegido impide que el miedo, la posesión o la aprobación terminen gobernándolos."
+      },
+      {
+        "ref": "Lev 19,18",
+        "title": "Amor sin borrarse",
+        "quote": "Amarás a tu prójimo como a ti mismo.",
+        "text": "El mismo mandamiento protege al otro y a uno mismo: amar no exige invadir, controlar ni desaparecer."
+      },
+      {
+        "ref": "2 Re 4,8–10",
+        "title": "Hospitalidad concreta",
+        "quote": "Preparemos una habitación, una cama, una mesa, una silla y una lámpara.",
+        "text": "La sunamita reconoce una necesidad y prepara un lugar posible. Acoger se vuelve espacio, descanso y cuidado sostenido."
+      },
+      {
+        "ref": "1 Jn 3,17–18",
+        "title": "Amor con obras",
+        "quote": "No amemos de palabra, sino con obras y de verdad.",
+        "text": "El amor deja de ser intención cuando responde a una necesidad concreta sin apropiarse de la vida de nadie."
+      }
+    ],
+    "synthesis": "Centro elegido · vida liberada · acogida concreta · amor con obras",
+    "question": "¿Qué amor necesita menos posesión y un gesto más verdadero?",
+    "agendaTitle": "Del amor que retiene al gesto que hace sitio",
+    "agenda": [
+      {
+        "time": "00–08",
+        "title": "Escuchar",
+        "instruction": "Oír «Un vaso de agua» completa, sin explicarla todavía.",
+        "question": "¿Qué frase cambia mi manera de entender la entrega?"
+      },
+      {
+        "time": "08–20",
+        "title": "Ordenar",
+        "instruction": "Tarjeta opcional: «lo que amo» / «lo que temo perder» / «lo que termina gobernando».",
+        "question": "¿Qué afecto o miedo ocupa el centro sin darme cuenta?"
+      },
+      {
+        "time": "20–38",
+        "title": "Iluminar",
+        "instruction": "Leer Mt 10,37–42 y marcar: amar, cruz, perder, encontrar, recibir y vaso.",
+        "question": "¿Cómo avanza Jesús desde ordenar el amor hasta un vaso de agua?"
+      },
+      {
+        "time": "38–58",
+        "title": "Discernir",
+        "instruction": "Casos ficticios: aplicar verdad, libertad, cuidado y sostenibilidad a vínculos y gestos de ayuda.",
+        "question": "¿Qué entrega ama de verdad sin poseer ni borrar a nadie?"
+      },
+      {
+        "time": "58–70",
+        "title": "Ofrecer",
+        "instruction": "Escribir un «vaso de agua» para siete días: persona, necesidad, límite y revisión. Compartir libremente y orar.",
+        "question": "¿Qué gesto pequeño puede hacer sitio al Reino esta semana?"
+      }
+    ],
+    "criterion": "No usar este Evangelio para justificar abandono familiar, control, autoridad abusiva, borrarse o buscar sufrimiento. La cruz no es permanecer en violencia ni en contacto inseguro. Proteger consentimiento, límites, responsabilidad compartida y seguridad; ante abuso o riesgo, pedir ayuda competente. Compartir y pasar son opciones válidas.",
+    "deckPublicPath": "assets/presentations/2026-06-28-un-vaso-de-agua.pptx"
+  },
+  "gospel": {
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Evangelio: Mt 10, 37-42"
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 10,37.",
+        "text": "El que ama padre ó madre más que á mí, no es digno de mí; y el que ama hijo ó hija más que á mí, no es digno de mí."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 10,38.",
+        "text": "Y el que no toma su cruz, y sigue en pos de mí, no es digno de mí."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 10,39.",
+        "text": "El que hallare su vida, la perderá; y el que perdiere su vida por causa de mí, la hallará."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 10,40.",
+        "text": "El que os recibe á vosotros, á mí recibe; y el que á mí recibe, recibe al que me envió."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 10,41.",
+        "text": "El que recibe profeta en nombre de profeta, merced de profeta recibirá; y el que recibe justo en nombre de justo, merced de justo recibirá."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 10,42.",
+        "text": "Y cualquiera que diere á uno de estos pequeñitos un vaso de agua fría solamente, en nombre de discípulo, de cierto os digo, que no perderá su recompensa."
+      }
+    ]
+  },
+  "song": {
+    "lyrics": [
+      {
+        "lines": [
+          "Tantas veces quiero amarte",
+          "sin tener que renunciar,",
+          "con la puerta medio abierta",
+          "por si toca descansar."
+        ]
+      },
+      {
+        "lines": [
+          "Tantas veces te coloco",
+          "donde no me estorbes más,",
+          "como adorno de mi casa,",
+          "no como dueño y verdad."
+        ]
+      },
+      {
+        "lines": [
+          "Pero Tú me miras dentro,",
+          "donde empieza la raíz,",
+          "y me dices que la vida",
+          "no se guarda para sí."
+        ]
+      },
+      {
+        "lines": [
+          "Un vaso de agua, Señor,",
+          "un gesto pequeño de amor,",
+          "una puerta que se abre",
+          "al que viene sin voz."
+        ]
+      },
+      {
+        "lines": [
+          "Un vaso de agua, Señor,",
+          "una vida puesta en tus manos,",
+          "porque quien pierde por Ti",
+          "se encuentra en los hermanos."
+        ]
+      },
+      {
+        "lines": [
+          "No me pides querer menos",
+          "a los míos ni a mi hogar,",
+          "me enseñas a amar de nuevo,",
+          "con tu forma de mirar."
+        ]
+      },
+      {
+        "lines": [
+          "Que no sean mis afectos",
+          "cadenas para escapar,",
+          "que en el centro estés Tú siempre",
+          "y todo vuelva a su lugar."
+        ]
+      },
+      {
+        "lines": [
+          "Si tu amor ordena el mío,",
+          "ya no tengo que poseer;",
+          "cuando dejo de guardarme,",
+          "empiezo a pertenecer."
+        ]
+      },
+      {
+        "lines": [
+          "Un vaso de agua, Señor,",
+          "un gesto pequeño de amor,",
+          "una puerta que se abre",
+          "al que viene sin voz."
+        ]
+      },
+      {
+        "lines": [
+          "Un vaso de agua, Señor,",
+          "una vida puesta en tus manos,",
+          "porque quien pierde por Ti",
+          "se encuentra en los hermanos."
+        ]
+      },
+      {
+        "lines": [
+          "Y cargar con nuestra cruz",
+          "no es buscar dolor en vano,",
+          "es amar cuando nos cuesta,",
+          "es tender de nuevo la mano."
+        ]
+      },
+      {
+        "lines": [
+          "Es quedarse junto al débil,",
+          "es servir sin reclamar,",
+          "es poner sobre la mesa",
+          "lo que otros necesitan tomar."
+        ]
+      },
+      {
+        "lines": [
+          "No me dejes encerrarme",
+          "en mi miedo y mi razón,",
+          "en mis planes, mis costumbres,",
+          "en mi pobre corazón."
+        ]
+      },
+      {
+        "lines": [
+          "Hazme libre para darte",
+          "lo que tengo y lo que soy,",
+          "que tu Reino empieza cerca,",
+          "donde alguien dice: “voy”."
+        ]
+      },
+      {
+        "lines": [
+          "Un vaso de agua, Señor,",
+          "un gesto pequeño de amor,",
+          "una puerta que se abre",
+          "al que viene sin voz."
+        ]
+      },
+      {
+        "lines": [
+          "Un vaso de agua, Señor,",
+          "una vida puesta en tus manos,",
+          "porque quien pierde por Ti",
+          "se encuentra en los hermanos."
+        ]
+      },
+      {
+        "lines": [
+          "Un vaso de agua, Señor,",
+          "fresco como tu perdón,",
+          "pequeño como una semilla,",
+          "grande como tu amor."
+        ]
+      }
+    ],
+    "chordsPdfPublicPath": null
+  }
+}

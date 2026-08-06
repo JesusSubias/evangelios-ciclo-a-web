@@ -1,0 +1,212 @@
+{
+  "id": "2026-02-08",
+  "readings": [
+    {
+      "context": "",
+      "ref": "Mt 5, 13-16"
+    }
+  ],
+  "pastoral": "Ser sal y luz no exige hacer cosas espectaculares, sino vivir de modo que otros puedan respirar esperanza. Este Evangelio invita a no esconder los dones ni convertir la fe en algo privado e invisible. Una palabra limpia, una amistad fiel, una decisión justa o un servicio pequeño pueden iluminar más que muchos discursos cuando nacen de Dios.",
+  "meeting": {
+    "title": "Sal y Luz",
+    "subtitle": "Una fe que ilumina desde lo cotidiano",
+    "duration": "70 minutos",
+    "key": {
+      "title": "La luz no se exhibe: hace visible el bien",
+      "text": "Jesús dice «vosotros sois» antes de pedir obras: los dones recibidos se mezclan con la vida, sirven a la casa y orientan hacia el Padre.",
+      "quote": "Luz encendida en lo normal; que te descubran al pasar.",
+      "steps": [
+        {
+          "title": "Recibir",
+          "text": "«Vosotros sois»: la identidad precede a la tarea. El don no se fabrica ni necesita compararse."
+        },
+        {
+          "title": "Mezclarse",
+          "text": "La sal actúa entrando en la comida. La fe se hace cercana cuando entra en la vida ordinaria."
+        },
+        {
+          "title": "Encender",
+          "text": "La lámpara recibida no se enciende para sí. Nombrar un don permite ponerlo al servicio."
+        },
+        {
+          "title": "Poner",
+          "text": "Sobre el candelero, la lámpara alumbra a toda la casa. El lugar del don se elige según la necesidad."
+        },
+        {
+          "title": "Remitir",
+          "text": "«Que vean vuestras buenas obras». El bien apunta al Padre, no al protagonismo de quien lo realiza."
+        }
+      ]
+    },
+    "resonancesEyebrow": "Cuatro formas bíblicas de iluminar sin imponerse",
+    "resonancesTitle": "La fidelidad da sabor, el cuidado ilumina y las obras remiten a Dios",
+    "resonances": [
+      {
+        "ref": "Lev 2,13",
+        "title": "Sal de la alianza",
+        "quote": "No dejarás que falte la sal de la alianza.",
+        "text": "La sal expresa fidelidad: sostiene la relación también cuando el gesto es pequeño."
+      },
+      {
+        "ref": "Is 58,10",
+        "title": "Luz que cuida",
+        "quote": "Brillará tu luz en las tinieblas.",
+        "text": "Compartir pan y atender la aflicción hace nacer una luz que supera el discurso."
+      },
+      {
+        "ref": "Fil 2,15",
+        "title": "Luz sin imponerse",
+        "quote": "Brilláis como lumbreras en el mundo.",
+        "text": "La diferencia cristiana se reconoce en una vida íntegra, no en superioridad ni condena."
+      },
+      {
+        "ref": "1 Pe 2,12",
+        "title": "Obras que remiten",
+        "quote": "Al ver vuestras buenas obras, glorifiquen a Dios.",
+        "text": "La obra es visible, pero su fruto no pertenece a quien la realiza: orienta hacia Dios."
+      }
+    ],
+    "synthesis": "Fidelidad cotidiana · cuidado concreto · don compartido · Padre reconocido",
+    "question": "¿Qué bien escondo por miedo y cuál muestro para ser visto?",
+    "agendaTitle": "De esconder el don a ponerlo al servicio",
+    "agenda": [
+      {
+        "time": "00–08",
+        "title": "Escuchar",
+        "instruction": "Oír «Sal y Luz» completa, sin explicarla todavía.",
+        "question": "¿Qué frase me invita a aportar sin ocupar el centro?"
+      },
+      {
+        "time": "08–20",
+        "title": "Reconocer",
+        "instruction": "Tarjeta: «don recibido» / «lugar que necesita sabor o luz».",
+        "question": "¿Qué aporto ya y qué me impide reconocerlo sin compararme?"
+      },
+      {
+        "time": "20–38",
+        "title": "Iluminar",
+        "instruction": "Leer Mt 5,13–16 y subrayar identidad, lugar, obra y destino.",
+        "question": "¿Qué afirma Jesús antes de pedir una obra visible?"
+      },
+      {
+        "time": "38–58",
+        "title": "Discernir",
+        "instruction": "En tríos, revisar un caso ficticio: esconderse, exhibirse o servir.",
+        "question": "¿Cómo hacer visible el bien sin convertirlo en escaparate?"
+      },
+      {
+        "time": "58–70",
+        "title": "Encender",
+        "instruction": "Elegir una obra buena, concreta y compartida. Encender una luz LED y orar.",
+        "question": "¿Qué gesto permitirá que alguien respire esperanza esta semana?"
+      }
+    ],
+    "criterion": "No comparar dones ni forzar exposición. Servir con consentimiento, confidencialidad, seguridad y límites; no fotografiar, publicar ni usar la necesidad ajena como escaparate. La luz no exige perfección, energía constante ni visibilidad pública. Compartir y pasar son opciones válidas.",
+    "deckPublicPath": "assets/presentations/2026-02-08-sal-y-luz.pptx"
+  },
+  "gospel": {
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Evangelio: Mt 5, 13-16"
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 5,13.",
+        "text": "Vosotros sois la sal de la tierra: y si la sal se desvaneciere ¿con qué será salada? no vale más para nada, sino para ser echada fuera y hollada de los hombres."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 5,14.",
+        "text": "Vosotros sois la luz del mundo: una ciudad asentada sobre un monte no se puede esconder."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 5,15.",
+        "text": "Ni se enciende una lámpara y se pone debajo de un almud, mas sobre el candelero, y alumbra á todos los que están en casa."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 5,16.",
+        "text": "Así alumbre vuestra luz delante de los hombres, para que vean vuestras obras buenas, y glorifiquen á vuestro Padre que está en los cielos."
+      }
+    ]
+  },
+  "song": {
+    "lyrics": [
+      {
+        "lines": [
+          "No me hiciste para esconder",
+          "ni para pasar sin dejar señal",
+          "hay algo en mí que quiere arder",
+          "cuando Tú me enseñas a amar"
+        ]
+      },
+      {
+        "lines": [
+          "Déjame ser sal sin darme cuenta",
+          "luz encendida en lo normal",
+          "que no me mire a mí la gente",
+          "que te descubran al pasar"
+        ]
+      },
+      {
+        "lines": [
+          "Déjame ser sal sin darme cuenta",
+          "luz encendida en lo normal",
+          "que no me mire a mí la gente",
+          "que te descubran al pasar"
+        ]
+      },
+      {
+        "lines": [
+          "Sal en la herida del mundo",
+          "luz en la noche que no ve",
+          "no soy perfecto, pero es cierto",
+          "que contigo todo sabe bien"
+        ]
+      },
+      {
+        "lines": [
+          "Déjame ser sal sin darme cuenta",
+          "luz encendida en lo normal",
+          "que no me mire a mí la gente",
+          "que te descubran al pasar"
+        ]
+      },
+      {
+        "lines": [
+          "Déjame ser sal sin darme cuenta",
+          "luz encendida en lo normal",
+          "que no me mire a mí la gente",
+          "que te descubran al pasar"
+        ]
+      },
+      {
+        "lines": [
+          "Si me apago, sopla Tú",
+          "si me escondo, sácame",
+          "no me dejes vivir a medias",
+          "cuando me llamas a creer"
+        ]
+      },
+      {
+        "lines": [
+          "Déjame ser sal sin darme cuenta",
+          "luz encendida en lo normal",
+          "que no me mire a mí la gente",
+          "que te descubran al pasar"
+        ]
+      },
+      {
+        "lines": [
+          "Déjame ser sal en silencio",
+          "luz que no busca brillar",
+          "que en mis obras vean tu rostro",
+          "y aprendan a confiar"
+        ]
+      }
+    ],
+    "chordsPdfPublicPath": null
+  }
+}

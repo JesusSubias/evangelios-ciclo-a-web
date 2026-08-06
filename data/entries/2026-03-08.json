@@ -1,0 +1,434 @@
+{
+  "id": "2026-03-08",
+  "readings": [
+    {
+      "context": "",
+      "ref": "Jn 4, 5-42"
+    }
+  ],
+  "pastoral": "Jesús se sienta junto al pozo de una mujer cargada de historia y sed. No la cancela, no la usa, no la reduce a sus heridas: dialoga y despierta en ella agua viva. Este Evangelio habla de deseos profundos, vergüenzas y búsquedas. Cristo no huye de nuestras preguntas: las convierte en camino de verdad, libertad y misión.",
+  "meeting": {
+    "title": "Dame ese agua",
+    "subtitle": "Del cántaro que pesa a una fuente que el grupo pueda compartir",
+    "duration": "70 minutos",
+    "key": {
+      "title": "Jesús acoge nuestra sed y la convierte en fuente",
+      "text": "En el pozo, la verdad no condena: abre una vida nueva y devuelve a la comunidad.",
+      "quote": "Señor, dame ese agua, dame vida de verdad.",
+      "steps": [
+        {
+          "title": "Sed",
+          "text": "Llega al pozo al mediodía, con su historia a cuestas. Repetimos caminos sin nombrar lo que de verdad buscamos."
+        },
+        {
+          "title": "Encuentro",
+          "text": "Jesús pide agua y cruza fronteras. Antes de enseñar, se sienta, pregunta y espera."
+        },
+        {
+          "title": "Verdad",
+          "text": "Jesús nombra su historia sin convertirla en condena. La verdad acogida abre un futuro posible."
+        },
+        {
+          "title": "Fuente",
+          "text": "El don se hace agua viva dentro de quien lo recibe. Adorar en espíritu y verdad unifica la vida."
+        },
+        {
+          "title": "Testimonio",
+          "text": "Deja el cántaro y vuelve a la ciudad. Quien se sabe mirada con amor puede decir: «Venid y ved»."
+        }
+      ]
+    },
+    "resonancesEyebrow": "Cuatro promesas para la sed humana",
+    "resonancesTitle": "La gracia recibe la sed y la convierte en corriente",
+    "resonances": [
+      {
+        "ref": "Is 55,1–3",
+        "title": "La sed acogida",
+        "quote": "Todos los sedientos, venid por agua; venid, sin pagar.",
+        "text": "Dios no negocia el agua viva: la ofrece gratuitamente y devuelve la vida."
+      },
+      {
+        "ref": "Sal 42,2–3",
+        "title": "El deseo profundo",
+        "quote": "Mi alma tiene sed de Dios, del Dios vivo.",
+        "text": "Bajo muchas búsquedas late una sed más honda. Orar comienza al dejar de esconderla."
+      },
+      {
+        "ref": "Ez 36,25–27",
+        "title": "Un corazón nuevo",
+        "quote": "Derramaré un agua pura… y os daré un corazón nuevo.",
+        "text": "El agua de Dios limpia, recrea por dentro y vuelve posible una vida nueva."
+      },
+      {
+        "ref": "Jn 7,37–39",
+        "title": "Una fuente que sale",
+        "quote": "El que tenga sed, que venga a mí; de sus entrañas manarán ríos.",
+        "text": "El Espíritu convierte el don recibido en corriente para otros: la gracia se hace misión."
+      }
+    ],
+    "synthesis": "Sed reconocida · gracia gratuita · verdad que recrea · Espíritu que envía",
+    "question": "¿Qué sed intento calmar una y otra vez sin llegar a la fuente?",
+    "agendaTitle": "Del cántaro que pesa a una fuente que el grupo pueda compartir",
+    "agenda": [
+      {
+        "time": "00–08",
+        "title": "Escuchar",
+        "instruction": "Oír «Dame ese agua» completa, sin explicarla todavía.",
+        "question": "¿Qué palabra, imagen o sed ha resonado en mí?"
+      },
+      {
+        "time": "08–20",
+        "title": "Nombrar",
+        "instruction": "Ante un cuenco con agua, escribir: «lo que digo que necesito» / «la sed que hay debajo».",
+        "question": "¿Qué busco realmente cuando digo que necesito «más»?"
+      },
+      {
+        "time": "20–38",
+        "title": "Iluminar",
+        "instruction": "Leer Jn 4,5–30 en tres voces y localizar los cinco movimientos del mapa.",
+        "question": "¿Qué hace Jesús para que la verdad no se convierta en condena?"
+      },
+      {
+        "time": "38–58",
+        "title": "Compartir",
+        "instruction": "En tríos, hablar en primera persona. Escuchar sin arreglar ni interpretar la vida ajena.",
+        "question": "¿Qué parte de mi historia necesita una mirada que abra futuro?"
+      },
+      {
+        "time": "58–70",
+        "title": "Soltar",
+        "instruction": "Escribir qué quiero dejar y qué fuente deseo cuidar. Compartir un gesto y terminar con oración.",
+        "question": "¿Qué cántaro puedo soltar para volver con una palabra de vida?"
+      }
+    ],
+    "criterion": "No forzar confesiones ni respuestas íntimas; ofrecer verdad sin juicio y un paso libre, pequeño y verificable.",
+    "deckPublicPath": "assets/presentations/2026-03-08-dame-ese-agua.pptx"
+  },
+  "gospel": {
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Evangelio: Jn 4, 5-42"
+      },
+      {
+        "type": "verse",
+        "label": "Juan 4,5.",
+        "text": "Vino, pues, á una ciudad de Samaria que se llamaba Sichâr, junto á la heredad que Jacob dió á José su hijo."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 4,6.",
+        "text": "Y estaba allí la fuente de Jacob. Pues Jesús, cansado del camino, así se sentó á la fuente. Era como la hora de sexta."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 4,7.",
+        "text": "Vino una mujer de Samaria á sacar agua: y Jesús le dice: Dame de beber."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 4,8.",
+        "text": "(Porque sus discípulos habían ido á la ciudad á comprar de comer.)"
+      },
+      {
+        "type": "verse",
+        "label": "Juan 4,9.",
+        "text": "Y la mujer Samaritana le dice: ¿Cómo tú, siendo Judío, me pides á mí de beber, que soy mujer Samaritana? porque los Judíos no se tratan con los Samaritanos."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 4,10.",
+        "text": "Respondió Jesús y díjole: Si conocieses el don de Dios, y quién es el que te dice: Dame de beber: tú pedirías de Él, y Él te daría agua viva."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 4,11.",
+        "text": "La mujer le dice: Señor, no tienes con qué sacar la, y el pozo es hondo: ¿de dónde, pues, tienes el agua viva?"
+      },
+      {
+        "type": "verse",
+        "label": "Juan 4,12.",
+        "text": "¿Eres tú mayor que nuestro padre Jacob, que nos dió este pozo, del cual Él bebió, y sus hijos, y sus ganados?"
+      },
+      {
+        "type": "verse",
+        "label": "Juan 4,13.",
+        "text": "Respondió Jesús y díjole: Cualquiera que bebiere de esta agua, volverá á tener sed;"
+      },
+      {
+        "type": "verse",
+        "label": "Juan 4,14.",
+        "text": "Mas el que bebiere del agua que yo le daré, para siempre no tendrá sed: mas el agua que yo le daré, será en Él una fuente de agua que salte para vida eterna."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 4,15.",
+        "text": "La mujer le dice: Señor, dame esta agua, para que no tenga sed, ni venga acá á sacar la."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 4,16.",
+        "text": "Jesús le dice: Ve, llama á tu marido, y ven acá."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 4,17.",
+        "text": "Respondió la mujer, y dijo: No tengo marido. Dícele Jesús: Bien has dicho, No tengo marido;"
+      },
+      {
+        "type": "verse",
+        "label": "Juan 4,18.",
+        "text": "Porque cinco maridos has tenido: y el que ahora tienes no es tu marido; esto has dicho con verdad."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 4,19.",
+        "text": "Dícele la mujer: Señor, paréceme que tú eres profeta."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 4,20.",
+        "text": "Nuestros padres adoraron en este monte, y vosotros decís que en Jerusalem es el lugar donde es necesario adorar."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 4,21.",
+        "text": "Dícele Jesús: Mujer, créeme, que la hora viene, cuando ni en este monte, ni en Jerusalem adoraréis al Padre."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 4,22.",
+        "text": "Vosotros adoráis lo que no sabéis; nosotros adoramos lo que sabemos: porque la salud viene de los Judíos."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 4,23.",
+        "text": "Mas la hora viene, y ahora es, cuando los verdaderos adoradores adorarán al Padre en espíritu y en verdad; porque también el Padre tales adoradores busca que adoren."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 4,24.",
+        "text": "Dios es Espíritu; y los que le adoran, en espíritu y en verdad es necesario que adoren."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 4,25.",
+        "text": "Dícele la mujer: Sé que el Mesías ha de venir, el cual se dice el Cristo: cuando Él viniere nos declarará todas las cosas."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 4,26.",
+        "text": "Dícele Jesús: Yo soy, que hablo contigo."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 4,27.",
+        "text": "Y en esto vinieron sus discípulos, y maravilláronse de que hablaba con mujer; mas ninguno dijo: ¿Qué preguntas? ó, ¿Qué hablas con ella?"
+      },
+      {
+        "type": "verse",
+        "label": "Juan 4,28.",
+        "text": "Entonces la mujer dejó su cántaro, y fué á la ciudad, y dijo á aquellos hombres:"
+      },
+      {
+        "type": "verse",
+        "label": "Juan 4,29.",
+        "text": "Venid, ved un hombre que me ha dicho todo lo que he hecho: ¿si quizás es éste el Cristo?"
+      },
+      {
+        "type": "verse",
+        "label": "Juan 4,30.",
+        "text": "Entonces salieron de la ciudad, y vinieron á Él."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 4,31.",
+        "text": "Entre tanto los discípulos le rogaban, diciendo: Rabbí, come."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 4,32.",
+        "text": "Y Él les dijo: Yo tengo una comida que comer, que vosotros no sabéis."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 4,33.",
+        "text": "Entonces los discípulos decían el uno al otro: ¿Si le habrá traído alguien de comer?"
+      },
+      {
+        "type": "verse",
+        "label": "Juan 4,34.",
+        "text": "Díceles Jesús: Mi comida es que haga la voluntad del que me envió, y que acabe su obra."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 4,35.",
+        "text": "¿No decís vosotros: Aun hay cuatro meses hasta que llegue la siega? He aquí os digo: Alzad vuestros ojos, y mirad las regiones, porque ya están blancas para la siega."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 4,36.",
+        "text": "Y el que siega, recibe salario, y allega fruto para vida eterna; para que el que siembra también goce, y el que siega."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 4,37.",
+        "text": "Porque en esto es el dicho verdadero: Que uno es el que siembra, y otro es el que siega."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 4,38.",
+        "text": "Yo os he enviado á segar lo que vosotros no labrasteis: otros labraron, y vosotros habéis entrado en sus labores."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 4,39.",
+        "text": "Y muchos de los Samaritanos de aquella ciudad creyeron en Él por la palabra de la mujer, que daba testimonio, diciendo: Que me dijo todo lo que he hecho."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 4,40.",
+        "text": "Viniendo pues los Samaritanos á Él, rogáronle que se quedase allí: y se quedó allí dos días."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 4,41.",
+        "text": "Y creyeron muchos más por la palabra de Él."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 4,42.",
+        "text": "Y decían á la mujer: Ya no creemos por tu dicho; porque nosotros mismos hemos oído, y sabemos que verdaderamente éste es el Salvador del mundo, el Cristo."
+      }
+    ]
+  },
+  "song": {
+    "lyrics": [
+      {
+        "lines": [
+          "Vine al pozo al mediodía",
+          "cuando el sol lo llena todo",
+          "con mi cántaro en las manos",
+          "y silencio en el rostro."
+        ]
+      },
+      {
+        "lines": [
+          "Tú sentado junto al brocal",
+          "como quien sabe esperar",
+          "y me dices con ternura:",
+          "“Dame un poco de tu agua”."
+        ]
+      },
+      {
+        "lines": [
+          "Si supieras quién te habla,",
+          "si entendieras el don…"
+        ]
+      },
+      {
+        "lines": [
+          "Señor, dame ese agua,",
+          "dame vida de verdad,",
+          "que mi sed se vuelva canto,",
+          "que se vuelva libertad."
+        ]
+      },
+      {
+        "lines": [
+          "Señor, dame ese agua,",
+          "hazla fuente dentro de mí,",
+          "que mi corazón se alegre",
+          "y descanse solo en Ti."
+        ]
+      },
+      {
+        "lines": [
+          "Has nombrado mi camino",
+          "sin juzgar lo que pasó,",
+          "me has mirado por dentro",
+          "como nadie me miró."
+        ]
+      },
+      {
+        "lines": [
+          "En tus ojos hay futuro,",
+          "hay promesa y hay hogar,",
+          "y la culpa pierde peso",
+          "cuando aprendo a confiar."
+        ]
+      },
+      {
+        "lines": [
+          "Se acerca ya la hora,",
+          "ya está aquí…"
+        ]
+      },
+      {
+        "lines": [
+          "Señor, dame ese agua,",
+          "dame vida de verdad,",
+          "que mi sed se vuelva canto,",
+          "que se vuelva libertad."
+        ]
+      },
+      {
+        "lines": [
+          "Señor, dame ese agua,",
+          "hazla fuente dentro de mí,",
+          "que mi corazón se alegre",
+          "y descanse solo en Ti."
+        ]
+      },
+      {
+        "lines": [
+          "No es en este monte,",
+          "no es en la ciudad,",
+          "es en lo profundo",
+          "donde quieres habitar."
+        ]
+      },
+      {
+        "lines": [
+          "En espíritu y verdad,",
+          "en espíritu y verdad,",
+          "cuando el alma se despierta",
+          "todo empieza a brotar."
+        ]
+      },
+      {
+        "lines": [
+          "Dejé el cántaro en el suelo,",
+          "ya no lo iba a necesitar,",
+          "corrí al pueblo diciendo:",
+          "“Venid todos y mirad."
+        ]
+      },
+      {
+        "lines": [
+          "Hay un hombre que me ha dicho",
+          "lo que nadie pudo ver,",
+          "¿no será el que esperamos?",
+          "Venid todos a creer”."
+        ]
+      },
+      {
+        "lines": [
+          "Señor, dame ese agua,",
+          "dame vida de verdad,",
+          "que mi sed se vuelva canto,",
+          "que se vuelva libertad."
+        ]
+      },
+      {
+        "lines": [
+          "Señor, dame ese agua,",
+          "hazla fuente dentro de mí,",
+          "que mi corazón se alegre",
+          "y descanse solo en Ti."
+        ]
+      }
+    ],
+    "chordsPdfPublicPath": null
+  }
+}

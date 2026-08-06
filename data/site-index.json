@@ -1,0 +1,1143 @@
+{
+  "generatedAt": "2026-08-06T08:01:50.282559+00:00",
+  "cutoff": "2026-08-09",
+  "title": "Evangelios del domingo - Ciclo A 2025-2026",
+  "sourceNotice": "Texto biblico de trabajo: Reina-Valera 1909. La version liturgica oficial CEE 2010 no se reproduce completa sin fuente o licencia autorizada.",
+  "assets": {
+    "cover": "assets/images/cover.jpg",
+    "audioPolicy": "mp3/m4a/mp4/opus publicados; WAV reservado como master opcional"
+  },
+  "summary": {
+    "cycleEntries": 37,
+    "songRecords": 42,
+    "cycleAudioFound": 37,
+    "cycleAudioMissing": 0,
+    "imagesFound": 37,
+    "editorialImagesFound": 37,
+    "chordPdfsFound": 0
+  },
+  "missing": {
+    "cycleAudio": []
+  },
+  "songs": [
+    {
+      "index": 1,
+      "title": "Despierta mi vida",
+      "targetDate": "2025-11-30",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2025-11-30-despierta-mi-vida.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 2,
+      "title": "Va sin precio",
+      "targetDate": "2025-12-07",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2025-12-07-va-sin-precio.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 3,
+      "title": "Hágase en mí",
+      "targetDate": "2025-12-08",
+      "includedInCycle": false,
+      "audioPublicPath": "assets/audio/2025-12-08-hagase-en-mi.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 4,
+      "title": "En medio de vosotros",
+      "targetDate": "2025-12-14",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2025-12-14-en-medio-de-vosotros.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 5,
+      "title": "El cielo llamó a tu puerta",
+      "targetDate": "2025-12-21",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2025-12-21-el-cielo-llamo-a-tu-puerta.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 6,
+      "title": "Hoy la noche se despierta",
+      "targetDate": "2025-12-24",
+      "includedInCycle": false,
+      "audioPublicPath": "assets/audio/2025-12-24-hoy-la-noche-se-despierta.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 7,
+      "title": "Cuida la vida",
+      "targetDate": "2025-12-28",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2025-12-28-cuida-la-vida.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 8,
+      "title": "Viniste a vivir mi vida",
+      "targetDate": "2026-01-04",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-01-04-viniste-a-vivir-mi-vida.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 9,
+      "title": "Seguimos la Luz",
+      "targetDate": "2026-01-06",
+      "includedInCycle": false,
+      "audioPublicPath": "assets/audio/2026-01-06-seguimos-la-luz.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 10,
+      "title": "Soy tu hijo",
+      "targetDate": "2026-01-11",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-01-11-soy-tu-hijo.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 11,
+      "title": "El vino bueno",
+      "targetDate": "",
+      "includedInCycle": false,
+      "audioPublicPath": "assets/audio/extra-11-el-vino-bueno.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 12,
+      "title": "Contempla al Cordero",
+      "targetDate": "2026-01-18",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-01-18-contempla-al-cordero.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 13,
+      "title": "Sígueme",
+      "targetDate": "2026-01-25",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-01-25-sigueme.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 14,
+      "title": "El Reino empieza abajo",
+      "targetDate": "2026-02-01",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-02-01-el-reino-empieza-abajo.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 15,
+      "title": "Sal y Luz",
+      "targetDate": "2026-02-08",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-02-08-sal-y-luz.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 16,
+      "title": "Que tu sí sea sí",
+      "targetDate": "2026-02-15",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-02-15-que-tu-si-sea-si.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 17,
+      "title": "Si eres Hijo",
+      "targetDate": "2026-02-22",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-02-22-si-eres-hijo.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 18,
+      "title": "Tres tiendas",
+      "targetDate": "2026-03-01",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-03-01-tres-tiendas.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 19,
+      "title": "Dame ese agua",
+      "targetDate": "2026-03-08",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-03-08-dame-ese-agua.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 20,
+      "title": "Enséñame a mirar",
+      "targetDate": "2026-03-15",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-03-15-ensename-a-mirar.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 21,
+      "title": "Yo soy la Resurrección",
+      "targetDate": "2026-03-22",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-03-22-yo-soy-la-resurreccion.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 22,
+      "title": "Hosanna",
+      "targetDate": "2026-03-29",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-03-29-hosanna.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 23,
+      "title": "Se encontraron la Vida",
+      "targetDate": "2026-04-05",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-04-05-se-encontraron-la-vida.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 24,
+      "title": "En medio",
+      "targetDate": "2026-04-12",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-04-12-en-medio.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 25,
+      "title": "Al partir el pan",
+      "targetDate": "2026-04-19",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-04-19-al-partir-el-pan.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 26,
+      "title": "Tú eres la puerta",
+      "targetDate": "2026-04-26",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-04-26-tu-eres-la-puerta.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 27,
+      "title": "Camino, Verdad y Vida",
+      "targetDate": "2026-05-03",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-05-03-camino-verdad-y-vida.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 28,
+      "title": "En tu mesa",
+      "targetDate": "",
+      "includedInCycle": false,
+      "audioPublicPath": "assets/audio/extra-28-en-tu-mesa.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 29,
+      "title": "Me haces recordar",
+      "targetDate": "2026-05-10",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-05-10-me-haces-recordar.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 30,
+      "title": "Id",
+      "targetDate": "2026-05-17",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-05-17-id.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 31,
+      "title": "Sopla en mí",
+      "targetDate": "2026-05-24",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-05-24-sopla-en-mi.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 32,
+      "title": "Tanto amaste al mundo",
+      "targetDate": "2026-05-31",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-05-31-tanto-amaste-al-mundo.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 33,
+      "title": "Te haces Pan",
+      "targetDate": "2026-06-07",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-06-07-te-haces-pan.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 34,
+      "title": "Dame tus ojos",
+      "targetDate": "2026-06-14",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-06-14-dame-tus-ojos.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 35,
+      "title": "Tú me sabes contar",
+      "targetDate": "2026-06-21",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-06-21-tu-me-sabes-contar.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 36,
+      "title": "Un vaso de agua",
+      "targetDate": "2026-06-28",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-06-28-un-vaso-de-agua.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 37,
+      "title": "Aprended de mí",
+      "targetDate": "2026-07-05",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-07-05-aprended-de-mi.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 38,
+      "title": "Sin hacer ruido",
+      "targetDate": "2026-07-12",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-07-12-sin-hacer-ruido.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 39,
+      "title": "La noche no es dueña",
+      "targetDate": "2026-07-19",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-07-19-la-noche-no-es-duena.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 40,
+      "title": "Todo hablaba de ti",
+      "targetDate": "2026-07-26",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-07-26-todo-hablaba-de-ti.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 41,
+      "title": "Contabas conmigo",
+      "targetDate": "2026-08-02",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-08-02-contabas-conmigo.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 42,
+      "title": "Ven",
+      "targetDate": "2026-08-09",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-08-09-ven.mp3",
+      "chordsPdfPublicPath": null
+    }
+  ],
+  "entries": [
+    {
+      "id": "2025-11-30",
+      "index": 1,
+      "isoDate": "2025-11-30",
+      "dateLabel": "30 de noviembre de 2025",
+      "denomination": "I Domingo de Adviento",
+      "fullTitle": "Domingo 30 de noviembre de 2025 - I Domingo de Adviento - Ciclo A",
+      "season": "Adviento",
+      "refs": "Mt 24, 37-44",
+      "image": {
+        "publicPath": "assets/images/editorial/2025-11-30-i-domingo-de-adviento.webp",
+        "variant": "editorial",
+        "textTranscript": null
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2025-11-30.json",
+      "song": {
+        "title": "Despierta mi vida",
+        "audioPublicPath": "assets/audio/2025-11-30-despierta-mi-vida.mp3"
+      }
+    },
+    {
+      "id": "2025-12-07",
+      "index": 2,
+      "isoDate": "2025-12-07",
+      "dateLabel": "7 de diciembre de 2025",
+      "denomination": "II Domingo de Adviento",
+      "fullTitle": "Domingo 7 de diciembre de 2025 - II Domingo de Adviento - Ciclo A",
+      "season": "Adviento",
+      "refs": "Mt 3, 1-12",
+      "image": {
+        "publicPath": "assets/images/editorial/2025-12-07-ii-domingo-de-adviento.webp",
+        "variant": "editorial",
+        "textTranscript": "PACK DE EXPERIENCIA · PER TOTAM VITAM"
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2025-12-07.json",
+      "song": {
+        "title": "Va sin precio",
+        "audioPublicPath": "assets/audio/2025-12-07-va-sin-precio.mp3"
+      }
+    },
+    {
+      "id": "2025-12-14",
+      "index": 3,
+      "isoDate": "2025-12-14",
+      "dateLabel": "14 de diciembre de 2025",
+      "denomination": "III Domingo de Adviento «Gaudete»",
+      "fullTitle": "Domingo 14 de diciembre de 2025 - III Domingo de Adviento «Gaudete» - Ciclo A",
+      "season": "Adviento",
+      "refs": "Mt 11, 2-11",
+      "image": {
+        "publicPath": "assets/images/editorial/2025-12-14-iii-domingo-de-adviento-gaudete.webp",
+        "variant": "editorial",
+        "textTranscript": null
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2025-12-14.json",
+      "song": {
+        "title": "En medio de vosotros",
+        "audioPublicPath": "assets/audio/2025-12-14-en-medio-de-vosotros.mp3"
+      }
+    },
+    {
+      "id": "2025-12-21",
+      "index": 4,
+      "isoDate": "2025-12-21",
+      "dateLabel": "21 de diciembre de 2025",
+      "denomination": "IV Domingo de Adviento",
+      "fullTitle": "Domingo 21 de diciembre de 2025 - IV Domingo de Adviento - Ciclo A",
+      "season": "Adviento",
+      "refs": "Mt 1, 18-24",
+      "image": {
+        "publicPath": "assets/images/editorial/2025-12-21-iv-domingo-de-adviento.webp",
+        "variant": "editorial",
+        "textTranscript": "Pasa sin llamar"
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2025-12-21.json",
+      "song": {
+        "title": "El cielo llamó a tu puerta",
+        "audioPublicPath": "assets/audio/2025-12-21-el-cielo-llamo-a-tu-puerta.mp3"
+      }
+    },
+    {
+      "id": "2025-12-28",
+      "index": 5,
+      "isoDate": "2025-12-28",
+      "dateLabel": "28 de diciembre de 2025",
+      "denomination": "Sagrada Familia: Jesús, María y José",
+      "fullTitle": "Domingo 28 de diciembre de 2025 - Sagrada Familia: Jesús, María y José - Ciclo A",
+      "season": "Navidad",
+      "refs": "Mt 2, 13-15. 19-23",
+      "image": {
+        "publicPath": "assets/images/editorial/2025-12-28-sagrada-familia-jesus-maria-y-jose.webp",
+        "variant": "editorial",
+        "textTranscript": null
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2025-12-28.json",
+      "song": {
+        "title": "Cuida la vida",
+        "audioPublicPath": "assets/audio/2025-12-28-cuida-la-vida.mp3"
+      }
+    },
+    {
+      "id": "2026-01-04",
+      "index": 6,
+      "isoDate": "2026-01-04",
+      "dateLabel": "4 de enero de 2026",
+      "denomination": "Domingo segundo después de Navidad",
+      "fullTitle": "Domingo 4 de enero de 2026 - Domingo segundo después de Navidad - Ciclo A",
+      "season": "Navidad",
+      "refs": "Jn 1, 1-18",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-01-04-domingo-segundo-despues-de-navidad.webp",
+        "variant": "editorial",
+        "textTranscript": null
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-01-04.json",
+      "song": {
+        "title": "Viniste a vivir mi vida",
+        "audioPublicPath": "assets/audio/2026-01-04-viniste-a-vivir-mi-vida.mp3"
+      }
+    },
+    {
+      "id": "2026-01-11",
+      "index": 7,
+      "isoDate": "2026-01-11",
+      "dateLabel": "11 de enero de 2026",
+      "denomination": "Bautismo del Señor",
+      "fullTitle": "Domingo 11 de enero de 2026 - Bautismo del Señor - Ciclo A",
+      "season": "Navidad",
+      "refs": "Mt 3, 13-17",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-01-11-bautismo-del-senor.webp",
+        "variant": "editorial",
+        "textTranscript": null
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-01-11.json",
+      "song": {
+        "title": "Soy tu hijo",
+        "audioPublicPath": "assets/audio/2026-01-11-soy-tu-hijo.mp3"
+      }
+    },
+    {
+      "id": "2026-01-18",
+      "index": 8,
+      "isoDate": "2026-01-18",
+      "dateLabel": "18 de enero de 2026",
+      "denomination": "II Domingo del Tiempo Ordinario",
+      "fullTitle": "Domingo 18 de enero de 2026 - II Domingo del Tiempo Ordinario - Ciclo A",
+      "season": "Tiempo Ordinario",
+      "refs": "Jn 1, 29-34",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-01-18-ii-domingo-del-tiempo-ordinario.webp",
+        "variant": "editorial",
+        "textTranscript": null
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-01-18.json",
+      "song": {
+        "title": "Contempla al Cordero",
+        "audioPublicPath": "assets/audio/2026-01-18-contempla-al-cordero.mp3"
+      }
+    },
+    {
+      "id": "2026-01-25",
+      "index": 9,
+      "isoDate": "2026-01-25",
+      "dateLabel": "25 de enero de 2026",
+      "denomination": "III Domingo del Tiempo Ordinario",
+      "fullTitle": "Domingo 25 de enero de 2026 - III Domingo del Tiempo Ordinario - Ciclo A",
+      "season": "Tiempo Ordinario",
+      "refs": "Mt 4, 12-23",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-01-25-iii-domingo-del-tiempo-ordinario.webp",
+        "variant": "editorial",
+        "textTranscript": null
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-01-25.json",
+      "song": {
+        "title": "Sígueme",
+        "audioPublicPath": "assets/audio/2026-01-25-sigueme.mp3"
+      }
+    },
+    {
+      "id": "2026-02-01",
+      "index": 10,
+      "isoDate": "2026-02-01",
+      "dateLabel": "1 de febrero de 2026",
+      "denomination": "IV Domingo del Tiempo Ordinario",
+      "fullTitle": "Domingo 1 de febrero de 2026 - IV Domingo del Tiempo Ordinario - Ciclo A",
+      "season": "Tiempo Ordinario",
+      "refs": "Mt 5, 1-12a",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-02-01-iv-domingo-del-tiempo-ordinario.webp",
+        "variant": "editorial",
+        "textTranscript": null
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-02-01.json",
+      "song": {
+        "title": "El Reino empieza abajo",
+        "audioPublicPath": "assets/audio/2026-02-01-el-reino-empieza-abajo.mp3"
+      }
+    },
+    {
+      "id": "2026-02-08",
+      "index": 11,
+      "isoDate": "2026-02-08",
+      "dateLabel": "8 de febrero de 2026",
+      "denomination": "V Domingo del Tiempo Ordinario",
+      "fullTitle": "Domingo 8 de febrero de 2026 - V Domingo del Tiempo Ordinario - Ciclo A",
+      "season": "Tiempo Ordinario",
+      "refs": "Mt 5, 13-16",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-02-08-v-domingo-del-tiempo-ordinario.webp",
+        "variant": "editorial",
+        "textTranscript": null
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-02-08.json",
+      "song": {
+        "title": "Sal y Luz",
+        "audioPublicPath": "assets/audio/2026-02-08-sal-y-luz.mp3"
+      }
+    },
+    {
+      "id": "2026-02-15",
+      "index": 12,
+      "isoDate": "2026-02-15",
+      "dateLabel": "15 de febrero de 2026",
+      "denomination": "VI Domingo del Tiempo Ordinario",
+      "fullTitle": "Domingo 15 de febrero de 2026 - VI Domingo del Tiempo Ordinario - Ciclo A",
+      "season": "Tiempo Ordinario",
+      "refs": "Mt 5, 17-37",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-02-15-vi-domingo-del-tiempo-ordinario.webp",
+        "variant": "editorial",
+        "textTranscript": "Prohibido equivocarse · Página 1 de 9.872 · Ama y haz lo que quieras"
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-02-15.json",
+      "song": {
+        "title": "Que tu sí sea sí",
+        "audioPublicPath": "assets/audio/2026-02-15-que-tu-si-sea-si.mp3"
+      }
+    },
+    {
+      "id": "2026-02-22",
+      "index": 13,
+      "isoDate": "2026-02-22",
+      "dateLabel": "22 de febrero de 2026",
+      "denomination": "I Domingo de Cuaresma",
+      "fullTitle": "Domingo 22 de febrero de 2026 - I Domingo de Cuaresma - Ciclo A",
+      "season": "Cuaresma",
+      "refs": "Mt 4, 1-11",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-02-22-i-domingo-de-cuaresma.webp",
+        "variant": "editorial",
+        "textTranscript": null
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-02-22.json",
+      "song": {
+        "title": "Si eres Hijo",
+        "audioPublicPath": "assets/audio/2026-02-22-si-eres-hijo.mp3"
+      }
+    },
+    {
+      "id": "2026-03-01",
+      "index": 14,
+      "isoDate": "2026-03-01",
+      "dateLabel": "1 de marzo de 2026",
+      "denomination": "II Domingo de Cuaresma",
+      "fullTitle": "Domingo 1 de marzo de 2026 - II Domingo de Cuaresma - Ciclo A",
+      "season": "Cuaresma",
+      "refs": "Mt 17, 1-9",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-03-01-ii-domingo-de-cuaresma.webp",
+        "variant": "editorial",
+        "textTranscript": "¿No veníamos al silencio?"
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-03-01.json",
+      "song": {
+        "title": "Tres tiendas",
+        "audioPublicPath": "assets/audio/2026-03-01-tres-tiendas.mp3"
+      }
+    },
+    {
+      "id": "2026-03-08",
+      "index": 15,
+      "isoDate": "2026-03-08",
+      "dateLabel": "8 de marzo de 2026",
+      "denomination": "III Domingo de Cuaresma",
+      "fullTitle": "Domingo 8 de marzo de 2026 - III Domingo de Cuaresma - Ciclo A",
+      "season": "Cuaresma",
+      "refs": "Jn 4, 5-42",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-03-08-iii-domingo-de-cuaresma.webp",
+        "variant": "editorial",
+        "textTranscript": null
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-03-08.json",
+      "song": {
+        "title": "Dame ese agua",
+        "audioPublicPath": "assets/audio/2026-03-08-dame-ese-agua.mp3"
+      }
+    },
+    {
+      "id": "2026-03-15",
+      "index": 16,
+      "isoDate": "2026-03-15",
+      "dateLabel": "15 de marzo de 2026",
+      "denomination": "IV Domingo de Cuaresma «Laetare»",
+      "fullTitle": "Domingo 15 de marzo de 2026 - IV Domingo de Cuaresma «Laetare» - Ciclo A",
+      "season": "Cuaresma",
+      "refs": "Jn 9, 1-41",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-03-15-iv-domingo-de-cuaresma-laetare.webp",
+        "variant": "editorial",
+        "textTranscript": null
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-03-15.json",
+      "song": {
+        "title": "Enséñame a mirar",
+        "audioPublicPath": "assets/audio/2026-03-15-ensename-a-mirar.mp3"
+      }
+    },
+    {
+      "id": "2026-03-22",
+      "index": 17,
+      "isoDate": "2026-03-22",
+      "dateLabel": "22 de marzo de 2026",
+      "denomination": "V Domingo de Cuaresma",
+      "fullTitle": "Domingo 22 de marzo de 2026 - V Domingo de Cuaresma - Ciclo A",
+      "season": "Cuaresma",
+      "refs": "Jn 11, 1-45",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-03-22-v-domingo-de-cuaresma.webp",
+        "variant": "editorial",
+        "textTranscript": null
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-03-22.json",
+      "song": {
+        "title": "Yo soy la Resurrección",
+        "audioPublicPath": "assets/audio/2026-03-22-yo-soy-la-resurreccion.mp3"
+      }
+    },
+    {
+      "id": "2026-03-29",
+      "index": 18,
+      "isoDate": "2026-03-29",
+      "dateLabel": "29 de marzo de 2026",
+      "denomination": "Domingo de Ramos en la Pasión del Señor",
+      "fullTitle": "Domingo 29 de marzo de 2026 - Domingo de Ramos en la Pasión del Señor - Ciclo A",
+      "season": "Cuaresma",
+      "refs": "Procesión: Mt 21, 1-11; Misa: Mt 26, 14 - 27, 66",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-03-29-domingo-de-ramos-en-la-pasion-del-senor.webp",
+        "variant": "editorial",
+        "textTranscript": "Hoy, Hosanna…"
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-03-29.json",
+      "song": {
+        "title": "Hosanna",
+        "audioPublicPath": "assets/audio/2026-03-29-hosanna.mp3"
+      }
+    },
+    {
+      "id": "2026-04-05",
+      "index": 19,
+      "isoDate": "2026-04-05",
+      "dateLabel": "5 de abril de 2026",
+      "denomination": "Domingo de Pascua de la Resurrección del Señor",
+      "fullTitle": "Domingo 5 de abril de 2026 - Domingo de Pascua de la Resurrección del Señor - Ciclo A",
+      "season": "Pascua",
+      "refs": "Jn 20, 1-9; opcional: Lc 24, 13-35",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-04-05-domingo-de-pascua-de-la-resurreccion-del-senor.webp",
+        "variant": "editorial",
+        "textTranscript": "¡Ha resucitado!"
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-04-05.json",
+      "song": {
+        "title": "Se encontraron la Vida",
+        "audioPublicPath": "assets/audio/2026-04-05-se-encontraron-la-vida.mp3"
+      }
+    },
+    {
+      "id": "2026-04-12",
+      "index": 20,
+      "isoDate": "2026-04-12",
+      "dateLabel": "12 de abril de 2026",
+      "denomination": "II Domingo de Pascua o de la Divina Misericordia",
+      "fullTitle": "Domingo 12 de abril de 2026 - II Domingo de Pascua o de la Divina Misericordia - Ciclo A",
+      "season": "Pascua",
+      "refs": "Jn 20, 19-31",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-04-12-ii-domingo-de-pascua-o-de-la-divina-misericordia.webp",
+        "variant": "editorial",
+        "textTranscript": null
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-04-12.json",
+      "song": {
+        "title": "En medio",
+        "audioPublicPath": "assets/audio/2026-04-12-en-medio.mp3"
+      }
+    },
+    {
+      "id": "2026-04-19",
+      "index": 21,
+      "isoDate": "2026-04-19",
+      "dateLabel": "19 de abril de 2026",
+      "denomination": "III Domingo de Pascua",
+      "fullTitle": "Domingo 19 de abril de 2026 - III Domingo de Pascua - Ciclo A",
+      "season": "Pascua",
+      "refs": "Lc 24, 13-35",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-04-19-iii-domingo-de-pascua.webp",
+        "variant": "editorial",
+        "textTranscript": null
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-04-19.json",
+      "song": {
+        "title": "Al partir el pan",
+        "audioPublicPath": "assets/audio/2026-04-19-al-partir-el-pan.mp3"
+      }
+    },
+    {
+      "id": "2026-04-26",
+      "index": 22,
+      "isoDate": "2026-04-26",
+      "dateLabel": "26 de abril de 2026",
+      "denomination": "IV Domingo de Pascua",
+      "fullTitle": "Domingo 26 de abril de 2026 - IV Domingo de Pascua - Ciclo A",
+      "season": "Pascua",
+      "refs": "Jn 10, 1-10",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-04-26-iv-domingo-de-pascua.webp",
+        "variant": "editorial",
+        "textTranscript": "TÚ ERES LA LLAVE"
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-04-26.json",
+      "song": {
+        "title": "Tú eres la puerta",
+        "audioPublicPath": "assets/audio/2026-04-26-tu-eres-la-puerta.mp3"
+      }
+    },
+    {
+      "id": "2026-05-03",
+      "index": 23,
+      "isoDate": "2026-05-03",
+      "dateLabel": "3 de mayo de 2026",
+      "denomination": "V Domingo de Pascua",
+      "fullTitle": "Domingo 3 de mayo de 2026 - V Domingo de Pascua - Ciclo A",
+      "season": "Pascua",
+      "refs": "Jn 14, 1-12",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-05-03-v-domingo-de-pascua.webp",
+        "variant": "editorial",
+        "textTranscript": null
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-05-03.json",
+      "song": {
+        "title": "Camino, Verdad y Vida",
+        "audioPublicPath": "assets/audio/2026-05-03-camino-verdad-y-vida.mp3"
+      }
+    },
+    {
+      "id": "2026-05-10",
+      "index": 24,
+      "isoDate": "2026-05-10",
+      "dateLabel": "10 de mayo de 2026",
+      "denomination": "VI Domingo de Pascua",
+      "fullTitle": "Domingo 10 de mayo de 2026 - VI Domingo de Pascua - Ciclo A",
+      "season": "Pascua",
+      "refs": "Jn 14, 15-21",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-05-10-vi-domingo-de-pascua.webp",
+        "variant": "editorial",
+        "textTranscript": "MIS SUEÑOS · MIS PLANES · MI CAMINO · AMOR · VERDAD · LO ESENCIAL"
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-05-10.json",
+      "song": {
+        "title": "Me haces recordar",
+        "audioPublicPath": "assets/audio/2026-05-10-me-haces-recordar.mp3"
+      }
+    },
+    {
+      "id": "2026-05-17",
+      "index": 25,
+      "isoDate": "2026-05-17",
+      "dateLabel": "17 de mayo de 2026",
+      "denomination": "Ascensión del Señor",
+      "fullTitle": "Domingo 17 de mayo de 2026 - Ascensión del Señor - Ciclo A",
+      "season": "Pascua",
+      "refs": "Mt 28, 16-20",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-05-17-ascension-del-senor.webp",
+        "variant": "editorial",
+        "textTranscript": "Tareas del Reino · MAYO 2026 · contigo · a tu lado · junto a ti · a tu vera · a tu sombra · al ladito · me ajunto · de tu mano · pegadito a ti · contigo siempre · otra vez"
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-05-17.json",
+      "song": {
+        "title": "Id",
+        "audioPublicPath": "assets/audio/2026-05-17-id.mp3"
+      }
+    },
+    {
+      "id": "2026-05-24",
+      "index": 26,
+      "isoDate": "2026-05-24",
+      "dateLabel": "24 de mayo de 2026",
+      "denomination": "Domingo de Pentecostés",
+      "fullTitle": "Domingo 24 de mayo de 2026 - Domingo de Pentecostés - Ciclo A",
+      "season": "Pascua",
+      "refs": "Jn 20, 19-23",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-05-24-domingo-de-pentecostes.webp",
+        "variant": "editorial",
+        "textTranscript": "¡Tú puedes!"
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-05-24.json",
+      "song": {
+        "title": "Sopla en mí",
+        "audioPublicPath": "assets/audio/2026-05-24-sopla-en-mi.mp3"
+      }
+    },
+    {
+      "id": "2026-05-31",
+      "index": 27,
+      "isoDate": "2026-05-31",
+      "dateLabel": "31 de mayo de 2026",
+      "denomination": "Santísima Trinidad",
+      "fullTitle": "Domingo 31 de mayo de 2026 - Santísima Trinidad - Ciclo A",
+      "season": "Solemnidades",
+      "refs": "Jn 3, 16-18",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-05-31-santisima-trinidad.webp",
+        "variant": "editorial",
+        "textTranscript": "Los de siempre · Los jóvenes · Los nuevos · Los que preguntan demasiado · Los que vienen poco · Los de Cáritas · Los del coro · Los de catequesis"
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-05-31.json",
+      "song": {
+        "title": "Tanto amaste al mundo",
+        "audioPublicPath": "assets/audio/2026-05-31-tanto-amaste-al-mundo.mp3"
+      }
+    },
+    {
+      "id": "2026-06-07",
+      "index": 28,
+      "isoDate": "2026-06-07",
+      "dateLabel": "7 de junio de 2026",
+      "denomination": "Santísimo Cuerpo y Sangre de Cristo",
+      "fullTitle": "Domingo 7 de junio de 2026 - Santísimo Cuerpo y Sangre de Cristo - Ciclo A",
+      "season": "Solemnidades",
+      "refs": "Jn 6, 51-58",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-06-07-santisimo-cuerpo-y-sangre-de-cristo.webp",
+        "variant": "editorial",
+        "textTranscript": null
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-06-07.json",
+      "song": {
+        "title": "Te haces Pan",
+        "audioPublicPath": "assets/audio/2026-06-07-te-haces-pan.mp3"
+      }
+    },
+    {
+      "id": "2026-06-14",
+      "index": 29,
+      "isoDate": "2026-06-14",
+      "dateLabel": "14 de junio de 2026",
+      "denomination": "XI Domingo del Tiempo Ordinario",
+      "fullTitle": "Domingo 14 de junio de 2026 - XI Domingo del Tiempo Ordinario - Ciclo A",
+      "season": "Tiempo Ordinario",
+      "refs": "Mt 9, 36 - 10, 8",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-06-14-xi-domingo-del-tiempo-ordinario.webp",
+        "variant": "editorial",
+        "textTranscript": "No enfocan raro. Enfocan bien. · Señor, estas gafas enfocan raro."
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-06-14.json",
+      "song": {
+        "title": "Dame tus ojos",
+        "audioPublicPath": "assets/audio/2026-06-14-dame-tus-ojos.mp3"
+      }
+    },
+    {
+      "id": "2026-06-21",
+      "index": 30,
+      "isoDate": "2026-06-21",
+      "dateLabel": "21 de junio de 2026",
+      "denomination": "XII Domingo del Tiempo Ordinario",
+      "fullTitle": "Domingo 21 de junio de 2026 - XII Domingo del Tiempo Ordinario - Ciclo A",
+      "season": "Tiempo Ordinario",
+      "refs": "Mt 10, 26-33",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-06-21-xii-domingo-del-tiempo-ordinario.webp",
+        "variant": "editorial",
+        "textTranscript": null
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-06-21.json",
+      "song": {
+        "title": "Tú me sabes contar",
+        "audioPublicPath": "assets/audio/2026-06-21-tu-me-sabes-contar.mp3"
+      }
+    },
+    {
+      "id": "2026-06-28",
+      "index": 31,
+      "isoDate": "2026-06-28",
+      "dateLabel": "28 de junio de 2026",
+      "denomination": "XIII Domingo del Tiempo Ordinario",
+      "fullTitle": "Domingo 28 de junio de 2026 - XIII Domingo del Tiempo Ordinario - Ciclo A",
+      "season": "Tiempo Ordinario",
+      "refs": "Mt 10, 37-42",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-06-28-xiii-domingo-del-tiempo-ordinario.webp",
+        "variant": "editorial",
+        "textTranscript": null
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-06-28.json",
+      "song": {
+        "title": "Un vaso de agua",
+        "audioPublicPath": "assets/audio/2026-06-28-un-vaso-de-agua.mp3"
+      }
+    },
+    {
+      "id": "2026-07-05",
+      "index": 32,
+      "isoDate": "2026-07-05",
+      "dateLabel": "5 de julio de 2026",
+      "denomination": "XIV Domingo del Tiempo Ordinario",
+      "fullTitle": "Domingo 5 de julio de 2026 - XIV Domingo del Tiempo Ordinario - Ciclo A",
+      "season": "Tiempo Ordinario",
+      "refs": "Mt 11, 25-30",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-07-05-xiv-domingo-del-tiempo-ordinario.webp",
+        "variant": "editorial",
+        "textTranscript": "TENGO QUE PODER CON TODO · QUEDAR BIEN · TENER RAZÓN · NO FALLAR · CONTROLARLO TODO · MI IMAGEN · Yo pensaba que seguirte era añadir otra carga… · Yo venía a quitarte unas cuantas."
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-07-05.json",
+      "song": {
+        "title": "Aprended de mí",
+        "audioPublicPath": "assets/audio/2026-07-05-aprended-de-mi.mp3"
+      }
+    },
+    {
+      "id": "2026-07-12",
+      "index": 33,
+      "isoDate": "2026-07-12",
+      "dateLabel": "12 de julio de 2026",
+      "denomination": "XV Domingo del Tiempo Ordinario",
+      "fullTitle": "Domingo 12 de julio de 2026 - XV Domingo del Tiempo Ordinario - Ciclo A",
+      "season": "Tiempo Ordinario",
+      "refs": "Mt 13, 1-23",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-07-12-xv-domingo-del-tiempo-ordinario.webp",
+        "variant": "editorial",
+        "textTranscript": "¡No oigo nada! · Entonces está creciendo."
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-07-12.json",
+      "song": {
+        "title": "Sin hacer ruido",
+        "audioPublicPath": "assets/audio/2026-07-12-sin-hacer-ruido.mp3"
+      }
+    },
+    {
+      "id": "2026-07-19",
+      "index": 34,
+      "isoDate": "2026-07-19",
+      "dateLabel": "19 de julio de 2026",
+      "denomination": "XVI Domingo del Tiempo Ordinario",
+      "fullTitle": "Domingo 19 de julio de 2026 - XVI Domingo del Tiempo Ordinario - Ciclo A",
+      "season": "Tiempo Ordinario",
+      "refs": "Mt 13, 24-43",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-07-19-xvi-domingo-del-tiempo-ordinario.webp",
+        "variant": "editorial",
+        "textTranscript": null
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-07-19.json",
+      "song": {
+        "title": "La noche no es dueña",
+        "audioPublicPath": "assets/audio/2026-07-19-la-noche-no-es-duena.mp3"
+      }
+    },
+    {
+      "id": "2026-07-26",
+      "index": 35,
+      "isoDate": "2026-07-26",
+      "dateLabel": "26 de julio de 2026",
+      "denomination": "XVII Domingo del Tiempo Ordinario",
+      "fullTitle": "Domingo 26 de julio de 2026 - XVII Domingo del Tiempo Ordinario - Ciclo A",
+      "season": "Tiempo Ordinario",
+      "refs": "Mt 13, 44-52",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-07-26-xvii-domingo-del-tiempo-ordinario.webp",
+        "variant": "editorial",
+        "textTranscript": "¿Dónde estarán?"
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-07-26.json",
+      "song": {
+        "title": "Todo hablaba de ti",
+        "audioPublicPath": "assets/audio/2026-07-26-todo-hablaba-de-ti.mp3"
+      }
+    },
+    {
+      "id": "2026-08-02",
+      "index": 36,
+      "isoDate": "2026-08-02",
+      "dateLabel": "2 de agosto de 2026",
+      "denomination": "XVIII Domingo del Tiempo Ordinario",
+      "fullTitle": "Domingo 2 de agosto de 2026 - XVIII Domingo del Tiempo Ordinario - Ciclo A",
+      "season": "Tiempo Ordinario",
+      "refs": "Mt 14, 13-21",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-08-02-xviii-domingo-del-tiempo-ordinario.webp",
+        "variant": "editorial",
+        "textTranscript": "5 + 2 = 5 + 2 + TÚ"
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-08-02.json",
+      "song": {
+        "title": "Contabas conmigo",
+        "audioPublicPath": "assets/audio/2026-08-02-contabas-conmigo.mp3"
+      }
+    },
+    {
+      "id": "2026-08-09",
+      "index": 37,
+      "isoDate": "2026-08-09",
+      "dateLabel": "9 de agosto de 2026",
+      "denomination": "XIX Domingo del Tiempo Ordinario",
+      "fullTitle": "Domingo 9 de agosto de 2026 - XIX Domingo del Tiempo Ordinario - Ciclo A",
+      "season": "Tiempo Ordinario",
+      "refs": "Mt 14, 22-33",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-08-09-xix-domingo-del-tiempo-ordinario.webp",
+        "variant": "editorial",
+        "textTranscript": "NO MIRES ABAJO"
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-08-09.json",
+      "song": {
+        "title": "Ven",
+        "audioPublicPath": "assets/audio/2026-08-09-ven.mp3"
+      }
+    }
+  ],
+  "dataArchitecture": {
+    "strategy": "index-plus-entry-payloads",
+    "entryPayloadCount": 37
+  }
+}

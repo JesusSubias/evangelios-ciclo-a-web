@@ -1,0 +1,269 @@
+{
+  "id": "2026-06-14",
+  "readings": [
+    {
+      "context": "",
+      "ref": "Mt 9, 36 - 10, 8"
+    }
+  ],
+  "pastoral": "Jesús mira a la gente cansada y se conmueve antes de enviar. La misión empieza con ojos capaces de detenerse: ver hijos donde otros ven masa, ver mies donde otros ven problema. El envío nace de la oración y se vive gratis, porque todo lo recibido de Dios se convierte en cuidado, palabra, curación y entrega.",
+  "meeting": {
+    "title": "Dame tus ojos",
+    "subtitle": "Mirar con compasión antes de actuar",
+    "duration": "70 minutos",
+    "key": {
+      "title": "Jesús ve el cansancio y nos llama a cuidar",
+      "text": "La misión comienza al escuchar: Jesús reconoce personas cansadas, se deja afectar, convoca una comunidad y convierte el don recibido en cuidado gratuito.",
+      "quote": "Dame tus ojos, Señor, dame tu forma de mirar.",
+      "steps": [
+        {
+          "title": "Ver",
+          "text": "Jesús ve personas cansadas y dispersas, no un problema que gestionar. La misión comienza cuando cada rostro importa."
+        },
+        {
+          "title": "Conmoverse",
+          "text": "La realidad le afecta: «tuvo compasión». No es lástima distante, sino cercanía responsable que reconoce dignidad y voz."
+        },
+        {
+          "title": "Rogar",
+          "text": "Antes de responder deprisa, invita a rogar al Señor de la mies. El grupo escucha, discierne y reconoce sus límites."
+        },
+        {
+          "title": "Llamar",
+          "text": "Jesús llama a los Doce antes de enviarlos. Nadie cuida solo: la misión distribuye dones, tareas y responsabilidad."
+        },
+        {
+          "title": "Dar",
+          "text": "«Gratis recibisteis; dad gratis». El don se vuelve servicio sin apropiarse de la historia, la decisión ni el protagonismo de otros."
+        }
+      ]
+    },
+    "resonancesEyebrow": "Cuatro formas bíblicas de cuidar",
+    "resonancesTitle": "Dios ve y oye, busca y reúne, se acerca y comparte dones",
+    "resonances": [
+      {
+        "ref": "Ex 3,7",
+        "title": "Ver y oír",
+        "quote": "He visto la aflicción de mi pueblo y he oído su clamor.",
+        "text": "Dios ve y escucha antes de actuar. La necesidad nunca borra la historia de quien la vive."
+      },
+      {
+        "ref": "Ez 34,11",
+        "title": "Buscar y reunir",
+        "quote": "Yo mismo buscaré mis ovejas y velaré por ellas.",
+        "text": "El cuidado busca a quienes están dispersos sin convertirlos en cifras ni hablar por ellos."
+      },
+      {
+        "ref": "Lc 10,33",
+        "title": "Cuidado que se acerca",
+        "quote": "Al verlo, se compadeció.",
+        "text": "La compasión se vuelve proximidad concreta, pregunta honesta y ayuda responsable."
+      },
+      {
+        "ref": "1 Pe 4,10",
+        "title": "Servir con el don",
+        "quote": "Ponga al servicio de los demás el don recibido.",
+        "text": "Nadie tiene que hacerlo todo: los dones compartidos hacen sostenible el cuidado."
+      }
+    ],
+    "synthesis": "Mirada atenta · compasión encarnada · comunidad llamada · don gratuito",
+    "question": "¿Qué necesidad intento resolver antes de haberla escuchado?",
+    "agendaTitle": "De la compasión recibida a un cuidado compartido",
+    "agenda": [
+      {
+        "time": "00–08",
+        "title": "Escuchar",
+        "instruction": "Oír «Dame tus ojos» completa, sin explicarla todavía.",
+        "question": "¿Qué frase cambia mi manera de acercarme a alguien?"
+      },
+      {
+        "time": "08–20",
+        "title": "Reconocer",
+        "instruction": "Mapa del entorno: «cansancio» / «ayuda existente» / «qué falta escuchar».",
+        "question": "¿Qué conozco de verdad y qué estoy suponiendo?"
+      },
+      {
+        "time": "20–38",
+        "title": "Iluminar",
+        "instruction": "Leer Mt 9,36–10,8 siguiendo: ver, compadecerse, rogar, llamar, enviar y dar.",
+        "question": "¿Qué hace Jesús antes de enviar y qué evita hacer solo?"
+      },
+      {
+        "time": "38–58",
+        "title": "Discernir",
+        "instruction": "En tríos, resolver un caso ficticio eligiendo entre ayudar, acompañar o derivar.",
+        "question": "¿Qué respuesta cuida sin sustituir la voz ni prometer más de lo posible?"
+      },
+      {
+        "time": "58–70",
+        "title": "Servir",
+        "instruction": "Elegir un gesto gratuito, compartido y con límites claros. Compartir libremente y orar.",
+        "question": "¿Qué cuidado concreto puedo sostener con otra persona esta semana?"
+      }
+    ],
+    "criterion": "Escuchar antes de ayudar; proteger consentimiento, confidencialidad y dignidad; no exponer historias ni imágenes; no prometer más de lo que el grupo puede sostener; derivar las necesidades urgentes o especializadas. Compartir y pasar son opciones válidas.",
+    "deckPublicPath": "assets/presentations/2026-06-14-dame-tus-ojos.pptx"
+  },
+  "gospel": {
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Evangelio: Mt 9, 36 - 10, 8"
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 9,36.",
+        "text": "Y viendo las gentes, tuvo compasión de ellas; porque estaban derramadas y esparcidas como ovejas que no tienen pastor."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 9,37.",
+        "text": "Entonces dice á sus discípulos: A la verdad la mies es mucha, mas los obreros pocos."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 9,38.",
+        "text": "Rogad, pues, al Señor de la mies, que envíe obreros á su mies."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 10,1.",
+        "text": "Entonces llamando á sus doce discípulos, les dió potestad contra los espíritus inmundos, para que los echasen fuera, y sanasen toda enfermedad y toda dolencia."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 10,2.",
+        "text": "Y los nombres de los doce apóstoles son estos: el primero, Simón, que es dicho Pedro, y Andrés su hermano; Jacobo, hijo de Zebedeo, y Juan su hermano;"
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 10,3.",
+        "text": "Felipe, y Bartolomé; Tomás, y Mateo el publicano; Jacobo hijo de Alfeo, y Lebeo, por sobrenombre Tadeo;"
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 10,4.",
+        "text": "Simón el Cananita y Judas Iscariote, que también le entregó."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 10,5.",
+        "text": "á estos doce envió Jesús, á los cuales dió mandamiento, diciendo: Por el camino de los Gentiles no iréis, y en ciudad de Samaritanos no entréis;"
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 10,6.",
+        "text": "Mas id antes á las ovejas perdidas de la casa de Israel."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 10,7.",
+        "text": "Y yendo, predicad, diciendo: El reino de los cielos se ha acercado."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 10,8.",
+        "text": "Sanad enfermos, limpiad leprosos, resucitad muertos, echad fuera demonios: de gracia recibisteis, dad de gracia."
+      }
+    ]
+  },
+  "song": {
+    "lyrics": [
+      {
+        "lines": [
+          "Tantas voces, tanto ruido, tanta prisa por llegar,",
+          "y en el fondo tantos hijos sin abrazo y sin hogar.",
+          "Y yo paso tantas veces sin pararme a descubrir",
+          "que detrás de cada rostro Tú me llamas a servir."
+        ]
+      },
+      {
+        "lines": [
+          "Enséñame a detenerme, a mirar como miras Tú,",
+          "a encontrar entre las sombras una herida y una luz."
+        ]
+      },
+      {
+        "lines": [
+          "Dame tus ojos, Señor, dame tu forma de mirar,",
+          "que vea hijos donde veo gente,",
+          "que vea mies donde hay cansancio y soledad."
+        ]
+      },
+      {
+        "lines": [
+          "Haznos hermanos en camino, una casa abierta a tu voz,",
+          "y antes de salir al mundo,",
+          "pon tu compasión en nuestro corazón."
+        ]
+      },
+      {
+        "lines": [
+          "Nos llamas primero al silencio, a escuchar tu voluntad,",
+          "no se cura desde la prisa, no se siembra sin rezar.",
+          "Que no salgamos vacíos, que no hablemos sin amar,",
+          "que no llevemos respuestas sin haberte oído hablar."
+        ]
+      },
+      {
+        "lines": [
+          "Y al rezar unos por otros se despierta la misión:",
+          "no salimos cada uno, nos envía tu amor."
+        ]
+      },
+      {
+        "lines": [
+          "Dame tus ojos, Señor, dame tu forma de mirar,",
+          "que vea hijos donde veo gente,",
+          "que vea mies donde hay cansancio y soledad."
+        ]
+      },
+      {
+        "lines": [
+          "Haznos hermanos en camino, una casa abierta a tu voz,",
+          "y antes de salir al mundo,",
+          "pon tu compasión en nuestro corazón."
+        ]
+      },
+      {
+        "lines": [
+          "Gratis nos diste la vida,",
+          "gratis tu forma de amar,",
+          "gratis curaste heridas,",
+          "gratis nos vuelves a llamar."
+        ]
+      },
+      {
+        "lines": [
+          "Gratis abrimos la puerta,",
+          "gratis partimos el pan,",
+          "gratis será nuestra entrega,",
+          "porque Tú nos amaste igual."
+        ]
+      },
+      {
+        "lines": [
+          "Danos tus ojos, Señor, danos tu forma de mirar,",
+          "que veamos hijos donde hay gente,",
+          "que veamos mies donde hay cansancio y soledad."
+        ]
+      },
+      {
+        "lines": [
+          "Haznos hermanos en camino, una casa abierta a tu voz,",
+          "y antes de salir al mundo,",
+          "pon tu compasión en nuestro corazón."
+        ]
+      },
+      {
+        "lines": [
+          "Pon tu compasión,",
+          "pon tu compasión,",
+          "pon tu compasión",
+          "en nuestro corazón."
+        ]
+      }
+    ],
+    "chordsPdfPublicPath": null
+  }
+}

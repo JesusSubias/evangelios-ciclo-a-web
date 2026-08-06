@@ -1,0 +1,300 @@
+{
+  "id": "2026-01-25",
+  "readings": [
+    {
+      "context": "",
+      "ref": "Mt 4, 12-23"
+    }
+  ],
+  "pastoral": "Jesús llama a los discípulos en medio de su trabajo ordinario, no en un escenario perfecto. También hoy la vocación nace junto a las redes de cada día: responsabilidades, amistades, familia, proyectos y preguntas. 'Sígueme' no es perder la vida, sino descubrir para qué se entregan los talentos y qué redes hay que soltar para caminar con más libertad.",
+  "meeting": {
+    "title": "Sígueme",
+    "subtitle": "La llamada en la vida ordinaria",
+    "duration": "70 minutos",
+    "key": {
+      "title": "Jesús llama dentro de la vida que ya vivimos",
+      "text": "Jesús vuelve a Galilea cuando Juan ha sido encarcelado y encuentra a cuatro hombres trabajando: unos echan redes y otros las remiendan. No desprecia su oficio ni espera un momento perfecto. Los mira, los llama a caminar detrás de él y convierte su experiencia en una forma nueva de servir.",
+      "quote": "No me sacas fuera de lo que vivo, me enseñas cómo vivir.",
+      "steps": [
+        {
+          "title": "Volver",
+          "text": "Jesús regresa a Galilea en una historia marcada por el encarcelamiento de Juan. La llamada no espera a que desaparezcan la incertidumbre o el dolor."
+        },
+        {
+          "title": "Mirar",
+          "text": "Ve a Simón y Andrés echando las redes, y después a Santiago y Juan remendándolas. La vocación comienza con una mirada concreta sobre personas reales."
+        },
+        {
+          "title": "Llamar",
+          "text": "«Venid detrás de mí». Jesús ofrece primero una relación y un camino; la misión nace de aprender a caminar con él."
+        },
+        {
+          "title": "Soltar",
+          "text": "Dejan redes, barca y seguridades. No todo vínculo o tarea es un obstáculo: seguir exige discernir qué sostiene la vida y qué ya no permite avanzar."
+        },
+        {
+          "title": "Caminar",
+          "text": "El relato termina recorriendo Galilea, enseñando, anunciando y curando. La llamada se reconoce cuando transforma la vida en servicio y cuidado."
+        }
+      ]
+    },
+    "resonancesEyebrow": "Cuatro claves bíblicas para escuchar una llamada dentro de la vida cotidiana",
+    "resonancesTitle": "Dios llama en la tarea, enseña a reconocer su voz y convierte la respuesta en servicio",
+    "resonances": [
+      {
+        "ref": "Ex 3,1–4",
+        "title": "Nombre en el trabajo",
+        "quote": "Moisés, Moisés. Heme aquí.",
+        "text": "Dios llama a Moisés mientras cuida el rebaño: el trabajo ordinario se convierte en lugar de encuentro."
+      },
+      {
+        "ref": "1 Sam 3,8–10",
+        "title": "Aprender la voz",
+        "quote": "Habla, Señor, que tu siervo escucha.",
+        "text": "Samuel necesita la ayuda de Elí para reconocer la voz. Discernir también implica escuchar a otros y dar tiempo."
+      },
+      {
+        "ref": "Is 6,8",
+        "title": "Respuesta disponible",
+        "quote": "Aquí estoy, envíame.",
+        "text": "La respuesta nace después de escuchar y dejarse tocar. Disponibilidad no significa prisa, heroísmo ni presión."
+      },
+      {
+        "ref": "Col 3,17",
+        "title": "Lo cotidiano ofrecido",
+        "quote": "Todo cuanto hagáis, hacedlo en nombre del Señor.",
+        "text": "La vocación no aparta de la vida: transforma palabras, tareas y relaciones en una forma de servir."
+      }
+    ],
+    "synthesis": "Vida concreta · voz discernida · libertad para soltar · servicio cotidiano",
+    "question": "¿Qué está pidiendo Jesús transformar dentro de lo que ya vivo?",
+    "agendaTitle": "De las redes de cada día a una respuesta discernida",
+    "agenda": [
+      {
+        "time": "00–08",
+        "title": "Escuchar",
+        "instruction": "Oír «Sígueme» completa, sin explicarla todavía.",
+        "question": "¿Qué frase convierte mi vida diaria en lugar de llamada?"
+      },
+      {
+        "time": "08–20",
+        "title": "Nombrar",
+        "instruction": "Tarjeta opcional: «redes que sostienen» / «redes que atan» / «con quién puedo caminar».",
+        "question": "¿Dónde podría estar llamándome Jesús en lo que ya vivo?"
+      },
+      {
+        "time": "20–38",
+        "title": "Iluminar",
+        "instruction": "Leer Mt 4,12–23 y marcar lugar, tareas, mirada, llamada, renuncias y camino.",
+        "question": "¿Qué transforma Jesús y qué no desprecia de la vida anterior de los discípulos?"
+      },
+      {
+        "time": "38–58",
+        "title": "Discernir",
+        "instruction": "En tríos, revisar un caso ficticio y distinguir qué conviene conservar, qué soltar y cuál sería un paso pequeño.",
+        "question": "¿Cómo distinguir una llamada de la prisa, la culpa o la presión?"
+      },
+      {
+        "time": "58–70",
+        "title": "Responder",
+        "instruction": "Elegir un paso posible, una persona con quien contrastarlo y una fecha. Compartir libremente y orar.",
+        "question": "¿Qué paso puedo dar esta semana sin abandonar mis responsabilidades?"
+      }
+    ],
+    "criterion": "No romantizar decisiones bruscas ni presentar trabajo, familia o estudio como obstáculos. Una llamada no anula responsabilidades, consentimiento, prudencia económica, procesos vocacionales ni ayuda profesional. Discernir con tiempo, comunidad y libertad. Compartir y pasar son opciones válidas.",
+    "deckPublicPath": "assets/presentations/2026-01-25-sigueme.pptx"
+  },
+  "gospel": {
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Evangelio: Mt 4, 12-23"
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 4,12.",
+        "text": "Mas oyendo Jesús que Juan era preso, se volvió á Galilea;"
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 4,13.",
+        "text": "Y dejando á Nazaret, vino y habitó en Capernaum, ciudad marítima, en los confines de Zabulón y de Nephtalim:"
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 4,14.",
+        "text": "Para que se cumpliese lo que fué dicho por el profeta Isaías, que dijo:"
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 4,15.",
+        "text": "La tierra de Zabulón, y la tierra de Nephtalim, Camino de la mar, de la otra parte del Jordán, Galilea de los Gentiles;"
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 4,16.",
+        "text": "El pueblo asentado en tinieblas, Vió gran luz; Y á los sentados en región y sombra de muerte, Luz les esclareció."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 4,17.",
+        "text": "Desde entonces comenzó Jesús á predicar, y á decir: Arrepentíos, que el reino de los cielos se ha acercado."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 4,18.",
+        "text": "Y andando Jesús junto á la mar de Galilea, vió á dos hermanos, Simón, que es llamado Pedro, y Andrés su hermano, que echaban la red en la mar; porque eran pescadores."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 4,19.",
+        "text": "Y díceles: Venid en pos de mí, y os haré pescadores de hombres."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 4,20.",
+        "text": "Ellos entonces, dejando luego las redes, le siguieron."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 4,21.",
+        "text": "Y pasando de allí vió otros dos hermanos, Jacobo, hijo de Zebedeo, y Juan su hermano, en el barco con Zebedeo, su padre, que remendaban sus redes; y los llamó."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 4,22.",
+        "text": "Y ellos, dejando luego el barco y á su padre, le siguieron."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 4,23.",
+        "text": "Y rodeó Jesús toda Galilea, enseñando en las sinagogas de ellos, y predicando el evangelio del reino, y sanando toda enfermedad y toda dolencia en el pueblo."
+      }
+    ]
+  },
+  "song": {
+    "lyrics": [
+      {
+        "lines": [
+          "Caminas despacio al borde del lago,",
+          "entre redes, prisas y sal.",
+          "No vienes buscando gente perfecta,",
+          "nos llamas tal y como estamos ya."
+        ]
+      },
+      {
+        "lines": [
+          "En medio del ruido dices mi nombre,",
+          "sin gritos, sin explicar.",
+          "Y algo por dentro se mueve en silencio,",
+          "como una ola al pasar."
+        ]
+      },
+      {
+        "lines": [
+          "Sígueme, sígueme así como estás,",
+          "que el Reino ya empieza aquí.",
+          "Deja las redes, no porque sean malas,",
+          "sino porque hay más para ti."
+        ]
+      },
+      {
+        "lines": [
+          "Sígueme, sígueme sin saber dónde,",
+          "confía y déjate llevar.",
+          "Que yo haré nuevo lo que hoy te ata,",
+          "y aprenderás a amar."
+        ]
+      },
+      {
+        "lines": [
+          "No estaba rezando, no estaba listo,",
+          "tenía las manos en el trabajo.",
+          "Pero tu mirada me leyó entero",
+          "y entendí que era ahora, no mañana, no luego."
+        ]
+      },
+      {
+        "lines": [
+          "No me pediste cuentas ni promesas,",
+          "solo caminar detrás.",
+          "Primero el paso, luego el sentido,",
+          "la luz vendrá al andar."
+        ]
+      },
+      {
+        "lines": [
+          "Sígueme, sígueme así como estás,",
+          "que el Reino ya empieza aquí.",
+          "Deja las redes, no porque sean malas,",
+          "sino porque hay más para ti."
+        ]
+      },
+      {
+        "lines": [
+          "Sígueme, sígueme sin saber dónde,",
+          "confía y déjate llevar.",
+          "Que yo haré nuevo lo que hoy te ata,",
+          "y aprenderás a amar."
+        ]
+      },
+      {
+        "lines": [
+          "Convertirse no es cambiar de traje,",
+          "es girar el corazón.",
+          "Mirar el mundo desde tus ojos,",
+          "poner mi vida en tu dirección."
+        ]
+      },
+      {
+        "lines": [
+          "No me sacas fuera de lo que vivo,",
+          "me enseñas cómo vivir.",
+          "Lo de siempre empieza a ser distinto",
+          "cuando te dejo ir delante de mí."
+        ]
+      },
+      {
+        "lines": [
+          "Sígueme, sígueme así como estás,",
+          "que el Reino ya empieza aquí.",
+          "Deja las redes, no porque sean malas,",
+          "sino porque hay más para ti."
+        ]
+      },
+      {
+        "lines": [
+          "Sígueme, sígueme sin saber dónde,",
+          "confía y déjate llevar.",
+          "Que yo haré nuevo lo que hoy te ata,",
+          "y aprenderás a amar."
+        ]
+      },
+      {
+        "lines": [
+          "No hay mapas, no hay garantías,",
+          "solo tu voz y mi fe.",
+          "Pero si vas tú delante,",
+          "sé que no me perderé."
+        ]
+      },
+      {
+        "lines": [
+          "Sígueme, sígueme hoy y aquí,",
+          "que el Reino ya está cerca.",
+          "Tu paso primero, tu amor después,",
+          "todo lo demás se ordena."
+        ]
+      },
+      {
+        "lines": [
+          "Sígueme, sígueme, ven y verás,",
+          "la vida empieza al soltar.",
+          "Las redes caen, el miedo se rompe,",
+          "contigo aprendemos a amar."
+        ]
+      }
+    ],
+    "chordsPdfPublicPath": null
+  }
+}
