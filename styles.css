@@ -186,6 +186,22 @@ a {
   fill: currentColor;
 }
 
+.offline-button {
+  position: relative;
+}
+
+.app-shell[data-network="offline"] .offline-button::after {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 8px;
+  height: 8px;
+  border: 2px solid var(--paper);
+  border-radius: 50%;
+  background: var(--gold);
+  content: "";
+}
+
 .icon-button:disabled {
   cursor: default;
   opacity: var(--interaction-disabled-opacity);
@@ -1740,6 +1756,10 @@ button:disabled,
 @media (prefers-reduced-motion: no-preference) {
   .loading-mark {
     animation: loading-mark-spin 720ms linear infinite;
+  }
+
+  .offline-button[data-busy="true"] svg {
+    animation: loading-mark-spin 900ms linear infinite;
   }
 
   .entry-button,

@@ -9,6 +9,8 @@ const ICONS = {
   music: `<svg aria-hidden="true" viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l11-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="17" cy="16" r="3"/></svg>`,
   clock: `<svg aria-hidden="true" viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/><path d="M12 8v5l3 2"/></svg>`,
   info: `<svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></svg>`,
+  offline: `<svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M8 17.5H6.5a4.5 4.5 0 0 1-.8-8.9A6.5 6.5 0 0 1 18 10.8a3.5 3.5 0 0 1-.5 6.7H16"/><path d="M12 11v10m0 0-3-3m3 3 3-3"/></svg>`,
+  offlineSaved: `<svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M7.5 18H6.2a4.2 4.2 0 0 1-.7-8.3A6.2 6.2 0 0 1 17.2 12a3.3 3.3 0 0 1 .3 6H16"/><path d="m9 16 2.2 2.2L16 13.5"/></svg>`,
   light: `<svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M8.3 14.5a6 6 0 1 1 7.4 0c-.9.7-1.2 1.4-1.2 2H9.5c0-.6-.3-1.3-1.2-2Z"/></svg>`,
   people: `<svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3.5 20a5.5 5.5 0 0 1 11 0M14 15.5a4.5 4.5 0 0 1 6.5 4"/></svg>`,
 };
@@ -30,6 +32,11 @@ const state = {
   settingsOpen: false,
   toast: "",
   bookmarkedIds: new Set(),
+  offlineSavedIds: new Set(),
+  offlineSupported: "serviceWorker" in navigator,
+  offlineReady: false,
+  offlineBusyId: null,
+  online: navigator.onLine,
   preferences: {
     expandLyrics: false,
     largeText: false,
@@ -55,13 +62,15 @@ const seasonColors = {
 };
 
 const app = document.querySelector("#app");
-const DATA_VERSION = "20260806-p2-v12";
+const DATA_VERSION = "20260806-p3-v13";
+const OFFLINE_MESSAGE_TIMEOUT = 45000;
 const calendarWeekdays = ["L", "M", "X", "J", "V", "S", "D"];
 const monthFormatter = new Intl.DateTimeFormat("es-ES", { month: "long", year: "numeric" });
 let toastTimer = null;
 let eventsBound = false;
 const entryPayloadRequests = new Map();
 let selectionRequestId = 0;
+let offlineStatusRequestId = 0;
 
 async function init() {
   try {
@@ -78,6 +87,93 @@ async function init() {
   } catch (error) {
     app.innerHTML = `<div class="boot-screen"><p>${escapeHtml(error.message)}</p></div>`;
   }
+}
+
+function updateTopActions() {
+  if (!state.manifest) return;
+  app.dataset.network = state.online ? "online" : "offline";
+  app.dataset.offlineReady = state.offlineReady ? "true" : "false";
+  const region = app.querySelector(".top-actions-region");
+  if (region) region.innerHTML = renderTopActions(selectedEntry());
+}
+
+function offlineEntryResources(entry) {
+  return [
+    entry.payloadPath,
+    entry.image?.publicPath,
+    entry.song?.audioPublicPath,
+  ].filter(Boolean).map(versionedAssetPath);
+}
+
+async function sendOfflineMessage(type, resources) {
+  const registration = await navigator.serviceWorker.ready;
+  const worker = navigator.serviceWorker.controller || registration.active || registration.waiting;
+  if (!worker) throw new Error("El modo sin conexión todavía no está preparado");
+
+  return new Promise((resolve, reject) => {
+    const channel = new MessageChannel();
+    const timeout = window.setTimeout(() => {
+      channel.port1.close();
+      reject(new Error("El guardado está tardando demasiado"));
+    }, OFFLINE_MESSAGE_TIMEOUT);
+
+    channel.port1.onmessage = (event) => {
+      window.clearTimeout(timeout);
+      channel.port1.close();
+      if (event.data?.ok) resolve(event.data);
+      else reject(new Error(event.data?.error || "No se pudo completar la operación sin conexión"));
+    };
+    worker.postMessage({ type, resources }, [channel.port2]);
+  });
+}
+
+async function refreshOfflineEntryStatus(entryId) {
+  if (!state.offlineReady || !entrySummary(entryId)) return;
+  const requestId = ++offlineStatusRequestId;
+  try {
+    const result = await sendOfflineMessage("OFFLINE_ENTRY_STATUS", offlineEntryResources(entrySummary(entryId)));
+    if (requestId !== offlineStatusRequestId) return;
+    if (result.saved) state.offlineSavedIds.add(entryId);
+    else state.offlineSavedIds.delete(entryId);
+    if (state.selectedId === entryId) updateTopActions();
+  } catch {
+    // Offline support is progressive enhancement; reading remains available.
+  }
+}
+
+async function registerOfflineSupport() {
+  if (!state.offlineSupported) return;
+  navigator.serviceWorker.addEventListener("message", handleServiceWorkerMessage);
+  try {
+    await navigator.serviceWorker.register(`sw.js?v=${encodeURIComponent(DATA_VERSION)}`, {
+      scope: "./",
+      updateViaCache: "none",
+    });
+    await navigator.serviceWorker.ready;
+    state.offlineReady = true;
+    updateTopActions();
+    if (state.selectedId) refreshOfflineEntryStatus(state.selectedId);
+  } catch {
+    state.offlineReady = false;
+    updateTopActions();
+  }
+}
+
+function setNetworkState(online) {
+  const wasOnline = state.online;
+  state.online = online;
+  updateTopActions();
+  if (!state.manifest || wasOnline === state.online) return;
+  showToast(state.online ? "Conexión recuperada" : "Sin conexión: usando contenido guardado");
+}
+
+function handleNetworkChange() {
+  setNetworkState(navigator.onLine);
+}
+
+function handleServiceWorkerMessage(event) {
+  if (event.data?.type === "OFFLINE_FALLBACK") setNetworkState(false);
+  if (event.data?.type === "NETWORK_AVAILABLE") setNetworkState(true);
 }
 
 function entrySummary(entryId) {
@@ -120,6 +216,7 @@ async function loadSelectedEntry(options = {}) {
       revealActiveEntry: options.revealActiveEntry,
       updateLyrics: true,
     });
+    refreshOfflineEntryStatus(entryId);
   } catch (error) {
     if (state.selectedId !== entryId || requestId !== selectionRequestId) return;
     state.loadingEntryId = null;
@@ -342,6 +439,7 @@ function focusAfterRender(target) {
       search: "#search",
       heading: ".reader-heading h2",
       bookmark: "[data-bookmark-toggle]",
+      offline: "[data-offline-toggle]",
       calendarToggle: "[data-calendar-toggle]",
       calendarShift: "[data-calendar-shift]:not([disabled])",
       lyricsToggle: "#toggleLyrics",
@@ -372,6 +470,8 @@ function render(options = {}) {
   app.dataset.entryId = entry.id;
   app.dataset.entryReady = selectedEntryIsReady() ? "true" : "false";
   app.dataset.largeText = state.preferences.largeText ? "true" : "false";
+  app.dataset.network = state.online ? "online" : "offline";
+  app.dataset.offlineReady = state.offlineReady ? "true" : "false";
 
   app.querySelector(".top-actions-region").innerHTML = renderTopActions(entry);
   app.querySelector(".status-region").innerHTML = state.toast
@@ -397,11 +497,39 @@ function renderTopActions(entry) {
   const isBookmarked = state.bookmarkedIds.has(entry.id);
   const bookmarkLabel = isBookmarked ? "Quitar marcador" : "Marcar ficha";
   const audioPath = entry.song.audioPublicPath;
+  const isOfflineSaved = state.offlineSavedIds.has(entry.id);
+  const isOfflineBusy = state.offlineBusyId === entry.id;
+  const offlineActionLabel = isOfflineBusy
+    ? "Guardando ficha sin conexión"
+    : isOfflineSaved
+      ? "Eliminar ficha guardada del dispositivo"
+      : "Guardar ficha para usar sin conexión";
+  const offlineLabel = state.online ? offlineActionLabel : `${offlineActionLabel} (sin conexión)`;
+  const offlineDisabled = !state.offlineReady
+    || isOfflineBusy
+    || !selectedEntryIsReady()
+    || (!state.online && !isOfflineSaved);
   return `
     <nav class="top-actions" aria-label="Acciones">
       <button class="icon-button" type="button" data-bookmark-toggle data-active="${isBookmarked}" aria-pressed="${isBookmarked}" title="${bookmarkLabel}" aria-label="${bookmarkLabel}">
         ${ICONS.bookmark}
       </button>
+      ${state.offlineSupported ? `
+        <button
+          class="icon-button offline-button"
+          type="button"
+          data-offline-toggle
+          data-active="${isOfflineSaved}"
+          data-busy="${isOfflineBusy}"
+          aria-pressed="${isOfflineSaved}"
+          aria-busy="${isOfflineBusy}"
+          title="${offlineLabel}"
+          aria-label="${offlineLabel}"
+          ${offlineDisabled ? "disabled" : ""}
+        >
+          ${isOfflineSaved ? ICONS.offlineSaved : ICONS.offline}
+        </button>
+      ` : ""}
       ${audioPath ? `
         <a class="icon-button" data-download-current href="${escapeHtml(audioPath)}" download title="Descargar audio de ${escapeHtml(entry.song.title)}" aria-label="Descargar audio de ${escapeHtml(entry.song.title)}">
           ${ICONS.download}
@@ -842,6 +970,7 @@ function selectEntry(entryId) {
   state.imageOpen = false;
   state.settingsOpen = false;
   render({ preserveSidebarScroll: true, revealActiveEntry: true, focusTarget: "heading" });
+  refreshOfflineEntryStatus(entryId);
   if (!selectedEntryIsReady()) {
     loadSelectedEntry({ preserveSidebarScroll: true, revealActiveEntry: true });
   }
@@ -860,7 +989,7 @@ function handleAppInput(event) {
 }
 
 function handleAppClick(event) {
-  const control = event.target.closest("[data-close-image], [data-open-image], [data-season], [data-entry], [data-calendar-toggle], [data-bookmark-toggle], [data-settings-toggle], [data-setting], [data-calendar-shift], [data-calendar-entry], [data-tab], [data-retry-entry], #toggleLyrics");
+  const control = event.target.closest("[data-close-image], [data-open-image], [data-season], [data-entry], [data-calendar-toggle], [data-bookmark-toggle], [data-offline-toggle], [data-settings-toggle], [data-setting], [data-calendar-shift], [data-calendar-entry], [data-tab], [data-retry-entry], #toggleLyrics");
   if (!control || !app.contains(control)) return;
 
   if (control.matches("[data-retry-entry]")) {
@@ -904,6 +1033,11 @@ function handleAppClick(event) {
 
   if (control.matches("[data-bookmark-toggle]")) {
     toggleBookmark(selectedEntry());
+    return;
+  }
+
+  if (control.matches("[data-offline-toggle]")) {
+    toggleOfflineEntry(selectedEntry());
     return;
   }
 
@@ -1022,6 +1156,31 @@ function toggleBookmark(entry) {
   }
 }
 
+async function toggleOfflineEntry(entry) {
+  if (!state.offlineReady || state.offlineBusyId) return;
+  const wasSaved = state.offlineSavedIds.has(entry.id);
+  if (!state.online && !wasSaved) {
+    showToast("Conéctate para guardar esta ficha", "offline");
+    return;
+  }
+
+  state.offlineBusyId = entry.id;
+  updateTopActions();
+  let message = "";
+  try {
+    const type = wasSaved ? "REMOVE_OFFLINE_ENTRY" : "SAVE_OFFLINE_ENTRY";
+    const result = await sendOfflineMessage(type, offlineEntryResources(entry));
+    if (result.saved) state.offlineSavedIds.add(entry.id);
+    else state.offlineSavedIds.delete(entry.id);
+    message = result.saved ? "Ficha y audio disponibles sin conexión" : "Copia sin conexión eliminada";
+  } catch (error) {
+    message = error.message || "No se pudo guardar la ficha";
+  } finally {
+    state.offlineBusyId = null;
+    showToast(message, "offline");
+  }
+}
+
 function togglePreference(key) {
   if (!Object.prototype.hasOwnProperty.call(state.preferences, key)) return;
   state.preferences[key] = !state.preferences[key];
@@ -1042,4 +1201,8 @@ function showToast(message, focusTarget = "") {
   }, 1800);
 }
 
+window.addEventListener("online", handleNetworkChange);
+window.addEventListener("offline", handleNetworkChange);
+
 init();
+registerOfflineSupport();

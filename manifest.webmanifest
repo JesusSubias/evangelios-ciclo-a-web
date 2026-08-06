@@ -1,0 +1,29 @@
+{
+  "id": "./",
+  "name": "Evangelios del domingo · Ciclo A",
+  "short_name": "Evangelios",
+  "description": "Evangelios del domingo del Ciclo A con imagen, clave pastoral, propuesta de reunión, canción y letra.",
+  "lang": "es-ES",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#fbf8f1",
+  "theme_color": "#7b1e2f",
+  "categories": ["education", "lifestyle", "music"],
+  "icons": [
+    {
+      "src": "assets/icons/app-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/app-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
