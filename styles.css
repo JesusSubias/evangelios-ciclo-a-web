@@ -295,6 +295,7 @@ a {
 
 .song-panel {
   grid-area: song;
+  min-width: 0;
   border-left: 1px solid var(--line);
   background: rgba(255, 252, 246, 0.74);
   padding: 26px 22px 32px;
@@ -1299,7 +1300,7 @@ svg {
     grid-template-columns: minmax(240px, 290px) minmax(0, 1fr);
     grid-template-areas:
       "sidebar reader"
-      "song song";
+      "sidebar song";
   }
 
   .song-panel {
