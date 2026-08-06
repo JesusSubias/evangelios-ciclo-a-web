@@ -21,6 +21,7 @@ const state = {
   tab: "evangelio",
   lyricsExpanded: false,
   imageOpen: false,
+  imageTrigger: "button",
   calendarOpen: false,
   calendarMonth: null,
   settingsOpen: false,
@@ -51,10 +52,11 @@ const seasonColors = {
 };
 
 const app = document.querySelector("#app");
-const DATA_VERSION = "20260806-editorial-art-v8";
+const DATA_VERSION = "20260806-design-audit-v11";
 const calendarWeekdays = ["L", "M", "X", "J", "V", "S", "D"];
 const monthFormatter = new Intl.DateTimeFormat("es-ES", { month: "long", year: "numeric" });
 let toastTimer = null;
+let eventsBound = false;
 
 async function init() {
   try {
@@ -212,10 +214,9 @@ function restoreSidebarScroll(scrollState, revealActiveEntry = false) {
   }
 }
 
-function render(options = {}) {
-  const scrollState = options.preserveSidebarScroll ? captureSidebarScroll() : null;
-  const entry = selectedEntry();
-  app.dataset.largeText = state.preferences.largeText ? "true" : "false";
+function ensureShell() {
+  if (app.querySelector(".app-layout")) return;
+
   app.innerHTML = `
     <header class="topbar">
       <div class="brand">
@@ -225,17 +226,103 @@ function render(options = {}) {
           <span class="cycle">Ciclo A 2025-2026</span>
         </div>
       </div>
-      ${renderTopActions(entry)}
+      <div class="top-actions-region"></div>
     </header>
-    ${state.toast ? `<div class="toast" role="status">${escapeHtml(state.toast)}</div>` : ""}
+    <div class="status-region" role="status" aria-live="polite" aria-atomic="true"></div>
     <main class="app-layout">
-      ${renderReader(entry)}
-      ${renderSongPanel(entry)}
-      ${renderSidebar()}
+      <section class="reader" aria-label="Ficha dominical">
+        <div class="reader-intro-region"></div>
+        <div class="responsive-audio-slot" aria-label="Reproductor de la ficha"></div>
+        <div class="reader-body-region"></div>
+      </section>
+      <aside class="song-panel" aria-label="Canción y letra">
+        <div class="song-lyrics-region"></div>
+      </aside>
+      <aside class="sidebar" aria-label="Índice de domingos">
+        <div class="sidebar-region"></div>
+      </aside>
     </main>
   `;
   bindEvents();
+}
+
+function captureAudioPreferences() {
+  const player = app.querySelector(".audio-player");
+  if (!player) return null;
+  return {
+    volume: player.volume,
+    playbackRate: player.playbackRate,
+    muted: player.muted,
+  };
+}
+
+function restoreAudioPreferences(preferences) {
+  const player = app.querySelector(".audio-player");
+  if (!player || !preferences) return;
+  player.volume = preferences.volume;
+  player.playbackRate = preferences.playbackRate;
+  player.muted = preferences.muted;
+}
+
+function focusAfterRender(target) {
+  if (!target) return;
+  const applyFocus = () => {
+    const selectors = {
+      settings: ".settings-popover [data-setting]",
+      settingsToggle: "[data-settings-toggle]",
+      image: ".image-viewer button[data-close-image]",
+      imageTrigger: "[data-open-image]",
+      search: "#search",
+      heading: ".reader-heading h2",
+      bookmark: "[data-bookmark-toggle]",
+      calendarToggle: "[data-calendar-toggle]",
+      calendarShift: "[data-calendar-shift]:not([disabled])",
+      lyricsToggle: "#toggleLyrics",
+    };
+    const selector = target.startsWith("tab:")
+      ? `[role="tab"][data-tab="${CSS.escape(target.slice(4))}"]`
+      : target.startsWith("setting:")
+        ? `[data-setting="${CSS.escape(target.slice(8))}"]`
+        : target.startsWith("season:")
+          ? `[data-season="${CSS.escape(target.slice(7))}"]`
+          : target.startsWith("imageTrigger:")
+            ? `[data-image-trigger="${CSS.escape(target.slice(13))}"]`
+            : selectors[target];
+    app.querySelector(selector)?.focus({ preventScroll: true });
+  };
+  queueMicrotask(applyFocus);
+  requestAnimationFrame(applyFocus);
+  setTimeout(applyFocus, 0);
+}
+
+function render(options = {}) {
+  const scrollState = options.preserveSidebarScroll ? captureSidebarScroll() : null;
+  const entry = selectedEntry();
+  ensureShell();
+
+  const entryChanged = app.dataset.entryId !== entry.id;
+  const audioPreferences = entryChanged ? captureAudioPreferences() : null;
+  app.dataset.entryId = entry.id;
+  app.dataset.largeText = state.preferences.largeText ? "true" : "false";
+
+  app.querySelector(".top-actions-region").innerHTML = renderTopActions(entry);
+  app.querySelector(".status-region").innerHTML = state.toast
+    ? `<div class="toast">${escapeHtml(state.toast)}</div>`
+    : "";
+  app.querySelector(".reader-intro-region").innerHTML = renderReaderIntro(entry);
+  app.querySelector(".reader-body-region").innerHTML = renderReaderBody(entry);
+  app.querySelector(".sidebar-region").innerHTML = renderSidebarContent();
+
+  if (entryChanged) {
+    app.querySelector(".responsive-audio-slot").innerHTML = renderSongAudio(entry);
+    app.querySelector(".song-lyrics-region").innerHTML = renderSongLyrics(entry);
+    restoreAudioPreferences(audioPreferences);
+  } else if (options.updateLyrics) {
+    app.querySelector(".song-lyrics-region").innerHTML = renderSongLyrics(entry);
+  }
+
   restoreSidebarScroll(scrollState, options.revealActiveEntry);
+  focusAfterRender(options.focusTarget);
 }
 
 function renderTopActions(entry) {
@@ -257,7 +344,7 @@ function renderTopActions(entry) {
         </button>
       `}
       <div class="settings-menu-wrap">
-        <button class="icon-button" type="button" data-settings-toggle data-active="${state.settingsOpen}" aria-expanded="${state.settingsOpen}" title="Ajustes" aria-label="Ajustes">
+        <button class="icon-button" type="button" data-settings-toggle data-active="${state.settingsOpen}" aria-expanded="${state.settingsOpen}" aria-haspopup="dialog" aria-controls="settings-popover" title="Ajustes" aria-label="Ajustes">
           ${ICONS.settings}
         </button>
         ${state.settingsOpen ? renderSettingsPanel() : ""}
@@ -268,8 +355,8 @@ function renderTopActions(entry) {
 
 function renderSettingsPanel() {
   return `
-    <div class="settings-popover" role="dialog" aria-label="Ajustes de lectura">
-      <h2>Ajustes</h2>
+    <div class="settings-popover" id="settings-popover" role="dialog" aria-modal="true" aria-labelledby="settings-title">
+      <h2 id="settings-title">Ajustes</h2>
       ${renderSettingToggle("expandLyrics", "Letra completa", state.preferences.expandLyrics)}
       ${renderSettingToggle("largeText", "Texto grande", state.preferences.largeText)}
     </div>
@@ -285,13 +372,14 @@ function renderSettingToggle(key, label, checked) {
   `;
 }
 
-function renderSidebar() {
+function renderSidebarContent() {
   const entries = filteredEntries();
   const extraSongs = state.manifest.songs.filter((song) => !song.includedInCycle).slice(0, 5);
   return `
-    <aside class="sidebar" aria-label="Indice de domingos">
-      <label class="search-box">
+    <div class="sidebar-content">
+      <label class="search-box" for="search">
         ${ICONS.search}
+        <span class="visually-hidden">Buscar domingo o canción</span>
         <input id="search" type="search" value="${escapeHtml(state.query)}" placeholder="Buscar domingo o canción" />
       </label>
       <h2 class="control-title">Filtrar por tiempo litúrgico</h2>
@@ -327,7 +415,7 @@ function renderSidebar() {
           `).join("")}
         </div>
       </section>
-    </aside>
+    </div>
   `;
 }
 
@@ -436,50 +524,84 @@ function renderEntryButton(entry) {
   `;
 }
 
-function renderReader(entry) {
+function activeTabFor(entry) {
+  return state.tab === "meeting" && !entry.meeting ? "evangelio" : state.tab;
+}
+
+function renderReaderIntro(entry) {
   const imagePath = versionedAssetPath(entry.image.publicPath || state.manifest.assets.cover);
-  const activeTab = state.tab === "meeting" && !entry.meeting ? "evangelio" : state.tab;
   return `
-    <section class="reader" aria-label="Ficha dominical">
+    <div class="reader-intro">
       <figure class="hero-image">
-        <button class="image-open-hitarea" type="button" data-open-image aria-label="Ver imagen completa">
+        <button class="image-open-hitarea" type="button" data-open-image data-image-trigger="hitarea" aria-label="Ver imagen completa">
           <img src="${escapeHtml(imagePath)}" alt="${escapeHtml(imageAlt(entry))}" />
         </button>
-        <button class="image-open-button" type="button" data-open-image>Ver imagen completa</button>
+        <button class="image-open-button" type="button" data-open-image data-image-trigger="button">Ver imagen completa</button>
       </figure>
       ${state.imageOpen ? renderImageViewer(entry, imagePath) : ""}
       <div class="reader-heading">
         <span class="date-label">Domingo ${escapeHtml(entry.dateLabel)}</span>
-        <h2>${escapeHtml(entry.denomination)}</h2>
+        <h2 tabindex="-1">${escapeHtml(entry.denomination)}</h2>
         <div class="meta-row">
           ${ICONS.book}
           <span>${escapeHtml(entry.refs)}</span>
         </div>
       </div>
+    </div>
+  `;
+}
+
+function renderReaderBody(entry) {
+  const activeTab = activeTabFor(entry);
+  const tabs = [
+    { id: "evangelio", label: "Texto del Evangelio", icon: ICONS.book },
+    { id: "pastoral", label: "Idea pastoral", icon: ICONS.light },
+    ...(entry.meeting ? [{ id: "meeting", label: "Propuesta de reunión", icon: ICONS.people, className: "meeting-tab" }] : []),
+  ];
+  const activeTabId = `tab-${activeTab}`;
+  return `
+    <div class="reader-body">
       <div class="tabbar" role="tablist" aria-label="Contenido de la ficha">
-        <button class="tab-button" type="button" data-tab="evangelio" data-active="${activeTab === "evangelio"}">${ICONS.book} Texto del Evangelio</button>
-        <button class="tab-button" type="button" data-tab="pastoral" data-active="${activeTab === "pastoral"}">${ICONS.light} Idea pastoral</button>
-        ${entry.meeting ? `<button class="tab-button meeting-tab" type="button" data-tab="meeting" data-active="${activeTab === "meeting"}">${ICONS.people} Propuesta de reunión</button>` : ""}
+        ${tabs.map((tab) => `
+          <button
+            class="tab-button${tab.className ? ` ${tab.className}` : ""}"
+            id="tab-${tab.id}"
+            type="button"
+            role="tab"
+            data-tab="${tab.id}"
+            data-active="${activeTab === tab.id}"
+            aria-selected="${activeTab === tab.id}"
+            aria-controls="content-panel"
+            tabindex="${activeTab === tab.id ? "0" : "-1"}"
+          >${tab.icon} ${tab.label}</button>
+        `).join("")}
       </div>
-      <article class="content-panel${activeTab === "meeting" ? "" : " reading-measure"}" data-content-mode="${activeTab}">
+      <article
+        class="content-panel${activeTab === "meeting" ? "" : " reading-measure"}"
+        id="content-panel"
+        role="tabpanel"
+        aria-labelledby="${activeTabId}"
+        data-content-mode="${activeTab}"
+        tabindex="0"
+      >
         ${activeTab === "evangelio" ? renderGospel(entry) : activeTab === "pastoral" ? renderPastoral(entry) : renderMeeting(entry.meeting)}
       </article>
       <p class="source-note">${escapeHtml(state.manifest.sourceNotice)}</p>
-    </section>
+    </div>
   `;
 }
 
 function renderImageViewer(entry, imagePath) {
   return `
-    <div class="image-viewer" role="dialog" aria-modal="true" aria-label="Imagen completa">
+    <div class="image-viewer" role="dialog" aria-modal="true" aria-labelledby="image-viewer-title">
       <div class="image-viewer-backdrop" data-close-image></div>
       <div class="image-viewer-panel">
         <div class="image-viewer-header">
           <div>
-            <strong>${escapeHtml(entry.denomination)}</strong>
+            <strong id="image-viewer-title">${escapeHtml(entry.denomination)}</strong>
             <span>${escapeHtml(entry.dateLabel)}</span>
           </div>
-          <button class="icon-button" type="button" data-close-image title="Cerrar imagen">×</button>
+          <button class="icon-button" type="button" data-close-image title="Cerrar imagen" aria-label="Cerrar imagen">×</button>
         </div>
         <img src="${escapeHtml(imagePath)}" alt="${escapeHtml(imageAlt(entry, true))}" />
       </div>
@@ -559,9 +681,9 @@ function renderMeeting(meeting) {
   `;
 }
 
-function renderSongPanel(entry) {
+function renderSongAudio(entry) {
   return `
-    <aside class="song-panel" aria-label="Cancion">
+    <section class="song-audio" aria-label="Reproductor de ${escapeHtml(entry.song.title)}">
       <div class="song-header">
         <div>
           <h3>${escapeHtml(entry.song.title)}</h3>
@@ -571,7 +693,7 @@ function renderSongPanel(entry) {
       <div class="rule"></div>
       <div class="audio-box">
         ${entry.song.audioPublicPath ? `
-          <audio class="audio-player" controls preload="metadata" src="${escapeHtml(entry.song.audioPublicPath)}"></audio>
+          <audio class="audio-player" controls preload="metadata" src="${escapeHtml(entry.song.audioPublicPath)}" aria-label="Escuchar ${escapeHtml(entry.song.title)}"></audio>
           <a class="download-link" href="${escapeHtml(entry.song.audioPublicPath)}" download>
             ${ICONS.download}
             Descargar audio
@@ -583,12 +705,19 @@ function renderSongPanel(entry) {
           </div>
         `}
       </div>
+    </section>
+  `;
+}
+
+function renderSongLyrics(entry) {
+  return `
+    <section class="song-lyrics" aria-label="Letra de ${escapeHtml(entry.song.title)}">
       <div class="rule"></div>
       <div class="lyrics-header">
         <h4>Letra</h4>
-        <button class="ghost-button" type="button" id="toggleLyrics">${state.lyricsExpanded ? "Vista breve" : "Ver completa"}</button>
+        <button class="ghost-button" type="button" id="toggleLyrics" aria-expanded="${state.lyricsExpanded}" aria-controls="lyrics-content">${state.lyricsExpanded ? "Vista breve" : "Ver completa"}</button>
       </div>
-      <div class="lyrics-box" data-expanded="${state.lyricsExpanded}">
+      <div class="lyrics-box" id="lyrics-content" data-expanded="${state.lyricsExpanded}">
         ${entry.song.lyrics.map((stanza) => `
           <div class="stanza">
             ${stanza.lines.map((line) => `<p>${escapeHtml(line)}</p>`).join("")}
@@ -601,117 +730,185 @@ function renderSongPanel(entry) {
           <span>Letra parcial mostrada. Abre la letra completa para preparar una celebración.</span>
         </div>
       ` : ""}
-    </aside>
+    </section>
   `;
 }
 
-function bindEvents() {
-  document.querySelector("#search")?.addEventListener("input", (event) => {
-    state.query = event.target.value;
-    render({ preserveSidebarScroll: true });
-    document.querySelector("#search")?.focus();
-  });
+function selectEntry(entryId) {
+  state.selectedId = entryId;
+  state.calendarMonth = monthKeyFromIso(selectedEntry().isoDate);
+  state.lyricsExpanded = state.preferences.expandLyrics;
+  state.imageOpen = false;
+  state.settingsOpen = false;
+  render({ preserveSidebarScroll: true, revealActiveEntry: true, focusTarget: "heading" });
+}
 
-  document.querySelectorAll("[data-season]").forEach((button) => {
-    button.addEventListener("click", () => {
-      state.season = button.dataset.season;
-      state.calendarMonth = monthKeyFromIso(selectedEntry().isoDate);
-      render({ preserveSidebarScroll: true });
-    });
-  });
+function activateTab(tabId) {
+  state.tab = tabId;
+  state.settingsOpen = false;
+  render({ preserveSidebarScroll: true, focusTarget: `tab:${tabId}` });
+}
 
-  document.querySelectorAll("[data-entry]").forEach((button) => {
-    button.addEventListener("click", () => {
-      state.selectedId = button.dataset.entry;
-      state.calendarMonth = monthKeyFromIso(selectedEntry().isoDate);
-      state.lyricsExpanded = state.preferences.expandLyrics;
-      state.imageOpen = false;
-      state.settingsOpen = false;
-      render({ preserveSidebarScroll: true, revealActiveEntry: true });
-    });
-  });
+function handleAppInput(event) {
+  if (!event.target.matches("#search")) return;
+  state.query = event.target.value;
+  render({ preserveSidebarScroll: true, focusTarget: "search" });
+}
 
-  document.querySelector("[data-calendar-toggle]")?.addEventListener("click", () => {
+function handleAppClick(event) {
+  const control = event.target.closest("[data-close-image], [data-open-image], [data-season], [data-entry], [data-calendar-toggle], [data-bookmark-toggle], [data-settings-toggle], [data-setting], [data-calendar-shift], [data-calendar-entry], [data-tab], #toggleLyrics");
+  if (!control || !app.contains(control)) return;
+
+  if (control.matches("[data-close-image]")) {
+    state.imageOpen = false;
+    render({ preserveSidebarScroll: true, focusTarget: `imageTrigger:${state.imageTrigger}` });
+    return;
+  }
+
+  if (control.matches("[data-open-image]")) {
+    state.imageOpen = true;
+    state.imageTrigger = control.dataset.imageTrigger || "button";
+    state.settingsOpen = false;
+    render({ preserveSidebarScroll: true, focusTarget: "image" });
+    return;
+  }
+
+  if (control.matches("[data-season]")) {
+    state.season = control.dataset.season;
+    state.calendarMonth = monthKeyFromIso(selectedEntry().isoDate);
+    render({ preserveSidebarScroll: true, focusTarget: `season:${control.dataset.season}` });
+    return;
+  }
+
+  if (control.matches("[data-entry]")) {
+    selectEntry(control.dataset.entry);
+    return;
+  }
+
+  if (control.matches("[data-calendar-toggle]")) {
     state.calendarOpen = !state.calendarOpen;
     state.calendarMonth = monthKeyFromIso(selectedEntry().isoDate);
-    render({ preserveSidebarScroll: true });
-  });
+    render({ preserveSidebarScroll: true, focusTarget: "calendarToggle" });
+    return;
+  }
 
-  document.querySelector("[data-bookmark-toggle]")?.addEventListener("click", () => {
+  if (control.matches("[data-bookmark-toggle]")) {
     toggleBookmark(selectedEntry());
-  });
+    return;
+  }
 
-  document.querySelector("[data-settings-toggle]")?.addEventListener("click", () => {
+  if (control.matches("[data-settings-toggle]")) {
     state.settingsOpen = !state.settingsOpen;
-    render({ preserveSidebarScroll: true });
-  });
-
-  document.querySelectorAll("[data-setting]").forEach((button) => {
-    button.addEventListener("click", () => {
-      togglePreference(button.dataset.setting);
+    state.imageOpen = false;
+    render({
+      preserveSidebarScroll: true,
+      focusTarget: state.settingsOpen ? "settings" : "settingsToggle",
     });
-  });
+    return;
+  }
 
-  document.querySelectorAll("[data-calendar-shift]").forEach((button) => {
-    button.addEventListener("click", () => {
-      shiftCalendarMonth(Number(button.dataset.calendarShift));
-      render({ preserveSidebarScroll: true });
-    });
-  });
+  if (control.matches("[data-setting]")) {
+    togglePreference(control.dataset.setting);
+    return;
+  }
 
-  document.querySelectorAll("[data-calendar-entry]").forEach((button) => {
-    button.addEventListener("click", () => {
-      state.selectedId = button.dataset.calendarEntry;
-      state.calendarMonth = monthKeyFromIso(selectedEntry().isoDate);
-      state.lyricsExpanded = state.preferences.expandLyrics;
-      state.imageOpen = false;
-      state.settingsOpen = false;
-      render({ preserveSidebarScroll: true, revealActiveEntry: true });
-    });
-  });
+  if (control.matches("[data-calendar-shift]")) {
+    shiftCalendarMonth(Number(control.dataset.calendarShift));
+    render({ preserveSidebarScroll: true, focusTarget: "calendarShift" });
+    return;
+  }
 
-  document.querySelectorAll("[data-tab]").forEach((button) => {
-    button.addEventListener("click", () => {
-      state.tab = button.dataset.tab;
-      state.settingsOpen = false;
-      render({ preserveSidebarScroll: true });
-    });
-  });
+  if (control.matches("[data-calendar-entry]")) {
+    selectEntry(control.dataset.calendarEntry);
+    return;
+  }
 
-  document.querySelector("#toggleLyrics")?.addEventListener("click", () => {
+  if (control.matches("[data-tab]")) {
+    activateTab(control.dataset.tab);
+    return;
+  }
+
+  if (control.matches("#toggleLyrics")) {
     state.lyricsExpanded = !state.lyricsExpanded;
     state.settingsOpen = false;
-    render({ preserveSidebarScroll: true });
-  });
+    render({ preserveSidebarScroll: true, updateLyrics: true, focusTarget: "lyricsToggle" });
+  }
+}
 
-  document.querySelectorAll("[data-open-image]").forEach((button) => {
-    button.addEventListener("click", () => {
-      state.imageOpen = true;
-      state.settingsOpen = false;
-      render({ preserveSidebarScroll: true });
-    });
-  });
+function handleAppKeydown(event) {
+  const currentTab = event.target.closest('[role="tab"]');
+  if (!currentTab) return;
+  const tabs = [...app.querySelectorAll('[role="tab"]')];
+  const currentIndex = tabs.indexOf(currentTab);
+  let nextIndex = currentIndex;
 
-  document.querySelectorAll("[data-close-image]").forEach((button) => {
-    button.addEventListener("click", () => {
-      state.imageOpen = false;
-      render({ preserveSidebarScroll: true });
-    });
-  });
+  if (["ArrowRight", "ArrowDown"].includes(event.key)) nextIndex = (currentIndex + 1) % tabs.length;
+  if (["ArrowLeft", "ArrowUp"].includes(event.key)) nextIndex = (currentIndex - 1 + tabs.length) % tabs.length;
+  if (event.key === "Home") nextIndex = 0;
+  if (event.key === "End") nextIndex = tabs.length - 1;
+  if (nextIndex === currentIndex && !["Home", "End"].includes(event.key)) return;
 
-  document.removeEventListener("keydown", handleEscapeClose);
-  document.addEventListener("keydown", handleEscapeClose);
+  event.preventDefault();
+  activateTab(tabs[nextIndex].dataset.tab);
+}
+
+function focusableControls(container) {
+  return [...container.querySelectorAll('button:not([disabled]), a[href], input:not([disabled]), [tabindex]:not([tabindex="-1"])')]
+    .filter((element) => !element.hidden && element.getClientRects().length > 0);
+}
+
+function handleDocumentKeydown(event) {
+  const dialog = state.imageOpen
+    ? app.querySelector(".image-viewer")
+    : state.settingsOpen
+      ? app.querySelector(".settings-popover")
+      : null;
+  if (!dialog) return;
+
+  if (event.key === "Escape") {
+    event.preventDefault();
+    const closingImage = state.imageOpen;
+    state.imageOpen = false;
+    state.settingsOpen = false;
+    render({ focusTarget: closingImage ? `imageTrigger:${state.imageTrigger}` : "settingsToggle" });
+    return;
+  }
+
+  if (event.key !== "Tab") return;
+  const controls = focusableControls(dialog);
+  if (!controls.length) return;
+  const first = controls[0];
+  const last = controls.at(-1);
+  if (!dialog.contains(document.activeElement)) {
+    event.preventDefault();
+    (event.shiftKey ? last : first).focus();
+  } else if (event.shiftKey && document.activeElement === first) {
+    event.preventDefault();
+    last.focus();
+  } else if (!event.shiftKey && document.activeElement === last) {
+    event.preventDefault();
+    first.focus();
+  }
+}
+
+function bindEvents() {
+  if (eventsBound) return;
+  app.addEventListener("input", handleAppInput);
+  app.addEventListener("click", handleAppClick);
+  app.addEventListener("keydown", handleAppKeydown);
+  document.addEventListener("keydown", handleDocumentKeydown);
+  eventsBound = true;
 }
 
 function toggleBookmark(entry) {
   if (state.bookmarkedIds.has(entry.id)) {
     state.bookmarkedIds.delete(entry.id);
     persistBookmarks();
-    showToast("Marcador quitado");
+    showToast("Marcador quitado", "bookmark");
   } else {
     state.bookmarkedIds.add(entry.id);
     persistBookmarks();
-    showToast("Ficha marcada");
+    showToast("Ficha marcada", "bookmark");
   }
 }
 
@@ -722,25 +919,17 @@ function togglePreference(key) {
     state.lyricsExpanded = state.preferences.expandLyrics;
   }
   persistPreferences();
-  render({ preserveSidebarScroll: true });
+  render({ preserveSidebarScroll: true, updateLyrics: key === "expandLyrics", focusTarget: `setting:${key}` });
 }
 
-function showToast(message) {
+function showToast(message, focusTarget = "") {
   if (toastTimer) clearTimeout(toastTimer);
   state.toast = message;
-  render({ preserveSidebarScroll: true });
+  render({ preserveSidebarScroll: true, focusTarget });
   toastTimer = setTimeout(() => {
     state.toast = "";
     render({ preserveSidebarScroll: true });
   }, 1800);
-}
-
-function handleEscapeClose(event) {
-  if (event.key === "Escape" && (state.imageOpen || state.settingsOpen)) {
-    state.imageOpen = false;
-    state.settingsOpen = false;
-    render();
-  }
 }
 
 init();
