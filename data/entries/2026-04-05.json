@@ -1,0 +1,392 @@
+{
+  "id": "2026-04-05",
+  "readings": [
+    {
+      "context": "",
+      "ref": "Jn 20, 1-9"
+    },
+    {
+      "context": "opcional",
+      "ref": "Lc 24, 13-35"
+    }
+  ],
+  "pastoral": "La Pascua empieza con carreras, desconcierto y una tumba vacía: la fe nace muchas veces antes de entenderlo todo. El Resucitado abre una esperanza más fuerte que el fracaso, la culpa o la muerte interior. No se trata de optimismo superficial, sino de descubrir que Dios puede empezar vida nueva precisamente donde todo parecía cerrado.",
+  "meeting": {
+    "title": "Se encontraron la Vida",
+    "subtitle": "Pascua: aprender a leer signos de vida",
+    "duration": "70 minutos",
+    "key": {
+      "title": "Donde veíamos final, Dios abre futuro",
+      "text": "La tumba vacía no lo explica todo: pone en camino la fe. María, Pedro y el discípulo amado atraviesan la noche, comparten la búsqueda y aprenden a leer signos antes de comprender la Escritura.",
+      "quote": "Y Dios estaba abriendo un paso hacia la Vida.",
+      "steps": [
+        {
+          "title": "Noche",
+          "text": "María llega cuando todavía está oscuro. El duelo no desaparece porque sea Pascua."
+        },
+        {
+          "title": "Correr",
+          "text": "La piedra movida rompe el final esperado. María lo cuenta y la búsqueda se comparte."
+        },
+        {
+          "title": "Entrar",
+          "text": "Pedro entra en el hueco que parecía definitivo. La fe no evita mirar la ausencia."
+        },
+        {
+          "title": "Leer",
+          "text": "Los lienzos son signos, no una explicación. Mirar juntos abre otra lectura posible."
+        },
+        {
+          "title": "Creer",
+          "text": "El discípulo ve y cree antes de entender la Escritura. La esperanza puede empezar sin tener todo resuelto."
+        }
+      ]
+    },
+    "resonancesEyebrow": "Cuatro caminos bíblicos para reconocer la vida que comienza",
+    "resonancesTitle": "Dios abre camino, transforma la piedra, se deja reconocer y nos pone en vida nueva",
+    "resonances": [
+      {
+        "ref": "Is 43,19",
+        "title": "Camino nuevo",
+        "quote": "Mirad que realizo algo nuevo; ya está brotando.",
+        "text": "Dios no niega el desierto: abre una senda donde todavía no sabemos verla."
+      },
+      {
+        "ref": "Sal 118,22–24",
+        "title": "Piedra que sostiene",
+        "quote": "La piedra que desecharon es ahora la piedra angular.",
+        "text": "Lo rechazado no tiene la última palabra: Dios hace de ello comienzo y fundamento."
+      },
+      {
+        "ref": "Lc 24,30–32",
+        "title": "Vida reconocida",
+        "quote": "¿No ardía nuestro corazón mientras nos hablaba?",
+        "text": "Emaús ofrece otro camino pascual: compañía, Palabra y mesa permiten reconocer a Jesús."
+      },
+      {
+        "ref": "Rom 6,4",
+        "title": "Caminar en novedad",
+        "quote": "Para que también nosotros caminemos en una vida nueva.",
+        "text": "La Resurrección no solo se contempla: inaugura una manera nueva de vivir y relacionarnos."
+      }
+    ],
+    "synthesis": "Ausencia atravesada · signos leídos · esperanza compartida · vida comenzada",
+    "question": "¿Qué sigo llamando final porque todavía no sé leer sus signos de vida?",
+    "agendaTitle": "De buscar un final a cuidar un comienzo",
+    "agenda": [
+      {
+        "time": "00–08",
+        "title": "Escuchar",
+        "instruction": "Oír «Se encontraron la Vida» completa, sin explicarla todavía.",
+        "question": "¿Qué frase une mejor la noche y el comienzo?"
+      },
+      {
+        "time": "08–20",
+        "title": "Reconocer",
+        "instruction": "Tarjeta opcional: «lo que terminó» / «lo que queda» / «un signo que asoma».",
+        "question": "¿Qué puedo mirar sin negar el dolor ni cerrar el futuro?"
+      },
+      {
+        "time": "20–38",
+        "title": "Iluminar",
+        "instruction": "Leer Jn 20,1–9 y seguir: llegar, ver, correr, entrar, creer y comprender.",
+        "question": "¿Qué cambia antes de que los discípulos tengan una explicación?"
+      },
+      {
+        "time": "38–58",
+        "title": "Discernir",
+        "instruction": "En tríos, distinguir en casos ficticios: negación, prisa o signo pascual realista.",
+        "question": "¿Qué diferencia un signo de vida de una frase que tapa el dolor?"
+      },
+      {
+        "time": "58–70",
+        "title": "Cuidar",
+        "instruction": "Nombrar un pequeño comienzo que cuidaré con alguien. Compartir libremente y orar.",
+        "question": "¿Qué signo de vida merece compañía esta semana?"
+      }
+    ],
+    "criterion": "No imponer alegría ni prometer que toda pérdida se revierte. No forzar relatos de duelo, culpa o fracaso. Respetar silencio, ritmos y la opción de pasar; ante depresión, trauma o riesgo, ofrecer ayuda especializada.",
+    "deckPublicPath": "assets/presentations/2026-04-05-se-encontraron-la-vida.pptx"
+  },
+  "gospel": {
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Evangelio: Jn 20, 1-9"
+      },
+      {
+        "type": "verse",
+        "label": "Juan 20,1.",
+        "text": "Y el primer día de la semana, María Magdalena vino de mañana, siendo aún obscuro, al sepulcro; y vió la piedra quitada del sepulcro."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 20,2.",
+        "text": "Entonces corrió, y vino á Simón Pedro, y al otro discípulo, al cual amaba Jesús, y les dice: Han llevado al Señor del sepulcro, y no sabemos dónde le han puesto."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 20,3.",
+        "text": "Y salió Pedro, y el otro discípulo, y vinieron al sepulcro."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 20,4.",
+        "text": "Y corrían los dos juntos; mas el otro discípulo corrió más presto que Pedro, y llegó primero al sepulcro."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 20,5.",
+        "text": "Y bajándose á mirar, vió los lienzos echados; mas no entró."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 20,6.",
+        "text": "Llegó luego Simón Pedro siguiéndole, y entró en el sepulcro, y vió los lienzos echados,"
+      },
+      {
+        "type": "verse",
+        "label": "Juan 20,7.",
+        "text": "Y el sudario, que había estado sobre su cabeza, no puesto con los lienzos, sino envuelto en un lugar aparte."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 20,8.",
+        "text": "Y entonces entró también el otro discípulo, que había venido primero al sepulcro, y vió, y creyó."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 20,9.",
+        "text": "Porque aun no sabían la Escritura, que era necesario que Él resucitase de los muertos."
+      },
+      {
+        "type": "heading",
+        "text": "opcional: Lc 24, 13-35"
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,13.",
+        "text": "Y he aquí, dos de ellos iban el mismo día á una aldea que estaba de Jerusalem sesenta estadios, llamada Emmaús."
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,14.",
+        "text": "E iban hablando entre sí de todas aquellas cosas que habían acaecido."
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,15.",
+        "text": "Y aconteció que yendo hablando entre sí, y preguntándose el uno al otro, el mismo Jesús se llegó, é iba con ellos juntamente."
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,16.",
+        "text": "Mas los ojos de ellos estaban embargados, para que no le conociesen."
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,17.",
+        "text": "Y díjoles: ¿Qué pláticas son estas que tratáis entre vosotros andando, y estáis tristes?"
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,18.",
+        "text": "Y respondiendo el uno, que se llamaba Cleofas, le dijo: ¿Tú sólo peregrino eres en Jerusalem, y no has sabido las cosas que en ella han acontecido estos días?"
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,19.",
+        "text": "Entonces Él les dijo: ¿Qué cosas? Y ellos le dijeron: De Jesús Nazareno, el cual fué varón profeta, poderoso en obra y en palabra delante de Dios y de todo el pueblo;"
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,20.",
+        "text": "Y cómo le entregaron los príncipes de los sacerdotes y nuestros príncipes á condenación de muerte, y le crucificaron."
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,21.",
+        "text": "Mas nosotros esperábamos que Él era el que había de redimir á Israel: y ahora sobre todo esto, hoy es el tercer día que esto ha acontecido."
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,22.",
+        "text": "Aunque también unas mujeres de los nuestros nos han espantado, las cuales antes del día fueron al sepulcro:"
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,23.",
+        "text": "Y no hallando su cuerpo, vinieron diciendo que también habían visto visión de ángeles, los cuales dijeron que Él vive."
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,24.",
+        "text": "Y fueron algunos de los nuestros al sepulcro, y hallaron así como las mujeres habían dicho; más á Él no le vieron."
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,25.",
+        "text": "Entonces Él les dijo: ¡Oh insensatos, y tardos de corazón para creer todo lo que los profetas han dicho!"
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,26.",
+        "text": "¿No era necesario que el Cristo padeciera estas cosas, y que entrara en su gloria?"
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,27.",
+        "text": "Y comenzando desde Moisés, y de todos los profetas, declarábales en todas las Escrituras lo que de Él decían."
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,28.",
+        "text": "Y llegaron á la aldea á donde iban: y Él hizo como que iba más lejos."
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,29.",
+        "text": "Mas ellos le detuvieron por fuerza, diciendo: Quédate con nosotros, porque se hace tarde, y el día ya ha declinado. Entró pues á estarse con ellos."
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,30.",
+        "text": "Y aconteció, que estando sentado con ellos á la mesa, tomando el pan, bendijo, y partió, y dióles."
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,31.",
+        "text": "Entonces fueron abiertos los ojos de ellos, y le conocieron; mas Él se desapareció de los ojos de ellos."
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,32.",
+        "text": "Y decían el uno al otro: ¿No ardía nuestro corazón en nosotros, mientras nos hablaba en el camino, y cuando nos abría las Escrituras?"
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,33.",
+        "text": "Y levantándose en la misma hora, tornáronse á Jerusalem, y hallaron á los once reunidos, y á los que estaban con ellos."
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,34.",
+        "text": "Que decían: Ha resucitado el Señor verdaderamente, y ha aparecido á Simón."
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,35.",
+        "text": "Entonces ellos contaban las cosas que les habían acontecido en el camino, y cómo había sido conocido de ellos al partir el pan."
+      }
+    ]
+  },
+  "song": {
+    "lyrics": [
+      {
+        "lines": [
+          "Aún no ha salido el sol",
+          "y el alma pesa más",
+          "camino hacia el silencio",
+          "de lo que ya no está"
+        ]
+      },
+      {
+        "lines": [
+          "Las manos llevan duelo",
+          "los ojos sin mirar",
+          "como quien ya ha aprendido",
+          "a no esperar ya más"
+        ]
+      },
+      {
+        "lines": [
+          "La piedra está en la mente",
+          "aunque ya no esté allí",
+          "cargamos con la noche",
+          "aunque empiece a latir"
+        ]
+      },
+      {
+        "lines": [
+          "Buscaban un final",
+          "cerrado y sin salida",
+          "y Dios estaba abriendo",
+          "un paso hacia la Vida"
+        ]
+      },
+      {
+        "lines": [
+          "Buscaban un muerto",
+          "y se encontraron la Vida",
+          "se encontraron la Vida",
+          "se encontraron la Vida"
+        ]
+      },
+      {
+        "lines": [
+          "Buscaban un muerto",
+          "y todo empezó a latir",
+          "cuando creían perdido",
+          "todo estaba por venir"
+        ]
+      },
+      {
+        "lines": [
+          "El ángel dice no temáis",
+          "no está donde pensáis",
+          "la tumba ya no encierra",
+          "la piedra ya no está"
+        ]
+      },
+      {
+        "lines": [
+          "Y el cielo se hace hueco",
+          "donde hubo oscuridad",
+          "lo que parecía muerto",
+          "empieza a despertar"
+        ]
+      },
+      {
+        "lines": [
+          "Y en medio del temblor",
+          "escucho mírame",
+          "no busques en la muerte",
+          "estoy vivo créeme"
+        ]
+      },
+      {
+        "lines": [
+          "Buscaban un muerto",
+          "y se encontraron la Vida",
+          "se encontraron la Vida",
+          "se encontraron la Vida"
+        ]
+      },
+      {
+        "lines": [
+          "Buscaban un muerto",
+          "y Él salió a su encuentro allí",
+          "cuando todo era noche",
+          "todo empezó a vivir"
+        ]
+      },
+      {
+        "lines": [
+          "Se encontraron la Vida",
+          "se encontraron la Vida",
+          "donde pensaban muerte",
+          "empezó a florecer"
+        ]
+      },
+      {
+        "lines": [
+          "Se encontraron la Vida",
+          "se encontraron la Vida",
+          "y yo sigo buscando",
+          "lo que vive en mi ser"
+        ]
+      }
+    ],
+    "chordsPdfPublicPath": null
+  }
+}

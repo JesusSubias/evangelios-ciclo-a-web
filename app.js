@@ -15,6 +15,9 @@ const ICONS = {
 
 const state = {
   manifest: null,
+  entryPayloads: new Map(),
+  entryLoadError: "",
+  loadingEntryId: null,
   selectedId: null,
   query: "",
   season: "Todos",
@@ -52,16 +55,18 @@ const seasonColors = {
 };
 
 const app = document.querySelector("#app");
-const DATA_VERSION = "20260806-design-audit-v11";
+const DATA_VERSION = "20260806-p2-v12";
 const calendarWeekdays = ["L", "M", "X", "J", "V", "S", "D"];
 const monthFormatter = new Intl.DateTimeFormat("es-ES", { month: "long", year: "numeric" });
 let toastTimer = null;
 let eventsBound = false;
+const entryPayloadRequests = new Map();
+let selectionRequestId = 0;
 
 async function init() {
   try {
-    const response = await fetch(`data/site-manifest.json?v=${DATA_VERSION}`, { cache: "no-store" });
-    if (!response.ok) throw new Error(`No se pudo cargar el manifest (${response.status})`);
+    const response = await fetch(`data/site-index.json?v=${DATA_VERSION}`, { cache: "no-store" });
+    if (!response.ok) throw new Error(`No se pudo cargar el índice (${response.status})`);
     state.manifest = await response.json();
     loadStoredState();
     const initialEntry = chooseInitialEntry(state.manifest.entries);
@@ -69,8 +74,57 @@ async function init() {
     state.selectedId = initialEntry.id;
     state.lyricsExpanded = state.preferences.expandLyrics;
     render({ revealActiveEntry: true });
+    await loadSelectedEntry({ revealActiveEntry: true });
   } catch (error) {
     app.innerHTML = `<div class="boot-screen"><p>${escapeHtml(error.message)}</p></div>`;
+  }
+}
+
+function entrySummary(entryId) {
+  return state.manifest.entries.find((entry) => entry.id === entryId) || null;
+}
+
+async function fetchEntryPayload(entryId) {
+  if (state.entryPayloads.has(entryId)) return state.entryPayloads.get(entryId);
+  if (entryPayloadRequests.has(entryId)) return entryPayloadRequests.get(entryId);
+
+  const summary = entrySummary(entryId);
+  if (!summary) throw new Error("La ficha solicitada no existe");
+
+  const request = fetch(versionedAssetPath(summary.payloadPath), { cache: "no-store" })
+    .then(async (response) => {
+      if (!response.ok) throw new Error(`No se pudo cargar la ficha (${response.status})`);
+      const payload = await response.json();
+      if (payload.id !== entryId) throw new Error("La ficha recibida no coincide con la solicitada");
+      state.entryPayloads.set(entryId, payload);
+      return payload;
+    })
+    .finally(() => entryPayloadRequests.delete(entryId));
+
+  entryPayloadRequests.set(entryId, request);
+  return request;
+}
+
+async function loadSelectedEntry(options = {}) {
+  const entryId = state.selectedId;
+  const requestId = ++selectionRequestId;
+  state.loadingEntryId = entryId;
+  state.entryLoadError = "";
+
+  try {
+    await fetchEntryPayload(entryId);
+    if (state.selectedId !== entryId || requestId !== selectionRequestId) return;
+    state.loadingEntryId = null;
+    render({
+      preserveSidebarScroll: options.preserveSidebarScroll,
+      revealActiveEntry: options.revealActiveEntry,
+      updateLyrics: true,
+    });
+  } catch (error) {
+    if (state.selectedId !== entryId || requestId !== selectionRequestId) return;
+    state.loadingEntryId = null;
+    state.entryLoadError = error.message || "No se pudo cargar el contenido de la ficha";
+    render({ preserveSidebarScroll: options.preserveSidebarScroll, updateLyrics: true });
   }
 }
 
@@ -161,7 +215,19 @@ function filteredEntries() {
 }
 
 function selectedEntry() {
-  return state.manifest.entries.find((entry) => entry.id === state.selectedId) || state.manifest.entries[0];
+  const summary = entrySummary(state.selectedId) || state.manifest.entries[0];
+  const payload = state.entryPayloads.get(summary.id);
+  if (!payload) return summary;
+  return {
+    ...summary,
+    ...payload,
+    image: { ...summary.image, ...payload.image },
+    song: { ...summary.song, ...payload.song },
+  };
+}
+
+function selectedEntryIsReady() {
+  return state.entryPayloads.has(state.selectedId);
 }
 
 function imageAlt(entry, complete = false) {
@@ -211,6 +277,7 @@ function restoreSidebarScroll(scrollState, revealActiveEntry = false) {
   if (revealActiveEntry) {
     centerActiveEntryInIndex();
     requestAnimationFrame(centerActiveEntryInIndex);
+    setTimeout(centerActiveEntryInIndex, 0);
   }
 }
 
@@ -303,6 +370,7 @@ function render(options = {}) {
   const entryChanged = app.dataset.entryId !== entry.id;
   const audioPreferences = entryChanged ? captureAudioPreferences() : null;
   app.dataset.entryId = entry.id;
+  app.dataset.entryReady = selectedEntryIsReady() ? "true" : "false";
   app.dataset.largeText = state.preferences.largeText ? "true" : "false";
 
   app.querySelector(".top-actions-region").innerHTML = renderTopActions(entry);
@@ -528,6 +596,30 @@ function activeTabFor(entry) {
   return state.tab === "meeting" && !entry.meeting ? "evangelio" : state.tab;
 }
 
+function renderEntryLoadState(area) {
+  if (state.entryLoadError) {
+    return `
+      <section class="entry-load-state entry-load-error" data-entry-error role="alert">
+        ${ICONS.info}
+        <div>
+          <strong>No hemos podido abrir esta ficha</strong>
+          <p>${escapeHtml(state.entryLoadError)}</p>
+          <button class="ghost-button" type="button" data-retry-entry>Reintentar</button>
+        </div>
+      </section>
+    `;
+  }
+  return `
+    <section class="entry-load-state" data-entry-loading="${escapeHtml(area)}" aria-busy="true" aria-live="polite">
+      <span class="loading-mark" aria-hidden="true"></span>
+      <div>
+        <strong>Cargando ${area === "lyrics" ? "la letra" : "el contenido"}…</strong>
+        <p>Solo descargamos los datos de la ficha que estás consultando.</p>
+      </div>
+    </section>
+  `;
+}
+
 function renderReaderIntro(entry) {
   const imagePath = versionedAssetPath(entry.image.publicPath || state.manifest.assets.cover);
   return `
@@ -552,6 +644,9 @@ function renderReaderIntro(entry) {
 }
 
 function renderReaderBody(entry) {
+  if (!selectedEntryIsReady()) {
+    return `<div class="reader-body">${renderEntryLoadState("content")}</div>`;
+  }
   const activeTab = activeTabFor(entry);
   const tabs = [
     { id: "evangelio", label: "Texto del Evangelio", icon: ICONS.book },
@@ -710,6 +805,9 @@ function renderSongAudio(entry) {
 }
 
 function renderSongLyrics(entry) {
+  if (!selectedEntryIsReady()) {
+    return `<section class="song-lyrics" aria-label="Letra de ${escapeHtml(entry.song.title)}">${renderEntryLoadState("lyrics")}</section>`;
+  }
   return `
     <section class="song-lyrics" aria-label="Letra de ${escapeHtml(entry.song.title)}">
       <div class="rule"></div>
@@ -735,12 +833,18 @@ function renderSongLyrics(entry) {
 }
 
 function selectEntry(entryId) {
+  if (!entrySummary(entryId)) return;
   state.selectedId = entryId;
+  state.loadingEntryId = state.entryPayloads.has(entryId) ? null : entryId;
+  state.entryLoadError = "";
   state.calendarMonth = monthKeyFromIso(selectedEntry().isoDate);
   state.lyricsExpanded = state.preferences.expandLyrics;
   state.imageOpen = false;
   state.settingsOpen = false;
   render({ preserveSidebarScroll: true, revealActiveEntry: true, focusTarget: "heading" });
+  if (!selectedEntryIsReady()) {
+    loadSelectedEntry({ preserveSidebarScroll: true, revealActiveEntry: true });
+  }
 }
 
 function activateTab(tabId) {
@@ -756,8 +860,14 @@ function handleAppInput(event) {
 }
 
 function handleAppClick(event) {
-  const control = event.target.closest("[data-close-image], [data-open-image], [data-season], [data-entry], [data-calendar-toggle], [data-bookmark-toggle], [data-settings-toggle], [data-setting], [data-calendar-shift], [data-calendar-entry], [data-tab], #toggleLyrics");
+  const control = event.target.closest("[data-close-image], [data-open-image], [data-season], [data-entry], [data-calendar-toggle], [data-bookmark-toggle], [data-settings-toggle], [data-setting], [data-calendar-shift], [data-calendar-entry], [data-tab], [data-retry-entry], #toggleLyrics");
   if (!control || !app.contains(control)) return;
+
+  if (control.matches("[data-retry-entry]")) {
+    loadSelectedEntry({ preserveSidebarScroll: true });
+    render({ preserveSidebarScroll: true, updateLyrics: true });
+    return;
+  }
 
   if (control.matches("[data-close-image]")) {
     state.imageOpen = false;

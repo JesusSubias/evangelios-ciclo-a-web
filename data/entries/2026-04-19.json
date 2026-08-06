@@ -1,0 +1,351 @@
+{
+  "id": "2026-04-19",
+  "readings": [
+    {
+      "context": "",
+      "ref": "Lc 24, 13-35"
+    }
+  ],
+  "pastoral": "Emaús habla de personas que caminan decepcionadas, con expectativas rotas y ganas de alejarse. Jesús no las interrumpe con prisas: camina, escucha, explica la Palabra y se deja reconocer al partir el pan. La pastoral necesita ese estilo: acompañar procesos, encender el corazón poco a poco y ayudar a descubrir que Cristo ya iba con nosotros por el camino.",
+  "meeting": {
+    "title": "Al partir el pan",
+    "subtitle": "De la decepción compartida a un regreso con esperanza",
+    "duration": "70 minutos",
+    "key": {
+      "title": "Jesús se hace camino junto a nuestra tristeza",
+      "text": "El Resucitado atraviesa la herida: la escucha, la relee y nos devuelve a la comunidad.",
+      "quote": "¿No ardía nuestro corazón mientras nos hablaba por el camino?",
+      "steps": [
+        {
+          "title": "Decepción",
+          "text": "«Nosotros esperábamos…». El dolor encoge la mirada y los aleja de Jerusalén."
+        },
+        {
+          "title": "Presencia",
+          "text": "Jesús se acerca y camina al paso de su tristeza. Antes de explicar, pregunta y escucha."
+        },
+        {
+          "title": "Palabra que arde",
+          "text": "La Escritura relee la cruz desde el amor de Dios y abre un sentido nuevo."
+        },
+        {
+          "title": "Reconocimiento",
+          "text": "«Quédate con nosotros». Los ojos se abren en la hospitalidad y el pan compartido."
+        },
+        {
+          "title": "Regreso",
+          "text": "Vuelven esa misma hora a Jerusalén. El encuentro devuelve comunidad y misión."
+        }
+      ]
+    },
+    "resonancesEyebrow": "Cuatro movimientos de Emaús",
+    "resonancesTitle": "Así acompaña Jesús una decepción",
+    "resonances": [
+      {
+        "ref": "Lc 24,15–17",
+        "title": "Presencia que escucha",
+        "quote": "Jesús se acercó y caminó con ellos.",
+        "text": "El Resucitado no irrumpe con respuestas. Se pone a su paso, pregunta y deja que nombren la herida."
+      },
+      {
+        "ref": "Lc 24,25–27",
+        "title": "Palabra que relee",
+        "quote": "Les explicó lo que se refería a él en las Escrituras.",
+        "text": "La Escritura no borra la cruz: la relee desde el amor de Dios y hace arder de nuevo el corazón."
+      },
+      {
+        "ref": "Lc 24,29–31",
+        "title": "Mesa que abre los ojos",
+        "quote": "Lo reconocieron al partir el pan.",
+        "text": "La hospitalidad prepara el reconocimiento. En el pan bendecido y compartido descubren quién caminaba con ellos."
+      },
+      {
+        "ref": "Lc 24,33–35",
+        "title": "Comunidad que envía",
+        "quote": "Levantándose al momento, volvieron a Jerusalén.",
+        "text": "El encuentro no los encierra en una emoción. Los devuelve a la comunidad para compartir la noticia y recomenzar."
+      }
+    ],
+    "synthesis": "Acompañar · escuchar · releer · hospedar · compartir · volver",
+    "question": "¿Qué necesitamos dejar que Jesús relea para recuperar el camino?",
+    "agendaTitle": "De la decepción compartida a un regreso con esperanza",
+    "agenda": [
+      {
+        "time": "00–08",
+        "title": "Escuchar",
+        "instruction": "Oír «Al partir el pan» completa, sin entregar todavía explicaciones.",
+        "question": "¿Qué frase describe mejor cómo llego hoy?"
+      },
+      {
+        "time": "08–20",
+        "title": "Caminar",
+        "instruction": "En parejas, contar brevemente un «nosotros esperábamos…».",
+        "question": "¿Qué esperanza rota o cansancio estoy llevando?"
+      },
+      {
+        "time": "20–38",
+        "title": "Iluminar",
+        "instruction": "Leer Lc 24,13–35 en tres voces y subrayar los giros del relato.",
+        "question": "¿Qué hace Jesús para transformar la mirada?"
+      },
+      {
+        "time": "38–58",
+        "title": "Reconocer",
+        "instruction": "Compartir dónde se hace presente: escucha, Palabra, mesa o comunidad.",
+        "question": "¿Dónde camina Jesús y aún no lo reconozco?"
+      },
+      {
+        "time": "58–70",
+        "title": "Volver",
+        "instruction": "Elegir un gesto de acompañamiento. Terminar con pan compartido y oración.",
+        "question": "¿A quién o a qué comunidad necesito volver esta semana?"
+      }
+    ],
+    "criterion": "No forzar respuestas felices; acoger la decepción y descubrir el paso concreto que devuelve al camino.",
+    "deckPublicPath": "assets/presentations/2026-04-19-al-partir-el-pan.pptx"
+  },
+  "gospel": {
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Evangelio: Lc 24, 13-35"
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,13.",
+        "text": "Y he aquí, dos de ellos iban el mismo día á una aldea que estaba de Jerusalem sesenta estadios, llamada Emmaús."
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,14.",
+        "text": "E iban hablando entre sí de todas aquellas cosas que habían acaecido."
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,15.",
+        "text": "Y aconteció que yendo hablando entre sí, y preguntándose el uno al otro, el mismo Jesús se llegó, é iba con ellos juntamente."
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,16.",
+        "text": "Mas los ojos de ellos estaban embargados, para que no le conociesen."
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,17.",
+        "text": "Y díjoles: ¿Qué pláticas son estas que tratáis entre vosotros andando, y estáis tristes?"
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,18.",
+        "text": "Y respondiendo el uno, que se llamaba Cleofas, le dijo: ¿Tú sólo peregrino eres en Jerusalem, y no has sabido las cosas que en ella han acontecido estos días?"
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,19.",
+        "text": "Entonces Él les dijo: ¿Qué cosas? Y ellos le dijeron: De Jesús Nazareno, el cual fué varón profeta, poderoso en obra y en palabra delante de Dios y de todo el pueblo;"
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,20.",
+        "text": "Y cómo le entregaron los príncipes de los sacerdotes y nuestros príncipes á condenación de muerte, y le crucificaron."
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,21.",
+        "text": "Mas nosotros esperábamos que Él era el que había de redimir á Israel: y ahora sobre todo esto, hoy es el tercer día que esto ha acontecido."
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,22.",
+        "text": "Aunque también unas mujeres de los nuestros nos han espantado, las cuales antes del día fueron al sepulcro:"
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,23.",
+        "text": "Y no hallando su cuerpo, vinieron diciendo que también habían visto visión de ángeles, los cuales dijeron que Él vive."
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,24.",
+        "text": "Y fueron algunos de los nuestros al sepulcro, y hallaron así como las mujeres habían dicho; más á Él no le vieron."
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,25.",
+        "text": "Entonces Él les dijo: ¡Oh insensatos, y tardos de corazón para creer todo lo que los profetas han dicho!"
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,26.",
+        "text": "¿No era necesario que el Cristo padeciera estas cosas, y que entrara en su gloria?"
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,27.",
+        "text": "Y comenzando desde Moisés, y de todos los profetas, declarábales en todas las Escrituras lo que de Él decían."
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,28.",
+        "text": "Y llegaron á la aldea á donde iban: y Él hizo como que iba más lejos."
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,29.",
+        "text": "Mas ellos le detuvieron por fuerza, diciendo: Quédate con nosotros, porque se hace tarde, y el día ya ha declinado. Entró pues á estarse con ellos."
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,30.",
+        "text": "Y aconteció, que estando sentado con ellos á la mesa, tomando el pan, bendijo, y partió, y dióles."
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,31.",
+        "text": "Entonces fueron abiertos los ojos de ellos, y le conocieron; mas Él se desapareció de los ojos de ellos."
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,32.",
+        "text": "Y decían el uno al otro: ¿No ardía nuestro corazón en nosotros, mientras nos hablaba en el camino, y cuando nos abría las Escrituras?"
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,33.",
+        "text": "Y levantándose en la misma hora, tornáronse á Jerusalem, y hallaron á los once reunidos, y á los que estaban con ellos."
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,34.",
+        "text": "Que decían: Ha resucitado el Señor verdaderamente, y ha aparecido á Simón."
+      },
+      {
+        "type": "verse",
+        "label": "Lucas 24,35.",
+        "text": "Entonces ellos contaban las cosas que les habían acontecido en el camino, y cómo había sido conocido de ellos al partir el pan."
+      }
+    ]
+  },
+  "song": {
+    "lyrics": [
+      {
+        "lines": [
+          "Íbamos cansados de tanto camino,",
+          "con la fe en silencio, sin saber por qué.",
+          "Se nos hizo tarde por dentro y por fuera,",
+          "y hasta la esperanza nos empezó a doler."
+        ]
+      },
+      {
+        "lines": [
+          "Tú llegaste al paso de nuestra tristeza,",
+          "sin romper el ruido, sin querer brillar.",
+          "Y mientras hablabas, como brasa lenta,",
+          "algo en el alma volvía a despertar."
+        ]
+      },
+      {
+        "lines": [
+          "Quédate, Señor, que cae la tarde,",
+          "quédate cerca, no pases de largo.",
+          "Quédate, Señor, que sin darte cuenta",
+          "ya nos estás curando."
+        ]
+      },
+      {
+        "lines": [
+          "Te reconocemos al partir el pan,",
+          "cuando lo pequeño se vuelve eternidad.",
+          "Te reconocemos en la mesa y en la paz,",
+          "en el pan compartido, en tu forma de amar.",
+          "Quédate con nosotros, no dejes de andar,",
+          "arde el corazón cuando nos hablas más.",
+          "Te reconocemos al partir el pan,",
+          "Señor Jesús, al partir el pan."
+        ]
+      },
+      {
+        "lines": [
+          "Cuántas veces pasas y no te vemos,",
+          "porque vamos ciegos de prisa y de ayer.",
+          "Cuántas veces hablas en lo más sencillo",
+          "y no comprendemos que eras Tú otra vez."
+        ]
+      },
+      {
+        "lines": [
+          "Pero en cada herida que aprende a entregarse,",
+          "y en cada pobreza que sabe compartir,",
+          "abres nuestros ojos, rompes nuestras noches,",
+          "y haces de la vida un volver a salir."
+        ]
+      },
+      {
+        "lines": [
+          "Quédate, Señor, que cae la tarde,",
+          "quédate cerca, no pases de largo.",
+          "Quédate, Señor, que en este mundo",
+          "solo contigo hay descanso."
+        ]
+      },
+      {
+        "lines": [
+          "Te reconocemos al partir el pan,",
+          "cuando lo pequeño se vuelve eternidad.",
+          "Te reconocemos en la mesa y en la paz,",
+          "en el pan compartido, en tu forma de amar.",
+          "Quédate con nosotros, no dejes de andar,",
+          "arde el corazón cuando nos hablas más.",
+          "Te reconocemos al partir el pan,",
+          "Señor Jesús, al partir el pan."
+        ]
+      },
+      {
+        "lines": [
+          "No eras un recuerdo,",
+          "no eras una idea,",
+          "eras el que estaba",
+          "sentado a la mesa."
+        ]
+      },
+      {
+        "lines": [
+          "No eras un consuelo",
+          "hecho solo de emoción,",
+          "eras Pan partido,",
+          "eras resurrección."
+        ]
+      },
+      {
+        "lines": [
+          "Y cuando desapareces",
+          "sigues siendo luz,",
+          "porque el corazón aprende",
+          "a reconocerte en cruz."
+        ]
+      },
+      {
+        "lines": [
+          "Te reconocemos al partir el pan,",
+          "cuando lo pequeño se vuelve eternidad.",
+          "Te reconocemos en la mesa y en la paz,",
+          "en el pan compartido, en tu forma de amar.",
+          "Quédate con nosotros, no dejes de andar,",
+          "arde el corazón cuando nos hablas más.",
+          "Te reconocemos al partir el pan,",
+          "Señor Jesús, al partir el pan."
+        ]
+      },
+      {
+        "lines": [
+          "Quédate con nosotros, Señor…",
+          "quédate con nosotros…",
+          "Te reconocemos",
+          "al partir el pan."
+        ]
+      }
+    ],
+    "chordsPdfPublicPath": null
+  }
+}

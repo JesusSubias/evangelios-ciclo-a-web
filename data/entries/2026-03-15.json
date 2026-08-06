@@ -1,0 +1,437 @@
+{
+  "id": "2026-03-15",
+  "readings": [
+    {
+      "context": "",
+      "ref": "Jn 9, 1-41"
+    }
+  ],
+  "pastoral": "El ciego de nacimiento aprende a ver mientras otros, seguros de sí, se van quedando ciegos. Este Evangelio invita a revisar prejuicios, etiquetas y miradas que condenan antes de conocer. Jesús no pregunta de quién es la culpa, sino que abre futuro. Creer es dejarse lavar los ojos para mirar a las personas como Dios las mira.",
+  "meeting": {
+    "title": "Enséñame a mirar",
+    "subtitle": "Aprender a mirar de nuevo",
+    "duration": "70 minutos",
+    "key": {
+      "title": "Jesús ve a la persona y abre futuro",
+      "text": "El hombre pasa de ser explicado por otros a narrar con su propia voz lo que ha vivido; Jesús lo encuentra también cuando la comunidad lo expulsa.",
+      "quote": "Enséñame a mirar como miras Tú.",
+      "steps": [
+        {
+          "title": "Ver",
+          "text": "Jesús ve a un hombre; los discípulos ven una culpa que explicar. La pregunta cambia cuando aparece una persona concreta."
+        },
+        {
+          "title": "Abrir",
+          "text": "Jesús hace barro y lo envía a Siloé. El futuro comienza con un gesto recibido y una respuesta libre."
+        },
+        {
+          "title": "Nombrarse",
+          "text": "Los vecinos dudan incluso de su identidad; él responde «Yo soy» y cuenta lo que ha vivido con su propia voz."
+        },
+        {
+          "title": "Sostener",
+          "text": "Ante la presión, mantiene una verdad sencilla: «Antes no veía; ahora veo». No entrega su experiencia a la conclusión del grupo."
+        },
+        {
+          "title": "Encontrar",
+          "text": "Lo expulsan y Jesús sale a buscarlo. La mirada nueva culmina en un encuentro que reconoce, escucha y abre la fe."
+        }
+      ]
+    },
+    "resonancesEyebrow": "Cuatro claves para una mirada que reconoce",
+    "resonancesTitle": "Dios mira el corazón, llama por el nombre y permite conocer de nuevo",
+    "resonances": [
+      {
+        "ref": "1 Sam 16,7",
+        "title": "Mirar el corazón",
+        "quote": "El hombre mira las apariencias; el Señor mira el corazón.",
+        "text": "Dios no reduce a una persona a lo visible, esperado o recordado de ella."
+      },
+      {
+        "ref": "Is 43,1",
+        "title": "Llamar por el nombre",
+        "quote": "Te he llamado por tu nombre: tú eres mío.",
+        "text": "Antes de cualquier juicio, Dios reconoce una historia y devuelve pertenencia."
+      },
+      {
+        "ref": "1 Jn 4,20",
+        "title": "Ver al hermano",
+        "quote": "Quien no ama a su hermano, a quien ve, no puede amar a Dios.",
+        "text": "La fe se vuelve visible cuando escuchar a la persona importa más que ganar la discusión."
+      },
+      {
+        "ref": "2 Co 5,16–17",
+        "title": "Conocer de nuevo",
+        "quote": "Ya no conocemos a nadie según la carne… nueva criatura es.",
+        "text": "Cristo abre una mirada que no encierra a nadie en su pasado ni en una etiqueta."
+      }
+    ],
+    "synthesis": "Persona acogida · etiqueta cuestionada · voz recuperada · futuro abierto",
+    "question": "¿A quién estoy mirando más desde una etiqueta que desde su historia?",
+    "agendaTitle": "De la etiqueta rápida a una mirada que escucha",
+    "agenda": [
+      {
+        "time": "00–08",
+        "title": "Escuchar",
+        "instruction": "Oír «Enséñame a mirar» completa, sin explicarla todavía.",
+        "question": "¿Qué frase me invita a cambiar mi manera de mirar?"
+      },
+      {
+        "time": "08–20",
+        "title": "Observar",
+        "instruction": "Completar una tarjeta: «lo que veo» / «lo que supongo» / «lo que no sé».",
+        "question": "¿Dónde termina el dato y empieza mi interpretación?"
+      },
+      {
+        "time": "20–38",
+        "title": "Iluminar",
+        "instruction": "Leer Jn 9,1–41 en cinco escenas y seguir quién mira, quién habla y quién decide.",
+        "question": "¿Cómo recupera el hombre su voz a lo largo del relato?"
+      },
+      {
+        "time": "38–58",
+        "title": "Desmontar",
+        "instruction": "En tríos, transformar tres frases-etiqueta ficticias en preguntas que abran futuro.",
+        "question": "¿Qué pregunta permitiría conocer antes de juzgar?"
+      },
+      {
+        "time": "58–70",
+        "title": "Acercarse",
+        "instruction": "Cambiar un juicio por una pregunta y un gesto concreto de escucha. Compartir libremente y orar.",
+        "question": "¿A quién necesito dejar de explicar y empezar a escuchar?"
+      }
+    ],
+    "criterion": "No usar «ciego» o «ceguera» como insultos, no reducir la discapacidad a metáfora espiritual ni presentar la curación como medida del valor de una persona. Leer las consignas en voz alta, ofrecer texto amplio, trabajar con casos ficticios y permitir pasar.",
+    "deckPublicPath": "assets/presentations/2026-03-15-ensename-a-mirar.pptx"
+  },
+  "gospel": {
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Evangelio: Jn 9, 1-41"
+      },
+      {
+        "type": "verse",
+        "label": "Juan 9,1.",
+        "text": "Y pasando Jesús, vió un hombre ciego desde su nacimiento."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 9,2.",
+        "text": "Y preguntáronle sus discípulos, diciendo: Rabbí, ¿quién pecó, éste ó sus padres, para que naciese ciego?"
+      },
+      {
+        "type": "verse",
+        "label": "Juan 9,3.",
+        "text": "Respondió Jesús: Ni éste pecó, ni sus padres: mas para que las obras de Dios se manifiesten en Él."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 9,4.",
+        "text": "Conviéneme obrar las obrar del que me envió, entre tanto que el día dura: la noche viene, cuando nadie puede obrar."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 9,5.",
+        "text": "Entre tanto que estuviere en el mundo, luz soy del mundo."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 9,6.",
+        "text": "Esto dicho, escupió en tierra, é hizo lodo con la saliva, y untó con el lodo sobre los ojos del ciego,"
+      },
+      {
+        "type": "verse",
+        "label": "Juan 9,7.",
+        "text": "Y díjole: Ve, lávate en el estanque de Siloé (que significa, si lo interpretares, Enviado). Y fué entonces, y lavóse, y volvió viendo."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 9,8.",
+        "text": "Entonces los vecinos, y los que antes le habían visto que era ciego, decían: ¿no es éste el que se sentaba y mendigaba?"
+      },
+      {
+        "type": "verse",
+        "label": "Juan 9,9.",
+        "text": "Unos decían: Este es; y otros: A Él se parece. El decía: Yo soy."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 9,10.",
+        "text": "Y dijéronle: ¿Cómo te fueron abiertos los ojos?"
+      },
+      {
+        "type": "verse",
+        "label": "Juan 9,11.",
+        "text": "Respondió Él y dijo: El hombre que se llama Jesús, hizo lodo, y me untó los ojos, y me dijo: Ve al Siloé, y lávate: y fuí, y me lavé, y recibí la vista."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 9,12.",
+        "text": "Entonces le dijeron: ¿Dónde está aquél? El dijo: No sé."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 9,13.",
+        "text": "Llevaron á los Fariseos al que antes había sido ciego."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 9,14.",
+        "text": "Y era sábado cuando Jesús había hecho el lodo, y le había abierto los ojos."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 9,15.",
+        "text": "Y volviéronle á preguntar también los Fariseos de qué manera había recibido la vista. Y Él les dijo: Púsome lodo sobre los ojos, y me lavé, y veo."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 9,16.",
+        "text": "Entonces unos de los Fariseos decían: Este hombre no es de Dios, que no guarda el sábado. Otros decían: ¿Cómo puede un hombre pecador hacer estas señales? Y había disensión entre ellos."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 9,17.",
+        "text": "Vuelven á decir al ciego: ¿Tú, qué dices del que te abrió los ojos? Y Él dijo: Que es profeta."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 9,18.",
+        "text": "Mas los Judíos no creían de Él, que había sido ciego, y hubiese recibido la vista, hasta que llamaron á los padres del que había recibido la vista;"
+      },
+      {
+        "type": "verse",
+        "label": "Juan 9,19.",
+        "text": "Y preguntáronles, diciendo: ¿Es éste vuestro hijo, el que vosotros decís que nació ciego? ¿Cómo, pues, ve ahora?"
+      },
+      {
+        "type": "verse",
+        "label": "Juan 9,20.",
+        "text": "Respondiéronles sus padres y dijeron: Sabemos que éste es nuestro hijo, y que nació ciego:"
+      },
+      {
+        "type": "verse",
+        "label": "Juan 9,21.",
+        "text": "Mas cómo vea ahora, no sabemos; ó quién le haya abierto los ojos, nosotros no lo sabemos; Él tiene edad, preguntadle á Él; Él hablará de sí."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 9,22.",
+        "text": "Esto dijeron sus padres, porque tenían miedo de los Judíos: porque ya los Judíos habían resuelto que si alguno confesase ser Él el Mesías, fuese fuera de la sinagoga."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 9,23.",
+        "text": "Por eso dijeron sus padres: Edad tiene, preguntadle á Él."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 9,24.",
+        "text": "Así que, volvieron á llamar al hombre que había sido ciego, y dijéronle: Da gloria á Dios: nosotros sabemos que este hombre es pecador."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 9,25.",
+        "text": "Entonces Él respondió, y dijo: Si es pecador, no lo sé: una cosa sé, que habiendo yo sido ciego, ahora veo."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 9,26.",
+        "text": "Y volviéronle á decir: ¿Qué te hizo? ¿Cómo te abrió los ojos?"
+      },
+      {
+        "type": "verse",
+        "label": "Juan 9,27.",
+        "text": "Respondióles: Ya os lo he dicho, y no habéis atendido: ¿por qué lo queréis otra vez oir? ¿queréis también vosotros haceros sus discípulos?"
+      },
+      {
+        "type": "verse",
+        "label": "Juan 9,28.",
+        "text": "Y le ultrajaron, y dijeron: Tú eres su discípulo; pero nosotros discípulos de Moisés somos."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 9,29.",
+        "text": "Nosotros sabemos que á Moisés habló Dios: mas éste no sabemos de dónde es."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 9,30.",
+        "text": "Respondió aquel hombre, y díjoles: Por cierto, maravillosa cosa es ésta, que vosotros no sabéis de dónde sea, y á mí me abrió los ojos."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 9,31.",
+        "text": "Y sabemos que Dios no oye á los pecadores: mas si alguno es temeroso de Dios, y hace su voluntad, á éste oye."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 9,32.",
+        "text": "Desde el siglo no fué oído, que abriese alguno los ojos de uno que nació ciego."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 9,33.",
+        "text": "Si éste no fuera de Dios, no pudiera hacer nada."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 9,34.",
+        "text": "Respondieron, y dijéronle: En pecados eres nacido todo, ¿y tú nos enseñas? Y echáronle fuera."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 9,35.",
+        "text": "Oyó Jesús que le habían echado fuera; y hallándole, díjole: ¿Crees tú en el Hijo de Dios?"
+      },
+      {
+        "type": "verse",
+        "label": "Juan 9,36.",
+        "text": "Respondió Él, y dijo: ¿Quién es, Señor, para que crea en Él?"
+      },
+      {
+        "type": "verse",
+        "label": "Juan 9,37.",
+        "text": "Y díjole Jesús: Y le has visto, y el que habla contigo, Él es."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 9,38.",
+        "text": "Y Él dice: Creo, Señor; y adoróle."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 9,39.",
+        "text": "Y dijo Jesús: Yo, para juicio he venido á este mundo: para que los que no ven, vean; y los que ven, sean cegados."
+      },
+      {
+        "type": "verse",
+        "label": "Juan 9,40.",
+        "text": "Y ciertos de los Fariseos que estaban con Él oyeron esto, y dijéronle: ¿Somos nosotros también ciegos?"
+      },
+      {
+        "type": "verse",
+        "label": "Juan 9,41.",
+        "text": "Díjoles Jesús: Si fuerais ciegos, no tuvierais pecado: mas ahora porque decís, Vemos, por tanto vuestro pecado permanece."
+      }
+    ]
+  },
+  "song": {
+    "lyrics": [
+      {
+        "lines": [
+          "Nací mirando sombras del mundo,",
+          "aprendí los caminos a ciegas.",
+          "La ciudad pasaba en silencio",
+          "como un río detrás de mis huellas."
+        ]
+      },
+      {
+        "lines": [
+          "Dicen que la noche tiene culpa,",
+          "que alguien tuvo que fallar primero.",
+          "Pero Tú te acercas, haces barro",
+          "y susurras mi nombre en secreto."
+        ]
+      },
+      {
+        "lines": [
+          "Con polvo y saliva nace el día,",
+          "y me envías al agua a creer."
+        ]
+      },
+      {
+        "lines": [
+          "Y el agua corrió",
+          "como un amanecer."
+        ]
+      },
+      {
+        "lines": [
+          "Enséñame a mirar",
+          "como miras Tú,",
+          "enséñame a encontrar",
+          "la verdad, la luz."
+        ]
+      },
+      {
+        "lines": [
+          "Yo estaba ciego",
+          "y ahora puedo ver.",
+          "Yo estaba ciego",
+          "y ahora puedo ver."
+        ]
+      },
+      {
+        "lines": [
+          "Me rodean buscando respuestas,",
+          "quieren todo explicar.",
+          "Discuten de Dios y de normas",
+          "sin quererme escuchar."
+        ]
+      },
+      {
+        "lines": [
+          "Yo no sé de dónde vienes,",
+          "ni qué quieren demostrar.",
+          "Solo sé que estaba ciego",
+          "y ahora puedo mirar."
+        ]
+      },
+      {
+        "lines": [
+          "Enséñame a mirar",
+          "como miras Tú,",
+          "enséñame a encontrar",
+          "la verdad, la luz."
+        ]
+      },
+      {
+        "lines": [
+          "Yo estaba ciego",
+          "y ahora puedo ver.",
+          "Yo estaba ciego",
+          "y ahora puedo ver."
+        ]
+      },
+      {
+        "lines": [
+          "Y si me cierran puertas",
+          "por decir tu nombre,",
+          "si se ríen de mi fe,"
+        ]
+      },
+      {
+        "lines": [
+          "prefiero esta luz",
+          "a cualquier sombra",
+          "que me prometa volver."
+        ]
+      },
+      {
+        "lines": [
+          "Enséñame a mirar",
+          "como miras Tú,",
+          "enséñame a encontrar",
+          "la verdad, la luz."
+        ]
+      },
+      {
+        "lines": [
+          "Yo estaba ciego",
+          "y ahora puedo ver.",
+          "Yo estaba ciego",
+          "y ahora puedo ver."
+        ]
+      },
+      {
+        "lines": [
+          "Creo en Ti.",
+          "Creo en Ti."
+        ]
+      }
+    ],
+    "chordsPdfPublicPath": null
+  }
+}

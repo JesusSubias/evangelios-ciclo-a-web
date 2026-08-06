@@ -1,0 +1,294 @@
+{
+  "id": "2026-02-01",
+  "readings": [
+    {
+      "context": "",
+      "ref": "Mt 5, 1-12a"
+    }
+  ],
+  "pastoral": "Las bienaventuranzas rompen los criterios habituales de éxito: felices no son solo los fuertes, los visibles o los que ganan, sino los pobres, mansos, limpios de corazón y perseguidos por la justicia. Jesús abre una forma distinta de felicidad, menos dependiente de la aprobación y más arraigada en la verdad. El Reino empieza abajo, donde nadie presume.",
+  "meeting": {
+    "title": "El Reino empieza abajo",
+    "subtitle": "De la felicidad que se exhibe a una Bienaventuranza que se practica",
+    "duration": "70 minutos",
+    "key": {
+      "title": "Dios llama dichosos a quienes nadie mira",
+      "text": "Las Bienaventuranzas no glorifican el dolor: anuncian que Dios no abandona a quienes lo atraviesan.",
+      "quote": "El Reino empieza abajo, donde nadie mira.",
+      "steps": [
+        {
+          "title": "Mirada",
+          "text": "Jesús mira a la gente y se sienta entre ellos. El Reino comienza escuchando la vida que otros no ven."
+        },
+        {
+          "title": "Inversión",
+          "text": "Llama dichosos a pobres, mansos, heridos y perseguidos. Dios no confunde el éxito con la plenitud."
+        },
+        {
+          "title": "Deseo",
+          "text": "Hambre de justicia, corazón limpio y verdad. La dicha nace cuando el deseo se orienta hacia el bien."
+        },
+        {
+          "title": "Vínculo",
+          "text": "Misericordia y paz se vuelven una forma concreta de vivir. El consuelo recibido se hace cuidado."
+        },
+        {
+          "title": "Firmeza",
+          "text": "Seguir a Jesús puede llevar a vivir contracorriente. Amar sin rendirse no es perder: es sembrar Reino."
+        }
+      ]
+    },
+    "resonancesEyebrow": "Cuatro intuiciones para otra manera de ser feliz",
+    "resonancesTitle": "Dios mira, habita, orienta y elige desde abajo",
+    "resonances": [
+      {
+        "ref": "1 Sam 16,7",
+        "title": "La mirada del corazón",
+        "quote": "El hombre mira las apariencias; el Señor mira el corazón.",
+        "text": "La dignidad no depende de la imagen, el rendimiento ni la aprobación."
+      },
+      {
+        "ref": "Is 57,15",
+        "title": "Dios habita abajo",
+        "quote": "Habito con el contrito y humilde para reanimar su corazón.",
+        "text": "Dios no contempla la fragilidad desde lejos: desciende, habita y reanima."
+      },
+      {
+        "ref": "Miq 6,8",
+        "title": "La justicia caminada",
+        "quote": "Practicar la justicia, amar la misericordia y caminar humildemente.",
+        "text": "La dicha del Reino toma cuerpo en una forma humilde y compasiva de vivir."
+      },
+      {
+        "ref": "1 Co 1,27–29",
+        "title": "La debilidad elegida",
+        "quote": "Dios eligió lo débil del mundo para confundir a lo fuerte.",
+        "text": "La fragilidad ofrecida puede ser fecunda cuando deja de competir por el centro."
+      }
+    ],
+    "synthesis": "Dignidad recibida · humildad habitada · justicia compasiva · debilidad fecunda",
+    "question": "¿Qué llamo fracaso que Jesús podría estar llamando comienzo?",
+    "agendaTitle": "De la felicidad que se exhibe a una Bienaventuranza que se practica",
+    "agenda": [
+      {
+        "time": "00–08",
+        "title": "Escuchar",
+        "instruction": "Oír «El Reino empieza abajo» completa, sin explicarla todavía.",
+        "question": "¿Qué frase me atrae o me provoca resistencia?"
+      },
+      {
+        "time": "08–20",
+        "title": "Desmontar",
+        "instruction": "Completar dos carteles: «éxito según el mundo» / «dicha según Jesús».",
+        "question": "¿Qué idea de felicidad me gobierna sin darme cuenta?"
+      },
+      {
+        "time": "20–38",
+        "title": "Iluminar",
+        "instruction": "Leer Mt 5,1–12 por grupos: herida, promesa y camino de cada Bienaventuranza.",
+        "question": "¿Qué dolor no idealiza Jesús y qué futuro anuncia?"
+      },
+      {
+        "time": "38–58",
+        "title": "Elegir",
+        "instruction": "Elegir una Bienaventuranza como consuelo e incomodidad. Compartir sin compararse.",
+        "question": "¿Cuál me consuela y cuál me pide cambiar?"
+      },
+      {
+        "time": "58–70",
+        "title": "Bajar",
+        "instruction": "Concretar un gesto semanal de misericordia, paz o justicia. Terminar con oración.",
+        "question": "¿Qué gesto pequeño hará visible esta forma de felicidad?"
+      }
+    ],
+    "criterion": "No elogiar el sufrimiento ni convertir las Bienaventuranzas en una lista moral; escuchar una promesa y concretar un camino.",
+    "deckPublicPath": "assets/presentations/2026-02-01-el-reino-empieza-abajo.pptx"
+  },
+  "gospel": {
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Evangelio: Mt 5, 1-12a"
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 5,1.",
+        "text": "Y viendo las gentes, subió al monte; y sentándose, se llegaron á Él sus discípulos."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 5,2.",
+        "text": "Y abriendo su boca, les enseñaba, diciendo:"
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 5,3.",
+        "text": "Bienaventurados los pobres en espíritu: porque de ellos es el reino de los cielos."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 5,4.",
+        "text": "Bienaventurados los que lloran: porque ellos recibirán consolación."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 5,5.",
+        "text": "Bienaventurados los mansos: porque ellos recibirán la tierra por heredad."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 5,6.",
+        "text": "Bienaventurados los que tienen hambre y sed de justicia: porque ellos serán hartos."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 5,7.",
+        "text": "Bienaventurados los misericordiosos: porque ellos alcanzarán misericordia."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 5,8.",
+        "text": "Bienaventurados los de limpio corazón: porque ellos verán á Dios."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 5,9.",
+        "text": "Bienaventurados los pacificadores: porque ellos serán llamados hijos de Dios."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 5,10.",
+        "text": "Bienaventurados los que padecen persecución por causa de la justicia: porque de ellos es el reino de los cielos."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 5,11.",
+        "text": "Bienaventurados sois cuando os vituperaren y os persiguieren, y dijeren de vosotros todo mal por mi causa, mintiendo."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 5,12.",
+        "text": "Gozaos y alegraos;"
+      }
+    ]
+  },
+  "song": {
+    "lyrics": [
+      {
+        "lines": [
+          "Subes al monte y nos miras despacio",
+          "no hay prisa no hay trono no hay voz de poder",
+          "te sientas y el mundo se queda en silencio",
+          "porque lo que dices no encaja del todo bien"
+        ]
+      },
+      {
+        "lines": [
+          "No hablas de fuertes ni de los primeros",
+          "no aplaudes al listo que siempre ganó",
+          "nombras a pobres a mansos a heridos",
+          "y algo en el pecho se nos removió"
+        ]
+      },
+      {
+        "lines": [
+          "Dices que el Reino no empieza arriba",
+          "que no se conquista empujando al de al lado",
+          "que hay una dicha que no hace ruido",
+          "y un cielo que empieza cuando has soltado"
+        ]
+      },
+      {
+        "lines": [
+          "Dichosos los que no ganan",
+          "los que no mandan los que no van bien",
+          "dichosos los que se rompen",
+          "y aun así siguen creyendo en la piel",
+          "el Reino empieza abajo",
+          "donde el mundo no quiere mirar",
+          "lo pequeño lo frágil lo roto",
+          "ahí Dios se queda a habitar"
+        ]
+      },
+      {
+        "lines": [
+          "Dichosos los que lloran sin maquillaje",
+          "los que no esconden su oscuridad",
+          "los que tienen hambre de algo más justo",
+          "aunque la cuenta no salga al final"
+        ]
+      },
+      {
+        "lines": [
+          "Dichosos los limpios los que perdonan",
+          "los que construyen la paz sin gritar",
+          "los perseguidos por no rendirse",
+          "a un juego que no quieren jugar"
+        ]
+      },
+      {
+        "lines": [
+          "Dices que el cielo es para los pobres",
+          "los que no compran su identidad",
+          "que hay una fuerza que nace débil",
+          "y una victoria que sabe esperar"
+        ]
+      },
+      {
+        "lines": [
+          "Dichosos los que no ganan",
+          "los que no mandan los que no van bien",
+          "dichosos los que se rompen",
+          "y aun así siguen creyendo en la piel",
+          "el Reino empieza abajo",
+          "donde el mundo no quiere mirar",
+          "lo pequeño lo frágil lo roto",
+          "ahí Dios se queda a habitar"
+        ]
+      },
+      {
+        "lines": [
+          "Si nos insultan por ir contracorriente",
+          "si nos señalan por no saber pasar",
+          "si ser del Reino parece locura",
+          "entonces vamos por buen lugar"
+        ]
+      },
+      {
+        "lines": [
+          "No es derrota es semilla",
+          "no es perder es confiar",
+          "hay una alegría que nadie roba",
+          "cuando decides amar"
+        ]
+      },
+      {
+        "lines": [
+          "Alegraos dice el Maestro",
+          "no tengáis miedo de ser así",
+          "que vuestra vida tal como es ahora",
+          "ya está tocando el cielo aquí"
+        ]
+      },
+      {
+        "lines": [
+          "Dichosos los que no ganan",
+          "los que no mandan los que no van bien",
+          "dichosos los que se entregan",
+          "sin asegurarse qué van a tener",
+          "el Reino empieza abajo",
+          "donde aprendemos a respirar",
+          "lo pequeño lo frágil lo roto",
+          "ahí Dios se queda a habitar"
+        ]
+      },
+      {
+        "lines": [
+          "ahí Dios se queda",
+          "ahí Dios se queda a habitar"
+        ]
+      }
+    ],
+    "chordsPdfPublicPath": null
+  }
+}
