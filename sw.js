@@ -1,4 +1,4 @@
-const APP_VERSION = "20260806-p3-v13";
+const APP_VERSION = "20260808-creere-por-ti-v14";
 const CACHE_PREFIX = "evgl-";
 const SHELL_CACHE = `${CACHE_PREFIX}shell-${APP_VERSION}`;
 const RUNTIME_CACHE = `${CACHE_PREFIX}runtime-${APP_VERSION}`;
@@ -57,6 +57,7 @@ async function precacheInitialEntry(cache) {
 self.addEventListener("install", (event) => {
   event.waitUntil((async () => {
     const cache = await caches.open(SHELL_CACHE);
+    await caches.open(RUNTIME_CACHE);
     await cache.addAll(SHELL_RESOURCES);
     await precacheInitialEntry(cache);
     await self.skipWaiting();

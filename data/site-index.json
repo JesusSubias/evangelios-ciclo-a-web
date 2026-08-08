@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-06T08:01:50.282559+00:00",
-  "cutoff": "2026-08-09",
+  "generatedAt": "2026-08-08T11:33:24.355220+00:00",
+  "cutoff": "2026-08-16",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "sourceNotice": "Texto biblico de trabajo: Reina-Valera 1909. La version liturgica oficial CEE 2010 no se reproduce completa sin fuente o licencia autorizada.",
   "assets": {
@@ -8,12 +8,12 @@
     "audioPolicy": "mp3/m4a/mp4/opus publicados; WAV reservado como master opcional"
   },
   "summary": {
-    "cycleEntries": 37,
-    "songRecords": 42,
-    "cycleAudioFound": 37,
+    "cycleEntries": 38,
+    "songRecords": 43,
+    "cycleAudioFound": 38,
     "cycleAudioMissing": 0,
-    "imagesFound": 37,
-    "editorialImagesFound": 37,
+    "imagesFound": 38,
+    "editorialImagesFound": 38,
     "chordPdfsFound": 0
   },
   "missing": {
@@ -354,6 +354,14 @@
       "targetDate": "2026-08-09",
       "includedInCycle": true,
       "audioPublicPath": "assets/audio/2026-08-09-ven.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 43,
+      "title": "Creeré por ti",
+      "targetDate": "2026-08-16",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-08-16-creere-por-ti.mp3",
       "chordsPdfPublicPath": null
     }
   ],
@@ -1134,10 +1142,31 @@
         "title": "Ven",
         "audioPublicPath": "assets/audio/2026-08-09-ven.mp3"
       }
+    },
+    {
+      "id": "2026-08-16",
+      "index": 38,
+      "isoDate": "2026-08-16",
+      "dateLabel": "16 de agosto de 2026",
+      "denomination": "XX Domingo del Tiempo Ordinario",
+      "fullTitle": "Domingo 16 de agosto de 2026 - XX Domingo del Tiempo Ordinario - Ciclo A",
+      "season": "Tiempo Ordinario",
+      "refs": "Mt 15, 21-28",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-08-16-xx-domingo-del-tiempo-ordinario.webp",
+        "variant": "editorial",
+        "textTranscript": null
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-08-16.json",
+      "song": {
+        "title": "Creeré por ti",
+        "audioPublicPath": "assets/audio/2026-08-16-creere-por-ti.mp3"
+      }
     }
   ],
   "dataArchitecture": {
     "strategy": "index-plus-entry-payloads",
-    "entryPayloadCount": 37
+    "entryPayloadCount": 38
   }
 }
