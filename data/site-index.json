@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-08T11:33:24.355220+00:00",
-  "cutoff": "2026-08-16",
+  "generatedAt": "2026-08-17T04:08:15.499910+00:00",
+  "cutoff": "2026-08-23",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "sourceNotice": "Texto biblico de trabajo: Reina-Valera 1909. La version liturgica oficial CEE 2010 no se reproduce completa sin fuente o licencia autorizada.",
   "assets": {
@@ -8,12 +8,12 @@
     "audioPolicy": "mp3/m4a/mp4/opus publicados; WAV reservado como master opcional"
   },
   "summary": {
-    "cycleEntries": 38,
-    "songRecords": 43,
-    "cycleAudioFound": 38,
+    "cycleEntries": 39,
+    "songRecords": 44,
+    "cycleAudioFound": 39,
     "cycleAudioMissing": 0,
-    "imagesFound": 38,
-    "editorialImagesFound": 38,
+    "imagesFound": 39,
+    "editorialImagesFound": 39,
     "chordPdfsFound": 0
   },
   "missing": {
@@ -362,6 +362,14 @@
       "targetDate": "2026-08-16",
       "includedInCycle": true,
       "audioPublicPath": "assets/audio/2026-08-16-creere-por-ti.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 44,
+      "title": "Quién soy contigo",
+      "targetDate": "2026-08-23",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-08-23-quien-soy-contigo.mp3",
       "chordsPdfPublicPath": null
     }
   ],
@@ -1163,10 +1171,31 @@
         "title": "Creeré por ti",
         "audioPublicPath": "assets/audio/2026-08-16-creere-por-ti.mp3"
       }
+    },
+    {
+      "id": "2026-08-23",
+      "index": 39,
+      "isoDate": "2026-08-23",
+      "dateLabel": "23 de agosto de 2026",
+      "denomination": "XXI Domingo del Tiempo Ordinario",
+      "fullTitle": "Domingo 23 de agosto de 2026 - XXI Domingo del Tiempo Ordinario - Ciclo A",
+      "season": "Tiempo Ordinario",
+      "refs": "Mt 16, 13-20",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-08-23-xxi-domingo-del-tiempo-ordinario.webp",
+        "variant": "editorial",
+        "textTranscript": null
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-08-23.json",
+      "song": {
+        "title": "Quién soy contigo",
+        "audioPublicPath": "assets/audio/2026-08-23-quien-soy-contigo.mp3"
+      }
     }
   ],
   "dataArchitecture": {
     "strategy": "index-plus-entry-payloads",
-    "entryPayloadCount": 38
+    "entryPayloadCount": 39
   }
 }

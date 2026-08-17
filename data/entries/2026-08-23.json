@@ -1,0 +1,280 @@
+{
+  "id": "2026-08-23",
+  "readings": [
+    {
+      "context": "",
+      "ref": "Mt 16, 13-20"
+    }
+  ],
+  "pastoral": "En Cesarea de Filipo, Jesús escucha las respuestas que circulan sobre Él y después dirige la pregunta a sus discípulos: «Y vosotros, ¿quién decís que soy yo?». Pedro confiesa al Cristo y, al recibir un nombre y unas llaves, descubre también quién está llamado a ser. No es roca porque sea impecable ni recibe autoridad para cerrar la casa: es sostenido para edificar comunidad y abrir caminos del Reino. La identidad cristiana no nace de repetir voces ajenas ni de ocupar un puesto, sino de responder personalmente a Jesús y convertir la confianza recibida en servicio, acogida y responsabilidad.",
+  "meeting": {
+    "title": "Quién soy contigo",
+    "subtitle": "Confesar a Jesús y recibir una identidad para servir",
+    "duration": "70 minutos",
+    "key": {
+      "title": "Jesús pregunta quién es y, al escucharnos, nos devuelve quiénes somos",
+      "text": "En Cesarea de Filipo circulan muchas respuestas sobre Jesús, pero Él lleva a los discípulos de la opinión prestada a una confesión personal. Pedro reconoce al Cristo por gracia del Padre y Jesús le devuelve un nombre, una tarea y unas llaves. No es roca por ser impecable ni recibe poder para proteger un privilegio: es sostenido para edificar comunidad y abrir caminos del Reino. La identidad recibida se verifica cuando se vuelve servicio, acogida y responsabilidad compartida.",
+      "quote": "Tú dices mi nombre de nuevo; ya sé quién soy contigo.",
+      "steps": [
+        {
+          "title": "Distinguir",
+          "text": "«¿Quién dice la gente?». Escuchar las voces ayuda a reconocer qué respuestas repetimos sin haberlas elegido."
+        },
+        {
+          "title": "Responder",
+          "text": "«Tú eres el Cristo». La fe toma la palabra en primera persona y se atreve a comprometer la vida."
+        },
+        {
+          "title": "Recibir",
+          "text": "«Tú eres Pedro». Jesús conoce el barro y aun así pronuncia un nombre que abre futuro y vocación."
+        },
+        {
+          "title": "Edificar",
+          "text": "«Sobre esta piedra». La comunidad no se sostiene en héroes aislados, sino en vínculos fieles y corresponsables."
+        },
+        {
+          "title": "Abrir",
+          "text": "«Te daré las llaves». La autoridad del Reino sirve para abrir, reconciliar, cuidar y dejar entrar."
+        }
+      ]
+    },
+    "resonancesEyebrow": "Cuatro caminos bíblicos para recibir un nombre y convertirlo en misión",
+    "resonancesTitle": "Dios acompaña, llama por el nombre, abre futuro y confía puertas",
+    "resonances": [
+      {
+        "ref": "Ex 3,11–12",
+        "title": "Una identidad acompañada",
+        "quote": "«Yo estaré contigo.»",
+        "text": "Moisés pregunta quién es para asumir la misión. Dios no responde con elogios abstractos: le promete presencia."
+      },
+      {
+        "ref": "Is 43,1",
+        "title": "Llamado por tu nombre",
+        "quote": "«Te llamé por tu nombre; mío eres tú.»",
+        "text": "Dios nombra antes de que una persona demuestre su valor. La pertenencia funda confianza y libertad."
+      },
+      {
+        "ref": "Jn 1,42",
+        "title": "Un nombre nuevo",
+        "quote": "«Tú serás llamado Cefas.»",
+        "text": "Jesús mira el presente frágil de Simón y también la historia que puede llegar a construir con otros."
+      },
+      {
+        "ref": "Ap 3,7–8",
+        "title": "Una puerta abierta",
+        "quote": "«He puesto delante de ti una puerta abierta.»",
+        "text": "La llave de Cristo no protege un privilegio cerrado: sirve a una puerta que nadie debería clausurar."
+      }
+    ],
+    "synthesis": "Presencia recibida · confesión personal · nombre nuevo · puerta abierta",
+    "question": "¿Qué nombre me da Jesús y qué puerta me confía abrir?",
+    "agendaTitle": "De las respuestas prestadas a una identidad que se vuelve servicio",
+    "agenda": [
+      {
+        "time": "00–08",
+        "title": "Escuchar",
+        "instruction": "Oír «Quién soy contigo» completa, sin explicarla todavía.",
+        "question": "¿Qué frase me ayuda a recibir mi identidad sin tener que demostrarla?"
+      },
+      {
+        "time": "08–20",
+        "title": "Distinguir",
+        "instruction": "Tarjeta opcional: la gente dice / yo repito / yo creo / yo necesito preguntar.",
+        "question": "¿Qué respuesta sobre Jesús es todavía prestada y cuál empieza a ser verdaderamente mía?"
+      },
+      {
+        "time": "20–38",
+        "title": "Iluminar",
+        "instruction": "Leer Mt 16,13–20 y marcar voces, pregunta, confesión, revelación, nombre, piedra y llaves.",
+        "question": "¿Qué recibe Pedro y para qué se le confía?"
+      },
+      {
+        "time": "38–58",
+        "title": "Discernir",
+        "instruction": "Caso ficticio: una responsabilidad comunitaria que puede abrir participación o convertirse en control.",
+        "question": "¿Cómo ejercer una función con límites, rendición de cuentas y espacio para otros?"
+      },
+      {
+        "time": "58–70",
+        "title": "Responder",
+        "instruction": "Elegir una confesión, un servicio, una puerta concreta, una persona aliada y una fecha de revisión.",
+        "question": "¿Qué puerta puedo ayudar a abrir esta semana y con quién?"
+      }
+    ],
+    "criterion": "No usar «tú eres Pedro» para legitimar dominación, clericalismo, silenciamiento o exclusión. La autoridad cristiana se reconoce como servicio y necesita límites, protección, participación y rendición de cuentas. Recibir un nombre de Jesús no borra la historia, las fragilidades ni la necesidad de apoyo. Compartir y pasar son opciones válidas.",
+    "deckPublicPath": "assets/presentations/2026-08-23-quien-soy-contigo.pptx"
+  },
+  "gospel": {
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Evangelio: Mt 16, 13-20"
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 16,13.",
+        "text": "Y viniendo Jesús á las partes de Cesarea de Filipo, preguntó á sus discípulos, diciendo: ¿Quién dicen los hombres que es el Hijo del hombre?"
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 16,14.",
+        "text": "Y ellos dijeron: Unos, Juan el Bautista; y otros, Elías; y otros; Jeremías, ó alguno de los profetas."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 16,15.",
+        "text": "El les dice: Y vosotros, ¿quién decís que soy?"
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 16,16.",
+        "text": "Y respondiendo Simón Pedro, dijo: Tú eres el Cristo, el Hijo del Dios viviente."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 16,17.",
+        "text": "Entonces, respondiendo Jesús, le dijo: Bienaventurado eres, Simón, hijo de Jonás; porque no te lo reveló carne ni sangre, mas mi Padre que está en los cielos."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 16,18.",
+        "text": "Mas yo también te digo, que tú eres Pedro, y sobre esta piedra edificaré mi iglesia; y las puertas del infierno no prevalecerán contra ella."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 16,19.",
+        "text": "Y á ti daré las llaves del reino de los cielos; y todo lo que ligares en la tierra será ligado en los cielos; y todo lo que desatares en la tierra será desatado en los cielos."
+      },
+      {
+        "type": "verse",
+        "label": "Mateo 16,20.",
+        "text": "Entonces mandó á sus discípulos que á nadie dijesen que Él era Jesús el Cristo."
+      }
+    ]
+  },
+  "song": {
+    "lyrics": [
+      {
+        "lines": [
+          "Todos hablaban de ti,",
+          "cada cual te daba un nombre.",
+          "Yo repetía sus voces,",
+          "sin atreverme a elegir."
+        ]
+      },
+      {
+        "lines": [
+          "Pero miraste mis ojos,",
+          "el ruido quedó detrás.",
+          "Solo quedó tu pregunta:",
+          "«Y tú, ¿quién dices que soy?»."
+        ]
+      },
+      {
+        "lines": [
+          "No fue saber la respuesta",
+          "ni ser mejor que los demás.",
+          "Fue el Padre dentro del pecho",
+          "quien me enseñó a contestar."
+        ]
+      },
+      {
+        "lines": [
+          "Tú eres el Cristo que vive,",
+          "tú me llamas por mi nombre.",
+          "Cuando me miras, lo entiendo:",
+          "ya sé quién soy contigo."
+        ]
+      },
+      {
+        "lines": [
+          "No soy roca por ser fuerte,",
+          "soy roca: me levantas tú.",
+          "Dices mi nombre de nuevo,",
+          "ya sé quién soy contigo."
+        ]
+      },
+      {
+        "lines": [
+          "Tú conocías mis grietas,",
+          "mis ganas de echarme atrás,",
+          "las noches sobre las aguas,",
+          "mi miedo a dejar de andar."
+        ]
+      },
+      {
+        "lines": [
+          "Aun conociendo mi barro,",
+          "decidiste edificar.",
+          "Y antes de ver mis caídas,",
+          "tú ya confiabas en mí."
+        ]
+      },
+      {
+        "lines": [
+          "No fue saber la respuesta",
+          "ni ser mejor que los demás.",
+          "Fue el Padre dentro del pecho",
+          "quien me enseñó a contestar."
+        ]
+      },
+      {
+        "lines": [
+          "Tú eres el Cristo que vive,",
+          "tú me llamas por mi nombre.",
+          "Cuando me miras, lo entiendo:",
+          "ya sé quién soy contigo."
+        ]
+      },
+      {
+        "lines": [
+          "No soy roca por ser fuerte,",
+          "soy roca: me levantas tú.",
+          "Dices mi nombre de nuevo,",
+          "ya sé quién soy contigo."
+        ]
+      },
+      {
+        "lines": [
+          "Me das las llaves de casa,",
+          "no para quedarme dentro.",
+          "Tú me confías la puerta,",
+          "la abro con tu corazón."
+        ]
+      },
+      {
+        "lines": [
+          "Ata mi vida a la tuya,",
+          "desata mi miedo a amar.",
+          "Si me das tus llaves, Cristo,",
+          "son para dejar entrar."
+        ]
+      },
+      {
+        "lines": [
+          "Tú eres el Cristo que vive,",
+          "tú me llamas por mi nombre.",
+          "Cuando me miras, lo entiendo:",
+          "ya sé quién soy contigo."
+        ]
+      },
+      {
+        "lines": [
+          "No soy roca por ser fuerte,",
+          "soy roca: me levantas tú.",
+          "Dices mi nombre de nuevo,",
+          "ya sé quién soy contigo."
+        ]
+      },
+      {
+        "lines": [
+          "Quién soy contigo,",
+          "quién soy contigo.",
+          "Tú dices mi nombre",
+          "y digo que sí."
+        ]
+      }
+    ],
+    "chordsPdfPublicPath": null
+  }
+}
