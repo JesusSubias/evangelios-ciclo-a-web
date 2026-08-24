@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-17T04:08:15.499910+00:00",
-  "cutoff": "2026-08-23",
+  "generatedAt": "2026-08-24T19:45:30.293448+00:00",
+  "cutoff": "2026-08-30",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "sourceNotice": "Texto biblico de trabajo: Reina-Valera 1909. La version liturgica oficial CEE 2010 no se reproduce completa sin fuente o licencia autorizada.",
   "assets": {
@@ -8,12 +8,12 @@
     "audioPolicy": "mp3/m4a/mp4/opus publicados; WAV reservado como master opcional"
   },
   "summary": {
-    "cycleEntries": 39,
-    "songRecords": 44,
-    "cycleAudioFound": 39,
+    "cycleEntries": 40,
+    "songRecords": 45,
+    "cycleAudioFound": 40,
     "cycleAudioMissing": 0,
-    "imagesFound": 39,
-    "editorialImagesFound": 39,
+    "imagesFound": 40,
+    "editorialImagesFound": 40,
     "chordPdfsFound": 0
   },
   "missing": {
@@ -370,6 +370,14 @@
       "targetDate": "2026-08-23",
       "includedInCycle": true,
       "audioPublicPath": "assets/audio/2026-08-23-quien-soy-contigo.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 45,
+      "title": "Vuelve a ir delante",
+      "targetDate": "2026-08-30",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-08-30-vuelve-a-ir-delante.mp3",
       "chordsPdfPublicPath": null
     }
   ],
@@ -1192,10 +1200,31 @@
         "title": "Quién soy contigo",
         "audioPublicPath": "assets/audio/2026-08-23-quien-soy-contigo.mp3"
       }
+    },
+    {
+      "id": "2026-08-30",
+      "index": 40,
+      "isoDate": "2026-08-30",
+      "dateLabel": "30 de agosto de 2026",
+      "denomination": "XXII Domingo del Tiempo Ordinario",
+      "fullTitle": "Domingo 30 de agosto de 2026 - XXII Domingo del Tiempo Ordinario - Ciclo A",
+      "season": "Tiempo Ordinario",
+      "refs": "Mt 16, 21-27",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-08-30-xxii-domingo-del-tiempo-ordinario.webp",
+        "variant": "editorial",
+        "textTranscript": null
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-08-30.json",
+      "song": {
+        "title": "Vuelve a ir delante",
+        "audioPublicPath": "assets/audio/2026-08-30-vuelve-a-ir-delante.mp3"
+      }
     }
   ],
   "dataArchitecture": {
     "strategy": "index-plus-entry-payloads",
-    "entryPayloadCount": 39
+    "entryPayloadCount": 40
   }
 }
