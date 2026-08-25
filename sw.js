@@ -1,4 +1,4 @@
-const APP_VERSION = "20260825-vuelve-a-ir-delante-v17";
+const APP_VERSION = "20260825-vuelve-a-ir-delante-v18";
 const CACHE_PREFIX = "evgl-";
 const SHELL_CACHE = `${CACHE_PREFIX}shell-${APP_VERSION}`;
 const RUNTIME_CACHE = `${CACHE_PREFIX}runtime-${APP_VERSION}`;

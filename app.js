@@ -62,7 +62,7 @@ const seasonColors = {
 };
 
 const app = document.querySelector("#app");
-const DATA_VERSION = "20260825-vuelve-a-ir-delante-v17";
+const DATA_VERSION = "20260825-vuelve-a-ir-delante-v18";
 const OFFLINE_MESSAGE_TIMEOUT = 45000;
 const calendarWeekdays = ["L", "M", "X", "J", "V", "S", "D"];
 const monthFormatter = new Intl.DateTimeFormat("es-ES", { month: "long", year: "numeric" });
@@ -752,7 +752,7 @@ function renderReaderIntro(entry) {
   const imagePath = versionedAssetPath(entry.image.publicPath || state.manifest.assets.cover);
   return `
     <div class="reader-intro">
-      <figure class="hero-image${entry.id === "2026-08-30" ? " hero-image--faces" : ""}">
+      <figure class="hero-image">
         <button class="image-open-hitarea" type="button" data-open-image data-image-trigger="hitarea" aria-label="Ver imagen completa">
           <img src="${escapeHtml(imagePath)}" alt="${escapeHtml(imageAlt(entry))}" />
         </button>

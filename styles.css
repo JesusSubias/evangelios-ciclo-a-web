@@ -867,10 +867,6 @@ a {
   object-fit: cover;
 }
 
-.hero-image--faces img {
-  object-position: center 6%;
-}
-
 .image-open-button {
   position: absolute;
   right: 12px;
