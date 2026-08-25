@@ -1,4 +1,4 @@
-const APP_VERSION = "20260825-vuelve-a-ir-delante-v18";
+const APP_VERSION = "20260825-dame-tus-ojos-v19";
 const CACHE_PREFIX = "evgl-";
 const SHELL_CACHE = `${CACHE_PREFIX}shell-${APP_VERSION}`;
 const RUNTIME_CACHE = `${CACHE_PREFIX}runtime-${APP_VERSION}`;
@@ -157,7 +157,7 @@ async function partialAudioResponse(request, cached) {
 }
 
 async function serveAudio(request) {
-  const cached = await caches.open(OFFLINE_ENTRIES_CACHE).then((cache) => cache.match(request, { ignoreSearch: true }));
+  const cached = await caches.open(OFFLINE_ENTRIES_CACHE).then((cache) => cache.match(request));
   if (cached) {
     return request.headers.has("range") ? partialAudioResponse(request, cached) : cached;
   }

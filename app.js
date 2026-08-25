@@ -62,7 +62,7 @@ const seasonColors = {
 };
 
 const app = document.querySelector("#app");
-const DATA_VERSION = "20260825-vuelve-a-ir-delante-v18";
+const DATA_VERSION = "20260825-dame-tus-ojos-v19";
 const OFFLINE_MESSAGE_TIMEOUT = 45000;
 const calendarWeekdays = ["L", "M", "X", "J", "V", "S", "D"];
 const monthFormatter = new Intl.DateTimeFormat("es-ES", { month: "long", year: "numeric" });
@@ -496,7 +496,7 @@ function render(options = {}) {
 function renderTopActions(entry) {
   const isBookmarked = state.bookmarkedIds.has(entry.id);
   const bookmarkLabel = isBookmarked ? "Quitar marcador" : "Marcar ficha";
-  const audioPath = entry.song.audioPublicPath;
+  const audioPath = versionedAssetPath(entry.song.audioPublicPath);
   const isOfflineSaved = state.offlineSavedIds.has(entry.id);
   const isOfflineBusy = state.offlineBusyId === entry.id;
   const offlineActionLabel = isOfflineBusy
@@ -605,7 +605,7 @@ function renderSidebarContent() {
             <div class="extra-song">
               <span>${escapeHtml(song.title)}</span>
               <span class="extra-actions">
-                ${song.audioPublicPath ? `<a href="${escapeHtml(song.audioPublicPath)}" title="Descargar audio de ${escapeHtml(song.title)}">${ICONS.download}</a>` : `<span title="Audio pendiente">${ICONS.clock}</span>`}
+                ${song.audioPublicPath ? `<a href="${escapeHtml(versionedAssetPath(song.audioPublicPath))}" title="Descargar audio de ${escapeHtml(song.title)}">${ICONS.download}</a>` : `<span title="Audio pendiente">${ICONS.clock}</span>`}
               </span>
             </div>
           `).join("")}
@@ -905,6 +905,7 @@ function renderMeeting(meeting) {
 }
 
 function renderSongAudio(entry) {
+  const audioPath = versionedAssetPath(entry.song.audioPublicPath);
   return `
     <section class="song-audio" aria-label="Reproductor de ${escapeHtml(entry.song.title)}">
       <div class="song-header">
@@ -915,9 +916,9 @@ function renderSongAudio(entry) {
       </div>
       <div class="rule"></div>
       <div class="audio-box">
-        ${entry.song.audioPublicPath ? `
-          <audio class="audio-player" controls preload="metadata" src="${escapeHtml(entry.song.audioPublicPath)}" aria-label="Escuchar ${escapeHtml(entry.song.title)}"></audio>
-          <a class="download-link" href="${escapeHtml(entry.song.audioPublicPath)}" download>
+        ${audioPath ? `
+          <audio class="audio-player" controls preload="metadata" src="${escapeHtml(audioPath)}" aria-label="Escuchar ${escapeHtml(entry.song.title)}"></audio>
+          <a class="download-link" href="${escapeHtml(audioPath)}" download>
             ${ICONS.download}
             Descargar audio
           </a>
