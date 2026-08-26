@@ -1,4 +1,4 @@
-const APP_VERSION = "20260826-todo-hablaba-de-ti-v21";
+const APP_VERSION = "20260826-la-noche-no-es-duena-v22";
 const CACHE_PREFIX = "evgl-";
 const SHELL_CACHE = `${CACHE_PREFIX}shell-${APP_VERSION}`;
 const RUNTIME_CACHE = `${CACHE_PREFIX}runtime-${APP_VERSION}`;
