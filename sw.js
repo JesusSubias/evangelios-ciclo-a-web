@@ -1,4 +1,4 @@
-const APP_VERSION = "20260827-te-haces-pan-v27";
+const APP_VERSION = "20260827-tanto-amaste-al-mundo-v28";
 const CACHE_PREFIX = "evgl-";
 const SHELL_CACHE = `${CACHE_PREFIX}shell-${APP_VERSION}`;
 const RUNTIME_CACHE = `${CACHE_PREFIX}runtime-${APP_VERSION}`;
