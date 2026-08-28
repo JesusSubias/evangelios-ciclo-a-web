@@ -62,7 +62,7 @@ const seasonColors = {
 };
 
 const app = document.querySelector("#app");
-const DATA_VERSION = "20260828-me-haces-recordar-v31";
+const DATA_VERSION = "20260828-camino-verdad-y-vida-v32";
 const OFFLINE_MESSAGE_TIMEOUT = 45000;
 const calendarWeekdays = ["L", "M", "X", "J", "V", "S", "D"];
 const monthFormatter = new Intl.DateTimeFormat("es-ES", { month: "long", year: "numeric" });
