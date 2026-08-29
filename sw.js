@@ -1,4 +1,4 @@
-const APP_VERSION = "20260828-camino-verdad-y-vida-v32";
+const APP_VERSION = "20260829-entre-tu-y-yo-v33";
 const CACHE_PREFIX = "evgl-";
 const SHELL_CACHE = `${CACHE_PREFIX}shell-${APP_VERSION}`;
 const RUNTIME_CACHE = `${CACHE_PREFIX}runtime-${APP_VERSION}`;
