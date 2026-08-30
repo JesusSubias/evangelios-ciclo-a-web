@@ -62,7 +62,7 @@ const seasonColors = {
 };
 
 const app = document.querySelector("#app");
-const DATA_VERSION = "20260830-en-medio-v34";
+const DATA_VERSION = "20260830-se-encontraron-la-vida-v35";
 const OFFLINE_MESSAGE_TIMEOUT = 45000;
 const calendarWeekdays = ["L", "M", "X", "J", "V", "S", "D"];
 const monthFormatter = new Intl.DateTimeFormat("es-ES", { month: "long", year: "numeric" });
