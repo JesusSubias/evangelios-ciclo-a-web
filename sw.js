@@ -1,4 +1,4 @@
-const APP_VERSION = "20260831-ensename-a-mirar-v38";
+const APP_VERSION = "20260831-dame-ese-agua-v39";
 const CACHE_PREFIX = "evgl-";
 const SHELL_CACHE = `${CACHE_PREFIX}shell-${APP_VERSION}`;
 const RUNTIME_CACHE = `${CACHE_PREFIX}runtime-${APP_VERSION}`;
