@@ -1,4 +1,4 @@
-const APP_VERSION = "20260901-viniste-a-vivir-mi-vida-v48";
+const APP_VERSION = "20260901-el-cielo-llamo-a-tu-puerta-v49";
 const CACHE_PREFIX = "evgl-";
 const SHELL_CACHE = `${CACHE_PREFIX}shell-${APP_VERSION}`;
 const RUNTIME_CACHE = `${CACHE_PREFIX}runtime-${APP_VERSION}`;
