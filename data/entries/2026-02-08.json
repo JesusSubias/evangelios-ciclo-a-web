@@ -105,30 +105,14 @@
     "deckPublicPath": "assets/presentations/2026-02-08-sal-y-luz.pptx"
   },
   "gospel": {
-    "blocks": [
+    "summary": [
+      "Jesús dice a sus discípulos que están llamados a ser sal de la tierra y luz del mundo. Su misión no consiste en ocultarse ni en buscar protagonismo, sino en realizar un bien visible que ayude a otras personas a reconocer y agradecer la acción de Dios."
+    ],
+    "ceeLinks": [
       {
-        "type": "heading",
-        "text": "Evangelio: Mt 5, 13-16"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 5,13.",
-        "text": "Vosotros sois la sal de la tierra: y si la sal se desvaneciere ¿con qué será salada? no vale más para nada, sino para ser echada fuera y hollada de los hombres."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 5,14.",
-        "text": "Vosotros sois la luz del mundo: una ciudad asentada sobre un monte no se puede esconder."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 5,15.",
-        "text": "Ni se enciende una lámpara y se pone debajo de un almud, mas sobre el candelero, y alumbra á todos los que están en casa."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 5,16.",
-        "text": "Así alumbre vuestra luz delante de los hombres, para que vean vuestras obras buenas, y glorifiquen á vuestro Padre que está en los cielos."
+        "context": "",
+        "ref": "Mt 5, 13-16",
+        "url": "https://www.conferenciaepiscopal.es/biblia/nuevo-testamento-mateo/#cap5"
       }
     ]
   },

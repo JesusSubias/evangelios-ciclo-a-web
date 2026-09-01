@@ -105,75 +105,14 @@
     "deckPublicPath": "assets/presentations/2026-04-12-en-medio.pptx"
   },
   "gospel": {
-    "blocks": [
+    "summary": [
+      "Jesús resucitado se presenta en medio de una comunidad encerrada por miedo, les ofrece paz y los envía con el Espíritu para una misión de reconciliación. Tomás no está presente y pide una experiencia personal; ocho días después Jesús vuelve, acoge su búsqueda y lo conduce a una confesión de fe."
+    ],
+    "ceeLinks": [
       {
-        "type": "heading",
-        "text": "Evangelio: Jn 20, 19-31"
-      },
-      {
-        "type": "verse",
-        "label": "Juan 20,19.",
-        "text": "Y como fué tarde aquel día, el primero de la semana, y estando las puertas cerradas donde los discípulos estaban juntos por miedo de los Judíos, vino Jesús, y púsose en medio, y díjoles: Paz á vosotros."
-      },
-      {
-        "type": "verse",
-        "label": "Juan 20,20.",
-        "text": "Y como hubo dicho esto, mostróles las manos y el costado. Y los discípulos se gozaron viendo al Señor."
-      },
-      {
-        "type": "verse",
-        "label": "Juan 20,21.",
-        "text": "Entonces les dijo Jesús otra vez: Paz á vosotros: como me envió el Padre, así también yo os envío."
-      },
-      {
-        "type": "verse",
-        "label": "Juan 20,22.",
-        "text": "Y como hubo dicho esto, sopló, y díjoles: Tomad el Espíritu Santo:"
-      },
-      {
-        "type": "verse",
-        "label": "Juan 20,23.",
-        "text": "A los que remitiereis los pecados, les son remitidos: á quienes los retuviereis, serán retenidos."
-      },
-      {
-        "type": "verse",
-        "label": "Juan 20,24.",
-        "text": "Empero Tomás, uno de los doce, que se dice el Dídimo, no estaba con ellos cuando Jesús vino."
-      },
-      {
-        "type": "verse",
-        "label": "Juan 20,25.",
-        "text": "Dijéronle pues los otros discípulos: Al Señor hemos visto. Y Él les dijo: Si no viere en sus manos la señal de los clavos, y metiere mi dedo en el lugar de los clavos, y metiere mi mano en su costado, no creeré."
-      },
-      {
-        "type": "verse",
-        "label": "Juan 20,26.",
-        "text": "Y ocho días después, estaban otra vez sus discípulos dentro, y con ellos Tomás. Vino Jesús, las puertas cerradas, y púsose en medio, y dijo: Paz á vosotros."
-      },
-      {
-        "type": "verse",
-        "label": "Juan 20,27.",
-        "text": "Luego dice á Tomás: Mete tu dedo aquí, y ve mis manos: y alarga acá tu mano, y métela en mi costado: y no seas incrédulo, sino fiel."
-      },
-      {
-        "type": "verse",
-        "label": "Juan 20,28.",
-        "text": "Entonces Tomás respondió, y díjole: ¡Señor mío, y Dios mío!"
-      },
-      {
-        "type": "verse",
-        "label": "Juan 20,29.",
-        "text": "Dícele Jesús: Porque me has visto, Tomás, creiste: bienaventurados los que no vieron y creyeron."
-      },
-      {
-        "type": "verse",
-        "label": "Juan 20,30.",
-        "text": "Y también hizo Jesús muchas otras señales en presencia de sus discípulos, que no están escritas en este libro."
-      },
-      {
-        "type": "verse",
-        "label": "Juan 20,31.",
-        "text": "Estas empero son escritas, para que creáis que Jesús es el Cristo, el Hijo de Dios; y para que creyendo, tengáis vida en su nombre."
+        "context": "",
+        "ref": "Jn 20, 19-31",
+        "url": "https://www.conferenciaepiscopal.es/biblia/juan/#cap20"
       }
     ]
   },

@@ -105,40 +105,14 @@
     "deckPublicPath": "assets/presentations/2026-07-05-aprended-de-mi.pptx"
   },
   "gospel": {
-    "blocks": [
+    "summary": [
+      "Jesús agradece al Padre que su revelación alcance a los pequeños y no quede reservada a quienes se consideran sabios. Después invita a quienes viven cansados y cargados a acercarse a él. Su manera de enseñar es humilde y ofrece un yugo que acompaña en lugar de aplastar."
+    ],
+    "ceeLinks": [
       {
-        "type": "heading",
-        "text": "Evangelio: Mt 11, 25-30"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 11,25.",
-        "text": "En aquel tiempo, respondiendo Jesús, dijo: Te alabo, Padre, Señor del cielo y de la tierra, que hayas escondido estas cosas de los sabios y de los entendidos, y las hayas revelado á los niños."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 11,26.",
-        "text": "Así, Padre, pues que así agradó en tus ojos."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 11,27.",
-        "text": "Todas las cosas me son entregadas de mi Padre: y nadie conoció al Hijo, sino el Padre; ni al Padre conoció alguno, sino el Hijo, y aquel á quien el Hijo lo quisiere revelar."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 11,28.",
-        "text": "Venid á mí todos los que estáis trabajados y cargados, que yo os haré descansar."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 11,29.",
-        "text": "Llevad mi yugo sobre vosotros, y aprended de mí, que soy manso y humilde de corazón; y hallaréis descanso para vuestras almas."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 11,30.",
-        "text": "Porque mi yugo es fácil, y ligera mi carga."
+        "context": "",
+        "ref": "Mt 11, 25-30",
+        "url": "https://www.conferenciaepiscopal.es/biblia/nuevo-testamento-mateo/#cap11"
       }
     ]
   },

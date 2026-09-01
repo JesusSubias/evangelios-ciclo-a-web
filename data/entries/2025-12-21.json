@@ -105,45 +105,14 @@
     "deckPublicPath": "assets/presentations/2025-12-21-el-cielo-llamo-a-tu-puerta.pptx"
   },
   "gospel": {
-    "blocks": [
+    "summary": [
+      "José descubre que María espera un hijo y decide actuar sin exponerla. En sueños recibe la invitación a acogerla y a poner al niño el nombre de Jesús, porque su nacimiento forma parte de la acción salvadora de Dios. José confía y hace lo que se le ha pedido."
+    ],
+    "ceeLinks": [
       {
-        "type": "heading",
-        "text": "Evangelio: Mt 1, 18-24"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 1,18.",
-        "text": "Y el nacimiento de Jesucristo fué así: Que siendo María su madre desposada con José, antes que se juntasen, se halló haber concebido del Espíritu Santo."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 1,19.",
-        "text": "Y José su marido, como era justo, y no quisiese infamarla, quiso dejarla secretamente."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 1,20.",
-        "text": "Y pensando Él en esto, he aquí el ángel del Señor le aparece en sueños, diciendo: José, hijo de David, no temas de recibir á María tu mujer, porque lo que en ella es engendrado, del Espíritu Santo es."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 1,21.",
-        "text": "Y parirá un hijo, y llamarás su nombre jesus, porque Él salvará á su pueblo de sus pecados."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 1,22.",
-        "text": "Todo esto aconteció para que se cumpliese lo que fué dicho por el Señor, por el profeta que dijo:"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 1,23.",
-        "text": "He aquí la virgen concebirá y parirá un hijo, Y llamarás su nombre Emmanuel, que declarado, es: Con nosotros Dios."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 1,24.",
-        "text": "Y despertando José del sueño, hizo como el ángel del Señor le había mandado, y recibió á su mujer."
+        "context": "",
+        "ref": "Mt 1, 18-24",
+        "url": "https://www.conferenciaepiscopal.es/biblia/nuevo-testamento-mateo/#cap1"
       }
     ]
   },

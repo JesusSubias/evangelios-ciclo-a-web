@@ -105,50 +105,14 @@
     "deckPublicPath": "assets/presentations/2026-08-16-creere-por-ti.pptx"
   },
   "gospel": {
-    "blocks": [
+    "summary": [
+      "Una mujer cananea suplica ayuda para su hija y mantiene su petición a pesar de las barreras y del silencio inicial. El diálogo pone de manifiesto la tensión entre los límites asumidos y una necesidad concreta que no desaparece. Jesús reconoce la gran fe de la mujer y su hija queda liberada."
+    ],
+    "ceeLinks": [
       {
-        "type": "heading",
-        "text": "Evangelio: Mt 15, 21-28"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 15,21.",
-        "text": "Y saliendo Jesús de allí, se fué á las partes de Tiro y de Sidón."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 15,22.",
-        "text": "Y he aquí una mujer Cananea, que había salido de aquellos términos, clamaba, diciéndole: Señor, Hijo de David, ten misericordia de mí; mi hija es malamente atormentada del demonio."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 15,23.",
-        "text": "Mas Él no le respondió palabra. Entonces llegándose sus discípulos, le rogaron, diciendo: Despáchala, pues da voces tras nosotros."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 15,24.",
-        "text": "Y Él respondiendo, dijo: No soy enviado sino á las ovejas perdidas de la casa de Israel."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 15,25.",
-        "text": "Entonces ella vino, y le adoró, diciendo: Señor socórreme."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 15,26.",
-        "text": "Y respondiendo Él, dijo: No es bien tomar el pan de los hijos, y echarlo á los perrillos."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 15,27.",
-        "text": "Y ella dijo: Sí, Señor; mas los perrillos comen de las migajas que caen de la mesa de sus señores."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 15,28.",
-        "text": "Entonces respondiendo Jesús, dijo: Oh mujer, grande es tu fe; sea hecho contigo como quieres. Y fué sana su hija desde aquella hora."
+        "context": "",
+        "ref": "Mt 15, 21-28",
+        "url": "https://www.conferenciaepiscopal.es/biblia/nuevo-testamento-mateo/#cap15"
       }
     ]
   },

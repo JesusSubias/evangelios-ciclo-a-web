@@ -1281,37 +1281,51 @@ a {
   margin-top: 6px;
 }
 
-.gospel-blocks {
+.gospel-summary {
   display: grid;
   gap: 14px;
 }
 
-.gospel-heading {
-  margin-top: 3px;
-  color: var(--blue);
-  font-family: var(--sans);
-  font-size: 0.95rem;
-  font-weight: 900;
+.gospel-summary p {
+  font-size: 1.02rem;
+  line-height: 1.75;
 }
 
-.verse {
+.cee-gospel-links {
   display: grid;
-  grid-template-columns: auto 1fr;
   gap: 10px;
+  margin-top: 6px;
+  border-top: 1px solid var(--line);
+  padding-top: 18px;
 }
 
-.verse-label {
-  padding-top: 0.18em;
+.cee-gospel-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  width: fit-content;
+  max-width: 100%;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  background: var(--blue-soft);
+  padding: 11px 14px;
   color: var(--blue);
   font-family: var(--sans);
-  font-size: 0.78rem;
-  font-weight: 900;
-  white-space: nowrap;
+  font-size: 0.9rem;
+  font-weight: 800;
+  line-height: 1.35;
+  text-decoration: none;
+  transition:
+    background var(--interaction-motion-duration) var(--interaction-motion-easing),
+    border-color var(--interaction-motion-duration) var(--interaction-motion-easing),
+    transform var(--interaction-motion-duration) var(--interaction-motion-easing);
 }
 
-.ellipsis {
-  color: var(--muted);
-  text-align: center;
+.cee-gospel-link:hover {
+  border-color: var(--blue);
+  background: var(--interaction-hover-surface);
+  transform: translateY(-1px);
 }
 
 .song-header {
@@ -1454,15 +1468,6 @@ a {
   margin-top: 18px;
   color: var(--blue);
   font-size: 0.87rem;
-  line-height: 1.45;
-}
-
-.source-note {
-  margin-top: 30px;
-  border-top: 1px solid var(--line);
-  padding-top: 16px;
-  color: var(--muted);
-  font-size: 0.78rem;
   line-height: 1.45;
 }
 
@@ -1687,15 +1692,6 @@ svg {
 
   .image-viewer-panel img {
     max-height: calc(96vh - 58px);
-  }
-
-  .verse {
-    grid-template-columns: 1fr;
-    gap: 3px;
-  }
-
-  .verse-label {
-    padding-top: 0;
   }
 
   .meeting-intro {

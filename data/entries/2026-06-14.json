@@ -105,65 +105,14 @@
     "deckPublicPath": "assets/presentations/2026-06-14-dame-tus-ojos.pptx"
   },
   "gospel": {
-    "blocks": [
+    "summary": [
+      "Jesús contempla a las multitudes cansadas y desorientadas y responde con compasión. Llama a los doce, comparte con ellos autoridad para aliviar el mal y los envía primero a las personas más cercanas y desatendidas. La misión consiste en anunciar que el reino se acerca y ofrecer gratuitamente la vida recibida."
+    ],
+    "ceeLinks": [
       {
-        "type": "heading",
-        "text": "Evangelio: Mt 9, 36 - 10, 8"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 9,36.",
-        "text": "Y viendo las gentes, tuvo compasión de ellas; porque estaban derramadas y esparcidas como ovejas que no tienen pastor."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 9,37.",
-        "text": "Entonces dice á sus discípulos: A la verdad la mies es mucha, mas los obreros pocos."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 9,38.",
-        "text": "Rogad, pues, al Señor de la mies, que envíe obreros á su mies."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 10,1.",
-        "text": "Entonces llamando á sus doce discípulos, les dió potestad contra los espíritus inmundos, para que los echasen fuera, y sanasen toda enfermedad y toda dolencia."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 10,2.",
-        "text": "Y los nombres de los doce apóstoles son estos: el primero, Simón, que es dicho Pedro, y Andrés su hermano; Jacobo, hijo de Zebedeo, y Juan su hermano;"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 10,3.",
-        "text": "Felipe, y Bartolomé; Tomás, y Mateo el publicano; Jacobo hijo de Alfeo, y Lebeo, por sobrenombre Tadeo;"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 10,4.",
-        "text": "Simón el Cananita y Judas Iscariote, que también le entregó."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 10,5.",
-        "text": "á estos doce envió Jesús, á los cuales dió mandamiento, diciendo: Por el camino de los Gentiles no iréis, y en ciudad de Samaritanos no entréis;"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 10,6.",
-        "text": "Mas id antes á las ovejas perdidas de la casa de Israel."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 10,7.",
-        "text": "Y yendo, predicad, diciendo: El reino de los cielos se ha acercado."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 10,8.",
-        "text": "Sanad enfermos, limpiad leprosos, resucitad muertos, echad fuera demonios: de gracia recibisteis, dad de gracia."
+        "context": "",
+        "ref": "Mt 9, 36 - 10, 8",
+        "url": "https://www.conferenciaepiscopal.es/biblia/nuevo-testamento-mateo/#cap9"
       }
     ]
   },

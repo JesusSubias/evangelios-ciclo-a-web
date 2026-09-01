@@ -105,45 +105,14 @@
     "deckPublicPath": "assets/presentations/2026-08-30-vuelve-a-ir-delante.pptx"
   },
   "gospel": {
-    "blocks": [
+    "summary": [
+      "Jesús comienza a explicar que su camino pasa por el rechazo, la muerte y la resurrección. Pedro intenta apartarlo de ese destino y recibe una corrección que lo devuelve al lugar del discípulo. Seguir a Jesús implica dejar el afán de controlar, asumir la propia cruz y comprender que ganar la vida no consiste en poseerlo todo."
+    ],
+    "ceeLinks": [
       {
-        "type": "heading",
-        "text": "Evangelio: Mt 16, 21-27"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 16,21.",
-        "text": "Desde aquel tiempo comenzó Jesús á declarar á sus discípulos que le convenía ir á Jerusalem, y padecer mucho de los ancianos, y de los príncipes de los sacerdotes, y de los escribas; y ser muerto, y resucitar al tercer día."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 16,22.",
-        "text": "Y Pedro, tomándolo aparte, comenzó á reprenderle, diciendo: Señor, ten compasión de ti: en ninguna manera esto te acontezca."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 16,23.",
-        "text": "Entonces Él, volviéndose, dijo á Pedro: Quítate de delante de mí, Satanás; me eres escándalo; porque no entiendes lo que es de Dios sino lo que es de los hombres."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 16,24.",
-        "text": "Entonces Jesús dijo á sus discípulos: Si alguno quiere venir en pos de mí, niéguese á sí mismo, y tome su cruz, y sígame."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 16,25.",
-        "text": "Porque cualquiera que quisiere salvar su vida, la perderá, y cualquiera que perdiere su vida por causa de mí, la hallará."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 16,26.",
-        "text": "Porque ¿de qué aprovecha al hombre, si granjeare todo el mundo, y perdiere su alma? O ¿qué recompensa dará el hombre por su alma?"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 16,27.",
-        "text": "Porque el Hijo del hombre vendrá en la gloria de su Padre con sus ángeles, y entonces pagará á cada uno conforme á sus obras."
+        "context": "",
+        "ref": "Mt 16, 21-27",
+        "url": "https://www.conferenciaepiscopal.es/biblia/nuevo-testamento-mateo/#cap16"
       }
     ]
   },

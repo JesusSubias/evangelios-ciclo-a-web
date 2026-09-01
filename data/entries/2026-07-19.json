@@ -105,110 +105,14 @@
     "deckPublicPath": "assets/presentations/2026-07-19-la-noche-no-es-duena.pptx"
   },
   "gospel": {
-    "blocks": [
+    "summary": [
+      "Jesús compara el reino con un campo donde trigo y cizaña crecen juntos y advierte contra una separación precipitada que dañaría también lo bueno. Añade las imágenes de una semilla diminuta y de la levadura, capaces de transformar mucho desde lo pequeño. El discernimiento definitivo pertenece a Dios, no a la impaciencia humana."
+    ],
+    "ceeLinks": [
       {
-        "type": "heading",
-        "text": "Evangelio: Mt 13, 24-43"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 13,24.",
-        "text": "Otra parábola les propuso, diciendo: El reino de los cielos es semejante al hombre que siembra buena simiente en su campo:"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 13,25.",
-        "text": "Mas durmiendo los hombres, vino su enemigo, y sembró cizaña entre el trigo, y se fué."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 13,26.",
-        "text": "Y como la hierba salió é hizo fruto, entonces apareció también la cizaña."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 13,27.",
-        "text": "Y llegándose los siervos del padre de la familia, le dijeron: Señor, ¿no sembraste buena simiente en tu campo? ¿de dónde, pues, tiene cizaña?"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 13,28.",
-        "text": "Y Él les dijo: Un hombre enemigo ha hecho esto. Y los siervos le dijeron: ¿Quieres, pues, que vayamos y la cojamos?"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 13,29.",
-        "text": "Y Él dijo: No; porque cogiendo la cizaña, no arranquéis también con ella el trigo."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 13,30.",
-        "text": "Dejad crecer juntamente lo uno y lo otro hasta la siega; y al tiempo de la siega yo diré á los segadores: Coged primero la cizaña, y atadla en manojos para quemarla; mas recoged el trigo en mi alfolí."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 13,31.",
-        "text": "Otra parábola les propuso, diciendo: El reino de los cielos es semejante al grano de mostaza, que tomándolo alguno lo sembró en su campo:"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 13,32.",
-        "text": "El cual á la verdad es la más pequeña de todas las simientes; mas cuando ha crecido, es la mayor de las hortalizas, y se hace árbol, que vienen las aves del cielo y hacen nidos en sus ramas."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 13,33.",
-        "text": "Otra parábola les dijo: El reino de los cielos es semejante á la levadura que tomó una mujer, y escondió en tres medidas de harina, hasta que todo quedó leudo."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 13,34.",
-        "text": "Todo esto habló Jesús por parábolas á las gentes, y sin parábolas no les hablaba:"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 13,35.",
-        "text": "Para que se cumpliese lo que fué dicho por el profeta, que dijo: Abriré en parábolas mi boca; Rebosaré cosas escondidas desde la fundación del mundo."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 13,36.",
-        "text": "Entonces, despedidas las gentes, Jesús se vino á casa; y llegándose á Él sus discípulos, le dijeron: Decláranos la parábola de la cizaña del campo."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 13,37.",
-        "text": "Y respondiendo Él, les dijo: El que siembra la buena simiente es el Hijo del hombre;"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 13,38.",
-        "text": "Y el campo es el mundo; y la buena simiente son los hijos del reino, y la cizaña son los hijos del malo;"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 13,39.",
-        "text": "Y el enemigo que la sembró, es el diablo; y la siega es el fin del mundo, y los segadores son los ángeles."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 13,40.",
-        "text": "De manera que como es cogida la cizaña, y quemada al fuego, así será en el fin de este siglo."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 13,41.",
-        "text": "Enviará el Hijo del hombre sus ángeles, y cogerán de su reino todos los escándalos, y los que hacen iniquidad,"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 13,42.",
-        "text": "Y los echarán en el horno de fuego: allí será el lloro y el crujir de dientes."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 13,43.",
-        "text": "Entonces los justos resplandecerán como el sol en el reino de su Padre: el que tiene oídos para oir, oiga."
+        "context": "",
+        "ref": "Mt 13, 24-43",
+        "url": "https://www.conferenciaepiscopal.es/biblia/nuevo-testamento-mateo/#cap13"
       }
     ]
   },

@@ -105,40 +105,14 @@
     "deckPublicPath": "assets/presentations/2026-09-06-entre-tu-y-yo.pptx"
   },
   "gospel": {
-    "blocks": [
+    "summary": [
+      "Jesús propone afrontar el daño comenzando por una conversación directa y discreta, cuyo objetivo es recuperar a la persona, no vencerla. Si no hay escucha, invita a incorporar ayuda y después a la comunidad. La autoridad para discernir queda unida a la oración y a la promesa de su presencia cuando dos o tres se reúnen en su nombre."
+    ],
+    "ceeLinks": [
       {
-        "type": "heading",
-        "text": "Evangelio: Mt 18, 15-20"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 18,15.",
-        "text": "Por tanto, si tu hermano pecare contra ti, ve, y redargúyele entre ti y Él solo: si te oyere, has ganado á tu hermano."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 18,16.",
-        "text": "Mas si no te oyere, toma aún contigo uno ó dos, para que en boca de dos ó de tres testigos conste toda palabra."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 18,17.",
-        "text": "Y si no oyere á ellos, dilo á la iglesia: y si no oyere á la iglesia, tenle por étnico y publicano."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 18,18.",
-        "text": "De cierto os digo que todo lo que ligareis en la tierra, será ligado en el cielo; y todo lo que desatareis en la tierra, será desatado en el cielo."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 18,19.",
-        "text": "Otra vez os digo, que si dos de vosotros se convinieren en la tierra, de toda cosa que pidieren, les será hecho por mi Padre que está en los cielos."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 18,20.",
-        "text": "Porque donde están dos ó tres congregados en mi nombre, allí estoy en medio de ellos."
+        "context": "",
+        "ref": "Mt 18, 15-20",
+        "url": "https://www.conferenciaepiscopal.es/biblia/nuevo-testamento-mateo/#cap18"
       }
     ]
   },

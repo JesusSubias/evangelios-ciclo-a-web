@@ -105,50 +105,14 @@
     "deckPublicPath": "assets/presentations/2026-08-23-quien-soy-contigo.pptx"
   },
   "gospel": {
-    "blocks": [
+    "summary": [
+      "Jesús pregunta primero qué dice la gente sobre él y después qué creen sus propios discípulos. Pedro lo reconoce como Mesías e Hijo de Dios. Jesús recibe esa confesión como un don, le confía una responsabilidad para edificar la comunidad y habla de unas llaves orientadas a abrir y cuidar."
+    ],
+    "ceeLinks": [
       {
-        "type": "heading",
-        "text": "Evangelio: Mt 16, 13-20"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 16,13.",
-        "text": "Y viniendo Jesús á las partes de Cesarea de Filipo, preguntó á sus discípulos, diciendo: ¿Quién dicen los hombres que es el Hijo del hombre?"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 16,14.",
-        "text": "Y ellos dijeron: Unos, Juan el Bautista; y otros, Elías; y otros; Jeremías, ó alguno de los profetas."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 16,15.",
-        "text": "El les dice: Y vosotros, ¿quién decís que soy?"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 16,16.",
-        "text": "Y respondiendo Simón Pedro, dijo: Tú eres el Cristo, el Hijo del Dios viviente."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 16,17.",
-        "text": "Entonces, respondiendo Jesús, le dijo: Bienaventurado eres, Simón, hijo de Jonás; porque no te lo reveló carne ni sangre, mas mi Padre que está en los cielos."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 16,18.",
-        "text": "Mas yo también te digo, que tú eres Pedro, y sobre esta piedra edificaré mi iglesia; y las puertas del infierno no prevalecerán contra ella."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 16,19.",
-        "text": "Y á ti daré las llaves del reino de los cielos; y todo lo que ligares en la tierra será ligado en los cielos; y todo lo que desatares en la tierra será desatado en los cielos."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 16,20.",
-        "text": "Entonces mandó á sus discípulos que á nadie dijesen que Él era Jesús el Cristo."
+        "context": "",
+        "ref": "Mt 16, 13-20",
+        "url": "https://www.conferenciaepiscopal.es/biblia/nuevo-testamento-mateo/#cap16"
       }
     ]
   },

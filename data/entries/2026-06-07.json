@@ -105,50 +105,14 @@
     "deckPublicPath": "assets/presentations/2026-06-07-te-haces-pan.pptx"
   },
   "gospel": {
-    "blocks": [
+    "summary": [
+      "Jesús se presenta como pan vivo entregado para la vida del mundo. Comer su carne y beber su sangre expresa una comunión profunda y duradera con él, una vida recibida que atraviesa la muerte. Como Jesús vive por el Padre, quien se alimenta de él aprende a vivir desde esa misma relación."
+    ],
+    "ceeLinks": [
       {
-        "type": "heading",
-        "text": "Evangelio: Jn 6, 51-58"
-      },
-      {
-        "type": "verse",
-        "label": "Juan 6,51.",
-        "text": "Yo soy el pan vivo que he descendido del cielo: si alguno comiere de este pan, vivirá para siempre; y el pan que yo daré es mi carne, la cual yo daré por la vida del mundo."
-      },
-      {
-        "type": "verse",
-        "label": "Juan 6,52.",
-        "text": "Entonces los Judíos contendían entre sí, diciendo: ¿Cómo puede éste darnos su carne á comer?"
-      },
-      {
-        "type": "verse",
-        "label": "Juan 6,53.",
-        "text": "Y Jesús les dijo: De cierto, de cierto os digo: Si no comiereis la carne del Hijo del hombre, y bebiereis su sangre, no tendréis vida en vosotros."
-      },
-      {
-        "type": "verse",
-        "label": "Juan 6,54.",
-        "text": "El que come mi carne y bebe mi sangre, tiene vida eterna: y yo le resucitaré en el día postrero."
-      },
-      {
-        "type": "verse",
-        "label": "Juan 6,55.",
-        "text": "Porque mi carne es verdadera comida, y mi sangre es verdadera bebida."
-      },
-      {
-        "type": "verse",
-        "label": "Juan 6,56.",
-        "text": "El que come mi carne y bebe mi sangre, en mí permanece, y yo en Él."
-      },
-      {
-        "type": "verse",
-        "label": "Juan 6,57.",
-        "text": "Como me envió el Padre viviente, y yo vivo por el Padre, asimismo el que me come, Él también vivirá por mí."
-      },
-      {
-        "type": "verse",
-        "label": "Juan 6,58.",
-        "text": "Este es el pan que descendió del cielo: no como vuestros padres comieron el maná, y son muertos: el que come de este pan, vivirá eternamente."
+        "context": "",
+        "ref": "Jn 6, 51-58",
+        "url": "https://www.conferenciaepiscopal.es/biblia/juan/#cap6"
       }
     ]
   },

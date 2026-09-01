@@ -105,115 +105,14 @@
     "deckPublicPath": "assets/presentations/2026-02-15-que-tu-si-sea-si.pptx"
   },
   "gospel": {
-    "blocks": [
+    "summary": [
+      "Jesús afirma que no viene a eliminar la Ley, sino a llevarla a plenitud. Propone una justicia que alcanza las intenciones y las relaciones: reconciliarse antes de presentar la ofrenda, cuidar la fidelidad, no instrumentalizar a la otra persona y hablar con una verdad que no necesite juramentos para resultar creíble."
+    ],
+    "ceeLinks": [
       {
-        "type": "heading",
-        "text": "Evangelio: Mt 5, 17-37"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 5,17.",
-        "text": "No penséis que he venido para abrogar la ley ó los profetas: no he venido para abrogar, sino á cumplir."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 5,18.",
-        "text": "Porque de cierto os digo, que hasta que perezca el cielo y la tierra, ni una jota ni un tilde perecerá de la ley, hasta que todas las cosas sean hechas."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 5,19.",
-        "text": "De manera que cualquiera que infringiere uno de estos mandamientos muy pequeños, y así enseñare á los hombres, muy pequeño será llamado en el reino de los cielos: mas cualquiera que hiciere y enseñare, éste será llamado grande en el reino de los cielos."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 5,20.",
-        "text": "Porque os digo, que si vuestra justicia no fuere mayor que la de los escribas y de los Fariseos, no entraréis en el reino de los cielos."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 5,21.",
-        "text": "Oísteis que fué dicho á los antiguos: No matarás; mas cualquiera que matare, será culpado del juicio."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 5,22.",
-        "text": "Mas yo os digo, que cualquiera que se enojare locamente con su hermano, será culpado del juicio; y cualquiera que dijere á su hermano, Raca, será culpado del concejo; y cualquiera que dijere, Fatuo, será culpado del infierno del fuego."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 5,23.",
-        "text": "Por tanto, si trajeres tu presente al altar, y allí te acordares de que tu hermano tiene algo contra ti,"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 5,24.",
-        "text": "Deja allí tu presente delante del altar, y vete, vuelve primero en amistad con tu hermano, y entonces ven y ofrece tu presente."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 5,25.",
-        "text": "Concíliate con tu adversario presto, entre tanto que estás con Él en el camino; porque no acontezca que el adversario te entregue al juez, y el juez te entregue al alguacil, y seas echado en prisión."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 5,26.",
-        "text": "De cierto te digo, que no saldrás de allí, hasta que pagues el último cuadrante."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 5,27.",
-        "text": "Oísteis que fué dicho: No adulterarás:"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 5,28.",
-        "text": "Mas yo os digo, que cualquiera que mira á una mujer para codiciarla, ya adulteró con ella en su corazón."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 5,29.",
-        "text": "Por tanto, si tu ojo derecho te fuere ocasión de caer, sácalo, y échalo de ti: que mejor te es que se pierda uno de tus miembros, que no que todo tu cuerpo sea echado al infierno."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 5,30.",
-        "text": "Y si tu mano derecha te fuere ocasión de caer, córtala, y échala de ti: que mejor te es que se pierda uno de tus miembros, que no que todo tu cuerpo sea echado al infierno."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 5,31.",
-        "text": "También fué dicho: Cualquiera que repudiare á su mujer, déle carta de divorcio:"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 5,32.",
-        "text": "Mas yo os digo, que el que repudiare á su mujer, fuera de causa de fornicación, hace que ella adultere; y el que se casare con la repudiada, comete adulterio."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 5,33.",
-        "text": "Además habéis oído que fué dicho á los antiguos: No te perjurarás; mas pagarás al Señor tus juramentos."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 5,34.",
-        "text": "Mas yo os digo: No juréis en ninguna manera: ni por el cielo, porque es el trono de Dios;"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 5,35.",
-        "text": "Ni por la tierra, porque es el estrado de sus pies; ni por Jerusalem, porque es la ciudad del gran Rey."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 5,36.",
-        "text": "Ni por tu cabeza jurarás, porque no puedes hacer un cabello blanco ó negro."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 5,37.",
-        "text": "Mas sea vuestro hablar: Sí, sí; No, no; porque lo que es más de esto, de mal procede."
+        "context": "",
+        "ref": "Mt 5, 17-37",
+        "url": "https://www.conferenciaepiscopal.es/biblia/nuevo-testamento-mateo/#cap5"
       }
     ]
   },

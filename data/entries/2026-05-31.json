@@ -105,25 +105,14 @@
     "deckPublicPath": "assets/presentations/2026-05-31-tanto-amaste-al-mundo.pptx"
   },
   "gospel": {
-    "blocks": [
+    "summary": [
+      "El amor de Dios se manifiesta al entregar al Hijo para que el mundo encuentre vida, no condena. La respuesta humana ante esa iniciativa abre a la salvación, mientras el rechazo mantiene a la persona alejada de la luz recibida. El centro del pasaje es un amor que busca rescatar, no destruir."
+    ],
+    "ceeLinks": [
       {
-        "type": "heading",
-        "text": "Evangelio: Jn 3, 16-18"
-      },
-      {
-        "type": "verse",
-        "label": "Juan 3,16.",
-        "text": "Porque de tal manera amó Dios al mundo, que ha dado á su Hijo unigénito, para que todo aquel que en Él cree, no se pierda, mas tenga vida eterna."
-      },
-      {
-        "type": "verse",
-        "label": "Juan 3,17.",
-        "text": "Porque no envió Dios á su Hijo al mundo, para que condene al mundo, mas para que el mundo sea salvo por Él."
-      },
-      {
-        "type": "verse",
-        "label": "Juan 3,18.",
-        "text": "El que en Él cree, no es condenado; mas el que no cree, ya es condenado, porque no creyó en el nombre del unigénito Hijo de Dios."
+        "context": "",
+        "ref": "Jn 3, 16-18",
+        "url": "https://www.conferenciaepiscopal.es/biblia/juan/#cap3"
       }
     ]
   },

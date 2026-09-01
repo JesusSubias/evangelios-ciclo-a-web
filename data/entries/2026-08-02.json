@@ -105,55 +105,14 @@
     "deckPublicPath": "assets/presentations/2026-08-02-contabas-conmigo.pptx"
   },
   "gospel": {
-    "blocks": [
+    "summary": [
+      "Jesús busca un lugar apartado, pero una multitud lo sigue y despierta su compasión. Al caer la tarde, no acepta despedir a la gente con hambre: implica a los discípulos, recibe lo poco disponible, da gracias y lo hace circular. Todos comen y todavía queda alimento recogido."
+    ],
+    "ceeLinks": [
       {
-        "type": "heading",
-        "text": "Evangelio: Mt 14, 13-21"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 14,13.",
-        "text": "Y oyéndolo Jesús, se apartó de allí en un barco á un lugar desierto, apartado: y cuando las gentes lo oyeron, le siguieron á pie de las ciudades."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 14,14.",
-        "text": "Y saliendo Jesús, vió un gran gentío, y tuvo compasión de ellos, y sanó á los que de ellos había enfermos."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 14,15.",
-        "text": "Y cuando fué la tarde del día, se llegaron á Él sus discípulos, diciendo: El lugar es desierto, y el tiempo es ya pasado: despide las gentes, para que se vayan por las aldeas, y compren para sí de comer."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 14,16.",
-        "text": "Y Jesús les dijo: No tienen necesidad de irse: dadles vosotros de comer."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 14,17.",
-        "text": "Y ellos dijeron: No tenemos aquí sino cinco panes y dos peces."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 14,18.",
-        "text": "Y Él les dijo: Traédmelos acá."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 14,19.",
-        "text": "Y mandando á las gentes recostarse sobre la hierba, tomando los cinco panes y los dos peces, alzando los ojos al cielo, bendijo, y partió y dió los panes á los discípulos, y los discípulos á las gentes."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 14,20.",
-        "text": "Y comieron todos, y se hartaron; y alzaron lo que sobró de los pedazos, doce cestas llenas."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 14,21.",
-        "text": "Y los que comieron fueron como cinco mil hombres, sin las mujeres y los niños."
+        "context": "",
+        "ref": "Mt 14, 13-21",
+        "url": "https://www.conferenciaepiscopal.es/biblia/nuevo-testamento-mateo/#cap14"
       }
     ]
   },

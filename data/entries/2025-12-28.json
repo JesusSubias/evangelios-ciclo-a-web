@@ -105,54 +105,14 @@
     "deckPublicPath": "assets/presentations/2025-12-28-cuida-la-vida.pptx"
   },
   "gospel": {
-    "blocks": [
+    "summary": [
+      "José recibe sucesivas advertencias para proteger al niño y a María frente a la amenaza de Herodes. La familia huye a Egipto, espera allí y regresa cuando el peligro ha pasado; ante un nuevo riesgo, se establece finalmente en Nazaret. El relato presenta una familia guiada en medio de la incertidumbre y el desplazamiento."
+    ],
+    "ceeLinks": [
       {
-        "type": "heading",
-        "text": "Evangelio: Mt 2, 13-15. 19-23"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 2,13.",
-        "text": "Y partidos ellos, he aquí el ángel del Señor aparece en sueños á José, diciendo: Levántate, y toma al niño y á su madre, y huye á Egipto, y estáte allá hasta que yo te lo diga; porque ha de acontecer, que Herodes buscará al niño para matarlo."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 2,14.",
-        "text": "Y Él despertando, tomó al niño y á su madre de noche, y se fué á Egipto;"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 2,15.",
-        "text": "Y estuvo allá hasta la muerte de Herodes: para que se cumpliese lo que fué dicho por el Señor, por el profeta que dijo: De Egipto llamé á mi Hijo."
-      },
-      {
-        "type": "ellipsis",
-        "text": "[...]"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 2,19.",
-        "text": "Mas muerto Herodes, he aquí el ángel del Señor aparece en sueños á José en Egipto,"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 2,20.",
-        "text": "Diciendo: Levántate, y toma al niño y á su madre, y vete á tierra de Israel; que muertos son los que procuraban la muerte del niño."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 2,21.",
-        "text": "Entonces Él se levantó, y tomó al niño y á su madre, y se vino á tierra de Israel."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 2,22.",
-        "text": "Y oyendo que Archelao reinaba en Judea en lugar de Herodes su padre, temió ir allá: mas amonestado por revelación en sueños, se fué á las partes de Galilea."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 2,23.",
-        "text": "Y vino, y habitó en la ciudad que se llama Nazaret: para que se cumpliese lo que fué dicho por los profetas, que había de ser llamado Nazareno."
+        "context": "",
+        "ref": "Mt 2, 13-15. 19-23",
+        "url": "https://www.conferenciaepiscopal.es/biblia/nuevo-testamento-mateo/#cap2"
       }
     ]
   },

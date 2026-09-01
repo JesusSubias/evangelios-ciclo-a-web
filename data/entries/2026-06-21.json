@@ -105,50 +105,14 @@
     "deckPublicPath": "assets/presentations/2026-06-21-tu-me-sabes-contar.pptx"
   },
   "gospel": {
-    "blocks": [
+    "summary": [
+      "Jesús anima a sus enviados a no dejarse gobernar por el miedo. La verdad terminará saliendo a la luz y ninguna vida queda fuera del cuidado de Dios. Por eso pueden dar testimonio con libertad, sabiendo que su valor no depende de la aprobación de quienes pueden amenazarlos."
+    ],
+    "ceeLinks": [
       {
-        "type": "heading",
-        "text": "Evangelio: Mt 10, 26-33"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 10,26.",
-        "text": "Así que, no los temáis; porque nada hay encubierto, que no haya de ser manifestado; ni oculto, que no haya de saberse."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 10,27.",
-        "text": "Lo que os digo en tinieblas, decidlo en la luz; y lo que oís al oído predicadlo desde los terrados."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 10,28.",
-        "text": "Y no temáis á los que matan el cuerpo, mas al alma no pueden matar: temed antes á aquel que puede destruir el alma y el cuerpo en el infierno."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 10,29.",
-        "text": "¿No se venden dos pajarillos por un cuarto? Con todo, ni uno de ellos cae á tierra sin vuestro Padre."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 10,30.",
-        "text": "Pues aun vuestros cabellos están todos contados."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 10,31.",
-        "text": "Así que, no temáis: más valéis vosotros que muchos pajarillos."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 10,32.",
-        "text": "Cualquiera pues que me confesare delante de los hombres, le confesaré yo también delante de mi Padre que está en los cielos."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 10,33.",
-        "text": "Y cualquiera que me negare delante de los hombres, le negaré yo también delante de mi Padre que está en los cielos."
+        "context": "",
+        "ref": "Mt 10, 26-33",
+        "url": "https://www.conferenciaepiscopal.es/biblia/nuevo-testamento-mateo/#cap10"
       }
     ]
   },

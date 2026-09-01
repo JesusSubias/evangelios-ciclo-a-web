@@ -105,70 +105,14 @@
     "deckPublicPath": "assets/presentations/2026-08-09-ven.pptx"
   },
   "gospel": {
-    "blocks": [
+    "summary": [
+      "Mientras los discípulos luchan contra el viento, Jesús se acerca caminando sobre el agua y les pide confianza. Pedro intenta ir hacia él, pero el miedo lo hunde y entonces pide auxilio. Jesús lo toma de la mano, sube a la barca y la tormenta se calma, llevando al grupo a reconocer quién está con ellos."
+    ],
+    "ceeLinks": [
       {
-        "type": "heading",
-        "text": "Evangelio: Mt 14, 22-33"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 14,22.",
-        "text": "Y luego Jesús hizo á sus discípulos entrar en el barco, é ir delante de Él á la otra parte del lago, entre tanto que Él despedía á las gentes."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 14,23.",
-        "text": "Y despedidas las gentes, subió al monte, apartado, á orar: y como fué la tarde del día, estaba allí solo."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 14,24.",
-        "text": "Y ya el barco estaba en medio de la mar, atormentado de las ondas; porque el viento era contrario."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 14,25.",
-        "text": "Mas á la cuarta vela de la noche, Jesús fué á ellos andando sobre la mar."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 14,26.",
-        "text": "Y los discípulos, viéndole andar sobre la mar, se turbaron, diciendo: Fantasma es. Y dieron voces de miedo."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 14,27.",
-        "text": "Mas luego Jesús les habló, diciendo: Confiad, yo soy; no tengáis miedo."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 14,28.",
-        "text": "Entonces le respondió Pedro, y dijo: Señor, si tú eres, manda que yo vaya á ti sobre las aguas."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 14,29.",
-        "text": "Y Él dijo: Ven. Y descendiendo Pedro del barco, andaba sobre las aguas para ir á Jesús."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 14,30.",
-        "text": "Mas viendo el viento fuerte, tuvo miedo; y comenzándose á hundir, dió voces, diciendo: Señor, sálvame."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 14,31.",
-        "text": "Y luego Jesús, extendiendo la mano, trabó de Él, y le dice: Oh hombre de poca fe, ¿por qué dudaste?"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 14,32.",
-        "text": "Y como ellos entraron en el barco, sosegóse el viento."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 14,33.",
-        "text": "Entonces los que estaban en el barco, vinieron y le adoraron, diciendo: Verdaderamente eres Hijo de Dios."
+        "context": "",
+        "ref": "Mt 14, 22-33",
+        "url": "https://www.conferenciaepiscopal.es/biblia/nuevo-testamento-mateo/#cap14"
       }
     ]
   },

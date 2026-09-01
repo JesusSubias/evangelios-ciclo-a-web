@@ -105,50 +105,14 @@
     "deckPublicPath": "assets/presentations/2025-11-30-despierta-mi-vida.pptx"
   },
   "gospel": {
-    "blocks": [
+    "summary": [
+      "Jesús compara su venida con los días de Noé: la vida cotidiana seguía su curso y muchas personas no advirtieron lo decisivo hasta que fue demasiado tarde. Por eso invita a permanecer despiertos y preparados, porque el momento no puede calcularse."
+    ],
+    "ceeLinks": [
       {
-        "type": "heading",
-        "text": "Evangelio: Mt 24, 37-44"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 24,37.",
-        "text": "Mas como los días de Noé, así será la venida del Hijo del hombre."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 24,38.",
-        "text": "Porque como en los días antes del diluvio estaban comiendo y bebiendo, casándose y dando en casamiento, hasta el día que Noé entró en el arca,"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 24,39.",
-        "text": "Y no conocieron hasta que vino el diluvio y llevó á todos, así será también la venida del Hijo del hombre."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 24,40.",
-        "text": "Entonces estarán dos en el campo; el uno será tomado, y el otro será dejado:"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 24,41.",
-        "text": "Dos mujeres moliendo á un molinillo; la una será tomada, y la otra será dejada."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 24,42.",
-        "text": "Velad pues, porque no sabéis á qué hora ha de venir vuestro Señor."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 24,43.",
-        "text": "Esto empero sabed, que si el padre de la familia supiese á cuál vela el ladrón había de venir, velaría, y no dejaría minar su casa."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 24,44.",
-        "text": "Por tanto, también vosotros estad apercibidos; porque el Hijo del hombre ha de venir á la hora que no pensáis."
+        "context": "",
+        "ref": "Mt 24, 37-44",
+        "url": "https://www.conferenciaepiscopal.es/biblia/nuevo-testamento-mateo/#cap24"
       }
     ]
   },

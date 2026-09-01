@@ -62,7 +62,7 @@ const seasonColors = {
 };
 
 const app = document.querySelector("#app");
-const DATA_VERSION = "20260901-criterios-claros-v54";
+const DATA_VERSION = "20260901-resumenes-cee-v56";
 const OFFLINE_MESSAGE_TIMEOUT = 45000;
 const calendarWeekdays = ["L", "M", "X", "J", "V", "S", "D"];
 const monthFormatter = new Intl.DateTimeFormat("es-ES", { month: "long", year: "numeric" });
@@ -777,7 +777,7 @@ function renderReaderBody(entry) {
   }
   const activeTab = activeTabFor(entry);
   const tabs = [
-    { id: "evangelio", label: "Texto del Evangelio", icon: ICONS.book },
+    { id: "evangelio", label: "Resumen del Evangelio", icon: ICONS.book },
     { id: "pastoral", label: "Idea pastoral", icon: ICONS.light },
     ...(entry.meeting ? [{ id: "meeting", label: "Propuesta de reunión", icon: ICONS.people, className: "meeting-tab" }] : []),
   ];
@@ -809,7 +809,6 @@ function renderReaderBody(entry) {
       >
         ${activeTab === "evangelio" ? renderGospel(entry) : activeTab === "pastoral" ? renderPastoral(entry) : renderMeeting(entry.meeting)}
       </article>
-      <p class="source-note">${escapeHtml(state.manifest.sourceNotice)}</p>
     </div>
   `;
 }
@@ -834,15 +833,19 @@ function renderImageViewer(entry, imagePath) {
 
 function renderGospel(entry) {
   return `
-    <h3>Texto del Evangelio</h3>
-    <div class="gospel-blocks">
-      ${entry.gospel.blocks.map((block) => {
-        if (block.type === "heading") return `<div class="gospel-heading">${escapeHtml(block.text)}</div>`;
-        if (block.type === "ellipsis") return `<div class="ellipsis">[...]</div>`;
-        if (block.type === "verse") {
-          return `<p class="verse"><span class="verse-label">${escapeHtml(block.label)}</span><span>${escapeHtml(block.text)}</span></p>`;
-        }
-        return `<p>${escapeHtml(block.text)}</p>`;
+    <h3>Resumen del Evangelio</h3>
+    <div class="gospel-summary">
+      ${entry.gospel.summary.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
+    </div>
+    <div class="cee-gospel-links" aria-label="Texto bíblico completo">
+      ${entry.gospel.ceeLinks.map((link) => {
+        const visibleRef = link.context ? `${link.context}: ${link.ref}` : link.ref;
+        return `
+          <a class="cee-gospel-link" href="${escapeHtml(link.url)}" target="_blank" rel="noopener noreferrer">
+            <span>Leer ${escapeHtml(visibleRef)} en la Biblia oficial de la CEE</span>
+            <span aria-hidden="true">↗</span>
+          </a>
+        `;
       }).join("")}
     </div>
   `;

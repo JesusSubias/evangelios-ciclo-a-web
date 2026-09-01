@@ -105,70 +105,14 @@
     "deckPublicPath": "assets/presentations/2026-02-01-el-reino-empieza-abajo.pptx"
   },
   "gospel": {
-    "blocks": [
+    "summary": [
+      "Jesús proclama dichosas a personas que el mundo suele considerar pequeñas o derrotadas: pobres de espíritu, quienes lloran, quienes tienen hambre de justicia, misericordiosos, limpios de corazón, constructores de paz y perseguidos por hacer el bien. Les asegura que Dios abre para ellas consuelo, justicia, filiación y reino."
+    ],
+    "ceeLinks": [
       {
-        "type": "heading",
-        "text": "Evangelio: Mt 5, 1-12a"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 5,1.",
-        "text": "Y viendo las gentes, subió al monte; y sentándose, se llegaron á Él sus discípulos."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 5,2.",
-        "text": "Y abriendo su boca, les enseñaba, diciendo:"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 5,3.",
-        "text": "Bienaventurados los pobres en espíritu: porque de ellos es el reino de los cielos."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 5,4.",
-        "text": "Bienaventurados los que lloran: porque ellos recibirán consolación."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 5,5.",
-        "text": "Bienaventurados los mansos: porque ellos recibirán la tierra por heredad."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 5,6.",
-        "text": "Bienaventurados los que tienen hambre y sed de justicia: porque ellos serán hartos."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 5,7.",
-        "text": "Bienaventurados los misericordiosos: porque ellos alcanzarán misericordia."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 5,8.",
-        "text": "Bienaventurados los de limpio corazón: porque ellos verán á Dios."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 5,9.",
-        "text": "Bienaventurados los pacificadores: porque ellos serán llamados hijos de Dios."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 5,10.",
-        "text": "Bienaventurados los que padecen persecución por causa de la justicia: porque de ellos es el reino de los cielos."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 5,11.",
-        "text": "Bienaventurados sois cuando os vituperaren y os persiguieren, y dijeren de vosotros todo mal por mi causa, mintiendo."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 5,12.",
-        "text": "Gozaos y alegraos;"
+        "context": "",
+        "ref": "Mt 5, 1-12a",
+        "url": "https://www.conferenciaepiscopal.es/biblia/nuevo-testamento-mateo/#cap5"
       }
     ]
   },

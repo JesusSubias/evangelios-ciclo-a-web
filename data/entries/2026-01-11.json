@@ -105,35 +105,14 @@
     "deckPublicPath": "assets/presentations/2026-01-11-soy-tu-hijo.pptx"
   },
   "gospel": {
-    "blocks": [
+    "summary": [
+      "Jesús acude al Jordán para ser bautizado por Juan, aunque este se siente indigno de hacerlo. Al salir del agua, el Espíritu desciende sobre Jesús y una voz del cielo lo reconoce como el Hijo amado. La escena inaugura públicamente su misión desde la obediencia y la comunión con el Padre."
+    ],
+    "ceeLinks": [
       {
-        "type": "heading",
-        "text": "Evangelio: Mt 3, 13-17"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 3,13.",
-        "text": "Entonces Jesús vino de Galilea á Juan al Jordán, para ser bautizado de Él."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 3,14.",
-        "text": "Mas Juan lo resistía mucho, diciendo: Yo he menester ser bautizado de ti, ¿y tú vienes á mí?"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 3,15.",
-        "text": "Empero respondiendo Jesús le dijo: Deja ahora; porque así nos conviene cumplir toda justicia. Entonces le dejó."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 3,16.",
-        "text": "Y Jesús, después que fué bautizado, subió luego del agua; y he aquí los cielos le fueron abiertos, y vió al Espíritu de Dios que descendía como paloma, y venía sobre Él."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 3,17.",
-        "text": "Y he aquí una voz de los cielos que decía: Este es mi Hijo amado, en el cual tengo contentamiento."
+        "context": "",
+        "ref": "Mt 3, 13-17",
+        "url": "https://www.conferenciaepiscopal.es/biblia/nuevo-testamento-mateo/#cap3"
       }
     ]
   },

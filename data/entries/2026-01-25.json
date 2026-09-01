@@ -105,70 +105,14 @@
     "deckPublicPath": "assets/presentations/2026-01-25-sigueme.pptx"
   },
   "gospel": {
-    "blocks": [
+    "summary": [
+      "Tras la detención de Juan, Jesús comienza a anunciar en Galilea la cercanía del reino de Dios. Junto al lago llama a dos parejas de hermanos que dejan sus redes y lo siguen. Después recorre la región enseñando, proclamando la buena noticia y atendiendo a quienes sufren."
+    ],
+    "ceeLinks": [
       {
-        "type": "heading",
-        "text": "Evangelio: Mt 4, 12-23"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 4,12.",
-        "text": "Mas oyendo Jesús que Juan era preso, se volvió á Galilea;"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 4,13.",
-        "text": "Y dejando á Nazaret, vino y habitó en Capernaum, ciudad marítima, en los confines de Zabulón y de Nephtalim:"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 4,14.",
-        "text": "Para que se cumpliese lo que fué dicho por el profeta Isaías, que dijo:"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 4,15.",
-        "text": "La tierra de Zabulón, y la tierra de Nephtalim, Camino de la mar, de la otra parte del Jordán, Galilea de los Gentiles;"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 4,16.",
-        "text": "El pueblo asentado en tinieblas, Vió gran luz; Y á los sentados en región y sombra de muerte, Luz les esclareció."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 4,17.",
-        "text": "Desde entonces comenzó Jesús á predicar, y á decir: Arrepentíos, que el reino de los cielos se ha acercado."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 4,18.",
-        "text": "Y andando Jesús junto á la mar de Galilea, vió á dos hermanos, Simón, que es llamado Pedro, y Andrés su hermano, que echaban la red en la mar; porque eran pescadores."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 4,19.",
-        "text": "Y díceles: Venid en pos de mí, y os haré pescadores de hombres."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 4,20.",
-        "text": "Ellos entonces, dejando luego las redes, le siguieron."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 4,21.",
-        "text": "Y pasando de allí vió otros dos hermanos, Jacobo, hijo de Zebedeo, y Juan su hermano, en el barco con Zebedeo, su padre, que remendaban sus redes; y los llamó."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 4,22.",
-        "text": "Y ellos, dejando luego el barco y á su padre, le siguieron."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 4,23.",
-        "text": "Y rodeó Jesús toda Galilea, enseñando en las sinagogas de ellos, y predicando el evangelio del reino, y sanando toda enfermedad y toda dolencia en el pueblo."
+        "context": "",
+        "ref": "Mt 4, 12-23",
+        "url": "https://www.conferenciaepiscopal.es/biblia/nuevo-testamento-mateo/#cap4"
       }
     ]
   },

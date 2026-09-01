@@ -105,35 +105,14 @@
     "deckPublicPath": "assets/presentations/2026-05-17-id.pptx"
   },
   "gospel": {
-    "blocks": [
+    "summary": [
+      "Los once discípulos se encuentran con Jesús resucitado en Galilea; lo adoran, aunque algunos todavía dudan. Jesús los envía a todos los pueblos para hacer discípulos, bautizar y enseñar su camino. La misión queda sostenida por una promesa: él permanecerá con ellos todos los días."
+    ],
+    "ceeLinks": [
       {
-        "type": "heading",
-        "text": "Evangelio: Mt 28, 16-20"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 28,16.",
-        "text": "Mas los once discípulos se fueron á Galilea, al monte donde Jesús les había ordenado."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 28,17.",
-        "text": "Y como le vieron, le adoraron: mas algunos dudaban."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 28,18.",
-        "text": "Y llegando Jesús, les habló, diciendo: Toda potestad me es dada en el cielo y en la tierra."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 28,19.",
-        "text": "Por tanto, id, y doctrinad á todos los Gentiles, bautizándolos en el nombre del Padre, y del Hijo, y del Espíritu Santo:"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 28,20.",
-        "text": "Enseñándoles que guarden todas las cosas que os he mandado: y he aquí, yo estoy con vosotros todos los días, hasta el fin del mundo. Amén."
+        "context": "",
+        "ref": "Mt 28, 16-20",
+        "url": "https://www.conferenciaepiscopal.es/biblia/nuevo-testamento-mateo/#cap28"
       }
     ]
   },

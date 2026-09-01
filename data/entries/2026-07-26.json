@@ -105,55 +105,14 @@
     "deckPublicPath": "assets/presentations/2026-07-26-todo-hablaba-de-ti.pptx"
   },
   "gospel": {
-    "blocks": [
+    "summary": [
+      "El reino de los cielos se parece a un tesoro descubierto y a una perla de gran valor: quien los encuentra reorganiza con alegría sus prioridades. También se parece a una red que recoge peces diversos y solo después permite separar. Jesús pregunta a sus discípulos si han comprendido y los invita a unir lo nuevo con lo recibido."
+    ],
+    "ceeLinks": [
       {
-        "type": "heading",
-        "text": "Evangelio: Mt 13, 44-52"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 13,44.",
-        "text": "Además, el reino de los cielos es semejante al tesoro escondido en el campo; el cual hallado, el hombre lo encubre, y de gozo de ello va, y vende todo lo que tiene, y compra aquel campo."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 13,45.",
-        "text": "También el reino de los cielos es semejante al hombre tratante, que busca buenas perlas;"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 13,46.",
-        "text": "Que hallando una preciosa perla, fué y vendió todo lo que tenía, y la compró."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 13,47.",
-        "text": "Asimismo el reino de los cielos es semejante á la red, que echada en la mar, coge de todas suertes de peces:"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 13,48.",
-        "text": "La cual estando llena, la sacaron á la orilla; y sentados, cogieron lo bueno en vasos, y lo malo echaron fuera."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 13,49.",
-        "text": "Así será al fin del siglo: saldrán los ángeles, y apartarán á los malos de entre los justos,"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 13,50.",
-        "text": "Y los echarán en el horno del fuego: allí será el lloro y el crujir de dientes."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 13,51.",
-        "text": "Díceles Jesús: ¿Habéis entendido todas estas cosas? Ellos responden: Sí, Señor."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 13,52.",
-        "text": "Y Él les dijo: Por eso todo escriba docto en el reino de los cielos, es semejante á un padre de familia, que saca de su tesoro cosas nuevas y cosas viejas."
+        "context": "",
+        "ref": "Mt 13, 44-52",
+        "url": "https://www.conferenciaepiscopal.es/biblia/nuevo-testamento-mateo/#cap13"
       }
     ]
   },

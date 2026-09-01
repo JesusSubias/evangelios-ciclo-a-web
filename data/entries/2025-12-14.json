@@ -105,60 +105,14 @@
     "deckPublicPath": "assets/presentations/2025-12-14-en-medio-de-vosotros.pptx"
   },
   "gospel": {
-    "blocks": [
+    "summary": [
+      "Desde la prisión, Juan envía a sus discípulos a preguntar si Jesús es realmente el esperado. Jesús responde señalando los signos que están ocurriendo: personas heridas recuperan vida y la buena noticia alcanza a los pobres. Después reconoce públicamente la grandeza y la misión profética de Juan."
+    ],
+    "ceeLinks": [
       {
-        "type": "heading",
-        "text": "Evangelio: Mt 11, 2-11"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 11,2.",
-        "text": "Y oyendo Juan en la prisión los hechos de Cristo, le envió dos de sus discípulos,"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 11,3.",
-        "text": "Diciendo: ¿Eres tú aquél que había de venir, ó esperaremos á otro?"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 11,4.",
-        "text": "Y respondiendo Jesús, les dijo: Id, y haced saber á Juan las cosas que oís y veis:"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 11,5.",
-        "text": "Los ciegos ven, y los cojos andan; los leprosos son limpiados, y los sordos oyen; los muertos son resucitados, y á los pobres es anunciado el evangelio."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 11,6.",
-        "text": "Y bienaventurado es el que no fuere escandalizado en mí."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 11,7.",
-        "text": "E idos ellos, comenzó Jesús á decir de Juan á las gentes: ¿Qué salisteis á ver al desierto? ¿una caña que es meneada del viento?"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 11,8.",
-        "text": "Mas ¿qué salisteis á ver? ¿un hombre cubierto de delicados vestidos? He aquí, los que traen vestidos delicados, en las casas de los reyes están."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 11,9.",
-        "text": "Mas ¿qué salisteis á ver? ¿un profeta? También os digo, y más que profeta."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 11,10.",
-        "text": "Porque éste es de quien está escrito: He aquí, yo envío mi mensajero delante de tu faz, Que aparejará tu camino delante de ti."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 11,11.",
-        "text": "De cierto os digo, que no se levantó entre los que nacen de mujeres otro mayor que Juan el Bautista; mas el que es muy más pequeño en el reino de los cielos, mayor es que Él."
+        "context": "",
+        "ref": "Mt 11, 2-11",
+        "url": "https://www.conferenciaepiscopal.es/biblia/nuevo-testamento-mateo/#cap11"
       }
     ]
   },

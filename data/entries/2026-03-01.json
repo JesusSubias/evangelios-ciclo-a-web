@@ -105,55 +105,14 @@
     "deckPublicPath": "assets/presentations/2026-03-01-tres-tiendas.pptx"
   },
   "gospel": {
-    "blocks": [
+    "summary": [
+      "Jesús lleva a Pedro, Santiago y Juan a un monte, donde su rostro y su ropa se llenan de luz y aparecen Moisés y Elías. Una voz invita a escuchar al Hijo amado. Los discípulos caen asustados, pero Jesús los toca, los levanta y les pide guardar lo vivido hasta después de la resurrección."
+    ],
+    "ceeLinks": [
       {
-        "type": "heading",
-        "text": "Evangelio: Mt 17, 1-9"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 17,1.",
-        "text": "Y después de seis días, Jesús toma á Pedro, y á Jacobo, y á Juan su hermano, y los lleva aparte á un monte alto:"
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 17,2.",
-        "text": "Y se transfiguró delante de ellos; y resplandeció su rostro como el sol, y sus vestidos fueron blancos como la luz."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 17,3.",
-        "text": "Y he aquí les aparecieron Moisés y Elías, hablando con Él."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 17,4.",
-        "text": "Y respondiendo Pedro, dijo á Jesús: Señor, bien es que nos quedemos aquí: si quieres, hagamos aquí tres pabellones: para ti uno, y para Moisés otro, y otro para Elías."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 17,5.",
-        "text": "Y estando aún Él hablando, he aquí una nube de luz que los cubrió; y he aquí una voz de la nube, que dijo: Este es mi Hijo amado, en el cual tomo contentamiento: á él oid."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 17,6.",
-        "text": "Y oyendo esto los discípulos, cayeron sobre sus rostros, y temieron en gran manera."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 17,7.",
-        "text": "Entonces Jesús llegando, los tocó, y dijo: Levantaos, y no temáis."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 17,8.",
-        "text": "Y alzando ellos sus ojos, á nadie vieron, sino á solo Jesús."
-      },
-      {
-        "type": "verse",
-        "label": "Mateo 17,9.",
-        "text": "Y como descendieron del monte, les mandó Jesús, diciendo: No digáis á nadie la visión, hasta que el Hijo del hombre resucite de los muertos."
+        "context": "",
+        "ref": "Mt 17, 1-9",
+        "url": "https://www.conferenciaepiscopal.es/biblia/nuevo-testamento-mateo/#cap17"
       }
     ]
   },

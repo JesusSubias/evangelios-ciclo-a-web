@@ -1,8 +1,12 @@
 {
-  "generatedAt": "2026-09-01T14:41:48.913816+00:00",
+  "generatedAt": "2026-09-01T15:29:35.269193+00:00",
   "cutoff": "2026-09-06",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
-  "sourceNotice": "Texto biblico de trabajo: Reina-Valera 1909. La version liturgica oficial CEE 2010 no se reproduce completa sin fuente o licencia autorizada.",
+  "bibleContent": {
+    "kind": "summary",
+    "fullTextProvider": "Conferencia Episcopal Española",
+    "providerUrl": "https://www.conferenciaepiscopal.es/biblia/"
+  },
   "assets": {
     "cover": "assets/images/cover.jpg",
     "audioPolicy": "mp3/m4a/mp4/opus publicados; WAV reservado como master opcional"

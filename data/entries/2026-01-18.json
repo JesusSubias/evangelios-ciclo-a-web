@@ -105,40 +105,14 @@
     "deckPublicPath": "assets/presentations/2026-01-18-contempla-al-cordero.pptx"
   },
   "gospel": {
-    "blocks": [
+    "summary": [
+      "Juan ve acercarse a Jesús y lo señala como el Cordero de Dios que carga con el pecado del mundo. Explica que reconoció su identidad al contemplar al Espíritu permanecer sobre él. Su testimonio conduce a confesar que Jesús es el Hijo de Dios."
+    ],
+    "ceeLinks": [
       {
-        "type": "heading",
-        "text": "Evangelio: Jn 1, 29-34"
-      },
-      {
-        "type": "verse",
-        "label": "Juan 1,29.",
-        "text": "El siguiente día ve Juan á Jesús que venía á Él, y dice: He aquí el Cordero de Dios, que quita el pecado del mundo."
-      },
-      {
-        "type": "verse",
-        "label": "Juan 1,30.",
-        "text": "Este es del que dije: Tras mí viene un varón, el cual es antes de mí: porque era primero que yo."
-      },
-      {
-        "type": "verse",
-        "label": "Juan 1,31.",
-        "text": "Y yo no le conocía; más para que fuese manifestado á Israel, por eso vine yo bautizando con agua."
-      },
-      {
-        "type": "verse",
-        "label": "Juan 1,32.",
-        "text": "Y Juan dió testimonio, diciendo: Vi al Espíritu que descendía del cielo como paloma, y reposó sobre Él."
-      },
-      {
-        "type": "verse",
-        "label": "Juan 1,33.",
-        "text": "Y yo no le conocía; mas el que me envió á bautizar con agua, aquél me dijo: Sobre quien vieres descender el Espíritu, y que reposa sobre Él, éste es el que bautiza con Espíritu Santo."
-      },
-      {
-        "type": "verse",
-        "label": "Juan 1,34.",
-        "text": "Y yo le vi, y he dado testimonio que éste es el Hijo de Dios."
+        "context": "",
+        "ref": "Jn 1, 29-34",
+        "url": "https://www.conferenciaepiscopal.es/biblia/juan/#cap1"
       }
     ]
   },

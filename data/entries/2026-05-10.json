@@ -105,45 +105,14 @@
     "deckPublicPath": "assets/presentations/2026-05-10-me-haces-recordar.pptx"
   },
   "gospel": {
-    "blocks": [
+    "summary": [
+      "Jesús relaciona el amor con una fidelidad concreta a su palabra y promete que los discípulos no quedarán abandonados. El Padre enviará otro defensor, el Espíritu de la verdad, que permanecerá con ellos. Aunque el mundo deje de verlo, la vida de Jesús sostendrá una comunión nueva entre él, el Padre y la comunidad."
+    ],
+    "ceeLinks": [
       {
-        "type": "heading",
-        "text": "Evangelio: Jn 14, 15-21"
-      },
-      {
-        "type": "verse",
-        "label": "Juan 14,15.",
-        "text": "Si me amáis, guardad mis mandamientos;"
-      },
-      {
-        "type": "verse",
-        "label": "Juan 14,16.",
-        "text": "Y yo rogaré al Padre, y os dará otro Consolador, para que esté con vosotros para siempre:"
-      },
-      {
-        "type": "verse",
-        "label": "Juan 14,17.",
-        "text": "Al Espíritu de verdad, al cual el mundo no puede recibir, porque no le ve, ni le conoce: mas vosotros le conocéis; porque está con vosotros, y será en vosotros."
-      },
-      {
-        "type": "verse",
-        "label": "Juan 14,18.",
-        "text": "No os dejaré huérfanos: vendré á vosotros."
-      },
-      {
-        "type": "verse",
-        "label": "Juan 14,19.",
-        "text": "Aun un poquito, y el mundo no me verá más; empero vosotros me veréis; porque yo vivo, y vosotros también viviréis."
-      },
-      {
-        "type": "verse",
-        "label": "Juan 14,20.",
-        "text": "En aquel día vosotros conoceréis que yo estoy en mi Padre, y vosotros en mí, y yo en vosotros."
-      },
-      {
-        "type": "verse",
-        "label": "Juan 14,21.",
-        "text": "El que tiene mis mandamientos, y los guarda, aquél es el que me ama; y el que me ama, será amado de mi Padre, y yo le amaré, y me manifestaré á Él."
+        "context": "",
+        "ref": "Jn 14, 15-21",
+        "url": "https://www.conferenciaepiscopal.es/biblia/juan/#cap14"
       }
     ]
   },
