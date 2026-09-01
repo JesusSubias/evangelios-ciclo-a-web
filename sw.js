@@ -1,4 +1,4 @@
-const APP_VERSION = "20260901-evangelio-integrado-v60";
+const APP_VERSION = "20260901-evangelio-integrado-v61";
 const CACHE_PREFIX = "evgl-";
 const SHELL_CACHE = `${CACHE_PREFIX}shell-${APP_VERSION}`;
 const RUNTIME_CACHE = `${CACHE_PREFIX}runtime-${APP_VERSION}`;
@@ -109,7 +109,7 @@ async function networkFirst(request, fallbackPath = "") {
 }
 
 async function cacheFirst(request) {
-  const cached = await caches.match(request, { ignoreSearch: true });
+  const cached = await caches.match(request);
   if (cached) return cached;
   const cache = await caches.open(RUNTIME_CACHE);
   const response = await fetch(request);
