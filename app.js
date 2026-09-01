@@ -62,7 +62,7 @@ const seasonColors = {
 };
 
 const app = document.querySelector("#app");
-const DATA_VERSION = "20260901-resumenes-cee-v56";
+const DATA_VERSION = "20260901-resumenes-cee-v57";
 const OFFLINE_MESSAGE_TIMEOUT = 45000;
 const calendarWeekdays = ["L", "M", "X", "J", "V", "S", "D"];
 const monthFormatter = new Intl.DateTimeFormat("es-ES", { month: "long", year: "numeric" });
@@ -187,14 +187,28 @@ async function fetchEntryPayload(entryId) {
   const summary = entrySummary(entryId);
   if (!summary) throw new Error("La ficha solicitada no existe");
 
-  const request = fetch(versionedAssetPath(summary.payloadPath), { cache: "no-store" })
-    .then(async (response) => {
-      if (!response.ok) throw new Error(`No se pudo cargar la ficha (${response.status})`);
-      const payload = await response.json();
-      if (payload.id !== entryId) throw new Error("La ficha recibida no coincide con la solicitada");
-      state.entryPayloads.set(entryId, payload);
-      return payload;
-    })
+  const payloadUrl = versionedAssetPath(summary.payloadPath);
+  const loadPayload = async (attempt = 0) => {
+    if (attempt) await new Promise((resolve) => window.setTimeout(resolve, attempt * 600));
+    const refresh = attempt ? `&schema=summary-v1&refresh=${Date.now()}-${attempt}` : "";
+    const response = await fetch(`${payloadUrl}${refresh}`, { cache: "no-store" });
+    if (!response.ok) throw new Error(`No se pudo cargar la ficha (${response.status})`);
+    const payload = await response.json();
+    if (payload.id !== entryId) throw new Error("La ficha recibida no coincide con la solicitada");
+    return payload;
+  };
+
+  const request = (async () => {
+    let payload = await loadPayload();
+    for (let attempt = 1; attempt <= 2 && !Array.isArray(payload.gospel?.summary); attempt += 1) {
+      payload = await loadPayload(attempt);
+    }
+    if (!Array.isArray(payload.gospel?.summary) || !Array.isArray(payload.gospel?.ceeLinks)) {
+      throw new Error("La ficha todavía se está actualizando. Vuelve a intentarlo en unos instantes.");
+    }
+    state.entryPayloads.set(entryId, payload);
+    return payload;
+  })()
     .finally(() => entryPayloadRequests.delete(entryId));
 
   entryPayloadRequests.set(entryId, request);
