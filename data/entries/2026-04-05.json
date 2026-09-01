@@ -1,5 +1,6 @@
 {
   "id": "2026-04-05",
+  "contentSchema": "integrated-gospel-v2",
   "readings": [
     {
       "context": "",
@@ -10,7 +11,7 @@
       "ref": "Lc 24, 13-35"
     }
   ],
-  "pastoral": "La Pascua empieza con carreras, desconcierto y una tumba vacía: la fe nace muchas veces antes de entenderlo todo. El Resucitado abre una esperanza más fuerte que el fracaso, la culpa o la muerte interior. No se trata de optimismo superficial, sino de descubrir que Dios puede empezar vida nueva precisamente donde todo parecía cerrado.",
+  "pastoral": "La fe pascual no exige comprenderlo todo desde el primer momento. Nace entre carreras, preguntas, signos discretos y una ausencia que empieza a leerse de otra manera. El Resucitado abre una esperanza más fuerte que el fracaso, la culpa o la muerte interior: no un optimismo superficial, sino la confianza en que Dios puede comenzar vida nueva precisamente donde todo parecía terminado.",
   "meeting": {
     "title": "Se encontraron la Vida",
     "subtitle": "Pascua: aprender a leer signos de vida",
@@ -111,7 +112,8 @@
   "gospel": {
     "summary": [
       "María Magdalena encuentra abierto el sepulcro y avisa a Pedro y al discípulo amado. Ambos corren hasta allí, observan los lienzos y comienzan a comprender que la ausencia del cuerpo no es un robo, sino el comienzo de algo nuevo. La fe pascual nace entre preguntas, signos y una comprensión todavía en camino.",
-      "Como lectura opcional, el relato de Emaús acompaña a dos discípulos desanimados: Jesús camina con ellos sin ser reconocido, ilumina las Escrituras y se da a conocer al partir el pan. Entonces regresan a la comunidad para compartir lo vivido."
+      "Como lectura opcional, el relato de Emaús acompaña a dos discípulos desanimados: Jesús camina con ellos sin ser reconocido, ilumina las Escrituras y se da a conocer al partir el pan. Entonces regresan a la comunidad para compartir lo vivido.",
+      "La fe pascual no exige comprenderlo todo desde el primer momento. Nace entre carreras, preguntas, signos discretos y una ausencia que empieza a leerse de otra manera. El Resucitado abre una esperanza más fuerte que el fracaso, la culpa o la muerte interior: no un optimismo superficial, sino la confianza en que Dios puede comenzar vida nueva precisamente donde todo parecía terminado."
     ],
     "ceeLinks": [
       {

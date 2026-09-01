@@ -1,5 +1,6 @@
 {
   "id": "2026-03-29",
+  "contentSchema": "integrated-gospel-v2",
   "readings": [
     {
       "context": "Procesión",
@@ -10,7 +11,7 @@
       "ref": "Mt 26, 14 - 27, 66"
     }
   ],
-  "pastoral": "Ramos muestra lo fácil que es pasar del entusiasmo de la multitud al abandono de la cruz. La Pasión pregunta qué tipo de seguimiento elegimos cuando la fe deja de ser celebrada o cómoda. Jesús no salva desde el espectáculo, sino desde un amor fiel hasta el extremo. Seguirle es aprender una coherencia que no depende del aplauso.",
+  "pastoral": "El contraste entre la aclamación y el abandono pregunta qué sostiene el seguimiento cuando la fe deja de resultar cómoda o celebrada. Jesús no salva desde el espectáculo, sino desde un amor fiel hasta el extremo. Permanecer con él en la Pasión es aprender una coherencia que no depende del aplauso y acompañar el dolor sin apresurarse a cubrir con palabras el silencio del sábado.",
   "meeting": {
     "title": "Hosanna",
     "subtitle": "Del aplauso a la fidelidad que permanece",
@@ -111,7 +112,8 @@
   "gospel": {
     "summary": [
       "Jesús entra en Jerusalén montado humildemente mientras la multitud lo aclama. Poco después comparte la última cena, atraviesa la traición, la soledad, el juicio y la violencia, y muere en la cruz. El relato muestra también el miedo y la fragilidad de los discípulos, la fidelidad de quienes permanecen cerca y la entrega de Jesús hasta el final.",
-      "La pasión termina con el sepulcro vigilado, dejando a la comunidad ante el silencio del sábado y una esperanza que todavía no puede ver."
+      "La pasión termina con el sepulcro vigilado, dejando a la comunidad ante el silencio del sábado y una esperanza que todavía no puede ver.",
+      "El contraste entre la aclamación y el abandono pregunta qué sostiene el seguimiento cuando la fe deja de resultar cómoda o celebrada. Jesús no salva desde el espectáculo, sino desde un amor fiel hasta el extremo. Permanecer con él en la Pasión es aprender una coherencia que no depende del aplauso y acompañar el dolor sin apresurarse a cubrir con palabras el silencio del sábado."
     ],
     "ceeLinks": [
       {

@@ -1,12 +1,13 @@
 {
   "id": "2026-06-07",
+  "contentSchema": "integrated-gospel-v2",
   "readings": [
     {
       "context": "",
       "ref": "Jn 6, 51-58"
     }
   ],
-  "pastoral": "En el Corpus, Jesús no se queda como idea admirable: se hace pan, comida, vida entregada. La Eucaristía enseña que el amor verdadero se parte y se comparte. Comulgar no es solo recibir consuelo individual, sino dejarse transformar en cuerpo ofrecido para otros: mesa abierta, presencia concreta y servicio donde hay hambre de sentido y de cuidado.",
+  "pastoral": "La Eucaristía no deja a Jesús como una idea admirable: lo recibe como alimento y vida compartida. Comulgar es dejar que su entrega transforme también la nuestra. El pan partido cuestiona una fe reducida al consuelo individual y la abre a una mesa donde hay lugar para otros, a una presencia concreta y a un servicio capaz de reconocer las distintas hambres que atraviesan la comunidad.",
   "meeting": {
     "title": "Te haces Pan",
     "subtitle": "Recibir la vida de Jesús para compartirla",
@@ -106,7 +107,8 @@
   },
   "gospel": {
     "summary": [
-      "Jesús se presenta como pan vivo entregado para la vida del mundo. Comer su carne y beber su sangre expresa una comunión profunda y duradera con él, una vida recibida que atraviesa la muerte. Como Jesús vive por el Padre, quien se alimenta de él aprende a vivir desde esa misma relación."
+      "Jesús se presenta como pan vivo entregado para la vida del mundo. Comer su carne y beber su sangre expresa una comunión profunda y duradera con él, una vida recibida que atraviesa la muerte. Como Jesús vive por el Padre, quien se alimenta de él aprende a vivir desde esa misma relación.",
+      "La Eucaristía no deja a Jesús como una idea admirable: lo recibe como alimento y vida compartida. Comulgar es dejar que su entrega transforme también la nuestra. El pan partido cuestiona una fe reducida al consuelo individual y la abre a una mesa donde hay lugar para otros, a una presencia concreta y a un servicio capaz de reconocer las distintas hambres que atraviesan la comunidad."
     ],
     "ceeLinks": [
       {

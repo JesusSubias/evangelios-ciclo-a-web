@@ -1,12 +1,13 @@
 {
   "id": "2026-01-04",
+  "contentSchema": "integrated-gospel-v2",
   "readings": [
     {
       "context": "",
       "ref": "Jn 1, 1-18"
     }
   ],
-  "pastoral": "El Verbo se hace carne: Dios no se queda lejos ni habla desde fuera, entra en la vida concreta. Este Evangelio dice que la respuesta no es una idea abstracta, sino una presencia que habita entre nosotros. La fe comienza cuando dejamos que la Palabra ilumine nuestras sombras y dé nombre a nuestra vida.",
+  "pastoral": "Que la Palabra se haga carne significa que Dios no permanece lejos ni habla desde fuera: entra en la existencia concreta, con su belleza y sus sombras. La fe cristiana no comienza en una idea abstracta, sino en una presencia que habita entre nosotros. Acogerla es permitir que su luz dé nombre a nuestra vida y que su gracia transforme la manera de mirar el mundo y de encontrarnos con los demás.",
   "meeting": {
     "title": "Viniste a vivir mi vida",
     "subtitle": "Dios entra en la vida concreta",
@@ -106,7 +107,8 @@
   },
   "gospel": {
     "summary": [
-      "El prólogo de Juan presenta a Jesús como la Palabra eterna de Dios, origen de la vida y luz que ninguna oscuridad puede vencer. Esa Palabra entra en la historia y comparte plenamente la condición humana. Quienes la reciben descubren una relación nueva con Dios y contemplan en Jesús una gracia que revela al Padre."
+      "El prólogo de Juan presenta a Jesús como la Palabra eterna de Dios, origen de la vida y luz que ninguna oscuridad puede vencer. Esa Palabra entra en la historia y comparte plenamente la condición humana. Quienes la reciben descubren una relación nueva con Dios y contemplan en Jesús una gracia que revela al Padre.",
+      "Que la Palabra se haga carne significa que Dios no permanece lejos ni habla desde fuera: entra en la existencia concreta, con su belleza y sus sombras. La fe cristiana no comienza en una idea abstracta, sino en una presencia que habita entre nosotros. Acogerla es permitir que su luz dé nombre a nuestra vida y que su gracia transforme la manera de mirar el mundo y de encontrarnos con los demás."
     ],
     "ceeLinks": [
       {

@@ -1,12 +1,13 @@
 {
   "id": "2025-12-07",
+  "contentSchema": "integrated-gospel-v2",
   "readings": [
     {
       "context": "",
       "ref": "Mt 3, 1-12"
     }
   ],
-  "pastoral": "Juan Bautista recuerda que la fe no se sostiene solo con etiquetas, tradición o buena imagen: necesita conversión concreta. Preparar el camino del Señor significa revisar hábitos, lenguaje, relaciones y prioridades, y preguntarse qué frutos reales produce la vida. El Evangelio no humilla, pero sí despierta: Dios viene cerca y pide un corazón menos cómodo y más verdadero.",
+  "pastoral": "Preparar el camino del Señor exige algo más que conservar etiquetas, tradición o buena imagen. Supone revisar hábitos, lenguaje, relaciones y prioridades, y preguntarse qué frutos reales está produciendo la vida. La llamada de Juan no busca humillar, sino despertar: Dios viene cerca y ofrece la posibilidad de un corazón menos cómodo, más libre y más verdadero.",
   "meeting": {
     "title": "Va sin precio",
     "subtitle": "Conversión que produce fruto",
@@ -106,7 +107,8 @@
   },
   "gospel": {
     "summary": [
-      "Juan el Bautista aparece en el desierto llamando a una conversión que produzca frutos concretos. Advierte que la pertenencia religiosa no sustituye una vida transformada y anuncia a uno más fuerte, que bautizará con Espíritu Santo y fuego."
+      "Juan el Bautista aparece en el desierto llamando a una conversión que produzca frutos concretos. Advierte que la pertenencia religiosa no sustituye una vida transformada y anuncia a uno más fuerte, que bautizará con Espíritu Santo y fuego.",
+      "Preparar el camino del Señor exige algo más que conservar etiquetas, tradición o buena imagen. Supone revisar hábitos, lenguaje, relaciones y prioridades, y preguntarse qué frutos reales está produciendo la vida. La llamada de Juan no busca humillar, sino despertar: Dios viene cerca y ofrece la posibilidad de un corazón menos cómodo, más libre y más verdadero."
     ],
     "ceeLinks": [
       {

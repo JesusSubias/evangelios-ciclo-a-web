@@ -1,12 +1,13 @@
 {
   "id": "2026-01-25",
+  "contentSchema": "integrated-gospel-v2",
   "readings": [
     {
       "context": "",
       "ref": "Mt 4, 12-23"
     }
   ],
-  "pastoral": "Jesús llama a los discípulos en medio de su trabajo ordinario, no en un escenario perfecto. También hoy la vocación nace junto a las redes de cada día: responsabilidades, amistades, familia, proyectos y preguntas. 'Sígueme' no es perder la vida, sino descubrir para qué se entregan los talentos y qué redes hay que soltar para caminar con más libertad.",
+  "pastoral": "La llamada ocurre en medio del trabajo ordinario, no en un escenario perfecto. También hoy la vocación alcanza las redes de cada día: responsabilidades, amistades, familia, proyectos y preguntas. Seguir a Jesús no consiste en perder la propia vida, sino en descubrir para qué pueden entregarse los talentos y qué redes conviene soltar para caminar con mayor libertad.",
   "meeting": {
     "title": "Sígueme",
     "subtitle": "La llamada en la vida ordinaria",
@@ -106,7 +107,8 @@
   },
   "gospel": {
     "summary": [
-      "Tras la detención de Juan, Jesús comienza a anunciar en Galilea la cercanía del reino de Dios. Junto al lago llama a dos parejas de hermanos que dejan sus redes y lo siguen. Después recorre la región enseñando, proclamando la buena noticia y atendiendo a quienes sufren."
+      "Tras la detención de Juan, Jesús comienza a anunciar en Galilea la cercanía del reino de Dios. Junto al lago llama a dos parejas de hermanos que dejan sus redes y lo siguen. Después recorre la región enseñando, proclamando la buena noticia y atendiendo a quienes sufren.",
+      "La llamada ocurre en medio del trabajo ordinario, no en un escenario perfecto. También hoy la vocación alcanza las redes de cada día: responsabilidades, amistades, familia, proyectos y preguntas. Seguir a Jesús no consiste en perder la propia vida, sino en descubrir para qué pueden entregarse los talentos y qué redes conviene soltar para caminar con mayor libertad."
     ],
     "ceeLinks": [
       {

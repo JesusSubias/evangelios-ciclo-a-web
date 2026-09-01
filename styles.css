@@ -308,7 +308,6 @@ a {
   font-size: 1.18rem;
 }
 
-.app-shell[data-large-text="true"] .pastoral-text,
 .app-shell[data-large-text="true"] .lyrics-box {
   font-size: 1.08rem;
 }
@@ -1053,16 +1052,6 @@ a {
   line-height: 1.2;
 }
 
-.pastoral-text {
-  border-left: 4px solid var(--teal);
-  background: var(--teal-soft);
-  border-radius: var(--radius);
-  padding: 18px 20px;
-  font-family: var(--sans);
-  font-size: 1rem;
-  line-height: 1.65;
-}
-
 .meeting-tab {
   color: var(--burgundy);
 }
@@ -1717,6 +1706,23 @@ svg {
 @media (max-width: 620px) {
   .responsive-audio-slot .audio-box {
     grid-template-columns: 1fr;
+  }
+
+  .tabbar {
+    gap: 0;
+    overflow-x: hidden;
+  }
+
+  .tab-button {
+    flex: 1 1 0;
+    justify-content: center;
+    min-width: 0;
+    padding-inline: 6px;
+    font-size: 0.86rem;
+  }
+
+  .tab-button svg {
+    display: none;
   }
 }
 

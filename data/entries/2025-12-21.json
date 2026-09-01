@@ -1,12 +1,13 @@
 {
   "id": "2025-12-21",
+  "contentSchema": "integrated-gospel-v2",
   "readings": [
     {
       "context": "",
       "ref": "Mt 1, 18-24"
     }
   ],
-  "pastoral": "José vive una situación que no controla y aun así escucha, discierne y protege. El Evangelio ilumina las decisiones tomadas en medio de dudas, presión o miedo a equivocarse: Dios no siempre explica todo, pero sí dice 'no temas' y abre caminos de fidelidad. Creer es dejar que la confianza venza al cálculo y que el amor cuide la vida que nace.",
+  "pastoral": "José no recibe todas las explicaciones, pero encuentra una palabra que le permite atravesar el miedo sin dañar a María. Su forma de discernir une escucha, responsabilidad y cuidado de la vida que le ha sido confiada. También nuestras decisiones más difíciles pueden vivirse así: sin precipitarnos a juzgar, haciendo sitio a Dios y dejando que la confianza transforme el cálculo en una fidelidad concreta.",
   "meeting": {
     "title": "El cielo llamó a tu puerta",
     "subtitle": "Decidir sin controlarlo todo",
@@ -106,7 +107,8 @@
   },
   "gospel": {
     "summary": [
-      "José descubre que María espera un hijo y decide actuar sin exponerla. En sueños recibe la invitación a acogerla y a poner al niño el nombre de Jesús, porque su nacimiento forma parte de la acción salvadora de Dios. José confía y hace lo que se le ha pedido."
+      "José descubre que María espera un hijo y decide actuar sin exponerla. En sueños recibe la invitación a acogerla y a poner al niño el nombre de Jesús, porque su nacimiento forma parte de la acción salvadora de Dios. José confía y hace lo que se le ha pedido.",
+      "José no recibe todas las explicaciones, pero encuentra una palabra que le permite atravesar el miedo sin dañar a María. Su forma de discernir une escucha, responsabilidad y cuidado de la vida que le ha sido confiada. También nuestras decisiones más difíciles pueden vivirse así: sin precipitarnos a juzgar, haciendo sitio a Dios y dejando que la confianza transforme el cálculo en una fidelidad concreta."
     ],
     "ceeLinks": [
       {

@@ -1,12 +1,13 @@
 {
   "id": "2026-05-03",
+  "contentSchema": "integrated-gospel-v2",
   "readings": [
     {
       "context": "",
       "ref": "Jn 14, 1-12"
     }
   ],
-  "pastoral": "Cuando los discípulos están inquietos, Jesús no ofrece un mapa completo, sino una relación: 'Yo soy el camino, la verdad y la vida'. Este Evangelio enseña a caminar paso a paso con Cristo en medio de incertidumbres, búsquedas y decisiones. La verdad cristiana no aplasta preguntas: se hace camino habitable y vida compartida.",
+  "pastoral": "Ante lo que no podemos controlar, Jesús no entrega un mapa completo, sino una relación en la que aprender a caminar. La verdad cristiana no aplasta las preguntas ni exige tener todas las respuestas; se vuelve camino habitable y vida compartida. Confiar consiste muchas veces en dar el siguiente paso posible, sabiendo que el rostro del Padre se deja conocer en el modo de vivir y actuar de Jesús.",
   "meeting": {
     "title": "Camino, Verdad y Vida",
     "subtitle": "Caminar sin tener todo el mapa",
@@ -106,7 +107,8 @@
   },
   "gospel": {
     "summary": [
-      "Ante la inquietud de los discípulos, Jesús les pide confianza y les asegura que prepara un lugar para ellos. Se presenta como camino hacia el Padre y explica que conocerlo a él permite conocer el rostro de Dios. Sus obras muestran esa unión y la misión continuará a través de quienes crean."
+      "Ante la inquietud de los discípulos, Jesús les pide confianza y les asegura que prepara un lugar para ellos. Se presenta como camino hacia el Padre y explica que conocerlo a él permite conocer el rostro de Dios. Sus obras muestran esa unión y la misión continuará a través de quienes crean.",
+      "Ante lo que no podemos controlar, Jesús no entrega un mapa completo, sino una relación en la que aprender a caminar. La verdad cristiana no aplasta las preguntas ni exige tener todas las respuestas; se vuelve camino habitable y vida compartida. Confiar consiste muchas veces en dar el siguiente paso posible, sabiendo que el rostro del Padre se deja conocer en el modo de vivir y actuar de Jesús."
     ],
     "ceeLinks": [
       {

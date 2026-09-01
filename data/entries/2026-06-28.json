@@ -1,12 +1,13 @@
 {
   "id": "2026-06-28",
+  "contentSchema": "integrated-gospel-v2",
   "readings": [
     {
       "context": "",
       "ref": "Mt 10, 37-42"
     }
   ],
-  "pastoral": "Jesús no propone una fe tibia: pide ordenar los amores, tomar la cruz y descubrir que la vida se encuentra cuando se entrega. Esto no significa despreciar a la familia ni buscar sufrimiento, sino elegir a Cristo como centro que purifica todos los vínculos. Incluso un vaso de agua dado con amor cuenta en el Reino.",
+  "pastoral": "El seguimiento ordena todos los amores desde Cristo. No exige despreciar a la familia ni buscar sufrimiento; pide amar sin posesión, asumir con libertad la entrega que corresponde y no convertir ningún vínculo en un absoluto. Esa exigencia se vuelve concreta en la hospitalidad más pequeña: recibir, escuchar u ofrecer un vaso de agua puede revelar una vida que ya no gira únicamente alrededor de sí misma.",
   "meeting": {
     "title": "Un vaso de agua",
     "subtitle": "Ordenar los amores y entregar la vida",
@@ -106,7 +107,8 @@
   },
   "gospel": {
     "summary": [
-      "Jesús pide una adhesión que atraviese afectos, seguridades y el modo de cargar con la propia vida. A la vez, afirma que recibir a sus enviados y ofrecer incluso un vaso de agua a alguien pequeño tiene valor ante Dios. El seguimiento exigente se concreta así en una hospitalidad sencilla y cuidadosa."
+      "Jesús pide una adhesión que atraviese afectos, seguridades y el modo de cargar con la propia vida. A la vez, afirma que recibir a sus enviados y ofrecer incluso un vaso de agua a alguien pequeño tiene valor ante Dios. El seguimiento exigente se concreta así en una hospitalidad sencilla y cuidadosa.",
+      "El seguimiento ordena todos los amores desde Cristo. No exige despreciar a la familia ni buscar sufrimiento; pide amar sin posesión, asumir con libertad la entrega que corresponde y no convertir ningún vínculo en un absoluto. Esa exigencia se vuelve concreta en la hospitalidad más pequeña: recibir, escuchar u ofrecer un vaso de agua puede revelar una vida que ya no gira únicamente alrededor de sí misma."
     ],
     "ceeLinks": [
       {

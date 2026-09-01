@@ -1,12 +1,13 @@
 {
   "id": "2026-02-22",
+  "contentSchema": "integrated-gospel-v2",
   "readings": [
     {
       "context": "",
       "ref": "Mt 4, 1-11"
     }
   ],
-  "pastoral": "Las tentaciones atacan la identidad de Jesús: 'si eres Hijo'. También hoy aparecen atajos que prometen valor a cambio de éxito rápido, poder, consumo o aplauso. Jesús responde desde la Palabra y muestra que ser hijo no necesita espectáculo. La Cuaresma empieza aprendiendo a desenmascarar voces que usan nuestras hambres para alejarnos de la confianza en el Padre.",
+  "pastoral": "También hoy aparecen atajos que prometen valor a cambio de éxito rápido, consumo, poder o aplauso. Las tentaciones aprovechan necesidades reales, pero las convierten en una duda sobre la propia identidad. Jesús muestra que ser hijo no necesita espectáculo ni dominio. La Cuaresma ofrece un tiempo para reconocer esas voces y volver a una confianza que no usa a Dios ni a los demás para afirmarse.",
   "meeting": {
     "title": "Si eres Hijo",
     "subtitle": "Las voces que usan nuestras hambres",
@@ -106,7 +107,8 @@
   },
   "gospel": {
     "summary": [
-      "En el desierto, Jesús afronta la tentación de usar su identidad y su poder para satisfacerse, exhibirse o dominar. Responde apoyándose en la Palabra de Dios y rechaza convertir el pan, la protección divina o los reinos del mundo en instrumentos de control. Su camino será el de la confianza y el servicio."
+      "En el desierto, Jesús afronta la tentación de usar su identidad y su poder para satisfacerse, exhibirse o dominar. Responde apoyándose en la Palabra de Dios y rechaza convertir el pan, la protección divina o los reinos del mundo en instrumentos de control. Su camino será el de la confianza y el servicio.",
+      "También hoy aparecen atajos que prometen valor a cambio de éxito rápido, consumo, poder o aplauso. Las tentaciones aprovechan necesidades reales, pero las convierten en una duda sobre la propia identidad. Jesús muestra que ser hijo no necesita espectáculo ni dominio. La Cuaresma ofrece un tiempo para reconocer esas voces y volver a una confianza que no usa a Dios ni a los demás para afirmarse."
     ],
     "ceeLinks": [
       {

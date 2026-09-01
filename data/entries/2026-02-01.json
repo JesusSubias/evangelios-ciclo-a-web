@@ -1,12 +1,13 @@
 {
   "id": "2026-02-01",
+  "contentSchema": "integrated-gospel-v2",
   "readings": [
     {
       "context": "",
       "ref": "Mt 5, 1-12a"
     }
   ],
-  "pastoral": "Las bienaventuranzas rompen los criterios habituales de éxito: felices no son solo los fuertes, los visibles o los que ganan, sino los pobres, mansos, limpios de corazón y perseguidos por la justicia. Jesús abre una forma distinta de felicidad, menos dependiente de la aprobación y más arraigada en la verdad. El Reino empieza abajo, donde nadie presume.",
+  "pastoral": "Con estas palabras, Jesús cuestiona los criterios habituales de éxito y abre una felicidad menos dependiente de la fuerza, la visibilidad o la aprobación. El Reino comienza abajo, donde nadie necesita presumir y donde el dolor no queda fuera de la promesa. Acoger las bienaventuranzas es aprender a valorar la mansedumbre, la misericordia y la justicia como formas verdaderas de una vida lograda.",
   "meeting": {
     "title": "El Reino empieza abajo",
     "subtitle": "De la felicidad que se exhibe a una Bienaventuranza que se practica",
@@ -106,7 +107,8 @@
   },
   "gospel": {
     "summary": [
-      "Jesús proclama dichosas a personas que el mundo suele considerar pequeñas o derrotadas: pobres de espíritu, quienes lloran, quienes tienen hambre de justicia, misericordiosos, limpios de corazón, constructores de paz y perseguidos por hacer el bien. Les asegura que Dios abre para ellas consuelo, justicia, filiación y reino."
+      "Jesús proclama dichosas a personas que el mundo suele considerar pequeñas o derrotadas: pobres de espíritu, quienes lloran, quienes tienen hambre de justicia, misericordiosos, limpios de corazón, constructores de paz y perseguidos por hacer el bien. Les asegura que Dios abre para ellas consuelo, justicia, filiación y reino.",
+      "Con estas palabras, Jesús cuestiona los criterios habituales de éxito y abre una felicidad menos dependiente de la fuerza, la visibilidad o la aprobación. El Reino comienza abajo, donde nadie necesita presumir y donde el dolor no queda fuera de la promesa. Acoger las bienaventuranzas es aprender a valorar la mansedumbre, la misericordia y la justicia como formas verdaderas de una vida lograda."
     ],
     "ceeLinks": [
       {

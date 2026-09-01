@@ -1,12 +1,13 @@
 {
   "id": "2026-04-19",
+  "contentSchema": "integrated-gospel-v2",
   "readings": [
     {
       "context": "",
       "ref": "Lc 24, 13-35"
     }
   ],
-  "pastoral": "Emaús habla de personas que caminan decepcionadas, con expectativas rotas y ganas de alejarse. Jesús no las interrumpe con prisas: camina, escucha, explica la Palabra y se deja reconocer al partir el pan. La pastoral necesita ese estilo: acompañar procesos, encender el corazón poco a poco y ayudar a descubrir que Cristo ya iba con nosotros por el camino.",
+  "pastoral": "El modo de acompañar de Jesús respeta el ritmo de quienes caminan decepcionados: se acerca, pregunta, escucha y solo después ofrece una nueva lectura. No fuerza un reconocimiento inmediato. Este estilo enseña a compartir los procesos sin invadirlos, a encender el corazón poco a poco y a descubrir que Cristo puede haber estado presente incluso en el tramo del camino que parecía una huida.",
   "meeting": {
     "title": "Al partir el pan",
     "subtitle": "De la decepción compartida a un regreso con esperanza",
@@ -106,7 +107,8 @@
   },
   "gospel": {
     "summary": [
-      "Dos discípulos abandonan Jerusalén mientras conversan sobre su decepción. Jesús se acerca y camina con ellos sin que lo reconozcan, escucha su historia y les ayuda a releer las Escrituras. Al compartir la mesa lo reconocen al partir el pan y regresan de inmediato a la comunidad para anunciar que está vivo."
+      "Dos discípulos abandonan Jerusalén mientras conversan sobre su decepción. Jesús se acerca y camina con ellos sin que lo reconozcan, escucha su historia y les ayuda a releer las Escrituras. Al compartir la mesa lo reconocen al partir el pan y regresan de inmediato a la comunidad para anunciar que está vivo.",
+      "El modo de acompañar de Jesús respeta el ritmo de quienes caminan decepcionados: se acerca, pregunta, escucha y solo después ofrece una nueva lectura. No fuerza un reconocimiento inmediato. Este estilo enseña a compartir los procesos sin invadirlos, a encender el corazón poco a poco y a descubrir que Cristo puede haber estado presente incluso en el tramo del camino que parecía una huida."
     ],
     "ceeLinks": [
       {

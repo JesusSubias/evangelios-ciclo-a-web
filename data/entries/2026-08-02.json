@@ -1,12 +1,13 @@
 {
   "id": "2026-08-02",
+  "contentSchema": "integrated-gospel-v2",
   "readings": [
     {
       "context": "",
       "ref": "Mt 14, 13-21"
     }
   ],
-  "pastoral": "Jesús se retira con su dolor, pero la multitud despierta su compasión. Cuando los discípulos solo ven desierto y escasez, Él no despide a nadie: recibe cinco panes y dos peces, bendice lo poco y lo devuelve a sus manos para que lo repartan. La abundancia del Reino no consiste en acumular, sino en organizar una mesa donde todos comen, nadie queda fuera y hasta lo que sobra se recoge con cuidado.",
+  "pastoral": "La compasión de Jesús no se queda en un sentimiento y tampoco sustituye la responsabilidad de los discípulos: les devuelve lo poco que han ofrecido para que lo repartan. La abundancia del Reino nace cuando se deja de mirar la escasez como excusa y se organiza una mesa compartida. Allí nadie queda fuera, los dones circulan y hasta lo que sobra se recoge con cuidado.",
   "meeting": {
     "title": "Contabas conmigo",
     "subtitle": "Lo poco compartido se vuelve mesa",
@@ -106,7 +107,8 @@
   },
   "gospel": {
     "summary": [
-      "Jesús busca un lugar apartado, pero una multitud lo sigue y despierta su compasión. Al caer la tarde, no acepta despedir a la gente con hambre: implica a los discípulos, recibe lo poco disponible, da gracias y lo hace circular. Todos comen y todavía queda alimento recogido."
+      "Jesús busca un lugar apartado, pero una multitud lo sigue y despierta su compasión. Al caer la tarde, no acepta despedir a la gente con hambre: implica a los discípulos, recibe lo poco disponible, da gracias y lo hace circular. Todos comen y todavía queda alimento recogido.",
+      "La compasión de Jesús no se queda en un sentimiento y tampoco sustituye la responsabilidad de los discípulos: les devuelve lo poco que han ofrecido para que lo repartan. La abundancia del Reino nace cuando se deja de mirar la escasez como excusa y se organiza una mesa compartida. Allí nadie queda fuera, los dones circulan y hasta lo que sobra se recoge con cuidado."
     ],
     "ceeLinks": [
       {

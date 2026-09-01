@@ -1,12 +1,13 @@
 {
   "id": "2026-09-06",
+  "contentSchema": "integrated-gospel-v2",
   "readings": [
     {
       "context": "",
       "ref": "Mt 18, 15-20"
     }
   ],
-  "pastoral": "Jesús no invita a ganar discusiones, sino a ganar al hermano. La corrección fraterna empieza en privado, con verdad y respeto, antes de recurrir a otros o a la comunidad. Hablar cara a cara evita el rumor, pero escuchar también puede revelar el dolor que no conocíamos. Reconciliar no significa tolerar daño ni borrar límites: cuando hay abuso, amenaza o desigualdad de poder, la protección y la ayuda son primero. Allí donde dos o tres buscan verdad y cuidado en su nombre, Cristo está en medio.",
+  "pastoral": "El criterio de Jesús es cuidar la verdad sin perder a la persona. Por eso propone avanzar de lo íntimo a lo comunitario, evitando el rumor y dejando espacio a la escucha. Esa búsqueda de reconciliación no obliga a exponerse cuando hay abuso, amenaza o una desigualdad grave: acudir a otros y poner límites forma parte del mismo cuidado que el pasaje confía a la comunidad. Allí donde se buscan juntos verdad y protección, Cristo permanece en medio.",
   "meeting": {
     "title": "Entre tú y yo",
     "subtitle": "Decir la verdad para ganar al hermano, no la discusión",
@@ -106,7 +107,8 @@
   },
   "gospel": {
     "summary": [
-      "Jesús propone afrontar el daño comenzando por una conversación directa y discreta, cuyo objetivo es recuperar a la persona, no vencerla. Si no hay escucha, invita a incorporar ayuda y después a la comunidad. La autoridad para discernir queda unida a la oración y a la promesa de su presencia cuando dos o tres se reúnen en su nombre."
+      "Jesús propone afrontar el daño comenzando por una conversación directa y discreta, cuyo objetivo es recuperar a la persona, no vencerla. Si no hay escucha, invita a incorporar ayuda y después a la comunidad. La autoridad para discernir queda unida a la oración y a la promesa de su presencia cuando dos o tres se reúnen en su nombre.",
+      "El criterio de Jesús es cuidar la verdad sin perder a la persona. Por eso propone avanzar de lo íntimo a lo comunitario, evitando el rumor y dejando espacio a la escucha. Esa búsqueda de reconciliación no obliga a exponerse cuando hay abuso, amenaza o una desigualdad grave: acudir a otros y poner límites forma parte del mismo cuidado que el pasaje confía a la comunidad. Allí donde se buscan juntos verdad y protección, Cristo permanece en medio."
     ],
     "ceeLinks": [
       {

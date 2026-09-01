@@ -1,12 +1,13 @@
 {
   "id": "2026-08-30",
+  "contentSchema": "integrated-gospel-v2",
   "readings": [
     {
       "context": "",
       "ref": "Mt 16, 21-27"
     }
   ],
-  "pastoral": "Después de confesar a Jesús como el Cristo, Pedro intenta apartarlo del camino que no encaja en sus expectativas. Jesús lo corrige y lo devuelve a su lugar: detrás, como discípulo. Seguir no es controlar el itinerario ni buscar sufrimiento, sino dejar que Cristo vaya delante y ordenar la vida desde el amor que se entrega. Negarse a sí mismo no significa anularse, tolerar abuso ni despreciar la propia dignidad: significa renunciar al ego que quiere dirigirlo todo, tomar responsablemente la propia realidad y descubrir que la vida se encuentra cuando deja de guardarse.",
+  "pastoral": "El lugar del discípulo es detrás de Jesús: no controlar el camino, sino aprender a recorrerlo desde el amor que se entrega. Negarse a sí mismo no equivale a borrarse, despreciar la propia dignidad o aceptar el daño; consiste en soltar el ego que quiere dirigirlo todo, asumir responsablemente la realidad y dejar que Cristo ordene las decisiones. Así, cargar con la cruz deja de ser buscar sufrimiento y se convierte en fidelidad libre.",
   "meeting": {
     "title": "Vuelve a ir delante",
     "subtitle": "Dejar que Jesús marque el paso sin renunciar a discernir",
@@ -106,7 +107,8 @@
   },
   "gospel": {
     "summary": [
-      "Jesús comienza a explicar que su camino pasa por el rechazo, la muerte y la resurrección. Pedro intenta apartarlo de ese destino y recibe una corrección que lo devuelve al lugar del discípulo. Seguir a Jesús implica dejar el afán de controlar, asumir la propia cruz y comprender que ganar la vida no consiste en poseerlo todo."
+      "Jesús comienza a explicar que su camino pasa por el rechazo, la muerte y la resurrección. Pedro intenta apartarlo de ese destino y recibe una corrección que lo devuelve al lugar del discípulo. Seguir a Jesús implica dejar el afán de controlar, asumir la propia cruz y comprender que ganar la vida no consiste en poseerlo todo.",
+      "El lugar del discípulo es detrás de Jesús: no controlar el camino, sino aprender a recorrerlo desde el amor que se entrega. Negarse a sí mismo no equivale a borrarse, despreciar la propia dignidad o aceptar el daño; consiste en soltar el ego que quiere dirigirlo todo, asumir responsablemente la realidad y dejar que Cristo ordene las decisiones. Así, cargar con la cruz deja de ser buscar sufrimiento y se convierte en fidelidad libre."
     ],
     "ceeLinks": [
       {

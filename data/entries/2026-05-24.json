@@ -1,12 +1,13 @@
 {
   "id": "2026-05-24",
+  "contentSchema": "integrated-gospel-v2",
   "readings": [
     {
       "context": "",
       "ref": "Jn 20, 19-23"
     }
   ],
-  "pastoral": "Pentecostés nace en una sala cerrada por miedo. Jesús sopla Espíritu y transforma encierro en envío, culpa en perdón y tristeza en paz. El Espíritu no es una idea: es aliento para abrir puertas, reconciliar, crear comunidad y salir de sí. Allí donde parece que no hay fuerzas, Dios respira vida nueva.",
+  "pastoral": "El Espíritu convierte el encierro en envío, la culpa en posibilidad de perdón y la tristeza en una paz capaz de abrir puertas. No es una idea abstracta, sino el aliento de Dios en una comunidad que se sentía sin fuerzas. Recibirlo implica dejarse poner en movimiento, reconstruir vínculos y llevar al mundo una reconciliación que nace de las heridas del Resucitado, no de negar lo ocurrido.",
   "meeting": {
     "title": "Sopla en mí",
     "subtitle": "Del encierro al envío",
@@ -106,7 +107,8 @@
   },
   "gospel": {
     "summary": [
-      "Jesús resucitado entra donde los discípulos permanecen encerrados, se coloca en medio y les comunica su paz. Les muestra sus heridas, los envía como el Padre lo envió a él y sopla sobre ellos el Espíritu Santo. La comunidad recibe así una misión orientada al perdón y la reconciliación."
+      "Jesús resucitado entra donde los discípulos permanecen encerrados, se coloca en medio y les comunica su paz. Les muestra sus heridas, los envía como el Padre lo envió a él y sopla sobre ellos el Espíritu Santo. La comunidad recibe así una misión orientada al perdón y la reconciliación.",
+      "El Espíritu convierte el encierro en envío, la culpa en posibilidad de perdón y la tristeza en una paz capaz de abrir puertas. No es una idea abstracta, sino el aliento de Dios en una comunidad que se sentía sin fuerzas. Recibirlo implica dejarse poner en movimiento, reconstruir vínculos y llevar al mundo una reconciliación que nace de las heridas del Resucitado, no de negar lo ocurrido."
     ],
     "ceeLinks": [
       {

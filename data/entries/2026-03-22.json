@@ -1,12 +1,13 @@
 {
   "id": "2026-03-22",
+  "contentSchema": "integrated-gospel-v2",
   "readings": [
     {
       "context": "",
       "ref": "Jn 11, 1-45"
     }
   ],
-  "pastoral": "Ante Lázaro, Jesús no ofrece una esperanza fría: llora, se acerca y llama por el nombre. Este Evangelio anuncia que la última palabra no la tienen la pérdida, el cansancio ni las zonas interiores bloqueadas. Jesús pide quitar piedras, salir fuera y dejarse desatar; la resurrección empieza cuando su voz entra donde creíamos que ya no había vida.",
+  "pastoral": "La esperanza que Jesús ofrece no es fría ni evita el duelo: se acerca, llora y llama por el nombre. Su voz puede entrar también en las zonas interiores que considerábamos cerradas. Quitar la piedra y desatar a quien sale recuerda que la vida nueva no se contempla desde lejos; necesita una comunidad dispuesta a retirar obstáculos, acompañar procesos y ayudar a caminar con libertad.",
   "meeting": {
     "title": "Yo soy la Resurrección",
     "subtitle": "Del sepulcro cerrado a una vida que vuelve a ponerse en camino",
@@ -106,7 +107,8 @@
   },
   "gospel": {
     "summary": [
-      "Al saber que Lázaro ha muerto, Jesús va a Betania y comparte el dolor de Marta y María. Marta expresa su confianza aun en medio de la pérdida, y Jesús se presenta como resurrección y vida. Ante la tumba llora, pide retirar la piedra y llama a Lázaro para que salga, implicando después a la comunidad en desatarlo."
+      "Al saber que Lázaro ha muerto, Jesús va a Betania y comparte el dolor de Marta y María. Marta expresa su confianza aun en medio de la pérdida, y Jesús se presenta como resurrección y vida. Ante la tumba llora, pide retirar la piedra y llama a Lázaro para que salga, implicando después a la comunidad en desatarlo.",
+      "La esperanza que Jesús ofrece no es fría ni evita el duelo: se acerca, llora y llama por el nombre. Su voz puede entrar también en las zonas interiores que considerábamos cerradas. Quitar la piedra y desatar a quien sale recuerda que la vida nueva no se contempla desde lejos; necesita una comunidad dispuesta a retirar obstáculos, acompañar procesos y ayudar a caminar con libertad."
     ],
     "ceeLinks": [
       {

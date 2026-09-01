@@ -1,12 +1,13 @@
 {
   "id": "2026-07-19",
+  "contentSchema": "integrated-gospel-v2",
   "readings": [
     {
       "context": "",
       "ref": "Mt 13, 24-43"
     }
   ],
-  "pastoral": "Jesús invita a no confundir el cuidado con la condena ni la impaciencia con la justicia. El trigo y la cizaña crecen juntos, mientras el Reino actúa como una semilla pequeña y una levadura escondida. Este Evangelio llama a proteger a quien sufre y frenar el daño sin arrancar la esperanza de nadie: Dios trabaja en silencio, da tiempo a la conversión y nos hace cuidadores pacientes de su campo.",
+  "pastoral": "La paciencia del campo no equivale a permitir que el daño continúe. Cuidar lo que crece exige proteger a quien sufre y frenar lo que destruye, pero sin atribuirnos un juicio definitivo sobre las personas ni arrancar con la cizaña toda posibilidad de cambio. Mientras Dios hace crecer el Reino desde lo pequeño, la comunidad está llamada a unir límites claros con una esperanza que deja abierta la conversión.",
   "meeting": {
     "title": "La noche no es dueña",
     "subtitle": "Cuidar sin arrancar la esperanza",
@@ -106,7 +107,8 @@
   },
   "gospel": {
     "summary": [
-      "Jesús compara el reino con un campo donde trigo y cizaña crecen juntos y advierte contra una separación precipitada que dañaría también lo bueno. Añade las imágenes de una semilla diminuta y de la levadura, capaces de transformar mucho desde lo pequeño. El discernimiento definitivo pertenece a Dios, no a la impaciencia humana."
+      "Jesús compara el reino con un campo donde trigo y cizaña crecen juntos y advierte contra una separación precipitada que dañaría también lo bueno. Añade las imágenes de una semilla diminuta y de la levadura, capaces de transformar mucho desde lo pequeño. El discernimiento definitivo pertenece a Dios, no a la impaciencia humana.",
+      "La paciencia del campo no equivale a permitir que el daño continúe. Cuidar lo que crece exige proteger a quien sufre y frenar lo que destruye, pero sin atribuirnos un juicio definitivo sobre las personas ni arrancar con la cizaña toda posibilidad de cambio. Mientras Dios hace crecer el Reino desde lo pequeño, la comunidad está llamada a unir límites claros con una esperanza que deja abierta la conversión."
     ],
     "ceeLinks": [
       {

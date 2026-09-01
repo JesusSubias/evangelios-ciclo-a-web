@@ -1,12 +1,13 @@
 {
   "id": "2026-01-18",
+  "contentSchema": "integrated-gospel-v2",
   "readings": [
     {
       "context": "",
       "ref": "Jn 1, 29-34"
     }
   ],
-  "pastoral": "Juan señala a Jesús y se aparta del centro. En una cultura que empuja a exhibirse, este Evangelio propone una libertad preciosa: ser testigos, no protagonistas absolutos. Contemplar al Cordero significa aprender a reconocer a quien quita peso al mundo, a nombrar el bien cuando aparece y a conducir a otros hacia Cristo sin apropiarse de la luz.",
+  "pastoral": "El gesto de Juan contiene una libertad preciosa: reconoce la luz y la señala sin apropiársela. En una cultura que empuja a exhibirse, el testigo no necesita convertirse en protagonista absoluto. Puede nombrar el bien cuando aparece, ayudar a otros a descubrir a Cristo y después hacerse a un lado, confiando en que la verdad no depende de ocupar siempre el centro.",
   "meeting": {
     "title": "Contempla al Cordero",
     "subtitle": "Testigos sin ocupar el centro",
@@ -106,7 +107,8 @@
   },
   "gospel": {
     "summary": [
-      "Juan ve acercarse a Jesús y lo señala como el Cordero de Dios que carga con el pecado del mundo. Explica que reconoció su identidad al contemplar al Espíritu permanecer sobre él. Su testimonio conduce a confesar que Jesús es el Hijo de Dios."
+      "Juan ve acercarse a Jesús y lo señala como el Cordero de Dios que carga con el pecado del mundo. Explica que reconoció su identidad al contemplar al Espíritu permanecer sobre él. Su testimonio conduce a confesar que Jesús es el Hijo de Dios.",
+      "El gesto de Juan contiene una libertad preciosa: reconoce la luz y la señala sin apropiársela. En una cultura que empuja a exhibirse, el testigo no necesita convertirse en protagonista absoluto. Puede nombrar el bien cuando aparece, ayudar a otros a descubrir a Cristo y después hacerse a un lado, confiando en que la verdad no depende de ocupar siempre el centro."
     ],
     "ceeLinks": [
       {

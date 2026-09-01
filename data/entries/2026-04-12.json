@@ -1,12 +1,13 @@
 {
   "id": "2026-04-12",
+  "contentSchema": "integrated-gospel-v2",
   "readings": [
     {
       "context": "",
       "ref": "Jn 20, 19-31"
     }
   ],
-  "pastoral": "Jesús entra en una casa cerrada por miedo y ofrece paz, no reproche. Tomás enseña que las dudas pueden convertirse en lugar de encuentro cuando se llevan ante Cristo. Este Evangelio dice que la fe no exige fingir seguridad: permite tocar heridas, recibir Espíritu y descubrir que la comunidad es el espacio donde el Resucitado vuelve a ponerse en medio.",
+  "pastoral": "Jesús responde al miedo con paz y a la duda de Tomás con una presencia que no lo ridiculiza ni lo deja fuera. La fe no obliga a fingir seguridad: permite acercar preguntas y heridas a Cristo. La comunidad puede ser ese lugar de encuentro cuando sabe esperar, acoger procesos distintos y dejar que el Espíritu transforme el encierro en reconciliación y envío.",
   "meeting": {
     "title": "En medio",
     "subtitle": "Puertas cerradas, heridas y paz",
@@ -106,7 +107,8 @@
   },
   "gospel": {
     "summary": [
-      "Jesús resucitado se presenta en medio de una comunidad encerrada por miedo, les ofrece paz y los envía con el Espíritu para una misión de reconciliación. Tomás no está presente y pide una experiencia personal; ocho días después Jesús vuelve, acoge su búsqueda y lo conduce a una confesión de fe."
+      "Jesús resucitado se presenta en medio de una comunidad encerrada por miedo, les ofrece paz y los envía con el Espíritu para una misión de reconciliación. Tomás no está presente y pide una experiencia personal; ocho días después Jesús vuelve, acoge su búsqueda y lo conduce a una confesión de fe.",
+      "Jesús responde al miedo con paz y a la duda de Tomás con una presencia que no lo ridiculiza ni lo deja fuera. La fe no obliga a fingir seguridad: permite acercar preguntas y heridas a Cristo. La comunidad puede ser ese lugar de encuentro cuando sabe esperar, acoger procesos distintos y dejar que el Espíritu transforme el encierro en reconciliación y envío."
     ],
     "ceeLinks": [
       {

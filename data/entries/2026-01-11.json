@@ -1,12 +1,13 @@
 {
   "id": "2026-01-11",
+  "contentSchema": "integrated-gospel-v2",
   "readings": [
     {
       "context": "",
       "ref": "Mt 3, 13-17"
     }
   ],
-  "pastoral": "En el Bautismo, Jesús escucha antes de cualquier misión: 'Este es mi Hijo amado'. Es una noticia decisiva: el valor de una persona no depende de rendimiento, apariencia, reconocimiento o comparación. Antes de demostrar nada, Dios llama hijo. Vivir desde esa identidad libera del miedo y permite servir sin tener que ganarse constantemente el amor.",
+  "pastoral": "Antes de emprender su misión, Jesús escucha que es el Hijo amado. Esa palabra revela que el valor de una persona no depende del rendimiento, la apariencia, el reconocimiento o la comparación. Vivir desde una identidad recibida libera de la necesidad de demostrar constantemente quiénes somos y permite servir sin convertir cada tarea en un examen para merecer amor.",
   "meeting": {
     "title": "Soy tu hijo",
     "subtitle": "Antes de hacer, antes de andar",
@@ -106,7 +107,8 @@
   },
   "gospel": {
     "summary": [
-      "Jesús acude al Jordán para ser bautizado por Juan, aunque este se siente indigno de hacerlo. Al salir del agua, el Espíritu desciende sobre Jesús y una voz del cielo lo reconoce como el Hijo amado. La escena inaugura públicamente su misión desde la obediencia y la comunión con el Padre."
+      "Jesús acude al Jordán para ser bautizado por Juan, aunque este se siente indigno de hacerlo. Al salir del agua, el Espíritu desciende sobre Jesús y una voz del cielo lo reconoce como el Hijo amado. La escena inaugura públicamente su misión desde la obediencia y la comunión con el Padre.",
+      "Antes de emprender su misión, Jesús escucha que es el Hijo amado. Esa palabra revela que el valor de una persona no depende del rendimiento, la apariencia, el reconocimiento o la comparación. Vivir desde una identidad recibida libera de la necesidad de demostrar constantemente quiénes somos y permite servir sin convertir cada tarea en un examen para merecer amor."
     ],
     "ceeLinks": [
       {

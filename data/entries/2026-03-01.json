@@ -1,12 +1,13 @@
 {
   "id": "2026-03-01",
+  "contentSchema": "integrated-gospel-v2",
   "readings": [
     {
       "context": "",
       "ref": "Mt 17, 1-9"
     }
   ],
-  "pastoral": "La Transfiguración regala una luz que no evita la cruz, pero ayuda a atravesarla. Hay momentos de oración, amistad, belleza o retiro que permiten ver más hondo y escuchar: 'Este es mi Hijo'. La tentación es quedarse en la emoción; Jesús, en cambio, invita a bajar del monte y llevar esa luz a la vida real.",
+  "pastoral": "La luz del monte no evita la cruz, pero permite atravesarla de otra manera. Hay momentos de oración, amistad, belleza o retiro que ayudan a ver más hondo y a escuchar de nuevo al Hijo. No son lugares para instalarse al margen de la realidad: la experiencia recibida madura cuando se baja del monte y se convierte en claridad, consuelo y fidelidad para el camino cotidiano.",
   "meeting": {
     "title": "Tres tiendas",
     "subtitle": "Bajar del monte con una luz",
@@ -106,7 +107,8 @@
   },
   "gospel": {
     "summary": [
-      "Jesús lleva a Pedro, Santiago y Juan a un monte, donde su rostro y su ropa se llenan de luz y aparecen Moisés y Elías. Una voz invita a escuchar al Hijo amado. Los discípulos caen asustados, pero Jesús los toca, los levanta y les pide guardar lo vivido hasta después de la resurrección."
+      "Jesús lleva a Pedro, Santiago y Juan a un monte, donde su rostro y su ropa se llenan de luz y aparecen Moisés y Elías. Una voz invita a escuchar al Hijo amado. Los discípulos caen asustados, pero Jesús los toca, los levanta y les pide guardar lo vivido hasta después de la resurrección.",
+      "La luz del monte no evita la cruz, pero permite atravesarla de otra manera. Hay momentos de oración, amistad, belleza o retiro que ayudan a ver más hondo y a escuchar de nuevo al Hijo. No son lugares para instalarse al margen de la realidad: la experiencia recibida madura cuando se baja del monte y se convierte en claridad, consuelo y fidelidad para el camino cotidiano."
     ],
     "ceeLinks": [
       {

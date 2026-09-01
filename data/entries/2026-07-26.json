@@ -1,12 +1,13 @@
 {
   "id": "2026-07-26",
+  "contentSchema": "integrated-gospel-v2",
   "readings": [
     {
       "context": "",
       "ref": "Mt 13, 44-52"
     }
   ],
-  "pastoral": "Jesús presenta el Reino como un tesoro y una perla capaces de reordenar la vida desde la alegría. A veces no cambia el camino: cambian los ojos y descubrimos que Dios ya estaba hablando en lo cotidiano, en la historia recibida y en lo pequeño. La red y el escriba recuerdan que reconocer el Reino también exige discernir, conservar lo que da vida y aprender a leer juntos lo nuevo y lo antiguo.",
+  "pastoral": "Encontrar el Reino no siempre cambia el camino exterior; a veces transforma la mirada y permite reconocer que Dios ya estaba hablando en lo cotidiano, en la historia recibida y en lo pequeño. La alegría del tesoro ayuda a reordenar prioridades sin resentimiento. La red y el escriba añaden que esa alegría necesita discernimiento para conservar lo que da vida y acoger la novedad sin despreciar lo aprendido.",
   "meeting": {
     "title": "Todo hablaba de ti",
     "subtitle": "Descubrir el Reino que ya estaba cerca",
@@ -106,7 +107,8 @@
   },
   "gospel": {
     "summary": [
-      "El reino de los cielos se parece a un tesoro descubierto y a una perla de gran valor: quien los encuentra reorganiza con alegría sus prioridades. También se parece a una red que recoge peces diversos y solo después permite separar. Jesús pregunta a sus discípulos si han comprendido y los invita a unir lo nuevo con lo recibido."
+      "El reino de los cielos se parece a un tesoro descubierto y a una perla de gran valor: quien los encuentra reorganiza con alegría sus prioridades. También se parece a una red que recoge peces diversos y solo después permite separar. Jesús pregunta a sus discípulos si han comprendido y los invita a unir lo nuevo con lo recibido.",
+      "Encontrar el Reino no siempre cambia el camino exterior; a veces transforma la mirada y permite reconocer que Dios ya estaba hablando en lo cotidiano, en la historia recibida y en lo pequeño. La alegría del tesoro ayuda a reordenar prioridades sin resentimiento. La red y el escriba añaden que esa alegría necesita discernimiento para conservar lo que da vida y acoger la novedad sin despreciar lo aprendido."
     ],
     "ceeLinks": [
       {

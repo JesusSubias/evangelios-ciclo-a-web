@@ -1,12 +1,13 @@
 {
   "id": "2026-08-09",
+  "contentSchema": "integrated-gospel-v2",
   "readings": [
     {
       "context": "",
       "ref": "Mt 14, 22-33"
     }
   ],
-  "pastoral": "Los discípulos luchan de noche contra un viento contrario y Jesús se acerca en medio de aquello que no controlan. Pedro no camina porque domine el agua, sino porque responde a una llamada; cuando el miedo le hace perder el centro, todavía puede gritar y dejarse tomar de la mano. La fe no niega el viento ni exige imprudencias: aprende a reconocer la voz de Cristo, dar pasos discernidos y pedir ayuda cuando el miedo nos hunde.",
+  "pastoral": "Pedro no camina porque domine el agua, sino porque responde a una llamada; y cuando pierde el centro todavía puede gritar y dejarse ayudar. La fe no niega el viento ni exige demostrar valor mediante imprudencias. Enseña a reconocer la voz de Cristo, dar pasos discernidos y pedir una mano cuando las fuerzas no bastan. También dejarse sostener forma parte del camino creyente.",
   "meeting": {
     "title": "Ven",
     "subtitle": "Reconocer la voz que llama en medio del viento",
@@ -106,7 +107,8 @@
   },
   "gospel": {
     "summary": [
-      "Mientras los discípulos luchan contra el viento, Jesús se acerca caminando sobre el agua y les pide confianza. Pedro intenta ir hacia él, pero el miedo lo hunde y entonces pide auxilio. Jesús lo toma de la mano, sube a la barca y la tormenta se calma, llevando al grupo a reconocer quién está con ellos."
+      "Mientras los discípulos luchan contra el viento, Jesús se acerca caminando sobre el agua y les pide confianza. Pedro intenta ir hacia él, pero el miedo lo hunde y entonces pide auxilio. Jesús lo toma de la mano, sube a la barca y la tormenta se calma, llevando al grupo a reconocer quién está con ellos.",
+      "Pedro no camina porque domine el agua, sino porque responde a una llamada; y cuando pierde el centro todavía puede gritar y dejarse ayudar. La fe no niega el viento ni exige demostrar valor mediante imprudencias. Enseña a reconocer la voz de Cristo, dar pasos discernidos y pedir una mano cuando las fuerzas no bastan. También dejarse sostener forma parte del camino creyente."
     ],
     "ceeLinks": [
       {

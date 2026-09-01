@@ -1,12 +1,13 @@
 {
   "id": "2026-05-17",
+  "contentSchema": "integrated-gospel-v2",
   "readings": [
     {
       "context": "",
       "ref": "Mt 28, 16-20"
     }
   ],
-  "pastoral": "En la Ascensión, Jesús envía a discípulos que todavía dudan. La misión no espera a que todo esté resuelto: Cristo confía en una comunidad frágil y promete presencia todos los días. No se trata de mirar al cielo escapando del mundo, sino de ir, hacer discípulos y vivir como testigos en la historia concreta.",
+  "pastoral": "Jesús confía la misión a una comunidad que todavía lleva dudas y fragilidades. No espera a que todo esté resuelto ni pide mirar al cielo para escapar del mundo. Envía a vivir como testigos en la historia concreta, sostenidos por una presencia que no depende de sentirse siempre fuertes. Evangelizar comienza así: caminando con otros y enseñando el modo de vida recibido de Cristo.",
   "meeting": {
     "title": "Id",
     "subtitle": "Enviados aun con dudas",
@@ -106,7 +107,8 @@
   },
   "gospel": {
     "summary": [
-      "Los once discípulos se encuentran con Jesús resucitado en Galilea; lo adoran, aunque algunos todavía dudan. Jesús los envía a todos los pueblos para hacer discípulos, bautizar y enseñar su camino. La misión queda sostenida por una promesa: él permanecerá con ellos todos los días."
+      "Los once discípulos se encuentran con Jesús resucitado en Galilea; lo adoran, aunque algunos todavía dudan. Jesús los envía a todos los pueblos para hacer discípulos, bautizar y enseñar su camino. La misión queda sostenida por una promesa: él permanecerá con ellos todos los días.",
+      "Jesús confía la misión a una comunidad que todavía lleva dudas y fragilidades. No espera a que todo esté resuelto ni pide mirar al cielo para escapar del mundo. Envía a vivir como testigos en la historia concreta, sostenidos por una presencia que no depende de sentirse siempre fuertes. Evangelizar comienza así: caminando con otros y enseñando el modo de vida recibido de Cristo."
     ],
     "ceeLinks": [
       {

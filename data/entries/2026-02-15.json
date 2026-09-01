@@ -1,12 +1,13 @@
 {
   "id": "2026-02-15",
+  "contentSchema": "integrated-gospel-v2",
   "readings": [
     {
       "context": "",
       "ref": "Mt 5, 17-37"
     }
   ],
-  "pastoral": "Jesús lleva la ley al corazón: no basta evitar lo exterior si por dentro crecen desprecio, mentira o doblez. Este Evangelio toca relaciones, afectividad, lenguaje y coherencia: reconciliarse, cuidar el deseo, decir sí cuando es sí y no cuando es no. La libertad cristiana no es hacer cualquier cosa, sino vivir con un corazón unificado y verdadero.",
+  "pastoral": "Llevar la Ley al corazón significa atender a lo que va creciendo por dentro antes de que se convierta en desprecio, mentira o doblez. La libertad cristiana no consiste en cumplir solo lo visible ni en hacer cualquier cosa, sino en unificar deseo, palabra y conducta. Reconciliar, respetar la dignidad ajena y decir sí o no con verdad forman parte de una misma fidelidad.",
   "meeting": {
     "title": "Que tu sí sea sí",
     "subtitle": "La verdad que nace de un corazón entero",
@@ -106,7 +107,8 @@
   },
   "gospel": {
     "summary": [
-      "Jesús afirma que no viene a eliminar la Ley, sino a llevarla a plenitud. Propone una justicia que alcanza las intenciones y las relaciones: reconciliarse antes de presentar la ofrenda, cuidar la fidelidad, no instrumentalizar a la otra persona y hablar con una verdad que no necesite juramentos para resultar creíble."
+      "Jesús afirma que no viene a eliminar la Ley, sino a llevarla a plenitud. Propone una justicia que alcanza las intenciones y las relaciones: reconciliarse antes de presentar la ofrenda, cuidar la fidelidad, no instrumentalizar a la otra persona y hablar con una verdad que no necesite juramentos para resultar creíble.",
+      "Llevar la Ley al corazón significa atender a lo que va creciendo por dentro antes de que se convierta en desprecio, mentira o doblez. La libertad cristiana no consiste en cumplir solo lo visible ni en hacer cualquier cosa, sino en unificar deseo, palabra y conducta. Reconciliar, respetar la dignidad ajena y decir sí o no con verdad forman parte de una misma fidelidad."
     ],
     "ceeLinks": [
       {

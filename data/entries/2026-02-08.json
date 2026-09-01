@@ -1,12 +1,13 @@
 {
   "id": "2026-02-08",
+  "contentSchema": "integrated-gospel-v2",
   "readings": [
     {
       "context": "",
       "ref": "Mt 5, 13-16"
     }
   ],
-  "pastoral": "Ser sal y luz no exige hacer cosas espectaculares, sino vivir de modo que otros puedan respirar esperanza. Este Evangelio invita a no esconder los dones ni convertir la fe en algo privado e invisible. Una palabra limpia, una amistad fiel, una decisión justa o un servicio pequeño pueden iluminar más que muchos discursos cuando nacen de Dios.",
+  "pastoral": "La luz a la que Jesús llama no necesita gestos espectaculares. Una palabra limpia, una amistad fiel, una decisión justa o un servicio pequeño pueden devolver esperanza cuando nacen de Dios. Mostrar ese bien no es exhibirse, sino evitar que los dones queden escondidos y permitir que la fe se vuelva una presencia concreta que mejora el aire que otros respiran.",
   "meeting": {
     "title": "Sal y Luz",
     "subtitle": "Una fe que ilumina desde lo cotidiano",
@@ -106,7 +107,8 @@
   },
   "gospel": {
     "summary": [
-      "Jesús dice a sus discípulos que están llamados a ser sal de la tierra y luz del mundo. Su misión no consiste en ocultarse ni en buscar protagonismo, sino en realizar un bien visible que ayude a otras personas a reconocer y agradecer la acción de Dios."
+      "Jesús dice a sus discípulos que están llamados a ser sal de la tierra y luz del mundo. Su misión no consiste en ocultarse ni en buscar protagonismo, sino en realizar un bien visible que ayude a otras personas a reconocer y agradecer la acción de Dios.",
+      "La luz a la que Jesús llama no necesita gestos espectaculares. Una palabra limpia, una amistad fiel, una decisión justa o un servicio pequeño pueden devolver esperanza cuando nacen de Dios. Mostrar ese bien no es exhibirse, sino evitar que los dones queden escondidos y permitir que la fe se vuelva una presencia concreta que mejora el aire que otros respiran."
     ],
     "ceeLinks": [
       {

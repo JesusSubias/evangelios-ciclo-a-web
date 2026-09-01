@@ -1,12 +1,13 @@
 {
   "id": "2026-07-05",
+  "contentSchema": "integrated-gospel-v2",
   "readings": [
     {
       "context": "",
       "ref": "Mt 11, 25-30"
     }
   ],
-  "pastoral": "Jesús alaba al Padre porque los pequeños comprenden lo que a veces se escapa a los autosuficientes, y ofrece descanso a los cansados. Este Evangelio es un alivio frente a la presión, la imagen, la exigencia y el miedo a fallar: seguir a Cristo no añade peso inútil, enseña a vivir desde la mansedumbre, la humildad y una carga que sostiene.",
+  "pastoral": "El descanso de Jesús no añade otra exigencia a quien ya llega agotado. Frente a la presión por rendir, aparentar o no fallar nunca, propone aprender de su mansedumbre y reconocer los propios límites. Su yugo no promete una vida sin responsabilidad, sino una carga compartida y un modo más humano de llevarla, sin confundir la fe con un peso que aplasta.",
   "meeting": {
     "title": "Aprended de mí",
     "subtitle": "Descanso para quienes cargan demasiado",
@@ -106,7 +107,8 @@
   },
   "gospel": {
     "summary": [
-      "Jesús agradece al Padre que su revelación alcance a los pequeños y no quede reservada a quienes se consideran sabios. Después invita a quienes viven cansados y cargados a acercarse a él. Su manera de enseñar es humilde y ofrece un yugo que acompaña en lugar de aplastar."
+      "Jesús agradece al Padre que su revelación alcance a los pequeños y no quede reservada a quienes se consideran sabios. Después invita a quienes viven cansados y cargados a acercarse a él. Su manera de enseñar es humilde y ofrece un yugo que acompaña en lugar de aplastar.",
+      "El descanso de Jesús no añade otra exigencia a quien ya llega agotado. Frente a la presión por rendir, aparentar o no fallar nunca, propone aprender de su mansedumbre y reconocer los propios límites. Su yugo no promete una vida sin responsabilidad, sino una carga compartida y un modo más humano de llevarla, sin confundir la fe con un peso que aplasta."
     ],
     "ceeLinks": [
       {

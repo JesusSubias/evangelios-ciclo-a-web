@@ -1,12 +1,13 @@
 {
   "id": "2025-12-14",
+  "contentSchema": "integrated-gospel-v2",
   "readings": [
     {
       "context": "",
       "ref": "Mt 11, 2-11"
     }
   ],
-  "pastoral": "La pregunta de Juan desde la cárcel enseña que dudar no es lo contrario de creer: puede ser una forma honrada de buscar a Jesús. La respuesta no es una teoría, sino signos de vida: los heridos son levantados y los pobres reciben noticia buena. La fe madura cuando aprende a reconocer a Cristo en gestos que curan, liberan y devuelven dignidad.",
+  "pastoral": "La pregunta de Juan muestra que la duda puede formar parte de una fe honrada. Jesús no responde con una teoría cerrada, sino invitando a mirar dónde la vida está siendo levantada, curada y devuelta a su dignidad. La fe madura cuando aprende a reconocer esos signos, también en momentos de oscuridad, y deja que las obras de misericordia vuelvan a orientar su esperanza.",
   "meeting": {
     "title": "En medio de vosotros",
     "subtitle": "Creer atravesando la duda",
@@ -106,7 +107,8 @@
   },
   "gospel": {
     "summary": [
-      "Desde la prisión, Juan envía a sus discípulos a preguntar si Jesús es realmente el esperado. Jesús responde señalando los signos que están ocurriendo: personas heridas recuperan vida y la buena noticia alcanza a los pobres. Después reconoce públicamente la grandeza y la misión profética de Juan."
+      "Desde la prisión, Juan envía a sus discípulos a preguntar si Jesús es realmente el esperado. Jesús responde señalando los signos que están ocurriendo: personas heridas recuperan vida y la buena noticia alcanza a los pobres. Después reconoce públicamente la grandeza y la misión profética de Juan.",
+      "La pregunta de Juan muestra que la duda puede formar parte de una fe honrada. Jesús no responde con una teoría cerrada, sino invitando a mirar dónde la vida está siendo levantada, curada y devuelta a su dignidad. La fe madura cuando aprende a reconocer esos signos, también en momentos de oscuridad, y deja que las obras de misericordia vuelvan a orientar su esperanza."
     ],
     "ceeLinks": [
       {

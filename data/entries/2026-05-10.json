@@ -1,12 +1,13 @@
 {
   "id": "2026-05-10",
+  "contentSchema": "integrated-gospel-v2",
   "readings": [
     {
       "context": "",
       "ref": "Jn 14, 15-21"
     }
   ],
-  "pastoral": "Jesús une amor, mandamientos y Espíritu: no habla de control, sino de una presencia interior que enseña a amar cuando Él no se ve. Seguir a Cristo no es cumplir desde fuera para quedar bien, sino dejar que el Espíritu habite decisiones concretas. El amor se demuestra en elecciones pequeñas, fieles y libres, incluso cuando nadie mira.",
+  "pastoral": "La fidelidad de la que habla Jesús no nace del control ni del deseo de quedar bien, sino de una presencia interior que enseña a amar cuando nadie mira. El Espíritu acompaña el discernimiento y vuelve concreto el amor en decisiones pequeñas, libres y coherentes. Guardar la palabra de Jesús es permitir que esa relación habite la vida diaria y le dé una dirección desde dentro.",
   "meeting": {
     "title": "Me haces recordar",
     "subtitle": "El amor cuando nadie mira",
@@ -106,7 +107,8 @@
   },
   "gospel": {
     "summary": [
-      "Jesús relaciona el amor con una fidelidad concreta a su palabra y promete que los discípulos no quedarán abandonados. El Padre enviará otro defensor, el Espíritu de la verdad, que permanecerá con ellos. Aunque el mundo deje de verlo, la vida de Jesús sostendrá una comunión nueva entre él, el Padre y la comunidad."
+      "Jesús relaciona el amor con una fidelidad concreta a su palabra y promete que los discípulos no quedarán abandonados. El Padre enviará otro defensor, el Espíritu de la verdad, que permanecerá con ellos. Aunque el mundo deje de verlo, la vida de Jesús sostendrá una comunión nueva entre él, el Padre y la comunidad.",
+      "La fidelidad de la que habla Jesús no nace del control ni del deseo de quedar bien, sino de una presencia interior que enseña a amar cuando nadie mira. El Espíritu acompaña el discernimiento y vuelve concreto el amor en decisiones pequeñas, libres y coherentes. Guardar la palabra de Jesús es permitir que esa relación habite la vida diaria y le dé una dirección desde dentro."
     ],
     "ceeLinks": [
       {

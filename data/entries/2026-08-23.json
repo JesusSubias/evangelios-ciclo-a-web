@@ -1,12 +1,13 @@
 {
   "id": "2026-08-23",
+  "contentSchema": "integrated-gospel-v2",
   "readings": [
     {
       "context": "",
       "ref": "Mt 16, 13-20"
     }
   ],
-  "pastoral": "En Cesarea de Filipo, Jesús escucha las respuestas que circulan sobre Él y después dirige la pregunta a sus discípulos: «Y vosotros, ¿quién decís que soy yo?». Pedro confiesa al Cristo y, al recibir un nombre y unas llaves, descubre también quién está llamado a ser. No es roca porque sea impecable ni recibe autoridad para cerrar la casa: es sostenido para edificar comunidad y abrir caminos del Reino. La identidad cristiana no nace de repetir voces ajenas ni de ocupar un puesto, sino de responder personalmente a Jesús y convertir la confianza recibida en servicio, acogida y responsabilidad.",
+  "pastoral": "Pedro descubre quién está llamado a ser al responder personalmente quién es Jesús para él. No se convierte en roca porque sea impecable ni recibe las llaves para cerrar la casa, sino para sostener y edificar. Toda autoridad cristiana encuentra aquí su criterio: convertir la confianza recibida en servicio, abrir caminos del Reino y cuidar una comunidad que no se construye repitiendo voces ajenas.",
   "meeting": {
     "title": "Quién soy contigo",
     "subtitle": "Confesar a Jesús y recibir una identidad para servir",
@@ -106,7 +107,8 @@
   },
   "gospel": {
     "summary": [
-      "Jesús pregunta primero qué dice la gente sobre él y después qué creen sus propios discípulos. Pedro lo reconoce como Mesías e Hijo de Dios. Jesús recibe esa confesión como un don, le confía una responsabilidad para edificar la comunidad y habla de unas llaves orientadas a abrir y cuidar."
+      "Jesús pregunta primero qué dice la gente sobre él y después qué creen sus propios discípulos. Pedro lo reconoce como Mesías e Hijo de Dios. Jesús recibe esa confesión como un don, le confía una responsabilidad para edificar la comunidad y habla de unas llaves orientadas a abrir y cuidar.",
+      "Pedro descubre quién está llamado a ser al responder personalmente quién es Jesús para él. No se convierte en roca porque sea impecable ni recibe las llaves para cerrar la casa, sino para sostener y edificar. Toda autoridad cristiana encuentra aquí su criterio: convertir la confianza recibida en servicio, abrir caminos del Reino y cuidar una comunidad que no se construye repitiendo voces ajenas."
     ],
     "ceeLinks": [
       {

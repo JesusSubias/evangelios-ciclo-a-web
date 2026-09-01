@@ -1,12 +1,13 @@
 {
   "id": "2026-07-12",
+  "contentSchema": "integrated-gospel-v2",
   "readings": [
     {
       "context": "",
       "ref": "Mt 13, 1-23"
     }
   ],
-  "pastoral": "La parábola del sembrador recuerda que Dios no trabaja desde el ruido ni desde la prisa: siembra la Palabra incluso en tierras heridas, pedregosas o cansadas. Este Evangelio invita a cuidar el terreno interior, retirar piedras, callar voces que ahogan y confiar en una vida que empieza escondida. Lo pequeño que Dios deposita puede crecer más de lo que ahora somos capaces de ver.",
+  "pastoral": "La semilla recuerda que Dios trabaja sin ruido y que no desprecia los terrenos heridos, pedregosos o cansados. Cuidar la vida interior supone reconocer qué endurece, qué vuelve superficial y qué preocupaciones están ahogando lo recibido. No todo fruto aparece enseguida: la escucha necesita tiempo, raíces y confianza en que lo pequeño que Dios deposita puede crecer más de lo que ahora alcanzamos a ver.",
   "meeting": {
     "title": "Sin hacer ruido",
     "subtitle": "Del ruido interior a una semilla concreta que el grupo pueda cuidar",
@@ -103,7 +104,8 @@
   },
   "gospel": {
     "summary": [
-      "Jesús cuenta la parábola de un sembrador cuya semilla cae en distintos terrenos. La misma palabra puede perderse, quedar superficial, ser ahogada por preocupaciones o encontrar una tierra capaz de dar fruto. La explicación invita a escuchar de una manera que comprenda, persevere y transforme la vida."
+      "Jesús cuenta la parábola de un sembrador cuya semilla cae en distintos terrenos. La misma palabra puede perderse, quedar superficial, ser ahogada por preocupaciones o encontrar una tierra capaz de dar fruto. La explicación invita a escuchar de una manera que comprenda, persevere y transforme la vida.",
+      "La semilla recuerda que Dios trabaja sin ruido y que no desprecia los terrenos heridos, pedregosos o cansados. Cuidar la vida interior supone reconocer qué endurece, qué vuelve superficial y qué preocupaciones están ahogando lo recibido. No todo fruto aparece enseguida: la escucha necesita tiempo, raíces y confianza en que lo pequeño que Dios deposita puede crecer más de lo que ahora alcanzamos a ver."
     ],
     "ceeLinks": [
       {

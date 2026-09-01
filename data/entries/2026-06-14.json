@@ -1,12 +1,13 @@
 {
   "id": "2026-06-14",
+  "contentSchema": "integrated-gospel-v2",
   "readings": [
     {
       "context": "",
       "ref": "Mt 9, 36 - 10, 8"
     }
   ],
-  "pastoral": "Jesús mira a la gente cansada y se conmueve antes de enviar. La misión empieza con ojos capaces de detenerse: ver hijos donde otros ven masa, ver mies donde otros ven problema. El envío nace de la oración y se vive gratis, porque todo lo recibido de Dios se convierte en cuidado, palabra, curación y entrega.",
+  "pastoral": "La misión comienza antes del envío, en una mirada capaz de detenerse y conmoverse. Ver personas donde otros ven masa, y posibilidades donde otros solo ven problemas, cambia el modo de acercarse. Lo recibido gratuitamente de Dios no se guarda como privilegio: se convierte en cuidado, palabra, alivio y servicio, empezando por las necesidades concretas que ya están cerca.",
   "meeting": {
     "title": "Dame tus ojos",
     "subtitle": "Mirar con compasión antes de actuar",
@@ -106,7 +107,8 @@
   },
   "gospel": {
     "summary": [
-      "Jesús contempla a las multitudes cansadas y desorientadas y responde con compasión. Llama a los doce, comparte con ellos autoridad para aliviar el mal y los envía primero a las personas más cercanas y desatendidas. La misión consiste en anunciar que el reino se acerca y ofrecer gratuitamente la vida recibida."
+      "Jesús contempla a las multitudes cansadas y desorientadas y responde con compasión. Llama a los doce, comparte con ellos autoridad para aliviar el mal y los envía primero a las personas más cercanas y desatendidas. La misión consiste en anunciar que el reino se acerca y ofrecer gratuitamente la vida recibida.",
+      "La misión comienza antes del envío, en una mirada capaz de detenerse y conmoverse. Ver personas donde otros ven masa, y posibilidades donde otros solo ven problemas, cambia el modo de acercarse. Lo recibido gratuitamente de Dios no se guarda como privilegio: se convierte en cuidado, palabra, alivio y servicio, empezando por las necesidades concretas que ya están cerca."
     ],
     "ceeLinks": [
       {

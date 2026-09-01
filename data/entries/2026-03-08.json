@@ -1,12 +1,13 @@
 {
   "id": "2026-03-08",
+  "contentSchema": "integrated-gospel-v2",
   "readings": [
     {
       "context": "",
       "ref": "Jn 4, 5-42"
     }
   ],
-  "pastoral": "Jesús se sienta junto al pozo de una mujer cargada de historia y sed. No la cancela, no la usa, no la reduce a sus heridas: dialoga y despierta en ella agua viva. Este Evangelio habla de deseos profundos, vergüenzas y búsquedas. Cristo no huye de nuestras preguntas: las convierte en camino de verdad, libertad y misión.",
+  "pastoral": "El modo en que Jesús se acerca a esta mujer importa tanto como sus palabras: no la reduce a su historia, no la utiliza y no huye de sus preguntas. El diálogo crea un espacio donde la sed puede nombrarse sin vergüenza y convertirse en camino de verdad. Encontrarse con Cristo permite mirar la propia vida sin quedar encerrado en las heridas y descubrir una libertad capaz de volverse testimonio.",
   "meeting": {
     "title": "Dame ese agua",
     "subtitle": "Del cántaro que pesa a una fuente que el grupo pueda compartir",
@@ -106,7 +107,8 @@
   },
   "gospel": {
     "summary": [
-      "Jesús conversa junto al pozo con una mujer samaritana y atraviesa barreras de origen, religión y género. Le habla de un agua que sacia profundamente y de una adoración vivida en espíritu y verdad. La mujer pasa de la sospecha al reconocimiento y se convierte en testigo ante su pueblo, que termina acercándose a Jesús."
+      "Jesús conversa junto al pozo con una mujer samaritana y atraviesa barreras de origen, religión y género. Le habla de un agua que sacia profundamente y de una adoración vivida en espíritu y verdad. La mujer pasa de la sospecha al reconocimiento y se convierte en testigo ante su pueblo, que termina acercándose a Jesús.",
+      "El modo en que Jesús se acerca a esta mujer importa tanto como sus palabras: no la reduce a su historia, no la utiliza y no huye de sus preguntas. El diálogo crea un espacio donde la sed puede nombrarse sin vergüenza y convertirse en camino de verdad. Encontrarse con Cristo permite mirar la propia vida sin quedar encerrado en las heridas y descubrir una libertad capaz de volverse testimonio."
     ],
     "ceeLinks": [
       {

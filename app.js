@@ -11,7 +11,6 @@ const ICONS = {
   info: `<svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></svg>`,
   offline: `<svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M8 17.5H6.5a4.5 4.5 0 0 1-.8-8.9A6.5 6.5 0 0 1 18 10.8a3.5 3.5 0 0 1-.5 6.7H16"/><path d="M12 11v10m0 0-3-3m3 3 3-3"/></svg>`,
   offlineSaved: `<svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M7.5 18H6.2a4.2 4.2 0 0 1-.7-8.3A6.2 6.2 0 0 1 17.2 12a3.3 3.3 0 0 1 .3 6H16"/><path d="m9 16 2.2 2.2L16 13.5"/></svg>`,
-  light: `<svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M8.3 14.5a6 6 0 1 1 7.4 0c-.9.7-1.2 1.4-1.2 2H9.5c0-.6-.3-1.3-1.2-2Z"/></svg>`,
   people: `<svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3.5 20a5.5 5.5 0 0 1 11 0M14 15.5a4.5 4.5 0 0 1 6.5 4"/></svg>`,
 };
 
@@ -62,7 +61,8 @@ const seasonColors = {
 };
 
 const app = document.querySelector("#app");
-const DATA_VERSION = "20260901-resumenes-cee-v57";
+const DATA_VERSION = "20260901-evangelio-integrado-v60";
+const ENTRY_CONTENT_SCHEMA = "integrated-gospel-v2";
 const OFFLINE_MESSAGE_TIMEOUT = 45000;
 const calendarWeekdays = ["L", "M", "X", "J", "V", "S", "D"];
 const monthFormatter = new Intl.DateTimeFormat("es-ES", { month: "long", year: "numeric" });
@@ -190,7 +190,7 @@ async function fetchEntryPayload(entryId) {
   const payloadUrl = versionedAssetPath(summary.payloadPath);
   const loadPayload = async (attempt = 0) => {
     if (attempt) await new Promise((resolve) => window.setTimeout(resolve, attempt * 600));
-    const refresh = attempt ? `&schema=summary-v1&refresh=${Date.now()}-${attempt}` : "";
+    const refresh = attempt ? `&schema=${ENTRY_CONTENT_SCHEMA}&refresh=${Date.now()}-${attempt}` : "";
     const response = await fetch(`${payloadUrl}${refresh}`, { cache: "no-store" });
     if (!response.ok) throw new Error(`No se pudo cargar la ficha (${response.status})`);
     const payload = await response.json();
@@ -200,10 +200,16 @@ async function fetchEntryPayload(entryId) {
 
   const request = (async () => {
     let payload = await loadPayload();
-    for (let attempt = 1; attempt <= 2 && !Array.isArray(payload.gospel?.summary); attempt += 1) {
+    const hasCurrentContent = (candidate) => (
+      candidate.contentSchema === ENTRY_CONTENT_SCHEMA
+      && Array.isArray(candidate.gospel?.summary)
+      && candidate.gospel.summary.length >= 2
+      && Array.isArray(candidate.gospel?.ceeLinks)
+    );
+    for (let attempt = 1; attempt <= 2 && !hasCurrentContent(payload); attempt += 1) {
       payload = await loadPayload(attempt);
     }
-    if (!Array.isArray(payload.gospel?.summary) || !Array.isArray(payload.gospel?.ceeLinks)) {
+    if (!hasCurrentContent(payload)) {
       throw new Error("La ficha todavía se está actualizando. Vuelve a intentarlo en unos instantes.");
     }
     state.entryPayloads.set(entryId, payload);
@@ -792,7 +798,6 @@ function renderReaderBody(entry) {
   const activeTab = activeTabFor(entry);
   const tabs = [
     { id: "evangelio", label: "Resumen del Evangelio", icon: ICONS.book },
-    { id: "pastoral", label: "Idea pastoral", icon: ICONS.light },
     ...(entry.meeting ? [{ id: "meeting", label: "Propuesta de reunión", icon: ICONS.people, className: "meeting-tab" }] : []),
   ];
   const activeTabId = `tab-${activeTab}`;
@@ -821,7 +826,7 @@ function renderReaderBody(entry) {
         data-content-mode="${activeTab}"
         tabindex="0"
       >
-        ${activeTab === "evangelio" ? renderGospel(entry) : activeTab === "pastoral" ? renderPastoral(entry) : renderMeeting(entry.meeting)}
+        ${activeTab === "evangelio" ? renderGospel(entry) : renderMeeting(entry.meeting)}
       </article>
     </div>
   `;
@@ -862,13 +867,6 @@ function renderGospel(entry) {
         `;
       }).join("")}
     </div>
-  `;
-}
-
-function renderPastoral(entry) {
-  return `
-    <h3>Idea pastoral</h3>
-    <div class="pastoral-text">${escapeHtml(entry.pastoral)}</div>
   `;
 }
 

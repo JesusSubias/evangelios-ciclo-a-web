@@ -1,12 +1,13 @@
 {
   "id": "2026-08-16",
+  "contentSchema": "integrated-gospel-v2",
   "readings": [
     {
       "context": "",
       "ref": "Mt 15, 21-28"
     }
   ],
-  "pastoral": "La mujer cananea llega llevando el dolor de su hija y se niega a desaparecer cuando el silencio, los discípulos y una frontera étnica y religiosa parecen cerrarle el paso. No pide ocupar el lugar de nadie: entra en la conversación, responde con inteligencia y confía en que la misericordia de Dios no se agota. Jesús reconoce la grandeza de su fe y su hija queda sana. Este relato difícil no legitima exclusiones ni exige soportarlas en silencio: muestra una fe que intercede, habla con libertad y abre la mesa a quien estaba siendo dejado fuera.",
+  "pastoral": "La mujer no acepta que la necesidad de su hija quede fuera de la conversación. Su perseverancia no es pasividad ante el rechazo: habla con inteligencia, intercede y hace visible una misericordia más amplia que las fronteras asumidas. La fe que Jesús reconoce no pide soportar la exclusión en silencio; da voz a quien parecía no tener lugar y ensancha la mesa para que la vida de otra persona pueda ser cuidada.",
   "meeting": {
     "title": "Creeré por ti",
     "subtitle": "Sostener el nombre del otro sin sustituir su voz",
@@ -106,7 +107,8 @@
   },
   "gospel": {
     "summary": [
-      "Una mujer cananea suplica ayuda para su hija y mantiene su petición a pesar de las barreras y del silencio inicial. El diálogo pone de manifiesto la tensión entre los límites asumidos y una necesidad concreta que no desaparece. Jesús reconoce la gran fe de la mujer y su hija queda liberada."
+      "Una mujer cananea suplica ayuda para su hija y mantiene su petición a pesar de las barreras y del silencio inicial. El diálogo pone de manifiesto la tensión entre los límites asumidos y una necesidad concreta que no desaparece. Jesús reconoce la gran fe de la mujer y su hija queda liberada.",
+      "La mujer no acepta que la necesidad de su hija quede fuera de la conversación. Su perseverancia no es pasividad ante el rechazo: habla con inteligencia, intercede y hace visible una misericordia más amplia que las fronteras asumidas. La fe que Jesús reconoce no pide soportar la exclusión en silencio; da voz a quien parecía no tener lugar y ensancha la mesa para que la vida de otra persona pueda ser cuidada."
     ],
     "ceeLinks": [
       {

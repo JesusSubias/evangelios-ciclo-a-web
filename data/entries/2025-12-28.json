@@ -1,12 +1,13 @@
 {
   "id": "2025-12-28",
+  "contentSchema": "integrated-gospel-v2",
   "readings": [
     {
       "context": "",
       "ref": "Mt 2, 13-15. 19-23"
     }
   ],
-  "pastoral": "La Sagrada Familia no aparece como una postal perfecta, sino como una familia vulnerable que huye para proteger la vida. Este Evangelio invita a mirar la casa y los vínculos con realismo: amar es cuidar, moverse, renunciar a comodidades y hacer refugio para quien está amenazado. Dios entra también en las historias desplazadas, frágiles y necesitadas de protección.",
+  "pastoral": "Lejos de una postal perfecta, la Sagrada Familia aparece vulnerable y obligada a ponerse en camino para proteger la vida. Amar significa aquí escuchar el peligro, renunciar a seguridades y construir refugio allí donde sea posible. Dios acompaña también las historias desplazadas y frágiles, y recuerda que cuidar una familia incluye reconocer las amenazas, buscar ayuda y elegir caminos que permitan vivir con dignidad y seguridad.",
   "meeting": {
     "title": "Cuida la vida",
     "subtitle": "Familia vulnerable y refugio",
@@ -106,7 +107,8 @@
   },
   "gospel": {
     "summary": [
-      "José recibe sucesivas advertencias para proteger al niño y a María frente a la amenaza de Herodes. La familia huye a Egipto, espera allí y regresa cuando el peligro ha pasado; ante un nuevo riesgo, se establece finalmente en Nazaret. El relato presenta una familia guiada en medio de la incertidumbre y el desplazamiento."
+      "José recibe sucesivas advertencias para proteger al niño y a María frente a la amenaza de Herodes. La familia huye a Egipto, espera allí y regresa cuando el peligro ha pasado; ante un nuevo riesgo, se establece finalmente en Nazaret. El relato presenta una familia guiada en medio de la incertidumbre y el desplazamiento.",
+      "Lejos de una postal perfecta, la Sagrada Familia aparece vulnerable y obligada a ponerse en camino para proteger la vida. Amar significa aquí escuchar el peligro, renunciar a seguridades y construir refugio allí donde sea posible. Dios acompaña también las historias desplazadas y frágiles, y recuerda que cuidar una familia incluye reconocer las amenazas, buscar ayuda y elegir caminos que permitan vivir con dignidad y seguridad."
     ],
     "ceeLinks": [
       {

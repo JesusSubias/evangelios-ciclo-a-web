@@ -1,12 +1,13 @@
 {
   "id": "2026-04-26",
+  "contentSchema": "integrated-gospel-v2",
   "readings": [
     {
       "context": "",
       "ref": "Jn 10, 1-10"
     }
   ],
-  "pastoral": "Jesús se presenta como puerta y pastor: no encierra, llama por el nombre y conduce a vida abundante. Rodeados de voces que compiten por nuestra atención, este Evangelio invita a aprender qué voz cuida y qué voz roba vida. Entrar por Cristo es encontrar una libertad que no dispersa, sino que da pertenencia, dirección y pastos verdaderos.",
+  "pastoral": "Discernir las voces implica observar qué producen: la voz de Cristo conoce, cuida y abre a una vida más plena; otras voces se imponen, confunden o se aprovechan de la necesidad. Seguir al buen Pastor no encierra ni anula la libertad, sino que ofrece pertenencia y dirección. Allí donde una autoridad cristiana se parece a Jesús, cada persona puede ser llamada por su nombre y encontrar un acceso seguro.",
   "meeting": {
     "title": "Tú eres la puerta",
     "subtitle": "Reconocer la voz que cuida y abre vida",
@@ -106,7 +107,8 @@
   },
   "gospel": {
     "summary": [
-      "Jesús utiliza la imagen del redil para distinguir al pastor de quienes entran para aprovecharse del rebaño. El pastor conoce a las ovejas, las llama por su nombre y camina delante de ellas; su voz genera confianza y conduce a la vida. Jesús se presenta también como la puerta que abre un acceso seguro y abundante."
+      "Jesús utiliza la imagen del redil para distinguir al pastor de quienes entran para aprovecharse del rebaño. El pastor conoce a las ovejas, las llama por su nombre y camina delante de ellas; su voz genera confianza y conduce a la vida. Jesús se presenta también como la puerta que abre un acceso seguro y abundante.",
+      "Discernir las voces implica observar qué producen: la voz de Cristo conoce, cuida y abre a una vida más plena; otras voces se imponen, confunden o se aprovechan de la necesidad. Seguir al buen Pastor no encierra ni anula la libertad, sino que ofrece pertenencia y dirección. Allí donde una autoridad cristiana se parece a Jesús, cada persona puede ser llamada por su nombre y encontrar un acceso seguro."
     ],
     "ceeLinks": [
       {

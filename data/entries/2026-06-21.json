@@ -1,12 +1,13 @@
 {
   "id": "2026-06-21",
+  "contentSchema": "integrated-gospel-v2",
   "readings": [
     {
       "context": "",
       "ref": "Mt 10, 26-33"
     }
   ],
-  "pastoral": "Jesús repite 'no tengáis miedo' y recuerda que hasta los cabellos están contados. Este Evangelio toca el temor a mostrarse creyentes, a hablar con verdad o a no encajar. La confianza no elimina las dificultades, pero sí cambia desde dónde se viven: somos valiosos para el Padre y podemos dar testimonio sin quedar presos de la aprobación.",
+  "pastoral": "Confiar en el cuidado del Padre no elimina las dificultades ni convierte la valentía en imprudencia. Cambia el lugar desde el que se afrontan: la propia dignidad no queda en manos de la aprobación ajena. Esa certeza permite hablar con verdad, pedir apoyo cuando sea necesario y dar testimonio sin que el miedo a no encajar decida por completo la dirección de la vida.",
   "meeting": {
     "title": "Tú me sabes contar",
     "subtitle": "Vivir y hablar sin miedo",
@@ -106,7 +107,8 @@
   },
   "gospel": {
     "summary": [
-      "Jesús anima a sus enviados a no dejarse gobernar por el miedo. La verdad terminará saliendo a la luz y ninguna vida queda fuera del cuidado de Dios. Por eso pueden dar testimonio con libertad, sabiendo que su valor no depende de la aprobación de quienes pueden amenazarlos."
+      "Jesús anima a sus enviados a no dejarse gobernar por el miedo. La verdad terminará saliendo a la luz y ninguna vida queda fuera del cuidado de Dios. Por eso pueden dar testimonio con libertad, sabiendo que su valor no depende de la aprobación de quienes pueden amenazarlos.",
+      "Confiar en el cuidado del Padre no elimina las dificultades ni convierte la valentía en imprudencia. Cambia el lugar desde el que se afrontan: la propia dignidad no queda en manos de la aprobación ajena. Esa certeza permite hablar con verdad, pedir apoyo cuando sea necesario y dar testimonio sin que el miedo a no encajar decida por completo la dirección de la vida."
     ],
     "ceeLinks": [
       {

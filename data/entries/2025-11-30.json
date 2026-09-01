@@ -1,12 +1,13 @@
 {
   "id": "2025-11-30",
+  "contentSchema": "integrated-gospel-v2",
   "readings": [
     {
       "context": "",
       "ref": "Mt 24, 37-44"
     }
   ],
-  "pastoral": "Jesús invita a vivir despiertos, no con miedo, sino con el corazón atento. Este Adviento es una llamada a salir del piloto automático, de la prisa y de las distracciones que anestesian, para reconocer a Dios en lo cotidiano. Velar es cuidar la vida interior, elegir bien qué nos despierta y dejar espacio a una esperanza que llega sin ruido.",
+  "pastoral": "Vivir despiertos no significa vivir con miedo, sino prestar atención a lo que la prisa, la costumbre o las distracciones vuelven invisible. El Adviento abre un tiempo para cuidar la vida interior, reconocer a Dios en lo cotidiano y elegir aquello que alimenta una esperanza serena. Velar es dejar espacio a una presencia que llega sin ruido y puede encontrarnos en medio de un día aparentemente normal.",
   "meeting": {
     "title": "Despierta mi vida",
     "subtitle": "Vivir atentos a la llegada",
@@ -106,7 +107,8 @@
   },
   "gospel": {
     "summary": [
-      "Jesús compara su venida con los días de Noé: la vida cotidiana seguía su curso y muchas personas no advirtieron lo decisivo hasta que fue demasiado tarde. Por eso invita a permanecer despiertos y preparados, porque el momento no puede calcularse."
+      "Jesús compara su venida con los días de Noé: la vida cotidiana seguía su curso y muchas personas no advirtieron lo decisivo hasta que fue demasiado tarde. Por eso invita a permanecer despiertos y preparados, porque el momento no puede calcularse.",
+      "Vivir despiertos no significa vivir con miedo, sino prestar atención a lo que la prisa, la costumbre o las distracciones vuelven invisible. El Adviento abre un tiempo para cuidar la vida interior, reconocer a Dios en lo cotidiano y elegir aquello que alimenta una esperanza serena. Velar es dejar espacio a una presencia que llega sin ruido y puede encontrarnos en medio de un día aparentemente normal."
     ],
     "ceeLinks": [
       {

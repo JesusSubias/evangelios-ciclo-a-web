@@ -1,12 +1,13 @@
 {
   "id": "2026-03-15",
+  "contentSchema": "integrated-gospel-v2",
   "readings": [
     {
       "context": "",
       "ref": "Jn 9, 1-41"
     }
   ],
-  "pastoral": "El ciego de nacimiento aprende a ver mientras otros, seguros de sí, se van quedando ciegos. Este Evangelio invita a revisar prejuicios, etiquetas y miradas que condenan antes de conocer. Jesús no pregunta de quién es la culpa, sino que abre futuro. Creer es dejarse lavar los ojos para mirar a las personas como Dios las mira.",
+  "pastoral": "El recorrido de este hombre invita a revisar las miradas que etiquetan o buscan culpables antes de conocer una historia. Mientras algunos se aferran a sus certezas, él aprende a ver y a hablar con una libertad creciente. Creer incluye dejar que Jesús lave nuestros prejuicios, reconocer los hechos que devuelven vida y mirar a cada persona desde la posibilidad de un futuro, no desde una sentencia.",
   "meeting": {
     "title": "Enséñame a mirar",
     "subtitle": "Aprender a mirar de nuevo",
@@ -106,7 +107,8 @@
   },
   "gospel": {
     "summary": [
-      "Jesús cura a un hombre ciego de nacimiento y rechaza interpretar su situación como castigo por un pecado. La curación abre una investigación llena de miedo, presión y expulsión, mientras el hombre va comprendiendo quién es Jesús. El relato contrapone su visión creciente con la ceguera de quienes se niegan a reconocer lo ocurrido."
+      "Jesús cura a un hombre ciego de nacimiento y rechaza interpretar su situación como castigo por un pecado. La curación abre una investigación llena de miedo, presión y expulsión, mientras el hombre va comprendiendo quién es Jesús. El relato contrapone su visión creciente con la ceguera de quienes se niegan a reconocer lo ocurrido.",
+      "El recorrido de este hombre invita a revisar las miradas que etiquetan o buscan culpables antes de conocer una historia. Mientras algunos se aferran a sus certezas, él aprende a ver y a hablar con una libertad creciente. Creer incluye dejar que Jesús lave nuestros prejuicios, reconocer los hechos que devuelven vida y mirar a cada persona desde la posibilidad de un futuro, no desde una sentencia."
     ],
     "ceeLinks": [
       {
