@@ -1,4 +1,4 @@
-const APP_VERSION = "20260905-sin-llevar-la-cuenta-v62";
+const APP_VERSION = "20260905-arranque-actualizado-v63";
 const CACHE_PREFIX = "evgl-";
 const SHELL_CACHE = `${CACHE_PREFIX}shell-${APP_VERSION}`;
 const RUNTIME_CACHE = `${CACHE_PREFIX}runtime-${APP_VERSION}`;
@@ -6,6 +6,7 @@ const OFFLINE_ENTRIES_CACHE = `${CACHE_PREFIX}offline-entries-v1`;
 const RUNTIME_LIMIT = 80;
 
 const VERSIONED_SHELL = [
+  `./bootstrap.js?v=${APP_VERSION}`,
   `./styles.css?v=${APP_VERSION}`,
   `./app.js?v=${APP_VERSION}`,
   `./manifest.webmanifest?v=${APP_VERSION}`,
