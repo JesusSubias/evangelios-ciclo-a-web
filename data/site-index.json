@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-01T18:49:25.563661+00:00",
-  "cutoff": "2026-09-06",
+  "generatedAt": "2026-09-05T10:00:50.362295+00:00",
+  "cutoff": "2026-09-13",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "bibleContent": {
     "kind": "summary",
@@ -12,12 +12,12 @@
     "audioPolicy": "mp3/m4a/mp4/opus publicados; WAV reservado como master opcional"
   },
   "summary": {
-    "cycleEntries": 41,
-    "songRecords": 46,
-    "cycleAudioFound": 41,
+    "cycleEntries": 42,
+    "songRecords": 47,
+    "cycleAudioFound": 42,
     "cycleAudioMissing": 0,
-    "imagesFound": 41,
-    "editorialImagesFound": 41,
+    "imagesFound": 42,
+    "editorialImagesFound": 42,
     "chordPdfsFound": 0
   },
   "missing": {
@@ -390,6 +390,14 @@
       "targetDate": "2026-09-06",
       "includedInCycle": true,
       "audioPublicPath": "assets/audio/2026-09-06-entre-tu-y-yo.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 47,
+      "title": "Sin llevar la cuenta",
+      "targetDate": "2026-09-13",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-09-13-sin-llevar-la-cuenta.mp3",
       "chordsPdfPublicPath": null
     }
   ],
@@ -1254,10 +1262,31 @@
         "title": "Entre tú y yo",
         "audioPublicPath": "assets/audio/2026-09-06-entre-tu-y-yo.mp3"
       }
+    },
+    {
+      "id": "2026-09-13",
+      "index": 42,
+      "isoDate": "2026-09-13",
+      "dateLabel": "13 de septiembre de 2026",
+      "denomination": "XXIV Domingo del Tiempo Ordinario",
+      "fullTitle": "Domingo 13 de septiembre de 2026 - XXIV Domingo del Tiempo Ordinario - Ciclo A",
+      "season": "Tiempo Ordinario",
+      "refs": "Mt 18, 21-35",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-09-13-xxiv-domingo-del-tiempo-ordinario.webp",
+        "variant": "editorial",
+        "textTranscript": "Voy por el 489... · ¿Y los que has recibido tú? · PERDONES DADOS"
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-09-13.json",
+      "song": {
+        "title": "Sin llevar la cuenta",
+        "audioPublicPath": "assets/audio/2026-09-13-sin-llevar-la-cuenta.mp3"
+      }
     }
   ],
   "dataArchitecture": {
     "strategy": "index-plus-entry-payloads",
-    "entryPayloadCount": 41
+    "entryPayloadCount": 42
   }
 }

@@ -1,0 +1,236 @@
+{
+  "id": "2026-09-13",
+  "contentSchema": "integrated-gospel-v2",
+  "readings": [
+    {
+      "context": "",
+      "ref": "Mt 18, 21-35"
+    }
+  ],
+  "pastoral": "Recordar la misericordia recibida cambia la manera de mirar la deuda ajena. Perdonar no borra la verdad ni obliga a restaurar de inmediato un vínculo inseguro; permite dejar de reducir a la otra persona a lo peor que hizo y buscar un futuro donde también caben límites, reparación y protección. La paciencia de Dios puede pasar por nuestras manos sin convertir el dolor en una cuenta interminable.",
+  "meeting": {
+    "title": "Sin llevar la cuenta",
+    "subtitle": "Perdonar desde la misericordia que primero hemos recibido",
+    "duration": "70 minutos",
+    "key": {
+      "title": "Jesús rompe la contabilidad del agravio y nos devuelve a la misericordia recibida",
+      "text": "Pedro busca una cifra suficiente para el perdón y Jesús responde con una medida que ya no cabe en una lista. La parábola muestra a un siervo liberado de una deuda inmensa que, al salir, vuelve a vivir como si nunca hubiera necesitado paciencia. Recordar la misericordia recibida no vuelve pequeño el daño ni impide pedir verdad y reparación. Abre la posibilidad de soltar la contabilidad del agravio, mantener los límites necesarios y dejar que el futuro no quede gobernado por una deuda interminable.",
+      "quote": "Lo que has hecho tú conmigo quiero hacerlo yo también.",
+      "steps": [
+        {
+          "title": "Recordar",
+          "text": "El siervo recibe una paciencia que no podía comprar. El perdón comienza reconociendo la misericordia que nos dejó empezar de nuevo."
+        },
+        {
+          "title": "Nombrar",
+          "text": "La deuda pequeña sigue siendo real. Perdonar permite llamar al daño por su nombre sin convertirlo en la identidad completa del otro."
+        },
+        {
+          "title": "Soltar",
+          "text": "Setenta veces siete rompe la lista. Dejar de contar evita que el agravio siga decidiendo cada encuentro y cada recuerdo."
+        },
+        {
+          "title": "Discernir",
+          "text": "Misericordia y verdad caminan juntas. Límites, reparación, distancia o ayuda pueden formar parte de un perdón responsable."
+        },
+        {
+          "title": "Empezar",
+          "text": "El corazón aprende por pasos. Una oración, un límite claro o un gesto posible pueden abrir futuro sin forzar la reconciliación."
+        }
+      ]
+    },
+    "resonancesEyebrow": "Cuatro caminos bíblicos para dejar que la misericordia recibida alcance nuestras relaciones",
+    "resonancesTitle": "Dios no paga según la deuda, ofrece perdón y nos enseña a tratar al otro desde lo recibido",
+    "resonances": [
+      {
+        "ref": "Sal 103,10",
+        "title": "Una deuda no cobrada",
+        "quote": "«Ni nos ha pagado conforme á nuestros pecados.»",
+        "text": "La misericordia de Dios interrumpe la lógica de devolver a cada persona exactamente lo que merece."
+      },
+      {
+        "ref": "Lc 6,37",
+        "title": "Perdón que circula",
+        "quote": "«Perdonad, y seréis perdonados.»",
+        "text": "El perdón recibido no se guarda como privilegio. Se convierte en una manera nueva de relacionarnos."
+      },
+      {
+        "ref": "Col 3,13",
+        "title": "Como Cristo perdonó",
+        "quote": "«De la manera que Cristo os perdonó.»",
+        "text": "La medida cristiana nace de lo que Cristo hizo con nosotros y se aprende dentro de una comunidad paciente."
+      },
+      {
+        "ref": "Mt 18,33",
+        "title": "Misericordia recordada",
+        "quote": "«Como también yo tuve misericordia de ti.»",
+        "text": "La pregunta del señor descubre la contradicción de recibir compasión y volver a vivir llevando la cuenta."
+      }
+    ],
+    "synthesis": "Misericordia recibida · herida nombrada · cuenta soltada · futuro abierto",
+    "question": "¿Qué cambia cuando recuerdo la paciencia que Dios y otras personas han tenido conmigo?",
+    "agendaTitle": "Del agravio contado a una misericordia que abre futuro",
+    "agenda": [
+      {
+        "time": "00–08",
+        "title": "Escuchar",
+        "instruction": "Oír «Sin llevar la cuenta» completa, sin explicarla todavía.",
+        "question": "¿Qué frase me devuelve a la paciencia que he recibido?"
+      },
+      {
+        "time": "08–20",
+        "title": "Recordar",
+        "instruction": "Tarjeta opcional: deuda recibida / deuda reclamada.",
+        "question": "¿Qué sigo contando y qué misericordia olvido al hacerlo?"
+      },
+      {
+        "time": "20–38",
+        "title": "Iluminar",
+        "instruction": "Leer Mt 18,21–35 y marcar cuenta, súplica, misericordia, deuda y contradicción.",
+        "question": "¿Qué cambia entre el siervo que suplica y el siervo que cobra?"
+      },
+      {
+        "time": "38–58",
+        "title": "Discernir",
+        "instruction": "Caso ficticio: distinguir perdón, reconciliación, límites y reparación.",
+        "question": "¿Qué abre futuro sin negar verdad ni protección?"
+      },
+      {
+        "time": "58–70",
+        "title": "Responder",
+        "instruction": "Elegir una cuenta que soltar, un límite que cuidar y un gesto posible.",
+        "question": "¿Qué paso puedo dar sin forzarme ni forzar a nadie?"
+      }
+    ],
+    "criterion": "No usar el perdón para exigir contacto, reconciliación inmediata, silencio o renuncia a la justicia. Perdonar no obliga a confiar de nuevo ni a permanecer en una relación insegura. Ante abuso, violencia, amenaza o desigualdad grave de poder, priorizar protección, límites, ayuda profesional y autoridades competentes. Nadie está obligado a hablar ni a contar nada personal. Cada persona puede compartir solo lo que desee, guardar silencio o no responder.",
+    "deckPublicPath": "assets/presentations/2026-09-13-sin-llevar-la-cuenta.pptx"
+  },
+  "gospel": {
+    "summary": [
+      "Pedro pregunta cuántas veces debe perdonar y Jesús responde con una medida que desborda toda contabilidad. La parábola presenta a un siervo cuya deuda inmensa queda perdonada por compasión, pero que después reclama sin misericordia una deuda mucho menor. Jesús descubre así la contradicción entre el perdón recibido y el trato que ofrecemos a los demás.",
+      "Recordar la misericordia recibida cambia la manera de mirar la deuda ajena. Perdonar no borra la verdad ni obliga a restaurar de inmediato un vínculo inseguro; permite dejar de reducir a la otra persona a lo peor que hizo y buscar un futuro donde también caben límites, reparación y protección. La paciencia de Dios puede pasar por nuestras manos sin convertir el dolor en una cuenta interminable."
+    ],
+    "ceeLinks": [
+      {
+        "context": "",
+        "ref": "Mt 18, 21-35",
+        "url": "https://www.conferenciaepiscopal.es/biblia/nuevo-testamento-mateo/#cap18"
+      }
+    ]
+  },
+  "song": {
+    "lyrics": [
+      {
+        "lines": [
+          "Me sé de memoria el día,",
+          "cada frase que dolió.",
+          "He guardado sus palabras",
+          "donde guardo la razón."
+        ]
+      },
+      {
+        "lines": [
+          "Y aunque diga que no importa,",
+          "sé que queda por curar",
+          "una herida que se esconde",
+          "tras mis ganas de ganar."
+        ]
+      },
+      {
+        "lines": [
+          "Y al pedirte que me escuches,",
+          "me descubro en su lugar.",
+          "Tantas veces fui yo mismo",
+          "quien tuvo que suplicar."
+        ]
+      },
+      {
+        "lines": [
+          "Tú no llevabas la cuenta,",
+          "me dejabas comenzar.",
+          "Hoy te pido esa paciencia",
+          "para darla a los demás."
+        ]
+      },
+      {
+        "lines": [
+          "Tú no llevabas la cuenta,",
+          "me volvías a abrazar.",
+          "Lo que has hecho tú conmigo",
+          "quiero hacerlo yo también."
+        ]
+      },
+      {
+        "lines": [
+          "Todavía me hace daño",
+          "cuando vuelvo a recordar.",
+          "Mis heridas van sanando",
+          "paso a paso, sin forzar."
+        ]
+      },
+      {
+        "lines": [
+          "Si mañana nos cruzamos,",
+          "quiero verlo una vez más",
+          "sin poner sobre su nombre",
+          "todo aquello que hizo mal."
+        ]
+      },
+      {
+        "lines": [
+          "Y al pedirte que me escuches,",
+          "me descubro en su lugar.",
+          "Tantas veces fui yo mismo",
+          "quien tuvo que suplicar."
+        ]
+      },
+      {
+        "lines": [
+          "Tú no llevabas la cuenta,",
+          "me dejabas comenzar.",
+          "Hoy te pido esa paciencia",
+          "para darla a los demás."
+        ]
+      },
+      {
+        "lines": [
+          "Tú no llevabas la cuenta,",
+          "me volvías a abrazar.",
+          "Lo que has hecho tú conmigo",
+          "quiero hacerlo yo también."
+        ]
+      },
+      {
+        "lines": [
+          "Si me faltan las palabras,",
+          "si me cuesta dar la paz,",
+          "haz que pase por mis manos",
+          "tu manera de abrazar."
+        ]
+      },
+      {
+        "lines": [
+          "Tú no llevabas la cuenta,",
+          "me dejabas comenzar.",
+          "Hoy te pido esa paciencia",
+          "para darla a los demás."
+        ]
+      },
+      {
+        "lines": [
+          "Tú no llevabas la cuenta,",
+          "me volvías a abrazar.",
+          "Lo que has hecho tú conmigo",
+          "quiero hacerlo yo también."
+        ]
+      },
+      {
+        "lines": [
+          "Tú no llevabas la cuenta…",
+          "me dejabas comenzar."
+        ]
+      }
+    ],
+    "chordsPdfPublicPath": null
+  }
+}

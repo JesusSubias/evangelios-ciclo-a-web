@@ -61,7 +61,7 @@ const seasonColors = {
 };
 
 const app = document.querySelector("#app");
-const DATA_VERSION = "20260901-evangelio-integrado-v61";
+const DATA_VERSION = "20260905-sin-llevar-la-cuenta-v62";
 const ENTRY_CONTENT_SCHEMA = "integrated-gospel-v2";
 const OFFLINE_MESSAGE_TIMEOUT = 45000;
 const calendarWeekdays = ["L", "M", "X", "J", "V", "S", "D"];
