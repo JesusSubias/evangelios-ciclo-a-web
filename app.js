@@ -61,7 +61,7 @@ const seasonColors = {
 };
 
 const app = document.querySelector("#app");
-const DATA_VERSION = "20260905-arranque-actualizado-v63";
+const DATA_VERSION = "20260905-sin-canciones-extra-v64";
 const ENTRY_CONTENT_SCHEMA = "integrated-gospel-v2";
 const OFFLINE_MESSAGE_TIMEOUT = 45000;
 const calendarWeekdays = ["L", "M", "X", "J", "V", "S", "D"];
@@ -590,7 +590,6 @@ function renderSettingToggle(key, label, checked) {
 
 function renderSidebarContent() {
   const entries = filteredEntries();
-  const extraSongs = state.manifest.songs.filter((song) => !song.includedInCycle).slice(0, 5);
   return `
     <div class="sidebar-content">
       <label class="search-box" for="search">
@@ -618,19 +617,6 @@ function renderSidebarContent() {
           ${entries.map(renderEntryButton).join("")}
         </div>
       ` : `<div class="no-results">No hay fichas que coincidan con la búsqueda.</div>`}
-      <section class="library-block">
-        <h2 class="control-title">Canciones extra</h2>
-        <div class="extra-list">
-          ${extraSongs.map((song) => `
-            <div class="extra-song">
-              <span>${escapeHtml(song.title)}</span>
-              <span class="extra-actions">
-                ${song.audioPublicPath ? `<a href="${escapeHtml(versionedAssetPath(song.audioPublicPath))}" title="Descargar audio de ${escapeHtml(song.title)}">${ICONS.download}</a>` : `<span title="Audio pendiente">${ICONS.clock}</span>`}
-              </span>
-            </div>
-          `).join("")}
-        </div>
-      </section>
     </div>
   `;
 }
