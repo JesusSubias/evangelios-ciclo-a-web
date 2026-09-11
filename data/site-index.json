@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-05T10:00:50.362295+00:00",
-  "cutoff": "2026-09-13",
+  "generatedAt": "2026-09-11T12:35:17.655916+00:00",
+  "cutoff": "2026-09-20",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "bibleContent": {
     "kind": "summary",
@@ -12,12 +12,12 @@
     "audioPolicy": "mp3/m4a/mp4/opus publicados; WAV reservado como master opcional"
   },
   "summary": {
-    "cycleEntries": 42,
-    "songRecords": 47,
-    "cycleAudioFound": 42,
+    "cycleEntries": 43,
+    "songRecords": 48,
+    "cycleAudioFound": 43,
     "cycleAudioMissing": 0,
-    "imagesFound": 42,
-    "editorialImagesFound": 42,
+    "imagesFound": 43,
+    "editorialImagesFound": 43,
     "chordPdfsFound": 0
   },
   "missing": {
@@ -398,6 +398,14 @@
       "targetDate": "2026-09-13",
       "includedInCycle": true,
       "audioPublicPath": "assets/audio/2026-09-13-sin-llevar-la-cuenta.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 48,
+      "title": "Todo este tiempo contigo",
+      "targetDate": "2026-09-20",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-09-20-todo-este-tiempo-contigo.mp3",
       "chordsPdfPublicPath": null
     }
   ],
@@ -1283,10 +1291,31 @@
         "title": "Sin llevar la cuenta",
         "audioPublicPath": "assets/audio/2026-09-13-sin-llevar-la-cuenta.mp3"
       }
+    },
+    {
+      "id": "2026-09-20",
+      "index": 43,
+      "isoDate": "2026-09-20",
+      "dateLabel": "20 de septiembre de 2026",
+      "denomination": "XXV Domingo del Tiempo Ordinario",
+      "fullTitle": "Domingo 20 de septiembre de 2026 - XXV Domingo del Tiempo Ordinario - Ciclo A",
+      "season": "Tiempo Ordinario",
+      "refs": "Mt 20, 1-16",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-09-20-xxv-domingo-del-tiempo-ordinario.webp",
+        "variant": "editorial",
+        "textTranscript": "¿Mañana volvemos a darles lo mismo? · Sí. A ver si conseguimos que también se alegren lo mismo."
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-09-20.json",
+      "song": {
+        "title": "Todo este tiempo contigo",
+        "audioPublicPath": "assets/audio/2026-09-20-todo-este-tiempo-contigo.mp3"
+      }
     }
   ],
   "dataArchitecture": {
     "strategy": "index-plus-entry-payloads",
-    "entryPayloadCount": 42
+    "entryPayloadCount": 43
   }
 }

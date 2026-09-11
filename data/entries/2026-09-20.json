@@ -1,0 +1,222 @@
+{
+  "id": "2026-09-20",
+  "contentSchema": "integrated-gospel-v2",
+  "readings": [
+    {
+      "context": "",
+      "ref": "Mt 20, 1-16"
+    }
+  ],
+  "pastoral": "También una larga fidelidad puede llenarse de comparaciones. La canción propone recordar las horas entregadas y descubrir en ellas la presencia y el cuidado que ya se recibían. El abrazo a quien llega no borra el propio camino: invita a compartir la alegría y a hacer sitio sin exigir antigüedad. Esa gratuidad no autoriza salarios injustos ni obliga a esconder el cansancio; pide cuidar a quienes sostienen la comunidad y recibir con libertad a quienes empiezan.",
+  "meeting": {
+    "title": "Todo este tiempo contigo",
+    "subtitle": "Reconocer lo recibido y alegrarse de que otros también tengan sitio",
+    "duration": "70 minutos",
+    "key": {
+      "title": "La bondad de Dios ensancha la alegría de quienes llevan tiempo en la viña",
+      "text": "El dueño vuelve a la plaza a distintas horas y encuentra personas que aún esperan una oportunidad. Al pagar lo acordado a los primeros y dar lo mismo a los últimos, su generosidad descubre una herida de comparación: lo recibido empieza a parecer poco cuando otros también lo reciben. La canción relee ese malestar desde la gratitud. Las horas de fidelidad contienen también compañía, confianza y amor recibidos. Hacer sitio a quien llega no borra ese camino, sino que permite compartirlo sin convertir la antigüedad en un privilegio que excluye.",
+      "quote": "Cuando abrazas a quien llega, también me abrazas a mí.",
+      "steps": [
+        {
+          "title": "Reconocer",
+          "text": "Los primeros sienten el peso del día. Nombrar el propio esfuerzo ayuda a distinguir el cansancio de la comparación que amarga."
+        },
+        {
+          "title": "Recordar",
+          "text": "Releer la historia permite reconocer a quienes nos sostuvieron y el amor recibido mientras creíamos estar solamente dando."
+        },
+        {
+          "title": "Mirar",
+          "text": "Los últimos seguían en la plaza porque nadie los había contratado. Su llegada tiene una historia que todavía no conocemos."
+        },
+        {
+          "title": "Alegrarse",
+          "text": "El bien que otro recibe puede compartirse sin medirlo como una pérdida propia. La bondad de Dios invita a ensanchar la alegría."
+        },
+        {
+          "title": "Acoger",
+          "text": "Hacer sitio significa ofrecer participación real y acompañamiento, a la vez que se cuida a quienes llevan tiempo sirviendo."
+        }
+      ]
+    },
+    "resonancesEyebrow": "Cuatro pasajes para reconocer el don y compartir la alegría",
+    "resonancesTitle": "La memoria agradecida ayuda a acoger sin compararnos",
+    "resonances": [
+      {
+        "ref": "Dt 8,2–10",
+        "title": "Recordar el camino",
+        "quote": "Memoria del camino y del alimento recibido (paráfrasis).",
+        "text": "Israel aprende a reconocer el cuidado de Dios en una historia que no se explica solo por su propio esfuerzo."
+      },
+      {
+        "ref": "Is 55,6–9",
+        "title": "Una mirada más amplia",
+        "quote": "Los caminos de Dios desbordan nuestros cálculos (paráfrasis).",
+        "text": "La generosidad divina invita a revisar lo que consideramos merecido y a dejar espacio a una misericordia mayor."
+      },
+      {
+        "ref": "Lc 15,25–32",
+        "title": "El hermano que vuelve",
+        "quote": "El padre sale también al encuentro del hijo mayor (paráfrasis).",
+        "text": "La fiesta por quien regresa no niega el amor al que permaneció. El padre desea que ambos compartan la casa."
+      },
+      {
+        "ref": "Rom 12,15",
+        "title": "Compartir la alegría",
+        "quote": "Hacer propia la alegría de los demás (paráfrasis).",
+        "text": "La comunidad madura cuando puede celebrar el bien ajeno y acompañar el dolor sin competir por el reconocimiento."
+      }
+    ],
+    "synthesis": "Recordar el cuidado recibido abre espacio para compartir la alegría.",
+    "question": "¿Qué cambia en mi manera de acoger cuando recuerdo cuánto he recibido?",
+    "agendaTitle": "La fidelidad vivida desde la gratitud y la acogida",
+    "agenda": [
+      {
+        "time": "00–08",
+        "title": "Escuchar",
+        "instruction": "Oír «Todo este tiempo contigo» completa y guardar un momento de silencio.",
+        "question": "¿Qué frase me ayuda a reconocer lo recibido?"
+      },
+      {
+        "time": "08–20",
+        "title": "Recordar",
+        "instruction": "Tarjeta personal opcional: lo que entregué / lo que recibí durante ese tiempo.",
+        "question": "¿Quién estuvo a mi lado mientras yo contaba las horas?"
+      },
+      {
+        "time": "20–38",
+        "title": "Iluminar",
+        "instruction": "Leer Mt 20,1–16 y observar las llamadas, el acuerdo y las distintas reacciones al jornal.",
+        "question": "¿Qué sabemos de los últimos y qué damos por supuesto?"
+      },
+      {
+        "time": "38–58",
+        "title": "Dialogar",
+        "instruction": "Caso ficticio: una persona nueva recibe una responsabilidad y quienes llevan años se sienten poco reconocidos.",
+        "question": "¿Cómo cuidar el cansancio y abrir una participación real?"
+      },
+      {
+        "time": "58–70",
+        "title": "Responder",
+        "instruction": "Elegir un agradecimiento y un gesto concreto de acogida para esta semana.",
+        "question": "¿A quién puedo decir: me hace bien tenerte aquí?"
+      }
+    ],
+    "criterion": "La parábola habla de la generosidad del Reino. No usarla para justificar salarios injustos, explotación, favoritismo o falta de reconocimiento. Acoger a quien llega incluye cuidar el cansancio y repartir responsabilidades con justicia. Nadie está obligado a hablar ni a contar nada personal. Cada persona puede compartir solo lo que desee, guardar silencio o no responder.",
+    "deckPublicPath": "assets/presentations/2026-09-20-todo-este-tiempo-contigo.pptx"
+  },
+  "gospel": {
+    "summary": [
+      "Jesús compara el reino de los cielos con un dueño que contrata trabajadores para su viña a distintas horas. Al terminar la jornada, todos reciben un denario. Los primeros protestan porque esperaban más, pero el dueño recuerda que ha cumplido lo acordado y defiende su deseo de ser generoso con los últimos. La parábola cuestiona una mirada que convierte el bien recibido por otros en una pérdida propia.",
+      "También una larga fidelidad puede llenarse de comparaciones. La canción propone recordar las horas entregadas y descubrir en ellas la presencia y el cuidado que ya se recibían. El abrazo a quien llega no borra el propio camino: invita a compartir la alegría y a hacer sitio sin exigir antigüedad. Esa gratuidad no autoriza salarios injustos ni obliga a esconder el cansancio; pide cuidar a quienes sostienen la comunidad y recibir con libertad a quienes empiezan."
+    ],
+    "ceeLinks": [
+      {
+        "context": "",
+        "ref": "Mt 20, 1-16",
+        "url": "https://www.conferenciaepiscopal.es/biblia/nuevo-testamento-mateo/#cap20"
+      }
+    ]
+  },
+  "song": {
+    "lyrics": [
+      {
+        "lines": [
+          "Yo llevaba bien la cuenta",
+          "de las veces que volví,",
+          "de las tardes que entregaba,",
+          "de lo que dejé por ti."
+        ]
+      },
+      {
+        "lines": [
+          "Vi tu abrazo al que llegaba",
+          "y, por dentro, me encogí.",
+          "Yo llevaba tanto tiempo…",
+          "¿qué guardabas para mí?"
+        ]
+      },
+      {
+        "lines": [
+          "Pero al repasar mis pasos,",
+          "te encontraba siempre allí.",
+          "Yo contaba lo entregado;",
+          "tú cuidabas ya de mí."
+        ]
+      },
+      {
+        "lines": [
+          "Todo este tiempo contigo,",
+          "tantas maneras de amar,",
+          "y yo contando las horas,",
+          "tú enseñándome a mirar."
+        ]
+      },
+      {
+        "lines": [
+          "Todo este tiempo contigo,",
+          "hoy comienzo a descubrir:",
+          "cuando abrazas a quien llega,",
+          "también me abrazas a mí."
+        ]
+      },
+      {
+        "lines": [
+          "Hoy recuerdo aquella mesa,",
+          "con las migas y el café,",
+          "donde pude hablar sin miedo",
+          "de las veces que fallé."
+        ]
+      },
+      {
+        "lines": [
+          "Y en mitad de mis preguntas",
+          "te quedaste junto a mí.",
+          "Yo pensaba que te daba;",
+          "cuánto recibí de ti."
+        ]
+      },
+      {
+        "lines": [
+          "Todo este tiempo contigo,",
+          "tantas maneras de amar,",
+          "y yo contando las horas,",
+          "tú enseñándome a mirar."
+        ]
+      },
+      {
+        "lines": [
+          "Todo este tiempo contigo,",
+          "hoy comienzo a descubrir:",
+          "cuando abrazas a quien llega,",
+          "también me abrazas a mí."
+        ]
+      },
+      {
+        "lines": [
+          "Todavía me descubro",
+          "preguntando cuánto di.",
+          "Haz que mire al que ha llegado",
+          "y lo quiera junto a mí."
+        ]
+      },
+      {
+        "lines": [
+          "Todo este tiempo contigo,",
+          "tantas maneras de amar,",
+          "y yo contando las horas,",
+          "tú enseñándome a mirar."
+        ]
+      },
+      {
+        "lines": [
+          "Todo este tiempo contigo,",
+          "tanto amor que compartir.",
+          "Ven, que te he guardado un sitio;",
+          "me hace bien tenerte aquí."
+        ]
+      }
+    ],
+    "chordsPdfPublicPath": null
+  }
+}
