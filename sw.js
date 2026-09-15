@@ -1,4 +1,4 @@
-const APP_VERSION = "20260915-audio-todo-este-tiempo-contigo-v67";
+const APP_VERSION = "20260915-audio-todo-este-tiempo-contigo-v68";
 const CACHE_PREFIX = "evgl-";
 const SHELL_CACHE = `${CACHE_PREFIX}shell-${APP_VERSION}`;
 const RUNTIME_CACHE = `${CACHE_PREFIX}runtime-${APP_VERSION}`;
