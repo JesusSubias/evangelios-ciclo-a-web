@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-11T12:35:17.655916+00:00",
-  "cutoff": "2026-09-20",
+  "generatedAt": "2026-09-21T12:11:57.338518+00:00",
+  "cutoff": "2026-09-27",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "bibleContent": {
     "kind": "summary",
@@ -12,12 +12,12 @@
     "audioPolicy": "mp3/m4a/mp4/opus publicados; WAV reservado como master opcional"
   },
   "summary": {
-    "cycleEntries": 43,
-    "songRecords": 48,
-    "cycleAudioFound": 43,
+    "cycleEntries": 44,
+    "songRecords": 49,
+    "cycleAudioFound": 44,
     "cycleAudioMissing": 0,
-    "imagesFound": 43,
-    "editorialImagesFound": 43,
+    "imagesFound": 44,
+    "editorialImagesFound": 44,
     "chordPdfsFound": 0
   },
   "missing": {
@@ -406,6 +406,14 @@
       "targetDate": "2026-09-20",
       "includedInCycle": true,
       "audioPublicPath": "assets/audio/2026-09-20-todo-este-tiempo-contigo.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 49,
+      "title": "Hoy sí voy",
+      "targetDate": "2026-09-27",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-09-27-hoy-si-voy.mp3",
       "chordsPdfPublicPath": null
     }
   ],
@@ -1312,10 +1320,32 @@
         "title": "Todo este tiempo contigo",
         "audioPublicPath": "assets/audio/2026-09-20-todo-este-tiempo-contigo.mp3"
       }
+    },
+    {
+      "id": "2026-09-27",
+      "index": 44,
+      "isoDate": "2026-09-27",
+      "dateLabel": "27 de septiembre de 2026",
+      "denomination": "XXVI Domingo del Tiempo Ordinario",
+      "fullTitle": "Domingo 27 de septiembre de 2026 - XXVI Domingo del Tiempo Ordinario - Ciclo A",
+      "season": "Tiempo Ordinario",
+      "refs": "Mt 21, 28-32",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-09-27-xxvi-domingo-del-tiempo-ordinario.webp",
+        "variant": "editorial",
+        "fit": "contain",
+        "textTranscript": "Hoy sí voy, hoy sí voy... · ¿Vienes o es el estribillo?"
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-09-27.json",
+      "song": {
+        "title": "Hoy sí voy",
+        "audioPublicPath": "assets/audio/2026-09-27-hoy-si-voy.mp3"
+      }
     }
   ],
   "dataArchitecture": {
     "strategy": "index-plus-entry-payloads",
-    "entryPayloadCount": 43
+    "entryPayloadCount": 44
   }
 }

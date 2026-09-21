@@ -1,4 +1,4 @@
-const APP_VERSION = "20260917-audios-cuida-y-al-partir-v69";
+const APP_VERSION = "20260921-hoy-si-voy-v70";
 const CACHE_PREFIX = "evgl-";
 const SHELL_CACHE = `${CACHE_PREFIX}shell-${APP_VERSION}`;
 const RUNTIME_CACHE = `${CACHE_PREFIX}runtime-${APP_VERSION}`;

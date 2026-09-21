@@ -61,7 +61,7 @@ const seasonColors = {
 };
 
 const app = document.querySelector("#app");
-const DATA_VERSION = "20260917-audios-cuida-y-al-partir-v69";
+const DATA_VERSION = "20260921-hoy-si-voy-v70";
 const ENTRY_CONTENT_SCHEMA = "integrated-gospel-v2";
 const OFFLINE_MESSAGE_TIMEOUT = 45000;
 const calendarWeekdays = ["L", "M", "X", "J", "V", "S", "D"];
@@ -758,7 +758,7 @@ function renderReaderIntro(entry) {
   const imagePath = versionedAssetPath(entry.image.publicPath || state.manifest.assets.cover);
   return `
     <div class="reader-intro">
-      <figure class="hero-image">
+      <figure class="hero-image${entry.image.fit === "contain" ? " hero-image--contain" : ""}">
         <button class="image-open-hitarea" type="button" data-open-image data-image-trigger="hitarea" aria-label="Ver imagen completa">
           <img src="${escapeHtml(imagePath)}" alt="${escapeHtml(imageAlt(entry))}" />
         </button>

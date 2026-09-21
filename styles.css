@@ -816,6 +816,10 @@ a {
   object-fit: cover;
 }
 
+.hero-image--contain img {
+  object-fit: contain;
+}
+
 .image-open-button {
   position: absolute;
   right: 12px;
