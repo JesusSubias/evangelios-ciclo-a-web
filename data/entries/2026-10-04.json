@@ -1,0 +1,263 @@
+{
+  "id": "2026-10-04",
+  "contentSchema": "integrated-gospel-v2",
+  "readings": [
+    {
+      "context": "",
+      "ref": "Mt 21, 33-43"
+    }
+  ],
+  "pastoral": "La canción lleva esa pregunta a nuestra vida: lo recibido puede convertirse en servicio o en una posesión que defendemos incluso de quien nos lo confió. En la familia y en la comunidad, cuidar implica escuchar, compartir responsabilidades y respetar la libertad de las personas. Dejar crecer puede pedirnos renunciar al control, sin abandonar el cuidado ni los límites necesarios. Esta lectura invita a revisar nuestra propia manera de ejercer la responsabilidad, no a condenar a otro pueblo o a otra religión. Los frutos esperados son de justicia y amor, no una medida de rendimiento personal.",
+  "meeting": {
+    "title": "No vine a quedármelo",
+    "subtitle": "Cuidar lo que se nos confía y dejarlo crecer",
+    "duration": "70 minutos",
+    "key": {
+      "title": "Una responsabilidad confiada para dar fruto",
+      "text": "Los labradores reciben una viña que no han creado. Su deseo de adueñarse de ella termina en el rechazo de los enviados y en la muerte del hijo. La canción nos acerca a una tentación cotidiana: llamar mío a lo que se nos ha confiado. Podemos preguntarnos cómo ejercemos nuestras responsabilidades y si las personas a nuestro lado encuentran espacio para crecer. La fidelidad al don recibido pide cuidado, escucha y disposición a compartirlo. El fruto no depende solo de nosotros, y nadie se convierte en propiedad de quien lo acompaña.",
+      "quote": "Y acabé llamando mío lo que solo se me confió.",
+      "steps": [
+        {
+          "title": "Recibir",
+          "text": "La viña llega a manos de los labradores como un encargo. Recordar lo recibido puede despertar gratitud y responsabilidad."
+        },
+        {
+          "title": "Reconocer",
+          "text": "El deseo de control puede confundirse con el cuidado. Mirarlo con verdad ayuda a revisar nuestras decisiones."
+        },
+        {
+          "title": "Escuchar",
+          "text": "El dueño envía mensajeros. Acoger una palabra que nos cuestiona evita que encerremos la vida en nuestra propia medida."
+        },
+        {
+          "title": "Cuidar",
+          "text": "Acompañar el crecimiento pide presencia y respeto a la libertad. Soltar el control no equivale a desentenderse."
+        },
+        {
+          "title": "Compartir",
+          "text": "Transmitir una tarea o abrir una decisión permite que lo bueno continúe. Podemos alegrarnos de un fruto que llevará otras manos."
+        }
+      ]
+    },
+    "resonancesEyebrow": "Cuatro pasajes sobre el don recibido, la responsabilidad y el fruto",
+    "resonancesTitle": "El don recibido y los frutos del cuidado",
+    "resonances": [
+      {
+        "ref": "Is 5,1–7",
+        "title": "Frutos de justicia",
+        "quote": "La viña recibe cuidado y se espera de ella justicia (paráfrasis).",
+        "text": "El fruto se reconoce en el trato justo y en la vida que protegemos, no en lo que acumulamos."
+      },
+      {
+        "ref": "1 Cor 3,6–9",
+        "title": "Dios hace crecer",
+        "quote": "Unos plantan y otros riegan. Dios da el crecimiento (paráfrasis).",
+        "text": "Nuestra tarea importa, pero no somos dueños de todo el proceso ni de su resultado."
+      },
+      {
+        "ref": "1 Pe 4,10",
+        "title": "Dones para servir",
+        "quote": "Cada don recibido puede ponerse al servicio de los demás (paráfrasis).",
+        "text": "Lo confiado encuentra sentido al compartirse. Una responsabilidad se ejerce como servicio."
+      },
+      {
+        "ref": "Jn 15,4–5",
+        "title": "Unidos a la vid",
+        "quote": "El sarmiento da fruto al permanecer unido a la vid (paráfrasis).",
+        "text": "La relación con Cristo alimenta el cuidado. No tenemos que sostenerlo todo con nuestras fuerzas."
+      }
+    ],
+    "synthesis": "El don recibido puede seguir dando fruto en otras manos",
+    "question": "¿Qué necesita más espacio para crecer en aquello que se me ha confiado?",
+    "agendaTitle": "Cuidar sin apropiarse de lo recibido",
+    "agenda": [
+      {
+        "time": "00–08",
+        "title": "Escuchar",
+        "instruction": "Oír «No vine a quedármelo» completa y dejar un breve silencio.",
+        "question": "¿Qué frase me hace revisar mi manera de cuidar?"
+      },
+      {
+        "time": "08–20",
+        "title": "Reconocer",
+        "instruction": "Tarjeta opcional: algo recibido y una forma de cuidarlo.",
+        "question": "¿Cuándo confundo cuidar con decidirlo todo?"
+      },
+      {
+        "time": "20–38",
+        "title": "Iluminar",
+        "instruction": "Leer Mt 21,33–43. Observar el encargo, el rechazo y los frutos.",
+        "question": "¿Qué me cuestiona de los labradores y de su respuesta al hijo?"
+      },
+      {
+        "time": "38–58",
+        "title": "Discernir",
+        "instruction": "Caso ficticio: quien lleva años con una tarea impide que otros participen. Proponer un relevo acompañado.",
+        "question": "¿Cómo dar espacio a otros sin abandonar lo que hay que cuidar?"
+      },
+      {
+        "time": "58–70",
+        "title": "Responder",
+        "instruction": "Elegir una decisión que compartir o una tarea que transmitir. Acordar un primer paso y cuándo revisarlo.",
+        "question": "¿Qué puedo confiar a otras manos esta semana?"
+      }
+    ],
+    "criterion": "Respetar la libertad y los límites de cada persona. Soltar el control no significa abandonar responsabilidades, tolerar abusos ni desproteger a alguien. La parábola cuestiona nuestra propia responsabilidad y no autoriza a condenar a un pueblo o una religión. Nadie está obligado a hablar ni a contar nada personal. Cada persona puede compartir solo lo que desee, guardar silencio o no responder.",
+    "deckPublicPath": "assets/presentations/2026-10-04-no-vine-a-quedarmelo.pptx"
+  },
+  "gospel": {
+    "summary": [
+      "Jesús cuenta a los sumos sacerdotes y a los ancianos la historia de una viña confiada a unos labradores. Cuando el dueño envía a sus criados para recoger los frutos, los maltratan y matan. Finalmente asesinan también al hijo, pensando quedarse con la herencia. La parábola denuncia una responsabilidad convertida en apropiación y violencia. Jesús anuncia que la piedra rechazada será la piedra angular y que el reino se confiará a un pueblo que produzca sus frutos.",
+      "La canción lleva esa pregunta a nuestra vida: lo recibido puede convertirse en servicio o en una posesión que defendemos incluso de quien nos lo confió. En la familia y en la comunidad, cuidar implica escuchar, compartir responsabilidades y respetar la libertad de las personas. Dejar crecer puede pedirnos renunciar al control, sin abandonar el cuidado ni los límites necesarios. Esta lectura invita a revisar nuestra propia manera de ejercer la responsabilidad, no a condenar a otro pueblo o a otra religión. Los frutos esperados son de justicia y amor, no una medida de rendimiento personal."
+    ],
+    "ceeLinks": [
+      {
+        "context": "",
+        "ref": "Mt 21, 33-43",
+        "url": "https://www.conferenciaepiscopal.es/biblia/nuevo-testamento-mateo/#cap21"
+      }
+    ]
+  },
+  "song": {
+    "lyrics": [
+      {
+        "lines": [
+          "Le puse nombre a las cosas,",
+          "marqué su sitio al llegar,",
+          "cerré las manos pensando",
+          "que cuidar era guardar."
+        ]
+      },
+      {
+        "lines": [
+          "Me acostumbré a tener cerca",
+          "todo aquello que llegó,",
+          "y acabé llamando mío",
+          "lo que solo se me confió."
+        ]
+      },
+      {
+        "lines": [
+          "Y era tan corta la distancia,",
+          "casi imposible de advertir:",
+          "bastó ponerme en el centro",
+          "para dejar de servir."
+        ]
+      },
+      {
+        "lines": [
+          "No vine a quedármelo,",
+          "vine a hacerlo crecer,",
+          "a cuidar sin apretarlo,",
+          "a soltarlo alguna vez."
+        ]
+      },
+      {
+        "lines": [
+          "No vine a poner mi nombre",
+          "sobre aquello que encontré.",
+          "Si pasó por estas manos,",
+          "que al marcharse sea más",
+          "de lo que fue cuando llegó."
+        ]
+      },
+      {
+        "lines": [
+          "Querer no es hacerte mío",
+          "ni decidir dónde vas;",
+          "es caminar a tu lado",
+          "sin obligarte a quedar."
+        ]
+      },
+      {
+        "lines": [
+          "Hay cosas que solo viven",
+          "si las dejamos cambiar;",
+          "las manos que dan abrigo",
+          "también tienen que soltar."
+        ]
+      },
+      {
+        "lines": [
+          "Y si preguntas por mis manos,",
+          "no mires cuánto guardé;",
+          "mira lo que fue creciendo",
+          "con aquello que entregué."
+        ]
+      },
+      {
+        "lines": [
+          "No vine a quedármelo,",
+          "vine a hacerlo crecer,",
+          "a cuidar sin apretarlo,",
+          "a soltarlo alguna vez."
+        ]
+      },
+      {
+        "lines": [
+          "No vine a poner mi nombre",
+          "sobre aquello que encontré.",
+          "Si pasó por estas manos,",
+          "que al marcharse sea más",
+          "de lo que fue cuando llegó."
+        ]
+      },
+      {
+        "lines": [
+          "Tú pusiste entre mis manos",
+          "más de lo que yo pedí,",
+          "y confundí tantas veces",
+          "cuidar con guardar para mí."
+        ]
+      },
+      {
+        "lines": [
+          "Qué poco hace falta a veces",
+          "para torcer el sentido:",
+          "ponerme yo en el centro",
+          "y olvidar para qué vine."
+        ]
+      },
+      {
+        "lines": [
+          "Y tú sigues a la puerta,",
+          "sin cansarte de volver;",
+          "no preguntas cuánto guardo,",
+          "solo qué hice crecer."
+        ]
+      },
+      {
+        "lines": [
+          "No vine a quedármelo,",
+          "vine a hacerlo crecer,",
+          "a pasar de mano en mano",
+          "lo que un día recibí."
+        ]
+      },
+      {
+        "lines": [
+          "No vine a poner mi nombre,",
+          "ni a cerrarlo para mí.",
+          "Si algo bueno queda vivo",
+          "cuando yo ya no esté aquí,",
+          "habrá valido la pena",
+          "haberlo dejado seguir."
+        ]
+      },
+      {
+        "lines": [
+          "No vine a quedármelo.",
+          "No vine a quedármelo."
+        ]
+      },
+      {
+        "lines": [
+          "Si pasó por estas manos,",
+          "que se vaya siendo más",
+          "de lo que era cuando llegó."
+        ]
+      }
+    ],
+    "chordsPdfPublicPath": null
+  }
+}

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-21T12:11:57.338518+00:00",
-  "cutoff": "2026-09-27",
+  "generatedAt": "2026-09-27T06:49:54.750171+00:00",
+  "cutoff": "2026-10-04",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "bibleContent": {
     "kind": "summary",
@@ -12,12 +12,12 @@
     "audioPolicy": "mp3/m4a/mp4/opus publicados; WAV reservado como master opcional"
   },
   "summary": {
-    "cycleEntries": 44,
-    "songRecords": 49,
-    "cycleAudioFound": 44,
+    "cycleEntries": 45,
+    "songRecords": 50,
+    "cycleAudioFound": 45,
     "cycleAudioMissing": 0,
-    "imagesFound": 44,
-    "editorialImagesFound": 44,
+    "imagesFound": 45,
+    "editorialImagesFound": 45,
     "chordPdfsFound": 0
   },
   "missing": {
@@ -414,6 +414,14 @@
       "targetDate": "2026-09-27",
       "includedInCycle": true,
       "audioPublicPath": "assets/audio/2026-09-27-hoy-si-voy.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 50,
+      "title": "No vine a quedármelo",
+      "targetDate": "2026-10-04",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-10-04-no-vine-a-quedarmelo.mp3",
       "chordsPdfPublicPath": null
     }
   ],
@@ -1342,10 +1350,32 @@
         "title": "Hoy sí voy",
         "audioPublicPath": "assets/audio/2026-09-27-hoy-si-voy.mp3"
       }
+    },
+    {
+      "id": "2026-10-04",
+      "index": 45,
+      "isoDate": "2026-10-04",
+      "dateLabel": "4 de octubre de 2026",
+      "denomination": "XXVII Domingo del Tiempo Ordinario",
+      "fullTitle": "Domingo 4 de octubre de 2026 - XXVII Domingo del Tiempo Ordinario - Ciclo A",
+      "season": "Tiempo Ordinario",
+      "refs": "Mt 21, 33-43",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-10-04-xxvii-domingo-del-tiempo-ordinario.webp",
+        "variant": "editorial",
+        "fit": "contain",
+        "textTranscript": "Buenos días. Vengo de parte del dueño. · ¿Y tiene usted autorización del encargado? · VIÑA PRIVADA · PERSONAL AUTORIZADO SOLO · CONTROL DE ACCESO: Visitantes, Proveedores, Citas, Otros · STAFF · BUEN VINO MEJORES PERSONAS"
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-10-04.json",
+      "song": {
+        "title": "No vine a quedármelo",
+        "audioPublicPath": "assets/audio/2026-10-04-no-vine-a-quedarmelo.mp3"
+      }
     }
   ],
   "dataArchitecture": {
     "strategy": "index-plus-entry-payloads",
-    "entryPayloadCount": 44
+    "entryPayloadCount": 45
   }
 }
