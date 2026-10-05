@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-27T06:49:54.750171+00:00",
-  "cutoff": "2026-10-04",
+  "generatedAt": "2026-10-05T06:14:56.587176+00:00",
+  "cutoff": "2026-10-11",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "bibleContent": {
     "kind": "summary",
@@ -12,12 +12,12 @@
     "audioPolicy": "mp3/m4a/mp4/opus publicados; WAV reservado como master opcional"
   },
   "summary": {
-    "cycleEntries": 45,
-    "songRecords": 50,
-    "cycleAudioFound": 45,
+    "cycleEntries": 46,
+    "songRecords": 51,
+    "cycleAudioFound": 46,
     "cycleAudioMissing": 0,
-    "imagesFound": 45,
-    "editorialImagesFound": 45,
+    "imagesFound": 46,
+    "editorialImagesFound": 46,
     "chordPdfsFound": 0
   },
   "missing": {
@@ -422,6 +422,14 @@
       "targetDate": "2026-10-04",
       "includedInCycle": true,
       "audioPublicPath": "assets/audio/2026-10-04-no-vine-a-quedarmelo.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 51,
+      "title": "La fiesta es de todos",
+      "targetDate": "2026-10-11",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-10-11-la-fiesta-es-de-todos.mp3",
       "chordsPdfPublicPath": null
     }
   ],
@@ -1372,10 +1380,32 @@
         "title": "No vine a quedármelo",
         "audioPublicPath": "assets/audio/2026-10-04-no-vine-a-quedarmelo.mp3"
       }
+    },
+    {
+      "id": "2026-10-11",
+      "index": 46,
+      "isoDate": "2026-10-11",
+      "dateLabel": "11 de octubre de 2026",
+      "denomination": "XXVIII Domingo del Tiempo Ordinario",
+      "fullTitle": "Domingo 11 de octubre de 2026 - XXVIII Domingo del Tiempo Ordinario - Ciclo A",
+      "season": "Tiempo Ordinario",
+      "refs": "Mt 22, 1-14",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-10-11-xxviii-domingo-del-tiempo-ordinario.webp",
+        "variant": "editorial",
+        "fit": "contain",
+        "textTranscript": "¡Señor, la mesa ya no cabe! · Pues nos sobra una pared."
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-10-11.json",
+      "song": {
+        "title": "La fiesta es de todos",
+        "audioPublicPath": "assets/audio/2026-10-11-la-fiesta-es-de-todos.mp3"
+      }
     }
   ],
   "dataArchitecture": {
     "strategy": "index-plus-entry-payloads",
-    "entryPayloadCount": 45
+    "entryPayloadCount": 46
   }
 }
