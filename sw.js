@@ -1,4 +1,4 @@
-const APP_VERSION = "20261005-la-fiesta-es-de-todos-v72";
+const APP_VERSION = "20261005-la-fiesta-acogida-v73";
 const CACHE_PREFIX = "evgl-";
 const SHELL_CACHE = `${CACHE_PREFIX}shell-${APP_VERSION}`;
 const RUNTIME_CACHE = `${CACHE_PREFIX}runtime-${APP_VERSION}`;
