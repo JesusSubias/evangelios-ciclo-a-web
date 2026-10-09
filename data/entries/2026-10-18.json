@@ -1,0 +1,236 @@
+{
+  "id": "2026-10-18",
+  "contentSchema": "integrated-gospel-v2",
+  "readings": [
+    {
+      "context": "",
+      "ref": "Mt 22, 15-21"
+    }
+  ],
+  "pastoral": "Jesús hace mirar una moneda. La canción nos hace mirar una mesa con facturas, una pantalla y esa broma que seguimos para no quedar fuera. También ahí se decide a quién entregamos nuestro tiempo y nuestra libertad. Cumplir nuestras responsabilidades y trabajar por la ciudad forma parte de la vida compartida, pero ni el dinero ni la aprobación ajena pueden decir cuánto valemos. Al relacionar la imagen de la moneda con la humanidad creada a imagen de Dios (Gn 1,26–27), encontramos una resonancia para la oración de la canción: que esa dignidad se reconozca también en quien piensa distinto. Mateo no desarrolla explícitamente esa comparación. La propuesta es llevarla a un gesto concreto: escuchar sin interrumpir, dejar de reír una humillación o cuidar a quien solemos pasar por alto. ¿En quién puede notarse esta semana el amor que he recibido?",
+  "meeting": {
+    "title": "Que se te note en mí",
+    "subtitle": "La imagen de Dios en nuestra manera de tratar al otro",
+    "duration": "70 minutos",
+    "key": {
+      "title": "La imagen de Dios se reconoce en el trato",
+      "text": "Jesús mira el denario sin quedar atrapado en la alternativa que le proponen. La responsabilidad con la ciudad tiene su lugar, y la vida entera permanece abierta a Dios. La canción sitúa esa pregunta en decisiones pequeñas: buscar aprobación, repetir una burla o dedicar nuestra atención a quien tenemos delante. El vínculo con Gn 1,26–27 es una resonancia bíblica que proponemos para la reunión, no una explicación que Mateo añada al diálogo. Reconocer al otro como imagen de Dios invita a tratarlo con dignidad incluso cuando discrepamos.",
+      "quote": "Tu imagen vive en el otro, aunque no piense como él.",
+      "steps": [
+        {
+          "title": "Parar",
+          "text": "Mirar a qué se nos va la atención y qué aprobación buscamos. Reconocerlo sin compararnos con el resto del grupo."
+        },
+        {
+          "title": "Recordar",
+          "text": "El amor de Dios nos precede. Podemos acercarnos con lo que nos cuesta, sin fabricar una imagen perfecta."
+        },
+        {
+          "title": "Distinguir",
+          "text": "Contribuir al bien común y cumplir nuestras responsabilidades sin entregar nuestra conciencia al prestigio o a la presión del grupo."
+        },
+        {
+          "title": "Reconocer",
+          "text": "La persona con la que discrepo conserva su dignidad. Escuchar su historia puede cambiar mi manera de mirarla."
+        },
+        {
+          "title": "Cuidar",
+          "text": "Elegir un gesto concreto: atender sin mirar la pantalla, frenar una burla o reparar una palabra que hirió."
+        }
+      ]
+    },
+    "resonancesEyebrow": "Cuatro pasajes sobre la dignidad, la libertad y el amor al prójimo",
+    "resonancesTitle": "La imagen recibida y el amor que se hace visible",
+    "resonances": [
+      {
+        "ref": "Gn 1,26–27",
+        "title": "Imagen de Dios",
+        "quote": "Dios crea a la humanidad a su imagen (paráfrasis).",
+        "text": "La dignidad alcanza también a quien piensa distinto. Esta relación con la moneda es una resonancia pastoral."
+      },
+      {
+        "ref": "Rom 12,2",
+        "title": "Una mirada libre",
+        "quote": "Renovar la manera de pensar permite discernir lo que agrada a Dios (paráfrasis).",
+        "text": "Revisar las decisiones que tomamos solo por encajar o conseguir aprobación."
+      },
+      {
+        "ref": "Rom 13,7–10",
+        "title": "Responsabilidad y amor",
+        "quote": "Dar lo debido y mantener la deuda del amor mutuo (paráfrasis).",
+        "text": "La fe se vive también al contribuir al bien común. El amor al prójimo orienta esa responsabilidad."
+      },
+      {
+        "ref": "1 Jn 4,20–21",
+        "title": "El hermano visible",
+        "quote": "El amor a Dios pide amar al hermano que vemos (paráfrasis).",
+        "text": "La relación con Dios se juega en el modo de tratar a la persona concreta que tenemos delante."
+      }
+    ],
+    "synthesis": "La dignidad del otro merece nuestra atención, también cuando discrepamos",
+    "question": "¿Qué gesto de esta semana podría hacer visible el amor que hemos recibido?",
+    "agendaTitle": "La fe en nuestra manera de mirar y cuidar",
+    "agenda": [
+      {
+        "time": "00–08",
+        "title": "Escuchar",
+        "instruction": "Oír «Que se te note en mí» completa y dejar un breve silencio.",
+        "question": "¿Qué verso se parece a algo que estoy viviendo?"
+      },
+      {
+        "time": "08–20",
+        "title": "Reconocer",
+        "instruction": "Recordar una ocasión en que buscamos aprobación o escondimos lo que nos pasaba. Cada persona decide si quiere compartirla.",
+        "question": "¿Qué cedo de mí por miedo a no encajar?"
+      },
+      {
+        "time": "20–38",
+        "title": "Iluminar",
+        "instruction": "Leer Mt 22,15–21. Observar la trampa, la moneda y la respuesta. Leer Gn 1,26–27 como resonancia, distinguiéndolo del diálogo de Mateo.",
+        "question": "¿Qué merece mi responsabilidad y qué está ocupando el lugar de Dios?"
+      },
+      {
+        "time": "38–58",
+        "title": "Discernir",
+        "instruction": "Caso ficticio: en un chat compartimos una broma que humilla a alguien que piensa distinto. Proponer cómo frenarla y cómo reparar el daño sin humillar a quien la envió.",
+        "question": "¿Cómo cuidar a la persona sin renunciar a decir lo que pienso?"
+      },
+      {
+        "time": "58–70",
+        "title": "Responder",
+        "instruction": "Elegir un gesto de escucha o reparación realizable esta semana. Concretar con quién y cuándo, y acordar una revisión. Cerrar con «Que se te note en nosotros».",
+        "question": "¿Qué voy a cambiar en mi trato con una persona concreta?"
+      }
+    ],
+    "criterion": "Escuchar a quien piensa distinto sin exigir acuerdo. No señalar a personas ausentes ni mostrar conversaciones privadas. Trabajar con el caso ficticio si se prefiere. Cada persona puede compartir solo lo que desee, guardar silencio o no responder.",
+    "deckPublicPath": "assets/presentations/2026-10-18-que-se-te-note-en-mi.pptx"
+  },
+  "gospel": {
+    "summary": [
+      "Unos discípulos de los fariseos y unos herodianos se acercan a Jesús con una pregunta preparada para comprometerlo: ¿es lícito pagar el impuesto al César? Jesús reconoce la trampa y pide que le muestren la moneda del tributo. Ante el denario, pregunta de quién son la imagen y la inscripción. Cuando le responden que del César, les dice que den al César lo que le corresponde y a Dios lo que es de Dios. La pregunta sobre el impuesto queda abierta a otra más honda: qué lugar ocupa Dios en la vida de quienes le preguntan.",
+      "Jesús hace mirar una moneda. La canción nos hace mirar una mesa con facturas, una pantalla y esa broma que seguimos para no quedar fuera. También ahí se decide a quién entregamos nuestro tiempo y nuestra libertad. Cumplir nuestras responsabilidades y trabajar por la ciudad forma parte de la vida compartida, pero ni el dinero ni la aprobación ajena pueden decir cuánto valemos. Al relacionar la imagen de la moneda con la humanidad creada a imagen de Dios (Gn 1,26–27), encontramos una resonancia para la oración de la canción: que esa dignidad se reconozca también en quien piensa distinto. Mateo no desarrolla explícitamente esa comparación. La propuesta es llevarla a un gesto concreto: escuchar sin interrumpir, dejar de reír una humillación o cuidar a quien solemos pasar por alto. ¿En quién puede notarse esta semana el amor que he recibido?"
+    ],
+    "ceeLinks": [
+      {
+        "context": "",
+        "ref": "Mt 22, 15-21",
+        "url": "https://www.conferenciaepiscopal.es/biblia/nuevo-testamento-mateo/#cap22"
+      }
+    ]
+  },
+  "song": {
+    "lyrics": [
+      {
+        "lines": [
+          "En la mesa, las facturas;",
+          "en el móvil, alguien más",
+          "enseñándome la vida",
+          "que me falta por comprar."
+        ]
+      },
+      {
+        "lines": [
+          "He aprendido a hacerme fuerte,",
+          "a esconder lo que va mal,",
+          "como si para quererme",
+          "me tuvieran que aprobar."
+        ]
+      },
+      {
+        "lines": [
+          "En mitad de tanto ruido,",
+          "tú me vuelves a llamar;",
+          "me recuerdas que soy hijo,",
+          "que tu amor no hay que comprar."
+        ]
+      },
+      {
+        "lines": [
+          "Que se te note en mí,",
+          "en mi manera de mirar,",
+          "en escuchar hasta el final,",
+          "en atreverme a cuidar.",
+          "Que se te note en mí,",
+          "cuando me cueste querer;",
+          "tu imagen vive en el otro,",
+          "aunque no piense como él."
+        ]
+      },
+      {
+        "lines": [
+          "A veces por encajar",
+          "cedo lo que no quiero entregar.",
+          "¿A qué César escondido",
+          "le confío mi paz?"
+        ]
+      },
+      {
+        "lines": [
+          "Reí la broma que hirió",
+          "por no desentonar.",
+          "Hoy me pesa en el silencio",
+          "y me enseña a parar."
+        ]
+      },
+      {
+        "lines": [
+          "En mitad de tanto ruido,",
+          "tú me vuelves a llamar;",
+          "me recuerdas que soy hijo,",
+          "que tu amor no hay que comprar."
+        ]
+      },
+      {
+        "lines": [
+          "Que se te note en mí,",
+          "en mi manera de mirar,",
+          "en escuchar hasta el final,",
+          "en atreverme a cuidar.",
+          "Que se te note en mí,",
+          "cuando me cueste querer;",
+          "tu imagen vive en el otro,",
+          "aunque no piense como él."
+        ]
+      },
+      {
+        "lines": [
+          "Daré al César sus monedas",
+          "y mi esfuerzo a la ciudad;",
+          "pero el fondo de mi vida",
+          "solo tú lo llenarás."
+        ]
+      },
+      {
+        "lines": [
+          "Que se te note en mí,",
+          "en mi manera de mirar,",
+          "en escuchar hasta el final,",
+          "en atreverme a cuidar.",
+          "Que se te note en mí,",
+          "cuando me cueste querer;",
+          "tu imagen vive en el otro,",
+          "aunque no piense como él."
+        ]
+      },
+      {
+        "lines": [
+          "Que se te note en mí,",
+          "en mi manera de mirar,",
+          "en escuchar hasta el final,",
+          "en atreverme a cuidar.",
+          "Que se te note en mí,",
+          "cuando me cueste querer;",
+          "tu imagen vive en el otro,",
+          "aunque no piense como él."
+        ]
+      },
+      {
+        "lines": [
+          "Que se te note en nosotros.",
+          "Que se te note al amar."
+        ]
+      }
+    ],
+    "chordsPdfPublicPath": null
+  }
+}

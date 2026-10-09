@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-05T07:13:46.715635+00:00",
-  "cutoff": "2026-10-11",
+  "generatedAt": "2026-10-09T19:07:03.243754+00:00",
+  "cutoff": "2026-10-18",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "bibleContent": {
     "kind": "summary",
@@ -12,12 +12,12 @@
     "audioPolicy": "mp3/m4a/mp4/opus publicados; WAV reservado como master opcional"
   },
   "summary": {
-    "cycleEntries": 46,
-    "songRecords": 51,
-    "cycleAudioFound": 46,
+    "cycleEntries": 47,
+    "songRecords": 52,
+    "cycleAudioFound": 47,
     "cycleAudioMissing": 0,
-    "imagesFound": 46,
-    "editorialImagesFound": 46,
+    "imagesFound": 47,
+    "editorialImagesFound": 47,
     "chordPdfsFound": 0
   },
   "missing": {
@@ -430,6 +430,14 @@
       "targetDate": "2026-10-11",
       "includedInCycle": true,
       "audioPublicPath": "assets/audio/2026-10-11-la-fiesta-es-de-todos.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 52,
+      "title": "Que se te note en mí",
+      "targetDate": "2026-10-18",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-10-18-que-se-te-note-en-mi.mp3",
       "chordsPdfPublicPath": null
     }
   ],
@@ -1402,10 +1410,32 @@
         "title": "La fiesta es de todos",
         "audioPublicPath": "assets/audio/2026-10-11-la-fiesta-es-de-todos.mp3"
       }
+    },
+    {
+      "id": "2026-10-18",
+      "index": 47,
+      "isoDate": "2026-10-18",
+      "dateLabel": "18 de octubre de 2026",
+      "denomination": "XXIX Domingo del Tiempo Ordinario",
+      "fullTitle": "Domingo 18 de octubre de 2026 - XXIX Domingo del Tiempo Ordinario - Ciclo A",
+      "season": "Tiempo Ordinario",
+      "refs": "Mt 22, 15-21",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-10-18-xxix-domingo-del-tiempo-ordinario.webp",
+        "variant": "editorial",
+        "fit": "contain",
+        "textTranscript": "Yo al César solo le doy unas monedas. · A este le estás dando la tarde entera. · Tiempo de uso: 6 h 24 min"
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-10-18.json",
+      "song": {
+        "title": "Que se te note en mí",
+        "audioPublicPath": "assets/audio/2026-10-18-que-se-te-note-en-mi.mp3"
+      }
     }
   ],
   "dataArchitecture": {
     "strategy": "index-plus-entry-payloads",
-    "entryPayloadCount": 46
+    "entryPayloadCount": 47
   }
 }
