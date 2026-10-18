@@ -1,4 +1,4 @@
-const APP_VERSION = "20261009-que-se-te-note-en-mi-v74";
+const APP_VERSION = "20261018-con-todo-v75";
 const CACHE_PREFIX = "evgl-";
 const SHELL_CACHE = `${CACHE_PREFIX}shell-${APP_VERSION}`;
 const RUNTIME_CACHE = `${CACHE_PREFIX}runtime-${APP_VERSION}`;

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-09T19:07:03.243754+00:00",
-  "cutoff": "2026-10-18",
+  "generatedAt": "2026-10-18T21:51:32.399128+00:00",
+  "cutoff": "2026-10-25",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "bibleContent": {
     "kind": "summary",
@@ -12,12 +12,12 @@
     "audioPolicy": "mp3/m4a/mp4/opus publicados; WAV reservado como master opcional"
   },
   "summary": {
-    "cycleEntries": 47,
-    "songRecords": 52,
-    "cycleAudioFound": 47,
+    "cycleEntries": 48,
+    "songRecords": 53,
+    "cycleAudioFound": 48,
     "cycleAudioMissing": 0,
-    "imagesFound": 47,
-    "editorialImagesFound": 47,
+    "imagesFound": 48,
+    "editorialImagesFound": 48,
     "chordPdfsFound": 0
   },
   "missing": {
@@ -438,6 +438,14 @@
       "targetDate": "2026-10-18",
       "includedInCycle": true,
       "audioPublicPath": "assets/audio/2026-10-18-que-se-te-note-en-mi.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 53,
+      "title": "Con todo",
+      "targetDate": "2026-10-25",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-10-25-con-todo.mp3",
       "chordsPdfPublicPath": null
     }
   ],
@@ -1432,10 +1440,32 @@
         "title": "Que se te note en mí",
         "audioPublicPath": "assets/audio/2026-10-18-que-se-te-note-en-mi.mp3"
       }
+    },
+    {
+      "id": "2026-10-25",
+      "index": 48,
+      "isoDate": "2026-10-25",
+      "dateLabel": "25 de octubre de 2026",
+      "denomination": "XXX Domingo del Tiempo Ordinario",
+      "fullTitle": "Domingo 25 de octubre de 2026 - XXX Domingo del Tiempo Ordinario - Ciclo A",
+      "season": "Tiempo Ordinario",
+      "refs": "Mt 22, 34-40",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-10-25-xxx-domingo-del-tiempo-ordinario.webp",
+        "variant": "editorial",
+        "fit": "contain",
+        "textTranscript": "Mira quién viene... Justo el que no soporto. · Hoy las prácticas empiezan a la salida. · Amarás a tu prójimo · Mt 22, 34-40"
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-10-25.json",
+      "song": {
+        "title": "Con todo",
+        "audioPublicPath": "assets/audio/2026-10-25-con-todo.mp3"
+      }
     }
   ],
   "dataArchitecture": {
     "strategy": "index-plus-entry-payloads",
-    "entryPayloadCount": 47
+    "entryPayloadCount": 48
   }
 }

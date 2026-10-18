@@ -1,0 +1,244 @@
+{
+  "id": "2026-10-25",
+  "contentSchema": "integrated-gospel-v2",
+  "readings": [
+    {
+      "context": "",
+      "ref": "Mt 22, 34-40"
+    }
+  ],
+  "pastoral": "La canción sitúa esa llamada en una cocina: alguien quiere hablar y recibe respuestas mientras seguimos mirando la pantalla. Al día siguiente podemos volver a la mesa, dejar el móvil y escuchar lo que antes no quisimos atender. La viñeta lleva la misma pregunta a la salida de la iglesia, cuando aparece alguien que nos cae mal. El amor que hemos celebrado necesita tiempo y manos también ahí. Decir «con todo» puede empezar por un rato pequeño en el que estamos de verdad, y continuar haciendo sitio a quien acaba de llegar. El verso sobre volver a despreciarnos recuerda que también necesitamos tratarnos con paciencia para aprender. Desde esta lectura pastoral, amar no exige estar disponibles a todas horas ni ignorar nuestros límites. ¿A quién puedo ofrecer esta semana una atención que suelo aplazar?",
+  "meeting": {
+    "title": "Con todo",
+    "subtitle": "Amar a Dios en el tiempo que damos al otro",
+    "duration": "70 minutos",
+    "key": {
+      "title": "Con todo el corazón",
+      "text": "Jesús vincula el amor a Dios y el amor al prójimo. La canción permite reconocer esa unidad en una escena cotidiana: responder sin escuchar, descubrir lo que hemos descuidado y volver a ofrecer nuestra presencia. La viñeta pregunta qué ocurre al salir de la iglesia cuando encontramos a alguien que nos cuesta querer. La reunión propone dedicar un tiempo concreto a escuchar, abrir el grupo a quien llega y aprender con paciencia de nuestros fallos. El cuidado de los propios límites forma parte de esta aplicación pastoral.",
+      "quote": "Amarte en el de al lado, ponerle manos al amor.",
+      "steps": [
+        {
+          "title": "Parar",
+          "text": "Reconocer cuándo estamos físicamente presentes mientras nuestra atención se queda en otra parte."
+        },
+        {
+          "title": "Escuchar",
+          "text": "Ofrecer un rato sin pantalla ni interrupciones. Preguntar qué necesita la otra persona antes de dar consejos."
+        },
+        {
+          "title": "Volver",
+          "text": "Retomar una conversación que dejamos a medias y reconocer con sencillez que no estuvimos atentos."
+        },
+        {
+          "title": "Hacer sitio",
+          "text": "Invitar a participar a quien acaba de llegar y cuidar también el trato con quien nos resulta difícil."
+        },
+        {
+          "title": "Aprender",
+          "text": "Elegir un gesto posible, pedir ayuda cuando haga falta y revisar lo vivido sin despreciarnos por los fallos."
+        }
+      ]
+    },
+    "resonancesEyebrow": "Cuatro pasajes para unir el amor a Dios y al prójimo",
+    "resonancesTitle": "El amor a Dios en la vida compartida",
+    "resonances": [
+      {
+        "ref": "Dt 6,4–5",
+        "title": "Con todo el ser",
+        "quote": "Israel recibe la llamada a amar al único Señor con todo su ser (paráfrasis).",
+        "text": "La respuesta a Dios alcanza nuestra vida cotidiana, también el tiempo y la atención que ofrecemos."
+      },
+      {
+        "ref": "Lv 19,18",
+        "title": "Como a ti mismo",
+        "quote": "El amor al prójimo acompaña la renuncia a la venganza y al rencor (paráfrasis).",
+        "text": "Revisar cómo tratamos a quien nos cuesta querer. El deseo de recibir cuidado ayuda a reconocer lo que necesita el otro."
+      },
+      {
+        "ref": "1 Jn 4,19–21",
+        "title": "El amor recibido",
+        "quote": "Dios nos ama primero y nos llama a amar al hermano que vemos (paráfrasis).",
+        "text": "La paciencia que recibimos puede convertirse en presencia y cuidado para alguien concreto."
+      },
+      {
+        "ref": "Lc 10,33–37",
+        "title": "Acercarse y cuidar",
+        "quote": "El samaritano se acerca al herido y se ocupa de él (paráfrasis).",
+        "text": "El amor toma forma cuando interrumpimos el camino y ponemos medios al servicio de una necesidad."
+      }
+    ],
+    "synthesis": "El amor a Dios alcanza a la persona que tenemos delante",
+    "question": "¿Quién está esperando un rato de mi atención?",
+    "agendaTitle": "El amor en una conversación pendiente",
+    "agenda": [
+      {
+        "time": "00–08",
+        "title": "Escuchar",
+        "instruction": "Oír «Con todo» completa y dejar un breve silencio. Cada persona puede quedarse con un verso.",
+        "question": "¿Qué momento de la canción reconozco en mi vida?"
+      },
+      {
+        "time": "08–20",
+        "title": "Reconocer",
+        "instruction": "Recordar una conversación en la que estuvimos sin escuchar, o una ocasión en la que alguien nos dedicó su atención. Compartirlo es opcional.",
+        "question": "¿Qué cambia cuando alguien me escucha de verdad?"
+      },
+      {
+        "time": "20–38",
+        "title": "Iluminar",
+        "instruction": "Leer Mt 22,34–40. Observar la pregunta por el mandamiento principal y los dos mandamientos que Jesús vincula. Relacionarlos con 1 Jn 4,19–21.",
+        "question": "¿Cómo se unen mi relación con Dios y el trato que doy al otro?"
+      },
+      {
+        "time": "38–58",
+        "title": "Discernir",
+        "instruction": "Caso ficticio: al terminar la reunión llega una persona que suele resultar incómoda al grupo y pide hablar. Unos miran el reloj y otros evitan saludar. Proponer una acogida concreta, teniendo en cuenta el tiempo y las posibilidades de cada uno.",
+        "question": "¿Cómo ofrecer una acogida real con el tiempo que tenemos?"
+      },
+      {
+        "time": "58–70",
+        "title": "Responder",
+        "instruction": "Elegir una conversación pendiente o un gesto de acogida para esta semana. Concretar con quién, cuándo y qué distracción apartaremos. Revisarlo en el siguiente encuentro. Cerrar con «Tú me quieres por entero; enséñame a querer».",
+        "question": "¿A quién voy a dedicar un rato de atención esta semana?"
+      }
+    ],
+    "criterion": "Escuchar sin interrumpir ni juzgar. Nadie está obligado a hablar: cada persona puede compartir solo lo que desee, guardar silencio o no responder. Evitar nombres y detalles de personas ausentes. Proponer gestos posibles que respeten la intimidad y los límites de todos.",
+    "deckPublicPath": "assets/presentations/2026-10-25-con-todo.pptx"
+  },
+  "gospel": {
+    "summary": [
+      "Después de que Jesús haya respondido a los saduceos, los fariseos se reúnen y uno de ellos, experto en la Ley, le pregunta para ponerlo a prueba cuál es el mandamiento principal. Jesús responde uniendo dos pasajes de la Escritura: amar a Dios con todo el corazón, con toda el alma y con toda la mente, y amar al prójimo como a uno mismo. Presenta el segundo como semejante al primero y afirma que de ambos dependen la Ley y los Profetas. La respuesta reúne la relación con Dios y el trato con las personas en una misma llamada a amar.",
+      "La canción sitúa esa llamada en una cocina: alguien quiere hablar y recibe respuestas mientras seguimos mirando la pantalla. Al día siguiente podemos volver a la mesa, dejar el móvil y escuchar lo que antes no quisimos atender. La viñeta lleva la misma pregunta a la salida de la iglesia, cuando aparece alguien que nos cae mal. El amor que hemos celebrado necesita tiempo y manos también ahí. Decir «con todo» puede empezar por un rato pequeño en el que estamos de verdad, y continuar haciendo sitio a quien acaba de llegar. El verso sobre volver a despreciarnos recuerda que también necesitamos tratarnos con paciencia para aprender. Desde esta lectura pastoral, amar no exige estar disponibles a todas horas ni ignorar nuestros límites. ¿A quién puedo ofrecer esta semana una atención que suelo aplazar?"
+    ],
+    "ceeLinks": [
+      {
+        "context": "",
+        "ref": "Mt 22, 34-40",
+        "url": "https://www.conferenciaepiscopal.es/biblia/nuevo-testamento-mateo/#cap22"
+      }
+    ]
+  },
+  "song": {
+    "lyrics": [
+      {
+        "lines": [
+          "Con todo, con todo,",
+          "con todo el corazón."
+        ]
+      },
+      {
+        "lines": [
+          "Esta tarde, en la cocina,",
+          "alguien quiso conversar.",
+          "Yo miraba la pantalla,",
+          "contestaba sin estar."
+        ]
+      },
+      {
+        "lines": [
+          "Luego, al recoger la mesa,",
+          "me ha dolido comprender",
+          "cuánto amor cabe en un rato",
+          "que no quise conceder."
+        ]
+      },
+      {
+        "lines": [
+          "Tú me quieres por entero;",
+          "enséñame a querer."
+        ]
+      },
+      {
+        "lines": [
+          "Con todo, con todo,",
+          "con todo el corazón.",
+          "Amarte en el de al lado,",
+          "ponerle manos al amor.",
+          "Con todo, con todo,",
+          "con todo lo que soy.",
+          "Que nadie se me quede",
+          "fuera de este amor."
+        ]
+      },
+      {
+        "lines": [
+          "Con todo, con todo,",
+          "con todo el corazón."
+        ]
+      },
+      {
+        "lines": [
+          "Hoy he vuelto a aquella mesa",
+          "y he dejado de correr.",
+          "He escuchado lo que duele,",
+          "he querido comprender."
+        ]
+      },
+      {
+        "lines": [
+          "Tú me quieres por entero;",
+          "enséñame a querer."
+        ]
+      },
+      {
+        "lines": [
+          "Con todo, con todo,",
+          "con todo el corazón.",
+          "Amarte en el de al lado,",
+          "ponerle manos al amor.",
+          "Con todo, con todo,",
+          "con todo lo que soy.",
+          "Que nadie se me quede",
+          "fuera de este amor."
+        ]
+      },
+      {
+        "lines": [
+          "Que haya sitio en nuestra mesa",
+          "para quien acaba de llegar.",
+          "Que encontremos entre todos",
+          "lo que uno solo no puede dar."
+        ]
+      },
+      {
+        "lines": [
+          "Y si vuelvo a despreciarme",
+          "por lo que no supe hacer,",
+          "que recuerde que me quieres",
+          "y que aún puedo aprender."
+        ]
+      },
+      {
+        "lines": [
+          "Con todo, con todo,",
+          "con todo el corazón.",
+          "Amarte en el de al lado,",
+          "ponerle manos al amor.",
+          "Con todo, con todo,",
+          "con todo lo que soy.",
+          "Que nadie se me quede",
+          "fuera de este amor."
+        ]
+      },
+      {
+        "lines": [
+          "Con todo, con todo,",
+          "con todo el corazón.",
+          "Amarte en el de al lado,",
+          "ponerle manos al amor.",
+          "Con todo, con todo,",
+          "con todo lo que soy.",
+          "Que nadie se me quede",
+          "fuera de este amor."
+        ]
+      },
+      {
+        "lines": [
+          "Con todo, con todo,",
+          "con todo el corazón."
+        ]
+      }
+    ],
+    "chordsPdfPublicPath": null
+  }
+}
