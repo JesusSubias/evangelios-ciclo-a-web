@@ -61,7 +61,9 @@ const seasonColors = {
 };
 
 const app = document.querySelector("#app");
-const DATA_VERSION = "20261024-quiero-vivir-asi-v77";
+const DATA_VERSION = "20261024-privacidad-v78";
+// Activate only after verifying ownership, a private dashboard and aggregate-only storage.
+const GOATCOUNTER_ENDPOINT = "https://evangelios-ciclo-a.goatcounter.com/count";
 const ENTRY_CONTENT_SCHEMA = "integrated-gospel-v2";
 const OFFLINE_MESSAGE_TIMEOUT = 45000;
 const calendarWeekdays = ["L", "M", "X", "J", "V", "S", "D"];
@@ -71,6 +73,72 @@ let eventsBound = false;
 const entryPayloadRequests = new Map();
 let selectionRequestId = 0;
 let offlineStatusRequestId = 0;
+let analyticsStarted = false;
+let analyticsLastEntry = null;
+let analyticsPendingEntry = null;
+
+function trackEntryVisit(entry) {
+  if (!GOATCOUNTER_ENDPOINT || !navigator.onLine
+    || location.hostname !== "jesussubias.github.io"
+    || !["/evangelios-ciclo-a-web/", "/evangelios-ciclo-a-web/index.html"].includes(location.pathname)) return;
+  if (analyticsLastEntry === entry.id) return;
+  analyticsPendingEntry = entry;
+
+  if (!analyticsStarted) {
+    analyticsStarted = true;
+    window.goatcounter = { no_onload: true, no_events: true };
+    const script = document.createElement("script");
+    script.src = "https://gc.zgo.at/count.js";
+    script.dataset.goatcounter = GOATCOUNTER_ENDPOINT;
+    script.async = true;
+    script.addEventListener("load", () => {
+      if (!navigator.onLine || typeof window.goatcounter?.count !== "function") return;
+      let referrer = "";
+      try {
+        const source = new URL(document.referrer);
+        if (source.origin !== location.origin) referrer = source.origin;
+      } catch { /* Direct access has no referrer. */ }
+      // Count one site visit; entry selections are separate aggregate events.
+      window.goatcounter.count({
+        path: "/evangelios-ciclo-a-web/",
+        title: "Evangelios del domingo",
+        referrer,
+      });
+      if (analyticsPendingEntry) trackEntryVisit(analyticsPendingEntry);
+    }, { once: true });
+    document.head.appendChild(script);
+  }
+  if (typeof window.goatcounter?.count !== "function") return;
+  window.goatcounter.count({
+    path: `ficha-${entry.id}`,
+    title: `${entry.isoDate} · ${entry.song.title}`,
+    event: true,
+    referrer: "",
+  });
+  analyticsLastEntry = entry.id;
+  analyticsPendingEntry = null;
+}
+
+function renderPrivacyNotice() {
+  const statistics = GOATCOUNTER_ENDPOINT ? `
+    <p>Esta web utiliza GoatCounter para conocer cuántas visitas recibe y qué contenidos se consultan, con el fin de mejorar los materiales ofrecidos.</p>
+    <p>Las estadísticas se guardan de forma agrupada y su consulta es privada. Pueden incluir las páginas visitadas, la procedencia del enlace y datos generales como el país, el navegador o el tipo de dispositivo.</p>
+    <p>GoatCounter no utiliza cookies de seguimiento ni sigue tu actividad en otras webs. Para distinguir visitas repetidas, procesa temporalmente la dirección IP y la información del navegador durante un máximo de ocho horas, sin guardarlas en su base de datos. Puedes consultar su <a href="https://www.goatcounter.com/help/privacy" target="_blank" rel="noopener noreferrer">política de privacidad</a>.</p>
+  ` : `<p>Actualmente esta web no utiliza un contador de visitas ni cookies de seguimiento.</p>`;
+  return `
+    <dialog class="privacy-dialog" id="privacy-dialog" aria-labelledby="privacy-title">
+      <div class="privacy-dialog-header">
+        <h2 id="privacy-title">Privacidad y estadísticas de visitas</h2>
+        <button class="privacy-close" type="button" data-close-privacy aria-label="Cerrar privacidad" autofocus>×</button>
+      </div>
+      <div class="privacy-copy">
+        ${statistics}
+        <p>La web está alojada en GitHub Pages. Este servicio registra las direcciones IP por motivos de seguridad, independientemente del contador de visitas. Más información en la <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection" target="_blank" rel="noopener noreferrer">documentación de GitHub Pages</a>.</p>
+        <p>Los marcadores, los ajustes de lectura y el contenido que guardes para usar sin conexión permanecen en tu navegador y no se envían al contador.</p>
+      </div>
+    </dialog>
+  `;
+}
 
 async function init() {
   try {
@@ -426,6 +494,10 @@ function ensureShell() {
         <div class="sidebar-region"></div>
       </aside>
     </main>
+    <footer class="site-footer">
+      <button class="privacy-link" type="button" data-open-privacy aria-haspopup="dialog" aria-controls="privacy-dialog">Privacidad</button>
+    </footer>
+    ${renderPrivacyNotice()}
   `;
   bindEvents();
 }
@@ -511,6 +583,7 @@ function render(options = {}) {
 
   restoreSidebarScroll(scrollState, options.revealActiveEntry);
   focusAfterRender(options.focusTarget);
+  if (selectedEntryIsReady()) trackEntryVisit(entry);
 }
 
 function renderTopActions(entry) {
@@ -991,8 +1064,17 @@ function handleAppInput(event) {
 }
 
 function handleAppClick(event) {
-  const control = event.target.closest("[data-close-image], [data-open-image], [data-season], [data-entry], [data-calendar-toggle], [data-bookmark-toggle], [data-offline-toggle], [data-settings-toggle], [data-setting], [data-calendar-shift], [data-calendar-entry], [data-tab], [data-retry-entry], #toggleLyrics");
+  const control = event.target.closest("[data-open-privacy], [data-close-privacy], [data-close-image], [data-open-image], [data-season], [data-entry], [data-calendar-toggle], [data-bookmark-toggle], [data-offline-toggle], [data-settings-toggle], [data-setting], [data-calendar-shift], [data-calendar-entry], [data-tab], [data-retry-entry], #toggleLyrics");
   if (!control || !app.contains(control)) return;
+
+  if (control.matches("[data-open-privacy]")) {
+    app.querySelector("#privacy-dialog").showModal();
+    return;
+  }
+  if (control.matches("[data-close-privacy]")) {
+    app.querySelector("#privacy-dialog").close();
+    return;
+  }
 
   if (control.matches("[data-retry-entry]")) {
     loadSelectedEntry({ preserveSidebarScroll: true });
@@ -1104,6 +1186,7 @@ function focusableControls(container) {
 }
 
 function handleDocumentKeydown(event) {
+  if (app.querySelector("#privacy-dialog")?.open) return;
   const dialog = state.imageOpen
     ? app.querySelector(".image-viewer")
     : state.settingsOpen

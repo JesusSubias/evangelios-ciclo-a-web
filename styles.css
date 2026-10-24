@@ -80,6 +80,90 @@ a {
   min-height: 100vh;
 }
 
+.site-footer {
+  padding: 8px 24px 16px;
+  text-align: center;
+}
+
+.privacy-link {
+  min-width: 76px;
+  min-height: 36px;
+  padding: 8px;
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--muted);
+  font-size: 0.75rem;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.privacy-link:hover {
+  color: var(--teal);
+}
+
+.privacy-dialog {
+  width: min(640px, calc(100vw - 32px));
+  max-height: calc(100dvh - 32px);
+  padding: clamp(18px, 4vw, 28px);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--paper);
+  color: var(--ink);
+  box-shadow: var(--shadow);
+  overflow-y: auto;
+}
+
+.privacy-dialog::backdrop {
+  background: rgba(33, 28, 25, 0.48);
+}
+
+.privacy-dialog-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.privacy-dialog h2 {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: clamp(1.35rem, 4vw, 1.65rem);
+  line-height: 1.25;
+  color: var(--burgundy);
+}
+
+.privacy-close {
+  flex: 0 0 36px;
+  width: 36px;
+  height: 36px;
+  margin-left: auto;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: transparent;
+  color: var(--muted);
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.privacy-copy {
+  font-size: 0.9375rem;
+  line-height: 1.65;
+}
+
+.privacy-copy p {
+  margin: 0 0 16px;
+}
+
+.privacy-copy p:last-child {
+  margin-bottom: 0;
+}
+
+.privacy-copy a {
+  color: var(--teal);
+  text-underline-offset: 3px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;

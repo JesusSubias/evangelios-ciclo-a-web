@@ -1,4 +1,4 @@
-const APP_VERSION = "20261024-quiero-vivir-asi-v77";
+const APP_VERSION = "20261024-privacidad-v78";
 const CACHE_PREFIX = "evgl-";
 const SHELL_CACHE = `${CACHE_PREFIX}shell-${APP_VERSION}`;
 const RUNTIME_CACHE = `${CACHE_PREFIX}runtime-${APP_VERSION}`;
