@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-18T21:51:32.399128+00:00",
-  "cutoff": "2026-10-25",
+  "generatedAt": "2026-10-24T08:55:55.241433+00:00",
+  "cutoff": "2026-11-01",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "bibleContent": {
     "kind": "summary",
@@ -12,12 +12,12 @@
     "audioPolicy": "mp3/m4a/mp4/opus publicados; WAV reservado como master opcional"
   },
   "summary": {
-    "cycleEntries": 48,
-    "songRecords": 53,
-    "cycleAudioFound": 48,
+    "cycleEntries": 49,
+    "songRecords": 54,
+    "cycleAudioFound": 49,
     "cycleAudioMissing": 0,
-    "imagesFound": 48,
-    "editorialImagesFound": 48,
+    "imagesFound": 49,
+    "editorialImagesFound": 49,
     "chordPdfsFound": 0
   },
   "missing": {
@@ -446,6 +446,14 @@
       "targetDate": "2026-10-25",
       "includedInCycle": true,
       "audioPublicPath": "assets/audio/2026-10-25-con-todo.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 54,
+      "title": "Quiero vivir así",
+      "targetDate": "2026-11-01",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-11-01-quiero-vivir-asi.mp3",
       "chordsPdfPublicPath": null
     }
   ],
@@ -1462,10 +1470,32 @@
         "title": "Con todo",
         "audioPublicPath": "assets/audio/2026-10-25-con-todo.mp3"
       }
+    },
+    {
+      "id": "2026-11-01",
+      "index": 49,
+      "isoDate": "2026-11-01",
+      "dateLabel": "1 de noviembre de 2026",
+      "denomination": "Todos los Santos",
+      "fullTitle": "Domingo 1 de noviembre de 2026 - Todos los Santos - Ciclo A",
+      "season": "Solemnidades",
+      "refs": "Mt 5, 1-12a",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-11-01-todos-los-santos.webp",
+        "variant": "editorial",
+        "fit": "contain",
+        "textTranscript": "Bienaventurados los que trabajan por la paz… · ¿Empiezas tú por el WhatsApp de la familia? · Yo pensaba en algo más sencillo. La ONU, por ejemplo. · EVANGELIO"
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-11-01.json",
+      "song": {
+        "title": "Quiero vivir así",
+        "audioPublicPath": "assets/audio/2026-11-01-quiero-vivir-asi.mp3"
+      }
     }
   ],
   "dataArchitecture": {
     "strategy": "index-plus-entry-payloads",
-    "entryPayloadCount": 48
+    "entryPayloadCount": 49
   }
 }

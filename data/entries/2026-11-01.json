@@ -1,0 +1,250 @@
+{
+  "id": "2026-11-01",
+  "contentSchema": "integrated-gospel-v2",
+  "readings": [
+    {
+      "context": "",
+      "ref": "Mt 5, 1-12a"
+    }
+  ],
+  "pastoral": "La canción descubre esa vida en personas concretas: quien encuentra fuerzas para acompañar, quien se queda sin exigir explicaciones, quien frena una broma que humilla y quien se atreve a llamar después de un largo silencio. Antes de proponernos imitarlas, reconoce el amor que recibimos de Dios. La viñeta baja la paz de los grandes discursos al WhatsApp de la familia: quizá el primer paso sea no reenviar una burla, preguntar antes de responder o dejar de alimentar una discusión. El recuerdo agradecido de quienes nos han enseñado a querer forma parte de esta celebración de la santidad; no la reduce al recuerdo de los difuntos del día siguiente. Vivir así no exige poder con todo, ni reconciliarse a cualquier precio: acompañar puede incluir pedir ayuda y respetar una distancia necesaria. ¿Qué gesto mío puede ayudar esta semana a alguien a seguir?",
+  "meeting": {
+    "title": "Quiero vivir así",
+    "subtitle": "Las bienaventuranzas en los gestos de cada día",
+    "duration": "70 minutos",
+    "key": {
+      "title": "La santidad se hace cercana",
+      "text": "En Todos los Santos escuchamos las bienaventuranzas como una llamada que nace del amor de Dios. La canción ayuda a reconocerla en vidas cercanas: personas que acompañan el cansancio, defienden a quien recibe una humillación y abren un camino de paz. La reunión propone agradecer ese amor recibido y elegir un gesto concreto que anime a otra persona a seguir. No se trata de medir quién es mejor ni de exigir a nadie que soporte un daño.",
+      "quote": "Tú me das amor primero; yo quisiera amar igual.",
+      "steps": [
+        {
+          "title": "Recibir",
+          "text": "Reconocer el amor que Dios nos ofrece antes de nuestros logros, y agradecer a quienes nos lo han hecho cercano."
+        },
+        {
+          "title": "Acompañar",
+          "text": "Estar junto a quien lo pasa mal sin exigirle explicaciones ni tener que resolverlo todo."
+        },
+        {
+          "title": "Defender",
+          "text": "Frenar una burla o una humillación, aunque resulte más cómodo callar para encajar."
+        },
+        {
+          "title": "Hacer paz",
+          "text": "Dar un paso que quite tensión y permita escucharse, respetando la seguridad y los límites de todos."
+        },
+        {
+          "title": "Continuar",
+          "text": "Hacer nuestro un gesto de cuidado aprendido de alguien y darle continuidad esta semana."
+        }
+      ]
+    },
+    "resonancesEyebrow": "Cuatro pasajes para reconocer el amor que nos precede",
+    "resonancesTitle": "Una santidad recibida y compartida",
+    "resonances": [
+      {
+        "ref": "1 Jn 3,1–3",
+        "title": "Somos hijos",
+        "quote": "El Padre nos reconoce como hijos y abre nuestro futuro a la esperanza (paráfrasis).",
+        "text": "Nuestra respuesta nace de sabernos queridos, no de tener que ganarnos un lugar."
+      },
+      {
+        "ref": "Ap 7,9–14",
+        "title": "De todos los pueblos",
+        "quote": "Una multitud de todas las naciones celebra la salvación de Dios y del Cordero (paráfrasis).",
+        "text": "La santidad no es propiedad de nuestro grupo: podemos reconocerla en personas muy distintas."
+      },
+      {
+        "ref": "Rm 12,15–18",
+        "title": "Cerca de quien sufre",
+        "quote": "Compartir la alegría y el llanto, y buscar la paz en cuanto dependa de nosotros (paráfrasis).",
+        "text": "Acompañar no siempre es encontrar la solución. Podemos ofrecer presencia y un paso posible de paz."
+      },
+      {
+        "ref": "1 Jn 4,19–21",
+        "title": "Él nos amó primero",
+        "quote": "El amor recibido de Dios se reconoce en el amor al hermano que vemos (paráfrasis).",
+        "text": "Lo que agradecemos en otras vidas puede convertirse en un gesto nuestro de cuidado."
+      }
+    ],
+    "synthesis": "El amor recibido se vuelve compañía, justicia y paz",
+    "question": "¿Qué gesto mío puede ayudar a alguien a seguir?",
+    "agendaTitle": "Reconocer una vida que anima a seguir",
+    "agenda": [
+      {
+        "time": "00–08",
+        "title": "Escuchar",
+        "instruction": "Oír «Quiero vivir así» completa. Dejar un silencio y elegir uno de los gestos que aparecen en la canción.",
+        "question": "¿Qué gesto me recuerda a alguien que me ha ayudado?"
+      },
+      {
+        "time": "08–20",
+        "title": "Reconocer",
+        "instruction": "Recordar a una persona, viva o fallecida, cuya forma de cuidar nos haya sostenido. Compartir solo lo que se desee, sin pedir a nadie que hable de una pérdida.",
+        "question": "¿Qué forma de querer he aprendido de esa persona?"
+      },
+      {
+        "time": "20–38",
+        "title": "Iluminar",
+        "instruction": "Leer Mt 5,1–12a. Elegir una bienaventuranza y relacionarla con un gesto de la canción. Leer después 1 Jn 3,1–3 para situar nuestra respuesta en el amor recibido del Padre.",
+        "question": "¿Qué bienaventuranza reconozco en aquel gesto?"
+      },
+      {
+        "time": "38–58",
+        "title": "Discernir",
+        "instruction": "Caso ficticio: en el WhatsApp de una familia circula una broma que humilla a uno de sus miembros. Varias personas se ríen y la persona aludida deja de escribir. Pensar qué no reenviar, qué decir al grupo y cómo acercarse en privado sin exponer a nadie.",
+        "question": "¿Cómo frenar el daño sin convertir a otro en el blanco?"
+      },
+      {
+        "time": "58–70",
+        "title": "Responder",
+        "instruction": "Elegir una acción pequeña de compañía, justicia o paz. Concretar con quién, cuándo y qué ayuda necesitamos. Revisarla en el siguiente encuentro. Cerrar agradeciendo una vida que nos ha enseñado a amar y orando: «Tú me das amor primero; yo quisiera amar igual».",
+        "question": "¿Qué paso concreto voy a dar esta semana?"
+      }
+    ],
+    "criterion": "Compartir es opcional. No pedir relatos de pérdidas ni conflictos íntimos. Utilizar el caso ficticio sin señalar a personas ausentes. Buscar la paz no obliga a tolerar daño ni a retomar un contacto inseguro: respetar límites y pedir ayuda cuando sea necesario.",
+    "deckPublicPath": "assets/presentations/2026-11-01-quiero-vivir-asi.pptx"
+  },
+  "gospel": {
+    "summary": [
+      "Jesús sube al monte, se sienta y enseña a los discípulos que se acercan. Sus bienaventuranzas anuncian el Reino a quienes son pobres de espíritu, lloran, viven con mansedumbre, buscan la justicia, practican la misericordia, tienen un corazón limpio, trabajan por la paz o sufren persecución por la justicia. No llama bueno al sufrimiento: promete que Dios no abandona a quienes lo atraviesan. En Todos los Santos, estas palabras permiten reconocer una vida orientada hacia Dios y abierta al cuidado del otro.",
+      "La canción descubre esa vida en personas concretas: quien encuentra fuerzas para acompañar, quien se queda sin exigir explicaciones, quien frena una broma que humilla y quien se atreve a llamar después de un largo silencio. Antes de proponernos imitarlas, reconoce el amor que recibimos de Dios. La viñeta baja la paz de los grandes discursos al WhatsApp de la familia: quizá el primer paso sea no reenviar una burla, preguntar antes de responder o dejar de alimentar una discusión. El recuerdo agradecido de quienes nos han enseñado a querer forma parte de esta celebración de la santidad; no la reduce al recuerdo de los difuntos del día siguiente. Vivir así no exige poder con todo, ni reconciliarse a cualquier precio: acompañar puede incluir pedir ayuda y respetar una distancia necesaria. ¿Qué gesto mío puede ayudar esta semana a alguien a seguir?"
+    ],
+    "ceeLinks": [
+      {
+        "context": "",
+        "ref": "Mt 5, 1-12a",
+        "url": "https://www.conferenciaepiscopal.es/biblia/nuevo-testamento-mateo/#cap5"
+      }
+    ]
+  },
+  "song": {
+    "lyrics": [
+      {
+        "lines": [
+          "Quiero vivir así,",
+          "así, así."
+        ]
+      },
+      {
+        "lines": [
+          "Hay quien vuelve cada tarde",
+          "con las ganas de parar",
+          "y, al saber que alguien le espera,",
+          "saca fuerzas para estar."
+        ]
+      },
+      {
+        "lines": [
+          "Hay quien sabe que estás roto,",
+          "que hoy no puedes explicar,",
+          "y se queda junto a ti",
+          "sin pedirte nada más."
+        ]
+      },
+      {
+        "lines": [
+          "En sus vidas reconozco",
+          "lo que quieres despertar.",
+          "Tú me das amor primero;",
+          "yo quisiera amar igual."
+        ]
+      },
+      {
+        "lines": [
+          "Quiero vivir así,",
+          "así, así,",
+          "con los pies en esta tierra",
+          "y el corazón junto a ti.",
+          "Quiero vivir así,",
+          "así, así:",
+          "que quien camine a mi lado",
+          "tenga ganas de seguir."
+        ]
+      },
+      {
+        "lines": [
+          "Hay quien frena aquella broma",
+          "que a otro acaba de humillar,",
+          "aunque luego le reprochen",
+          "que no sabe disfrutar."
+        ]
+      },
+      {
+        "lines": [
+          "Hay quien llama a aquella puerta",
+          "tras un año sin hablar;",
+          "lleva un nudo en la garganta",
+          "y el deseo de empezar."
+        ]
+      },
+      {
+        "lines": [
+          "En sus vidas reconozco",
+          "lo que quieres despertar.",
+          "Tú me das amor primero;",
+          "yo quisiera amar igual."
+        ]
+      },
+      {
+        "lines": [
+          "Quiero vivir así,",
+          "así, así,",
+          "con los pies en esta tierra",
+          "y el corazón junto a ti.",
+          "Quiero vivir así,",
+          "así, así:",
+          "que quien camine a mi lado",
+          "tenga ganas de seguir."
+        ]
+      },
+      {
+        "lines": [
+          "Y hay personas que se fueron",
+          "y me enseñan todavía:",
+          "cuando cuido como ellas,",
+          "su cariño me acompaña."
+        ]
+      },
+      {
+        "lines": [
+          "Hoy las dejo entre tus manos;",
+          "hoy te pido para mí",
+          "esa fe que abre caminos",
+          "cuando cuesta proseguir."
+        ]
+      },
+      {
+        "lines": [
+          "Quiero vivir así,",
+          "así, así,",
+          "con los pies en esta tierra",
+          "y el corazón junto a ti.",
+          "Quiero vivir así,",
+          "así, así:",
+          "que quien camine a mi lado",
+          "tenga ganas de seguir."
+        ]
+      },
+      {
+        "lines": [
+          "Quiero vivir así,",
+          "así, así,",
+          "con los pies en esta tierra",
+          "y el corazón junto a ti.",
+          "Quiero vivir así,",
+          "así, así:",
+          "que quien camine a mi lado",
+          "tenga ganas de seguir."
+        ]
+      },
+      {
+        "lines": [
+          "Quiero vivir así,",
+          "así, así."
+        ]
+      }
+    ],
+    "chordsPdfPublicPath": null
+  }
+}

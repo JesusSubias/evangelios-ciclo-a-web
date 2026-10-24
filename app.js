@@ -61,7 +61,7 @@ const seasonColors = {
 };
 
 const app = document.querySelector("#app");
-const DATA_VERSION = "20261019-con-todo-escena-v76";
+const DATA_VERSION = "20261024-quiero-vivir-asi-v77";
 const ENTRY_CONTENT_SCHEMA = "integrated-gospel-v2";
 const OFFLINE_MESSAGE_TIMEOUT = 45000;
 const calendarWeekdays = ["L", "M", "X", "J", "V", "S", "D"];
