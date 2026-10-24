@@ -61,7 +61,7 @@ const seasonColors = {
 };
 
 const app = document.querySelector("#app");
-const DATA_VERSION = "20261024-privacidad-v78";
+const DATA_VERSION = "20261024-privacidad-v79";
 // Activate only after verifying ownership, a private dashboard and aggregate-only storage.
 const GOATCOUNTER_ENDPOINT = "https://evangelios-ciclo-a.goatcounter.com/count";
 const ENTRY_CONTENT_SCHEMA = "integrated-gospel-v2";
@@ -74,6 +74,7 @@ const entryPayloadRequests = new Map();
 let selectionRequestId = 0;
 let offlineStatusRequestId = 0;
 let analyticsStarted = false;
+let analyticsReady = false;
 let analyticsLastEntry = null;
 let analyticsPendingEntry = null;
 
@@ -93,6 +94,15 @@ function trackEntryVisit(entry) {
     script.async = true;
     script.addEventListener("load", () => {
       if (!navigator.onLine || typeof window.goatcounter?.count !== "function") return;
+      // The upstream script also adds location.search as `q`; only retain
+      // the documented statistics we use, even if it adds more fields later.
+      const getData = window.goatcounter.get_data;
+      if (typeof getData !== "function") return;
+      window.goatcounter.get_data = (options) => {
+        const { p, r, t, e, s, b } = getData(options);
+        return { p, r, t, e, s, b };
+      };
+      analyticsReady = true;
       let referrer = "";
       try {
         const source = new URL(document.referrer);
@@ -108,7 +118,7 @@ function trackEntryVisit(entry) {
     }, { once: true });
     document.head.appendChild(script);
   }
-  if (typeof window.goatcounter?.count !== "function") return;
+  if (!analyticsReady) return;
   window.goatcounter.count({
     path: `ficha-${entry.id}`,
     title: `${entry.isoDate} · ${entry.song.title}`,
