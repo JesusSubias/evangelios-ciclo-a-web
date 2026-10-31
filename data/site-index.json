@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-24T08:55:55.241433+00:00",
-  "cutoff": "2026-11-01",
+  "generatedAt": "2026-10-31T09:09:28.531835+00:00",
+  "cutoff": "2026-11-08",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "bibleContent": {
     "kind": "summary",
@@ -12,12 +12,12 @@
     "audioPolicy": "mp3/m4a/mp4/opus publicados; WAV reservado como master opcional"
   },
   "summary": {
-    "cycleEntries": 49,
-    "songRecords": 54,
-    "cycleAudioFound": 49,
+    "cycleEntries": 50,
+    "songRecords": 55,
+    "cycleAudioFound": 50,
     "cycleAudioMissing": 0,
-    "imagesFound": 49,
-    "editorialImagesFound": 49,
+    "imagesFound": 50,
+    "editorialImagesFound": 50,
     "chordPdfsFound": 0
   },
   "missing": {
@@ -454,6 +454,14 @@
       "targetDate": "2026-11-01",
       "includedInCycle": true,
       "audioPublicPath": "assets/audio/2026-11-01-quiero-vivir-asi.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 55,
+      "title": "Amando",
+      "targetDate": "2026-11-08",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-11-08-amando.mp3",
       "chordsPdfPublicPath": null
     }
   ],
@@ -1492,10 +1500,32 @@
         "title": "Quiero vivir así",
         "audioPublicPath": "assets/audio/2026-11-01-quiero-vivir-asi.mp3"
       }
+    },
+    {
+      "id": "2026-11-08",
+      "index": 50,
+      "isoDate": "2026-11-08",
+      "dateLabel": "8 de noviembre de 2026",
+      "denomination": "XXXII Domingo del Tiempo Ordinario",
+      "fullTitle": "Domingo 8 de noviembre de 2026 - XXXII Domingo del Tiempo Ordinario - Ciclo A",
+      "season": "Tiempo Ordinario",
+      "refs": "Mt 25, 1-13",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-11-08-xxxii-domingo-del-tiempo-ordinario.webp",
+        "variant": "editorial",
+        "fit": "contain",
+        "textTranscript": "La mía tiene wifi, Bluetooth y control por voz · ¿Y aceite?"
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-11-08.json",
+      "song": {
+        "title": "Amando",
+        "audioPublicPath": "assets/audio/2026-11-08-amando.mp3"
+      }
     }
   ],
   "dataArchitecture": {
     "strategy": "index-plus-entry-payloads",
-    "entryPayloadCount": 49
+    "entryPayloadCount": 50
   }
 }
