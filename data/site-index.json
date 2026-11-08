@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-31T09:09:28.531835+00:00",
-  "cutoff": "2026-11-08",
+  "generatedAt": "2026-11-08T09:34:47.045214+00:00",
+  "cutoff": "2026-11-15",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "bibleContent": {
     "kind": "summary",
@@ -12,12 +12,12 @@
     "audioPolicy": "mp3/m4a/mp4/opus publicados; WAV reservado como master opcional"
   },
   "summary": {
-    "cycleEntries": 50,
-    "songRecords": 55,
-    "cycleAudioFound": 50,
+    "cycleEntries": 51,
+    "songRecords": 56,
+    "cycleAudioFound": 51,
     "cycleAudioMissing": 0,
-    "imagesFound": 50,
-    "editorialImagesFound": 50,
+    "imagesFound": 51,
+    "editorialImagesFound": 51,
     "chordPdfsFound": 0
   },
   "missing": {
@@ -462,6 +462,14 @@
       "targetDate": "2026-11-08",
       "includedInCycle": true,
       "audioPublicPath": "assets/audio/2026-11-08-amando.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 56,
+      "title": "¿Para quién?",
+      "targetDate": "2026-11-15",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-11-15-para-quien.mp3",
       "chordsPdfPublicPath": null
     }
   ],
@@ -1522,10 +1530,32 @@
         "title": "Amando",
         "audioPublicPath": "assets/audio/2026-11-08-amando.mp3"
       }
+    },
+    {
+      "id": "2026-11-15",
+      "index": 51,
+      "isoDate": "2026-11-15",
+      "dateLabel": "15 de noviembre de 2026",
+      "denomination": "XXXIII Domingo del Tiempo Ordinario",
+      "fullTitle": "Domingo 15 de noviembre de 2026 - XXXIII Domingo del Tiempo Ordinario - Ciclo A",
+      "season": "Tiempo Ordinario",
+      "refs": "Mt 25, 14-30",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-11-15-xxxiii-domingo-del-tiempo-ordinario.webp",
+        "variant": "editorial",
+        "fit": "contain",
+        "textTranscript": "Ni un arañazo en veinte años. · ¿Y qué tal suena? · Ni idea."
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-11-15.json",
+      "song": {
+        "title": "¿Para quién?",
+        "audioPublicPath": "assets/audio/2026-11-15-para-quien.mp3"
+      }
     }
   ],
   "dataArchitecture": {
     "strategy": "index-plus-entry-payloads",
-    "entryPayloadCount": 50
+    "entryPayloadCount": 51
   }
 }

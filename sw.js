@@ -1,4 +1,4 @@
-const APP_VERSION = "20261031-amando-v80";
+const APP_VERSION = "20261108-para-quien-v81";
 const CACHE_PREFIX = "evgl-";
 const SHELL_CACHE = `${CACHE_PREFIX}shell-${APP_VERSION}`;
 const RUNTIME_CACHE = `${CACHE_PREFIX}runtime-${APP_VERSION}`;

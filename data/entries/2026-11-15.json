@@ -1,0 +1,206 @@
+{
+  "id": "2026-11-15",
+  "contentSchema": "integrated-gospel-v2",
+  "readings": [
+    {
+      "context": "",
+      "ref": "Mt 25, 14-30"
+    }
+  ],
+  "pastoral": "La guitarra de la viñeta lleva veinte años sin un arañazo. Cuando le preguntan cómo suena, su dueño no sabe qué contestar. La canción pone palabras a una forma parecida de guardar lo recibido: de tanto admirar a otra persona, creo que no tengo nada que ofrecerle. Todo cambia al preguntarle cómo está. La persona que parecía tan fuerte también se cansa, y ambas descubren que tienen algo que darse. Esta semana, ¿a quién podría preguntarle «qué te vendría bien», sin dar por hecha la respuesta?",
+  "meeting": {
+    "title": "¿Para quién?",
+    "subtitle": "Los dones que guardamos por miedo",
+    "duration": "70 minutos",
+    "key": {
+      "title": "¿Para quién es lo que has puesto en mí?",
+      "text": "El señor de la parábola se alegra tanto con quien recibió dos talentos como con quien recibió cinco. El tercero habla del miedo que le llevó a esconder el suyo. En la canción, comparar lo que uno sabe hacer con lo que hace otro impide ver algo más sencillo: esa persona cercana puede necesitar compañía y también puede ofrecerla. Abrimos la reunión escuchando la pregunta del estribillo.",
+      "quote": "¿Para quién, para quién es lo que has puesto en mí?",
+      "steps": [
+        {
+          "title": "Reconocer",
+          "text": "Piensa en algo que haces con gusto y que otra persona ha agradecido alguna vez."
+        },
+        {
+          "title": "Preguntar",
+          "text": "Acércate a alguien a quien sueles ver fuerte. Pregunta cómo está y deja que responda a su manera."
+        },
+        {
+          "title": "Ofrecer",
+          "text": "Propón algo que puedas hacer esta semana, aunque todavía te quede por aprender."
+        },
+        {
+          "title": "Recibir",
+          "text": "Recuerda la última vez que alguien a quien fuiste a ayudar hizo algo por ti."
+        },
+        {
+          "title": "Alegrarse",
+          "text": "Al volver a casa, da gracias por lo que habéis compartido sin calcular quién dio más."
+        }
+      ]
+    },
+    "resonancesEyebrow": "Cuatro pasajes para conversar",
+    "resonancesTitle": "Lo que podemos darnos unos a otros",
+    "resonances": [
+      {
+        "ref": "Prov 31,19–20",
+        "title": "Las manos abiertas",
+        "quote": "La mujer trabaja con sus manos y las tiende a quien pasa necesidad (paráfrasis).",
+        "text": "¿A quién le vendría bien algo que sé hacer?"
+      },
+      {
+        "ref": "1 Pe 4,10",
+        "title": "Un don para otros",
+        "quote": "Cada cual puede poner el don recibido al servicio de los demás (paráfrasis).",
+        "text": "¿Qué tengo guardado hasta saber hacerlo mejor?"
+      },
+      {
+        "ref": "1 Cor 12,21–22",
+        "title": "Nos necesitamos",
+        "quote": "El ojo necesita a la mano, y también son necesarios los miembros que parecen débiles (paráfrasis).",
+        "text": "¿De quién he supuesto que nunca necesita ayuda?"
+      },
+      {
+        "ref": "2 Cor 8,12–15",
+        "title": "Hoy por ti",
+        "quote": "Pablo propone compartir según lo que se tiene, para que la abundancia de unos remedie la necesidad de otros (paráfrasis).",
+        "text": "¿Qué recibí aquella vez que fui a ayudar?"
+      }
+    ],
+    "synthesis": "La comparación pierde importancia cuando le pregunto al otro qué necesita.",
+    "question": "¿Quién podría disfrutar de algo que llevo tiempo guardando?",
+    "agendaTitle": "Lo que me atrevo a ofrecer",
+    "agenda": [
+      {
+        "time": "00–08",
+        "title": "Escuchar",
+        "instruction": "Escuchar la canción y guardar un momento de silencio. Cada persona puede quedarse con un verso; no es necesario explicarlo.",
+        "question": "¿A quién he recordado al oír el estribillo?"
+      },
+      {
+        "time": "08–20",
+        "title": "Reconocer",
+        "instruction": "Mirar la viñeta. Recordar una ocasión en que dejamos algo para más adelante por miedo a hacerlo mal. Quien quiera puede contarla sin identificar a terceros.",
+        "question": "¿Qué guardo en el estuche hasta sentirme preparado?"
+      },
+      {
+        "time": "20–38",
+        "title": "Iluminar",
+        "instruction": "Leer Mt 25,14–30. Comparar las palabras dirigidas a los dos primeros siervos y escuchar la explicación del tercero. Luego leer 1 Pe 4,10 y volver al estribillo.",
+        "question": "¿Qué hizo el miedo con lo que el siervo había recibido?"
+      },
+      {
+        "time": "38–58",
+        "title": "Discernir",
+        "instruction": "Caso: la persona que suele acompañar al piano admite que está cansada. Otro miembro del grupo conoce algunos acordes, pero teme equivocarse. En parejas, ensayar la conversación antes de decidir si conviene un relevo, un ensayo juntos u otra ayuda. Invertir los papeles.",
+        "question": "¿Qué le preguntaría antes de ofrecerme a tocar?"
+      },
+      {
+        "time": "58–70",
+        "title": "Responder",
+        "instruction": "Elegir una persona y una propuesta pequeña para esta semana. Dejar que la otra persona diga si le sirve y escuchar lo que ella puede aportar. Cerrar rezando con el verso «Dime dónde mirar».",
+        "question": "¿A quién me acercaré y qué estoy dispuesto a recibir?"
+      }
+    ],
+    "criterion": "Nadie tiene que demostrar su talento ni contar algo personal. Escuchar antes de ofrecer ayuda. Respetar un no y evitar comparaciones entre quienes participan.",
+    "deckPublicPath": "assets/presentations/2026-11-15-para-quien.pptx"
+  },
+  "gospel": {
+    "summary": [
+      "Antes de emprender un viaje, un hombre confía su hacienda a tres siervos. Les entrega cinco talentos, dos y uno, según la capacidad de cada cual. Cuando regresa, el primero le presenta otros cinco y el segundo, otros dos. Aunque las cantidades son distintas, el señor les dirige la misma felicitación y los invita a compartir su alegría. El tercero explica que tuvo miedo: enterró el dinero y ahora lo devuelve intacto. El señor le reprocha que lo haya dejado sin uso, le quita el talento y lo deja fuera de la fiesta.",
+      "La guitarra de la viñeta lleva veinte años sin un arañazo. Cuando le preguntan cómo suena, su dueño no sabe qué contestar. La canción pone palabras a una forma parecida de guardar lo recibido: de tanto admirar a otra persona, creo que no tengo nada que ofrecerle. Todo cambia al preguntarle cómo está. La persona que parecía tan fuerte también se cansa, y ambas descubren que tienen algo que darse. Esta semana, ¿a quién podría preguntarle «qué te vendría bien», sin dar por hecha la respuesta?"
+    ],
+    "ceeLinks": [
+      {
+        "context": "",
+        "ref": "Mt 25, 14-30",
+        "url": "https://www.conferenciaepiscopal.es/biblia/nuevo-testamento-mateo/#cap25"
+      }
+    ]
+  },
+  "song": {
+    "lyrics": [
+      {
+        "lines": [
+          "De tanto admirar en otros",
+          "lo que quisiera tener,",
+          "me parece poca cosa",
+          "lo que yo puedo ofrecer."
+        ]
+      },
+      {
+        "lines": [
+          "Lo dejo para mañana,",
+          "para cuando sepa más.",
+          "Qué fácil llamar prudencia",
+          "al miedo de comenzar."
+        ]
+      },
+      {
+        "lines": [
+          "¿Para quién, para quién",
+          "es lo que has puesto en mí?",
+          "¿Para quién, para quién?",
+          "Dime dónde mirar."
+        ]
+      },
+      {
+        "lines": [
+          "Señor, que mire de nuevo",
+          "a quien camina a mi lado.",
+          "Qué bien conozco su fuerza,",
+          "qué poco sé de su cansancio."
+        ]
+      },
+      {
+        "lines": [
+          "Tanto quise ser como él",
+          "que apenas le pregunté",
+          "si alguna vez, en silencio,",
+          "él me necesitó también."
+        ]
+      },
+      {
+        "lines": [
+          "¿Para quién, para quién",
+          "es lo que has puesto en mí?",
+          "¿Para quién, para quién?",
+          "Dime dónde mirar."
+        ]
+      },
+      {
+        "lines": [
+          "Le he ofrecido lo que tengo",
+          "sin saber si bastaría.",
+          "Él ha puesto entre mis manos",
+          "algo que yo no tenía."
+        ]
+      },
+      {
+        "lines": [
+          "Yo, que siempre hacía cuentas",
+          "para ver quién daba más,",
+          "hoy he vuelto a casa alegre",
+          "sin acordarme de contar."
+        ]
+      },
+      {
+        "lines": [
+          "¿Para quién, para quién",
+          "es lo que has puesto en mí?",
+          "¿Para quién, para quién?",
+          "Dime dónde mirar."
+        ]
+      },
+      {
+        "lines": [
+          "¿Para quién, para quién",
+          "es lo que has puesto en mí?",
+          "¿Para quién, para quién?",
+          "Dime dónde mirar."
+        ]
+      }
+    ],
+    "chordsPdfPublicPath": null
+  }
+}
