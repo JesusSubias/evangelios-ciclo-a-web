@@ -61,7 +61,7 @@ const seasonColors = {
 };
 
 const app = document.querySelector("#app");
-const DATA_VERSION = "20261113-era-yo-v82";
+const DATA_VERSION = "20261113-era-yo-reino-v83";
 // Activate only after verifying ownership, a private dashboard and aggregate-only storage.
 const GOATCOUNTER_ENDPOINT = "https://evangelios-ciclo-a.goatcounter.com/count";
 const ENTRY_CONTENT_SCHEMA = "integrated-gospel-v2";
