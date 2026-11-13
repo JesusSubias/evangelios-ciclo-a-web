@@ -1,0 +1,224 @@
+{
+  "id": "2026-11-22",
+  "contentSchema": "integrated-gospel-v2",
+  "readings": [
+    {
+      "context": "",
+      "ref": "Mt 25, 31-46"
+    }
+  ],
+  "pastoral": "La joven de la viñeta arropa a una mujer en la estación. Solo en el segundo cuadro ve la bufanda al cuello del rey: «Todavía abriga». Para la mujer que tenía frío, aquel gesto ya valía la pena antes de que nadie lo explicara. Quizá por eso conmueve este verso de la canción: «No recuerdo lo que dije, solo que me quedé allí». También quedan en la memoria las veces que seguimos de largo. ¿Hay alguien a quien todavía estemos a tiempo de volver a ver?",
+  "meeting": {
+    "title": "Era yo",
+    "subtitle": "Cristo Rey y la pregunta de los dos grupos",
+    "duration": "70 minutos",
+    "key": {
+      "title": "Señor, ¿cuándo te vimos?",
+      "text": "Los que dieron de comer no sabían que estaban a la mesa con el rey. Los que pasaron de largo tampoco lo reconocieron. Vale la pena escuchar la escena desde los dos lados: podemos recordar ocasiones en que nos quedamos y otras en que no. También podemos recordar qué significó para nosotros que alguien se quedara.",
+      "quote": "No recuerdo lo que dije, solo que me quedé allí.",
+      "steps": [
+        {
+          "title": "Ver",
+          "text": "Trae a la memoria una cara que recuerdes de esta semana. ¿Qué llegaste a saber de esa persona?"
+        },
+        {
+          "title": "Parar",
+          "text": "Recuerda alguna vez que alguien cambió sus planes para quedarse contigo."
+        },
+        {
+          "title": "Preguntar",
+          "text": "Antes de decidir qué hacer, deja que la otra persona te diga qué le vendría bien."
+        },
+        {
+          "title": "Quedarse",
+          "text": "Piensa en un rato que puedas ofrecer, incluso si no sabes qué decir."
+        },
+        {
+          "title": "Volver",
+          "text": "Si ha quedado pendiente una visita, propón un día y comprueba que al otro le apetece."
+        }
+      ]
+    },
+    "resonancesEyebrow": "Cuatro pasajes para conversar",
+    "resonancesTitle": "El cuidado contado por quien lo recibe",
+    "resonances": [
+      {
+        "ref": "Ez 34,15–16",
+        "title": "La oveja herida",
+        "quote": "El pastor busca a la perdida y venda a la herida (paráfrasis).",
+        "text": "¿Quién vino a buscarme cuando yo no podía volver?"
+      },
+      {
+        "ref": "Sal 22,5",
+        "title": "Un sitio a la mesa",
+        "quote": "El salmista se sabe huésped: hay una mesa preparada para él y su copa rebosa (paráfrasis).",
+        "text": "¿Quién me hizo sitio sin que tuviera que pedirlo?"
+      },
+      {
+        "ref": "Mt 25,35–36",
+        "title": "Tuve sed",
+        "quote": "El rey recuerda el agua que le dieron y la visita que recibió mientras estaba preso (paráfrasis).",
+        "text": "¿Qué visita recuerdo todavía? ¿Qué tuvo de especial?"
+      },
+      {
+        "ref": "Mt 25,37–40",
+        "title": "¿Cuándo te vimos?",
+        "quote": "Quienes cuidaron de sus hermanos más pequeños descubren que cuidaron del propio rey (paráfrasis).",
+        "text": "¿Qué cambia al volver a mirar las dos escenas de la bufanda?"
+      }
+    ],
+    "synthesis": "El rey se acuerda del vaso de agua que quien se lo dio quizá ya ha olvidado.",
+    "question": "Si alguien contara la historia del día en que lo acompañé, ¿qué recordaría?",
+    "agendaTitle": "Una visita que sigue pendiente",
+    "agenda": [
+      {
+        "time": "00–08",
+        "title": "Escuchar",
+        "instruction": "Escuchar «Era yo». Dejar unos instantes de silencio después del último verso. Quien quiera puede repetir una línea sin explicar por qué la ha elegido.",
+        "question": "¿Qué rostro me ha venido a la memoria?"
+      },
+      {
+        "time": "08–20",
+        "title": "Reconocer",
+        "instruction": "Mirar primero la escena de la estación, tapando la de la derecha. ¿Qué ha ocurrido ya entre las dos mujeres? Destapar después el segundo cuadro y leer en voz alta «Todavía abriga».",
+        "question": "¿Qué sabe ahora la joven que no sabía en la estación?"
+      },
+      {
+        "time": "20–38",
+        "title": "Iluminar",
+        "instruction": "Leer Mt 25,31–46 a tres voces: narrador, rey y una misma voz para los dos grupos. Fijarse en lo que ambos preguntan y en qué distingue sus historias. Volver un momento a la canción.",
+        "question": "Si los dos grupos se sorprenden, ¿qué los distingue?"
+      },
+      {
+        "time": "38–58",
+        "title": "Discernir",
+        "instruction": "Caso para trabajar por parejas: al volver del hospital, una vecina dice que está cansada de contar una y otra vez cómo sigue. Una persona ensaya una llamada; la otra decide si prefiere una visita corta, un recado o descansar. Cambiar los papeles y comentar qué frase dejó espacio para responder con libertad.",
+        "question": "¿Cómo le ofrecería compañía sin dar por hecho que quiere visita?"
+      },
+      {
+        "time": "58–70",
+        "title": "Responder",
+        "instruction": "Elegir en silencio un gesto para esta semana: llamar, acercarse o retomar una visita pendiente. Pensar cuándo preguntar si viene bien. Cerrar con la última estrofa de la canción.",
+        "question": "¿A quién me gustaría volver a ver? ¿Cuándo se lo preguntaré?"
+      }
+    ],
+    "criterion": "Nadie está obligado a contar algo personal. No nombrar a terceros. Si alguien prefiere descansar o no recibir visitas, respetar su respuesta.",
+    "deckPublicPath": "assets/presentations/2026-11-22-era-yo.pptx"
+  },
+  "gospel": {
+    "summary": [
+      "Jesús describe al Hijo del hombre reuniendo a todos los pueblos. El rey recuerda seis momentos en los que necesitó a alguien: tuvo hambre y sed, llegó como forastero, le faltó ropa, estuvo enfermo y en la cárcel. A unos les agradece lo que hicieron por él; a otros les recuerda las veces que lo dejaron solo. Los dos grupos se sorprenden: ¿cuándo lo vieron así? El rey les revela que lo que hicieron o dejaron de hacer por uno de sus hermanos más pequeños, a él se lo hicieron. El relato termina poniendo en juego la vida eterna.",
+      "La joven de la viñeta arropa a una mujer en la estación. Solo en el segundo cuadro ve la bufanda al cuello del rey: «Todavía abriga». Para la mujer que tenía frío, aquel gesto ya valía la pena antes de que nadie lo explicara. Quizá por eso conmueve este verso de la canción: «No recuerdo lo que dije, solo que me quedé allí». También quedan en la memoria las veces que seguimos de largo. ¿Hay alguien a quien todavía estemos a tiempo de volver a ver?"
+    ],
+    "ceeLinks": [
+      {
+        "context": "",
+        "ref": "Mt 25, 31-46",
+        "url": "https://www.conferenciaepiscopal.es/biblia/nuevo-testamento-mateo/#cap25"
+      }
+    ]
+  },
+  "song": {
+    "lyrics": [
+      {
+        "lines": [
+          "Te busqué mirando al cielo,",
+          "esperando alguna señal,",
+          "una voz entre el silencio,",
+          "algo grande que encontrar."
+        ]
+      },
+      {
+        "lines": [
+          "Y recuerdo aquella tarde,",
+          "cuando alguien me hizo parar.",
+          "No recuerdo lo que dije,",
+          "solo que me quedé allí."
+        ]
+      },
+      {
+        "lines": [
+          "Era yo, era yo,",
+          "el que esperaba al borde del camino.",
+          "Era yo, era yo,",
+          "el que encontró en tus manos un hogar.",
+          "Me buscabas tan lejos de tu vida,",
+          "sin saber que me tenías junto a ti.",
+          "Era yo, era yo,",
+          "siempre estuve allí."
+        ]
+      },
+      {
+        "lines": [
+          "Pero también hubo días",
+          "en que no quise mirar,",
+          "tantas voces a mi lado",
+          "que dejé sin escuchar."
+        ]
+      },
+      {
+        "lines": [
+          "Hoy recuerdo aquellos rostros,",
+          "lo que pude haberles dado,",
+          "y me pregunto en silencio",
+          "cuántas veces pasé de largo."
+        ]
+      },
+      {
+        "lines": [
+          "Era yo, era yo,",
+          "el que esperaba al borde del camino.",
+          "Era yo, era yo,",
+          "el que encontró en tus manos un hogar.",
+          "Me buscabas tan lejos de tu vida,",
+          "sin saber que me tenías junto a ti.",
+          "Era yo, era yo,",
+          "siempre estuve allí."
+        ]
+      },
+      {
+        "lines": [
+          "¿Dónde estaba tu corona?",
+          "¿Dónde se escondía tu reino?",
+          "Yo buscaba un rey tan alto",
+          "que no te supe ver."
+        ]
+      },
+      {
+        "lines": [
+          "Mi corona era el rostro",
+          "de aquel hombre que encontraste.",
+          "También estaba en aquellos",
+          "que olvidaste y dejaste."
+        ]
+      },
+      {
+        "lines": [
+          "Mi reino empieza en tus manos",
+          "cada vez que eliges amar."
+        ]
+      },
+      {
+        "lines": [
+          "Era yo, era yo,",
+          "el que esperaba al borde del camino.",
+          "Era yo, era yo,",
+          "el que encontró en tus manos un hogar.",
+          "Me buscabas tan lejos de tu vida,",
+          "sin saber que me tenías junto a ti.",
+          "Era yo, era yo,",
+          "siempre estuve allí."
+        ]
+      },
+      {
+        "lines": [
+          "Ahora sé dónde encontrarte,",
+          "enséñame a mirar.",
+          "Que no vuelva a pasar de largo",
+          "cuando me quieras hablar."
+        ]
+      }
+    ],
+    "chordsPdfPublicPath": null
+  }
+}

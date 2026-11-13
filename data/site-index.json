@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-08T09:34:47.045214+00:00",
-  "cutoff": "2026-11-15",
+  "generatedAt": "2026-11-13T18:52:10.686016+00:00",
+  "cutoff": "2026-11-22",
   "title": "Evangelios del domingo - Ciclo A 2025-2026",
   "bibleContent": {
     "kind": "summary",
@@ -12,12 +12,12 @@
     "audioPolicy": "mp3/m4a/mp4/opus publicados; WAV reservado como master opcional"
   },
   "summary": {
-    "cycleEntries": 51,
-    "songRecords": 56,
-    "cycleAudioFound": 51,
+    "cycleEntries": 52,
+    "songRecords": 57,
+    "cycleAudioFound": 52,
     "cycleAudioMissing": 0,
-    "imagesFound": 51,
-    "editorialImagesFound": 51,
+    "imagesFound": 52,
+    "editorialImagesFound": 52,
     "chordPdfsFound": 0
   },
   "missing": {
@@ -470,6 +470,14 @@
       "targetDate": "2026-11-15",
       "includedInCycle": true,
       "audioPublicPath": "assets/audio/2026-11-15-para-quien.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 57,
+      "title": "Era yo",
+      "targetDate": "2026-11-22",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-11-22-era-yo.mp3",
       "chordsPdfPublicPath": null
     }
   ],
@@ -1552,10 +1560,32 @@
         "title": "¿Para quién?",
         "audioPublicPath": "assets/audio/2026-11-15-para-quien.mp3"
       }
+    },
+    {
+      "id": "2026-11-22",
+      "index": 52,
+      "isoDate": "2026-11-22",
+      "dateLabel": "22 de noviembre de 2026",
+      "denomination": "Nuestro Señor Jesucristo, Rey del Universo",
+      "fullTitle": "Domingo 22 de noviembre de 2026 - Nuestro Señor Jesucristo, Rey del Universo - Ciclo A",
+      "season": "Solemnidades",
+      "refs": "Mt 25, 31-46",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-11-22-nuestro-senor-jesucristo-rey-del-universo.webp",
+        "variant": "editorial",
+        "fit": "contain",
+        "textTranscript": "Todavía abriga."
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-11-22.json",
+      "song": {
+        "title": "Era yo",
+        "audioPublicPath": "assets/audio/2026-11-22-era-yo.mp3"
+      }
     }
   ],
   "dataArchitecture": {
     "strategy": "index-plus-entry-payloads",
-    "entryPayloadCount": 51
+    "entryPayloadCount": 52
   }
 }
