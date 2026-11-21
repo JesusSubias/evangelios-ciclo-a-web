@@ -61,7 +61,7 @@ const seasonColors = {
 };
 
 const app = document.querySelector("#app");
-const DATA_VERSION = "20261113-era-yo-reino-v83";
+const DATA_VERSION = "20261121-adviento-b-v84";
 // Activate only after verifying ownership, a private dashboard and aggregate-only storage.
 const GOATCOUNTER_ENDPOINT = "https://evangelios-ciclo-a.goatcounter.com/count";
 const ENTRY_CONTENT_SCHEMA = "integrated-gospel-v2";
@@ -156,7 +156,7 @@ async function init() {
     if (!response.ok) throw new Error(`No se pudo cargar el índice (${response.status})`);
     state.manifest = await response.json();
     loadStoredState();
-    const initialEntry = chooseInitialEntry(state.manifest.entries);
+    const initialEntry = entrySummary(location.hash.slice(1)) || chooseInitialEntry(state.manifest.entries);
     if (!initialEntry) throw new Error("No hay fichas dominicales disponibles");
     state.selectedId = initialEntry.id;
     state.lyricsExpanded = state.preferences.expandLyrics;
@@ -402,9 +402,11 @@ function escapeHtml(value) {
 
 function filteredEntries() {
   const q = normalize(state.query);
+  const cycle = selectedEntry().cycle || "A";
   return state.manifest.entries.filter((entry) => {
+    if (!q && (entry.cycle || "A") !== cycle) return false;
     const matchesSeason = state.season === "Todos" || entry.season === state.season;
-    const haystack = normalize(`${entry.dateLabel} ${entry.denomination} ${entry.refs} ${entry.song.title}`);
+    const haystack = normalize(`${entry.fullTitle} ${entry.refs} ${entry.song.title}`);
     return matchesSeason && (!q || haystack.includes(q));
   });
 }
@@ -485,7 +487,10 @@ function ensureShell() {
         <div class="brand-mark">${ICONS.book}</div>
         <div class="brand-copy">
           <h1>Evangelios del domingo</h1>
-          <span class="cycle">Ciclo A 2025-2026</span>
+          <select class="cycle" id="cycle-select" aria-label="Cambiar de ciclo litúrgico">
+            ${[...new Map(state.manifest.entries.map(e => [e.cycle || "A", e.cycleYear || "2025-2026"]))]
+              .map(([cycle, year]) => `<option value="${escapeHtml(cycle)}">Ciclo ${escapeHtml(cycle)} · ${escapeHtml(year)}</option>`).join("")}
+          </select>
         </div>
       </div>
       <div class="top-actions-region"></div>
@@ -566,6 +571,7 @@ function render(options = {}) {
   const scrollState = options.preserveSidebarScroll ? captureSidebarScroll() : null;
   const entry = selectedEntry();
   ensureShell();
+  app.querySelector("#cycle-select").value = entry.cycle || "A";
 
   const entryChanged = app.dataset.entryId !== entry.id;
   const audioPreferences = entryChanged ? captureAudioPreferences() : null;
@@ -1047,6 +1053,7 @@ function renderSongLyrics(entry) {
 
 function selectEntry(entryId) {
   if (!entrySummary(entryId)) return;
+  if (location.hash && location.hash.slice(1) !== entryId) history.replaceState(null, "", "#" + entryId);
   state.selectedId = entryId;
   state.loadingEntryId = state.entryPayloads.has(entryId) ? null : entryId;
   state.entryLoadError = "";
@@ -1232,6 +1239,14 @@ function handleDocumentKeydown(event) {
 
 function bindEvents() {
   if (eventsBound) return;
+  app.addEventListener("change", event => {
+    if (event.target.id !== "cycle-select") return;
+    const choices = state.manifest.entries.filter(e => (e.cycle || "A") === event.target.value);
+    if (!choices.length) return;
+    state.query = "";
+    state.season = "Todos";
+    selectEntry(chooseInitialEntry(choices).id);
+  });
   app.addEventListener("input", handleAppInput);
   app.addEventListener("click", handleAppClick);
   app.addEventListener("keydown", handleAppKeydown);

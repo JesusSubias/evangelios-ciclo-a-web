@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-13T18:52:10.686016+00:00",
-  "cutoff": "2026-11-22",
-  "title": "Evangelios del domingo - Ciclo A 2025-2026",
+  "generatedAt": "2026-11-21T07:40:56.604928+00:00",
+  "cutoff": "2026-11-29",
+  "title": "Evangelios del domingo",
   "bibleContent": {
     "kind": "summary",
     "fullTextProvider": "Conferencia Episcopal Española",
@@ -12,12 +12,12 @@
     "audioPolicy": "mp3/m4a/mp4/opus publicados; WAV reservado como master opcional"
   },
   "summary": {
-    "cycleEntries": 52,
-    "songRecords": 57,
-    "cycleAudioFound": 52,
+    "cycleEntries": 53,
+    "songRecords": 58,
+    "cycleAudioFound": 53,
     "cycleAudioMissing": 0,
-    "imagesFound": 52,
-    "editorialImagesFound": 52,
+    "imagesFound": 53,
+    "editorialImagesFound": 53,
     "chordPdfsFound": 0
   },
   "missing": {
@@ -478,6 +478,14 @@
       "targetDate": "2026-11-22",
       "includedInCycle": true,
       "audioPublicPath": "assets/audio/2026-11-22-era-yo.mp3",
+      "chordsPdfPublicPath": null
+    },
+    {
+      "index": 58,
+      "title": "Qué ganas de verte",
+      "targetDate": "2026-11-29",
+      "includedInCycle": true,
+      "audioPublicPath": "assets/audio/2026-11-29-que-ganas-de-verte.mp3",
       "chordsPdfPublicPath": null
     }
   ],
@@ -1582,10 +1590,34 @@
         "title": "Era yo",
         "audioPublicPath": "assets/audio/2026-11-22-era-yo.mp3"
       }
+    },
+    {
+      "id": "2026-11-29",
+      "index": 53,
+      "isoDate": "2026-11-29",
+      "dateLabel": "29 de noviembre de 2026",
+      "denomination": "I Domingo de Adviento",
+      "fullTitle": "Domingo 29 de noviembre de 2026 - I Domingo de Adviento - Ciclo B",
+      "cycle": "B",
+      "cycleYear": "2026-2027",
+      "season": "Adviento",
+      "refs": "Mc 13, 33-37",
+      "image": {
+        "publicPath": "assets/images/editorial/2026-11-29-que-ganas-de-verte.webp",
+        "variant": "editorial",
+        "fit": "contain",
+        "textTranscript": "Hoy te despierto yo."
+      },
+      "meetingAvailable": true,
+      "payloadPath": "data/entries/2026-11-29.json",
+      "song": {
+        "title": "Qué ganas de verte",
+        "audioPublicPath": "assets/audio/2026-11-29-que-ganas-de-verte.mp3"
+      }
     }
   ],
   "dataArchitecture": {
     "strategy": "index-plus-entry-payloads",
-    "entryPayloadCount": 52
+    "entryPayloadCount": 53
   }
 }

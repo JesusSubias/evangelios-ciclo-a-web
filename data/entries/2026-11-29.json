@@ -1,0 +1,206 @@
+{
+  "id": "2026-11-29",
+  "contentSchema": "integrated-gospel-v2",
+  "readings": [
+    {
+      "context": "",
+      "ref": "Mc 13, 33-37"
+    }
+  ],
+  "pastoral": "En la canción, basta el crujido de un peldaño para saber quién vuelve. Al principio hay una sola persona pendiente de los pasos; al final son varias las que corren a abrir. Hasta la pregunta cambia: «¿Cómo sabías?» se convierte en «¿Cómo sabíais?». La viñeta sorprende al portero tan despierto que es él quien tiene que avisar al gallo. Al empezar el Adviento, ¿qué podríamos cuidar entre varios para que a alguien le dé alegría volver a casa?",
+  "meeting": {
+    "title": "Qué ganas de verte",
+    "subtitle": "Adviento en una casa que espera",
+    "duration": "70 minutos",
+    "key": {
+      "title": "Qué ganas de abrirte la puerta",
+      "text": "Quien espera en la canción reconoce unos pasos antes de ver la cara de quien vuelve. En el Evangelio, el portero desconoce la hora, pero sabe a quién espera. Puede pasar la noche mirando el reloj o puede cuidar de la casa que le han confiado. Escuchemos qué ocurre cuando ya no espera solo.",
+      "quote": "Me gustaba abrir la puerta antes de oír «ya estoy aquí».",
+      "steps": [
+        {
+          "title": "Recordar",
+          "text": "Piensa en un sonido que te avise de que llega alguien querido."
+        },
+        {
+          "title": "Escuchar",
+          "text": "Vuelve a oír la pregunta del estribillo. ¿Cuándo deja de hablar a una sola persona?"
+        },
+        {
+          "title": "Cuidar",
+          "text": "Nombra una tarea de casa que alguien hace antes de que lleguen los demás."
+        },
+        {
+          "title": "Repartir",
+          "text": "Pregunta quién podría hacer contigo esa tarea esta semana."
+        },
+        {
+          "title": "Abrir",
+          "text": "Piensa en alguien que suele llegar cuando el grupo ya ha empezado. ¿Qué le ayudaría a entrar?"
+        }
+      ]
+    },
+    "resonancesEyebrow": "Cuatro resonancias bíblicas",
+    "resonancesTitle": "Las horas de la espera",
+    "resonances": [
+      {
+        "ref": "Mc 13,34",
+        "title": "Una casa confiada",
+        "quote": "Al salir de viaje, el dueño deja a cada uno su trabajo. (paráfrasis).",
+        "text": "¿Qué depende de mí mientras espero?"
+      },
+      {
+        "ref": "Mc 13,35–37",
+        "title": "Al canto del gallo",
+        "quote": "El portero ignora a qué hora volverá el dueño. (paráfrasis).",
+        "text": "¿Qué me mantiene atento cuando la espera se alarga?"
+      },
+      {
+        "ref": "Sal 79,4",
+        "title": "Un rostro esperado",
+        "quote": "El pueblo pide a Dios que le muestre su rostro y lo salve. (paráfrasis).",
+        "text": "¿Qué cara me alegra ver al abrir la puerta?"
+      },
+      {
+        "ref": "1 Cor 1,7–9",
+        "title": "Esperar juntos",
+        "quote": "Pablo recuerda a la comunidad que Dios la sostendrá mientras espera a Jesús. (paráfrasis).",
+        "text": "¿Quién me sostiene cuando me canso de esperar?"
+      }
+    ],
+    "synthesis": "La puerta de la canción es la misma. Lo que cambia es cuántos esperan detrás.",
+    "question": "¿Qué tendría que pasar en nuestra casa para que pudiéramos cantar el último estribillo en plural?",
+    "agendaTitle": "¿Quién espera al que llega?",
+    "agenda": [
+      {
+        "time": "00–08",
+        "title": "Escuchar",
+        "instruction": "Escuchar la canción. Dejar un breve silencio y repetir, si apetece, un verso que recuerde a alguien.",
+        "question": "¿Qué sonido me anuncia una llegada?"
+      },
+      {
+        "time": "08–20",
+        "title": "Reconocer",
+        "instruction": "Mirar la viñeta del gallo. Recordar una llegada en la que se notaba que alguien nos estaba esperando. Se puede escuchar sin contar una experiencia propia.",
+        "question": "¿En qué detalle noté que me esperaban?"
+      },
+      {
+        "time": "20–38",
+        "title": "Iluminar",
+        "instruction": "Leer Mc 13,33–37. Fijarse en el encargo a cada criado y en las últimas palabras de Jesús. Comparar la pregunta de los primeros estribillos con la de los dos últimos.",
+        "question": "¿Quién cuida la casa, además del portero?"
+      },
+      {
+        "time": "38–58",
+        "title": "Discernir",
+        "instruction": "Caso: una familia avisa de que llegará tarde a la primera reunión de Adviento. Siempre es la misma persona quien sale a abrir y se pierde parte de la conversación. En parejas, preparad una acogida que reparta esa tarea y no obligue a la familia a justificarse.",
+        "question": "¿Quién saldrá a abrir? ¿Cómo se incorporará después a la conversación?"
+      },
+      {
+        "time": "58–70",
+        "title": "Responder",
+        "instruction": "Acordar un gesto de acogida para el próximo encuentro: quién lo hará, con quién y cuándo. Cerrar cantando juntos el último estribillo, con su pregunta en plural.",
+        "question": "¿Qué podremos decir que hemos cuidado entre todos?"
+      }
+    ],
+    "criterion": "Nadie tiene que hablar de su familia. También se puede partir de una amistad o un grupo. Repartir la acogida sin cargar siempre a la misma persona.",
+    "deckPublicPath": "assets/presentations/2026-11-29-que-ganas-de-verte.pptx"
+  },
+  "gospel": {
+    "summary": [
+      "Jesús habla de un hombre que deja su casa para salir de viaje. Confía a cada criado una tarea y al portero le pide que permanezca despierto. Nadie sabe si el dueño volverá al atardecer, a medianoche, al canto del gallo o al amanecer. Al terminar, Jesús amplía el encargo: lo que les dice a sus discípulos se lo dice a todos. La casa queda en sus manos mientras esperan.",
+      "En la canción, basta el crujido de un peldaño para saber quién vuelve. Al principio hay una sola persona pendiente de los pasos; al final son varias las que corren a abrir. Hasta la pregunta cambia: «¿Cómo sabías?» se convierte en «¿Cómo sabíais?». La viñeta sorprende al portero tan despierto que es él quien tiene que avisar al gallo. Al empezar el Adviento, ¿qué podríamos cuidar entre varios para que a alguien le dé alegría volver a casa?"
+    ],
+    "ceeLinks": [
+      {
+        "context": "",
+        "ref": "Mc 13, 33-37",
+        "url": "https://www.conferenciaepiscopal.es/biblia/marcos/#cap13"
+      }
+    ]
+  },
+  "song": {
+    "lyrics": [
+      {
+        "lines": [
+          "En mi casa había un peldaño",
+          "que crujía en el portal.",
+          "Yo sabía quién volvía",
+          "por su forma de pisar.",
+          "Por muy tarde que se hiciera,",
+          "me costaba irme a dormir.",
+          "Me gustaba abrir la puerta",
+          "antes de oír «ya estoy aquí»."
+        ]
+      },
+      {
+        "lines": [
+          "Qué ganas de verte,",
+          "qué ganas, Señor,",
+          "de oír tus pasos",
+          "y saber que eres tú.",
+          "Qué ganas de abrirte",
+          "y oírte decir:",
+          "«¿Cómo sabías",
+          "que ya estaba aquí?»."
+        ]
+      },
+      {
+        "lines": [
+          "Me dejaste aquí las llaves",
+          "y una casa que cuidar.",
+          "Hay más sillas que al principio,",
+          "más historias que escuchar.",
+          "Y si cruje aquel peldaño",
+          "cuando empieza a oscurecer,",
+          "nos miramos un segundo:",
+          "«¿Y si esta vez es él?»."
+        ]
+      },
+      {
+        "lines": [
+          "Qué ganas de verte,",
+          "qué ganas, Señor,",
+          "de oír tus pasos",
+          "y saber que eres tú.",
+          "Qué ganas de abrirte",
+          "y oírte decir:",
+          "«¿Cómo sabías",
+          "que ya estaba aquí?»."
+        ]
+      },
+      {
+        "lines": [
+          "Al caer la tarde,",
+          "al romper el día,",
+          "vuelvas cuando vuelvas,",
+          "¡qué alegría!"
+        ]
+      },
+      {
+        "lines": [
+          "Qué ganas de verte,",
+          "qué ganas, Señor,",
+          "de oír tus pasos",
+          "y saber que eres tú.",
+          "Qué ganas de abrirte",
+          "y oírte decir:",
+          "«¿Cómo sabíais",
+          "que ya estaba aquí?»."
+        ]
+      },
+      {
+        "lines": [
+          "Qué ganas de verte,",
+          "qué ganas, Señor,",
+          "de oír tus pasos",
+          "y saber que eres tú.",
+          "Qué ganas de abrirte",
+          "y oírte decir:",
+          "«¿Cómo sabíais",
+          "que ya estaba aquí?»."
+        ]
+      }
+    ],
+    "chordsPdfPublicPath": null
+  }
+}

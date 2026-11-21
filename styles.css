@@ -224,6 +224,11 @@ a {
 }
 
 .brand .cycle {
+  border: 0;
+  background: transparent;
+  padding: 0 2px 0 0;
+  cursor: pointer;
+  max-width: 100%;
   color: var(--teal);
   font-family: var(--serif);
   font-size: clamp(1rem, 2vw, 1.45rem);

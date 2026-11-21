@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "Evangelios del domingo · Ciclo A",
+  "name": "Evangelios del domingo",
   "short_name": "Evangelios",
-  "description": "Evangelios del domingo del Ciclo A con imagen, clave pastoral, propuesta de reunión, canción y letra.",
+  "description": "Evangelios del domingo de los ciclos A y B con imagen, clave pastoral, propuesta de reunión, canción y letra.",
   "lang": "es-ES",
   "dir": "ltr",
   "start_url": "./",
